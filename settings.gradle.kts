@@ -1,0 +1,3 @@
+
+rootProject.name = "war-analysis"
+

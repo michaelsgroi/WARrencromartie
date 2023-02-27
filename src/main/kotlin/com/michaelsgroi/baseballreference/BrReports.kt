@@ -24,8 +24,10 @@ class BrReports(
             bestOrWorstNOfTeam("nyy", 30, false),
             bestRosters(1000),
             bestRostersByFranchise(),
+            roster(RosterId(1928, "pha"), concise = true),
             roster(RosterId(1928, "pha")),
             roster(RosterId(2005, "nyy")),
+            roster(RosterId(2005, "nyy"), concise = true),
             roster(RosterId(1959, "mln")),
             roster(RosterId(1996, "cle")),
             highestPaidSeasons(20),
@@ -317,14 +319,14 @@ class BrReports(
             }
         }
 
-    private fun roster(rosterId: RosterId) =
+    private fun roster(rosterId: RosterId, concise: Boolean = false) =
         object : Report(
             name = "${rosterId.season} ${rosterId.team}",
-            filename = "${rosterId.season}_${rosterId.team}.txt",
+            filename = "${rosterId.season}_${rosterId.team}${if (concise) "_concise" else ""}.txt",
             "${rosterId.season} ${rosterId.team} roster."
         ) {
             override fun run() =
-                brWarDaily.getRosters().first { it.rosterId == rosterId }.players.sortedByDescending { it.war }.report()
+                brWarDaily.getRosters().first { it.rosterId == rosterId }.players.sortedByDescending { it.war }.report(concise = concise)
         }
 
     private fun writeReport(report: Report, lines: List<String>) {
@@ -346,17 +348,29 @@ class BrReports(
                 rosterId.team.padEnd(4) +
                 players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces).toString().padStart(7)
 
-    private fun List<Career>.report(includeSalary: Boolean = false, includePeakWar: Boolean = false): List<String> {
+    private fun List<Career>.report(concise: Boolean = false, includeSalary: Boolean = false, includePeakWar: Boolean = false): List<String> {
         val maxLength = this.size.toString().length
         return this.mapIndexed { index, career ->
-            "${("#" + (index + 1)).padStart(maxLength + 1)}: " + career.report(
+            val prefixNew = if (concise) {
+                "${(index + 1)}: "
+            } else {
+                "${("#" + (index + 1)).padStart(maxLength + 1)}: "
+            }
+            prefixNew + career.report(
+                concise,
                 includeSalary,
                 includePeakWar
             )
         }
     }
 
-    private fun Career.report(includeSalary: Boolean = false, includePeakWar: Boolean = false): String {
+    private fun Career.report(
+        concise: Boolean = false,
+        includeSalary: Boolean = false,
+        includePeakWar: Boolean = false): String {
+        if (concise) {
+            return "$playerName ${war().roundToDecimalPlaces(0).toInt()}"
+        }
         return this.playerName.padEnd(24) +
                 war().toString().padStart(7) +
                 (if (includePeakWar) {

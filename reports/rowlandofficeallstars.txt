@@ -1,6 +1,6 @@
 Rowland Office All-Stars
 Players with 10 or more seasons and negative WAR.
-2023-02-27 13:47:48.633
+2023-02-27 14:16:16.861
 147 rows
 
   #1: Doug Flynn                -6.95 11 (1975-1985) CIN,NYM,TEX,MON,DET

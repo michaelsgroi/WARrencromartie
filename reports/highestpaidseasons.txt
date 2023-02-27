@@ -1,6 +1,6 @@
 Highest Paid Seasons
 Highest salaries seasons.
-2023-02-27 13:48:25.272
+2023-02-27 14:17:29.282
 20 rows
 
  #1: Max Scherzer               5.25       43333333 2022 NYM

@@ -1,6 +1,6 @@
 Highest Paid Seasons for nyy
 Highest salaries seasons for nyy.
-2023-02-27 13:48:28.856
+2023-02-27 14:17:35.802
 20 rows
 
  #1: Gerrit Cole                 2.2       36000000 2020 NYY

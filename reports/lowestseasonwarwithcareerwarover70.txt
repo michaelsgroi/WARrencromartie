@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 70
 Lowest season WAR with career WAR over 70.
-2023-02-27 13:49:16.385
+2023-02-27 14:19:13.843
 100 rows
 
   #1: Paul Molitor              75.65     6.2 (1982) 21 (1978-1998) MIL,TOR,MIN

@@ -1,6 +1,6 @@
 Lowest Paid Careers by WAR since 2000
 Lowest Paid Careers by WAR since 2000
-2023-02-27 13:48:53.847
+2023-02-27 14:18:16.663
 20 rows
 
  #1: Adrian Sampson             4.15         100000  5 (2016-2022) TEX,CHC,SEA

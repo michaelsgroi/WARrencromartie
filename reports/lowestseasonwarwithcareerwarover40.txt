@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 40
 Lowest season WAR with career WAR over 40.
-2023-02-27 13:49:12.264
+2023-02-27 14:19:03.351
 513 rows
 
   #1: Joe Judge                 47.85     4.1 (1920) 20 (1915-1934) WSH,BOS,BRO

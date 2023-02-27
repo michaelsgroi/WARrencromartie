@@ -1,6 +1,6 @@
 Lowest Paid Seasons by WAR
 Lowest Paid Seasons by WAR
-2023-02-27 13:48:40.701
+2023-02-27 14:17:55.017
 20 rows
 
  #1: Jim Devlin                 18.3           1600 1876 LOU

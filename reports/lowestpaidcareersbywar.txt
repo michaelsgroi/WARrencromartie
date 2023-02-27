@@ -1,6 +1,6 @@
 Lowest Paid Careers by WAR
 Lowest Paid Careers by WAR
-2023-02-27 13:48:47.921
+2023-02-27 14:18:07.014
 20 rows
 
  #1: Doc White                 48.65           1200 13 (1901-1913) PHI,CHW

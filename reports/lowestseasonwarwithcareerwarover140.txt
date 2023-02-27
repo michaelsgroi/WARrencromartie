@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 140
 Lowest season WAR with career WAR over 140.
-2023-02-27 13:49:25.424
+2023-02-27 14:19:34.874
 7 rows
 
 #1: Henry Aaron               143.0     9.4 (1961) 23 (1954-1976) MLN,ATL,MIL

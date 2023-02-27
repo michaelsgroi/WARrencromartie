@@ -1,6 +1,6 @@
 Highest season WAR with career WAR under 30
 Highest season WAR with career WAR under 30.
-2023-02-27 13:49:10.757
+2023-02-27 14:19:00.347
 20 rows
 
  #1: Russ Ford                 28.45    11.9 (1910)  5 (1909-1913) NYY

@@ -1,6 +1,6 @@
 Highest season WAR with career WAR under 15
 Highest season WAR with career WAR under 15.
-2023-02-27 13:49:02.887
+2023-02-27 14:18:38.039
 20 rows
 
  #1: Al Spalding               10.25    10.2 (1876)  3 (1876-1878) CHC

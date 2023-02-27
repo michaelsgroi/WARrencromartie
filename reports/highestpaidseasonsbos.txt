@@ -1,6 +1,6 @@
 Highest Paid Seasons for bos
 Highest salaries seasons for bos.
-2023-02-27 13:48:26.860
+2023-02-27 14:17:32.641
 20 rows
 
  #1: David Price                 1.6       31000000 2019 BOS

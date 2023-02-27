@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 90
 Lowest season WAR with career WAR over 90.
-2023-02-27 13:49:18.915
+2023-02-27 14:19:19.935
 44 rows
 
  #1: Eddie Mathews             96.15     8.2 (1959) 17 (1952-1968) BSN,MLN,ATL,DET,HOU

@@ -1,6 +1,6 @@
 Highest season WAR with career WAR under 20
 Highest season WAR with career WAR under 20.
-2023-02-27 13:49:06.027
+2023-02-27 14:18:49.626
 20 rows
 
  #1: Lady Baldwin              15.45    10.5 (1886)  5 (1885-1890) DTN,BRO

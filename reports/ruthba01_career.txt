@@ -1,6 +1,6 @@
 ruthba01 career
 ruthba01 career.
-2023-02-27 13:48:56.889
+2023-02-27 14:18:22.146
 22 rows
 
  #1: Babe Ruth                 -0.25            350 1914 BOS

@@ -227,8 +227,7 @@ class BrReports(
         "Highest paid with negative WAR."
     ) {
         override fun run(): List<String> {
-            val careers = brWarDaily.getCareers()
-            return careers.filter { it.war < 0 }.sortedByDescending { it.salary() }.take(n)
+            return brWarDaily.getCareers().filter { it.war < 0 }.sortedByDescending { it.salary() }.take(n)
                 .report(includeSalary = true)
         }
     }
@@ -296,7 +295,7 @@ class BrReports(
         ) {
             override fun run(): List<String> {
                 return brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(n)
-                    .map { it.report(roundWarDecimalPlaces = 0) }
+                    .report(roundWarDecimalPlaces = 0)
             }
         }
 
@@ -313,7 +312,7 @@ class BrReports(
                 val teams = rosters.map { it.rosterId.team }.distinct()
                 return teams.map { team -> topRosters.first { it.rosterId.team == team } }
                     .sortedByDescending { roster -> roster.players.sumOf { it.war } }
-                    .map { it.report(roundWarDecimalPlaces = 0) }
+                    .report(roundWarDecimalPlaces = 0)
             }
         }
 
@@ -334,6 +333,13 @@ class BrReports(
         "$reportDir/$filename".writeFile("$header$contents")
     }
 
+    private fun List<Roster>.report(roundWarDecimalPlaces: Int = 2): List<String> {
+        val maxLength = this.size.toString().length
+        return mapIndexed { index, roster ->
+            "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(roundWarDecimalPlaces)
+        }
+    }
+
     private fun Roster.report(roundWarDecimalPlaces: Int = 2): String =
         rosterId.season.toString().padEnd(5) +
                 rosterId.team.padEnd(4) +
@@ -341,7 +347,7 @@ class BrReports(
 
     private fun List<Career>.report(includeSalary: Boolean = false, includePeakWar: Boolean = false): List<String> {
         val maxLength = this.size.toString().length
-        return this.mapIndexed() { index, career ->
+        return this.mapIndexed { index, career ->
             "${("#" + (index + 1)).padStart(maxLength + 1)}: " + career.report(
                 includeSalary,
                 includePeakWar

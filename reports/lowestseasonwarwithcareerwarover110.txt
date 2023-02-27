@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 110
 Lowest season WAR with career WAR over 110.
-2023-02-27 13:49:21.582
+2023-02-27 14:19:26.148
 21 rows
 
  #1: Mel Ott                  110.85     8.9 (1938) 21 (1926-1946) NYG

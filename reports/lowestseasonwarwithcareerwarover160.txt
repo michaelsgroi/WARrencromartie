@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 160
 Lowest season WAR with career WAR over 160.
-2023-02-27 13:49:28.007
+2023-02-27 14:19:40.509
 4 rows
 
 #1: Barry Bonds               162.8    11.9 (2001) 22 (1986-2007) PIT,SFG

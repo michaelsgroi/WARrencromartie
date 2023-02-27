@@ -1,6 +1,6 @@
 Players whose name starts with Cecil 
 Players who name starts with Cecil .
-2023-02-27 13:49:29.289
+2023-02-27 14:19:43.303
 12 rows
 
  #1: Cecil Cooper              35.95 17 (1971-1987) BOS,MIL

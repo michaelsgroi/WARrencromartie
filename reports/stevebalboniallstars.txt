@@ -1,6 +1,6 @@
 Steve Balboni All-Stars
 Players with 10 or more seasons and less than 0.5 war per season.
-2023-02-27 13:47:42.420
+2023-02-27 14:16:11.141
 741 rows
 
   #1: Doug Flynn                -6.95 11 (1975-1985) CIN,NYM,TEX,MON,DET

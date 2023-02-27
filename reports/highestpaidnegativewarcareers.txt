@@ -1,6 +1,6 @@
 Highest Paid Careers with Negative WAR
 Highest paid with negative WAR.
-2023-02-27 13:48:39.157
+2023-02-27 14:17:51.970
 20 rows
 
  #1: Yasmany Tomás              -2.5       38000000  4 (2015-2019) ARI

@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 50
 Lowest season WAR with career WAR over 50.
-2023-02-27 13:49:13.622
+2023-02-27 14:19:07.286
 302 rows
 
   #1: Jake Beckley               57.2     4.6 (1893) 19 (1888-1907) PIT,NYG,CIN,STL

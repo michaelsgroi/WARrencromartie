@@ -1,6 +1,6 @@
 Highest Paid Careers By WAR active
 Highest $ per WAR careers as a ratio of $ to WAR above ever lowest career WAR of -6.95 amongst active players.
-2023-02-27 13:48:37.325
+2023-02-27 14:17:48.869
 20 rows
 
  #1: Yusei Kikuchi               1.0       59000000  4 (2019-2022) SEA,TOR

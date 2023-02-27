@@ -1,6 +1,6 @@
 Bottom 10 Season WARs
 Lowest WAR's in a single season.
-2023-02-27 13:47:50.211
+2023-02-27 14:16:19.679
 10 rows
 
  #1: Billy Serad                -5.6 1884 BUF

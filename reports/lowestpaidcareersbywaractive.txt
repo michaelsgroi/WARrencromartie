@@ -1,6 +1,6 @@
 Lowest Paid Careers by WAR active
 Lowest Paid Careers by WAR active
-2023-02-27 13:48:55.546
+2023-02-27 14:18:19.713
 20 rows
 
  #1: Adrian Sampson             4.15         100000  5 (2016-2022) TEX,CHC,SEA

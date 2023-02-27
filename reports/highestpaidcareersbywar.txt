@@ -1,6 +1,6 @@
 Highest Paid Careers By WAR
 Highest $ per WAR careers as a ratio of $ to WAR above ever lowest career WAR of -6.95.
-2023-02-27 13:48:34.790
+2023-02-27 14:17:45.736
 20 rows
 
  #1: Jim Levey                  -7.2          13100  4 (1930-1933) SLB

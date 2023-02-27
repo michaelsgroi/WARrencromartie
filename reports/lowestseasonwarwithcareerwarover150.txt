@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 150
 Lowest season WAR with career WAR over 150.
-2023-02-27 13:49:26.721
+2023-02-27 14:19:37.809
 6 rows
 
 #1: Willie Mays              156.15    11.2 (1965) 22 (1951-1973) NYG,SFG,NYM

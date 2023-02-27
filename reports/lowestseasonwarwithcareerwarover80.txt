@@ -1,6 +1,6 @@
 Lowest season WAR with career WAR over 80
 Lowest season WAR with career WAR over 80.
-2023-02-27 13:49:17.635
+2023-02-27 14:19:16.803
 61 rows
 
  #1: Cap Anson                  84.7     7.0 (1886) 22 (1876-1897) CHC

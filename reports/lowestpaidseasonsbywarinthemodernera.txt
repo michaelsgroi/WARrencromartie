@@ -1,6 +1,6 @@
 Lowest Paid Seasons by WAR in the modern era
 Lowest Paid Seasons by WAR in the modern era
-2023-02-27 13:48:42.243
+2023-02-27 14:17:57.875
 20 rows
 
  #1: Johnny Pesky               4.55           2000 1947 BOS

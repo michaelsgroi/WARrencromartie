@@ -22,8 +22,9 @@ class BrReports(
             bestOrWorstNOfTeam("bos", 30, false),
             bestOrWorstNOfTeam("nyy", 30, true),
             bestOrWorstNOfTeam("nyy", 30, false),
-            bestRosters(1000),
+            bestRosters(1000, concise = true),
             bestRostersByFranchise(),
+            bestRostersByFranchise(concise = true),
             roster(RosterId(1928, "pha"), concise = true),
             roster(RosterId(1928, "pha")),
             roster(RosterId(2005, "nyy")),
@@ -290,22 +291,22 @@ class BrReports(
         }
     }
 
-    private fun bestRosters(n: Int) =
+    private fun bestRosters(n: Int, concise: Boolean = true) =
         object : Report(
             name = "Best Rosters",
-            filename = "bestrosters.txt",
+            filename = "bestrosters${if (concise) "_concise" else ""}.txt",
             "Best rosters by career WAR."
         ) {
             override fun run(): List<String> {
                 return brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(n)
-                    .report(roundWarDecimalPlaces = 0)
+                    .report(concise, roundWarDecimalPlaces = 0)
             }
         }
 
-    private fun bestRostersByFranchise() =
+    private fun bestRostersByFranchise(concise: Boolean = false) =
         object : Report(
             name = "Best Rosters by Franchise",
-            filename = "bestrostersbyfranchise.txt",
+            filename = "bestrostersbyfranchise${if (concise) "_concise" else ""}.txt",
             "Best rosters by career WAR by franchise."
         ) {
             override fun run(): List<String> {
@@ -315,7 +316,7 @@ class BrReports(
                 val teams = rosters.map { it.rosterId.team }.distinct()
                 return teams.map { team -> topRosters.first { it.rosterId.team == team } }
                     .sortedByDescending { roster -> roster.players.sumOf { it.war } }
-                    .report(roundWarDecimalPlaces = 0)
+                    .report(concise, roundWarDecimalPlaces = 0)
             }
         }
 
@@ -336,17 +337,29 @@ class BrReports(
         "$reportDir/$filename".writeFile("$header$contents")
     }
 
-    private fun List<Roster>.report(roundWarDecimalPlaces: Int = 2): List<String> {
-        val maxLength = this.size.toString().length
-        return mapIndexed { index, roster ->
-            "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(roundWarDecimalPlaces)
+    private fun List<Roster>.report(concise: Boolean = false, roundWarDecimalPlaces: Int = 2): List<String> {
+        return if (concise) {
+            mapIndexed { index, roster ->
+                "${(index + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
+            }
+        } else {
+            val maxLength = this.size.toString().length
+            mapIndexed { index, roster ->
+                "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
+            }
         }
     }
 
-    private fun Roster.report(roundWarDecimalPlaces: Int = 2): String =
-        rosterId.season.toString().padEnd(5) +
-                rosterId.team.padEnd(4) +
-                players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces).toString().padStart(7)
+    private fun Roster.report(concise: Boolean = false, roundWarDecimalPlaces: Int = 2): String {
+        val season = rosterId.season.toString()
+        val team = rosterId.team
+        val war = players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces)
+        return if (concise) {
+            "$season $team ${war.toInt()}"
+        } else {
+            season.padEnd(5) + team.padEnd(4) + war.toString().padStart(7)
+        }
+    }
 
     private fun List<Career>.report(concise: Boolean = false, includeSalary: Boolean = false, includePeakWar: Boolean = false): List<String> {
         val maxLength = this.size.toString().length

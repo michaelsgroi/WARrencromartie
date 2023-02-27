@@ -1,0 +1,19 @@
+baileho02 career
+baileho02 career.
+2023-02-26 15:59:48.497
+14 rows
+
+Homer Bailey                0.0              0 2007 CIN
+Homer Bailey              -1.05              0 2008 CIN
+Homer Bailey               0.15         400500 2009 CIN
+Homer Bailey               0.75         418000 2010 CIN
+Homer Bailey               0.65         441000 2011 CIN
+Homer Bailey                1.6        2425000 2012 CIN
+Homer Bailey                2.9        5350000 2013 CIN
+Homer Bailey                1.5        9000000 2014 CIN
+Homer Bailey               -0.1       10000000 2015 CIN
+Homer Bailey               -0.5       18000000 2016 CIN
+Homer Bailey              -0.65       19000000 2017 CIN
+Homer Bailey               -1.4       21000000 2018 CIN
+Homer Bailey               2.25          50000 2019 KCR,OAK
+Homer Bailey               0.15        7000000 2020 MIN

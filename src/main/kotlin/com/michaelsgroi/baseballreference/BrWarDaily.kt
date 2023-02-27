@@ -126,4 +126,4 @@ fun String.writeFile(contents: String) {
     File(this).writeBytes(contents.encodeToByteArray())
 }
 
-fun Double.roundToDecimalPlaces(places: Int) = (this * 10 * places).roundToInt() / (10.0 * places)
+fun Double.roundToDecimalPlaces(places: Int) = if (places == 0) roundToInt().toDouble() else (this * 10 * places).roundToInt() / (10.0 * places)

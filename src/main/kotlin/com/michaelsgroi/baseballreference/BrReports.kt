@@ -21,7 +21,9 @@ class BrReports(
             bestOrWorstNOfTeam("nyy", 30, true),
             bestOrWorstNOfTeam("nyy", 30, false),
             bestRosters(1000),
+            bestRostersByFranchise(),
             roster(RosterId(2005, "nyy")),
+            roster(RosterId(1959, "mln")),
             roster(RosterId(1996, "cle")),
             highestPaidSeasons(20),
             highestPaidSeasonsOnTeam(20, "bos"),
@@ -257,9 +259,25 @@ class BrReports(
             filename = "bestrosters.txt",
             "Best rosters by career WAR."
         ) {
-            override fun run() =
-                brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(n)
-                    .map { it.report() }
+            override fun run(): List<String> {
+                return brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(n)
+                    .map { it.report(roundWarDecimalPlaces = 0) }
+            }
+        }
+
+    private fun bestRostersByFranchise() =
+        object : Report(
+            name = "Best Rosters by Franchise",
+            filename = "bestrostersbyfranchise.txt",
+            "Best rosters by career WAR by franchise."
+        ) {
+            override fun run(): List<String> {
+                val rosters = brWarDaily.getRosters()
+                val topRosters =
+                    rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }
+                val teams = rosters.map { it.rosterId.team }.distinct()
+                return teams.map { team -> topRosters.first { it.rosterId.team == team } }.sortedByDescending { roster -> roster.players.sumOf { it.war } }.map { it.report(roundWarDecimalPlaces = 0) }
+            }
         }
 
     private fun roster(rosterId: RosterId) =
@@ -280,10 +298,10 @@ class BrReports(
         "$reportDir/$filename".writeFile("$header$contents")
     }
 
-    private fun Roster.report(): String =
+    private fun Roster.report(roundWarDecimalPlaces: Int = 2): String =
         rosterId.season.toString().padEnd(5) +
                 rosterId.team.padEnd(4) +
-                players.sumOf { it.war }.roundToDecimalPlaces(2).toString().padStart(7)
+                players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces).toString().padStart(7)
 
     private fun Career.report(includeSalary: Boolean = false, includePercentiles: Boolean = false): String =
         this.playerName.padEnd(24) +

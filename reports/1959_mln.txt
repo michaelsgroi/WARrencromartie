@@ -1,0 +1,42 @@
+1959 mln
+1959 mln roster.
+2023-02-27 09:56:43.228
+37 rows
+
+Henry Aaron               143.0 23 (1954-1976) MLN,ATL,MIL
+Warren Spahn              100.1 21 (1942-1965) BSN,MLN,SFG,NYM
+Eddie Mathews             96.15 17 (1952-1968) BSN,MLN,ATL,DET,HOU
+Enos Slaughter             57.8 19 (1938-1959) STL,NYY,KCA,MLN
+Red Schoendienst           44.5 18 (1945-1962) STL,NYG,MLN
+Andy Pafko                36.85 17 (1943-1959) CHC,BRO,MLN
+Bob Rush                  35.95 13 (1948-1960) CHC,MLN,CHW
+Mickey Vernon              35.6 19 (1939-1959) WSH,CLE,BOS,MLN
+Joe Adcock                 33.5 17 (1950-1966) CIN,MLN,CLE,LAA,CAL
+Johnny Logan               33.0 13 (1951-1963) BSN,MLN,PIT
+Lew Burdette               28.6 18 (1950-1967) NYY,BSN,MLN,STL,CHC,PHI,CAL
+Bobby Avila                28.4 11 (1949-1959) CLE,BOS,BAL,MLN
+Del Crandall              28.05 16 (1949-1966) BSN,MLN,SFG,PIT,CLE
+Bill Bruton               26.25 12 (1953-1964) MLN,DET
+Ray Boone                  25.8 13 (1948-1960) CLE,DET,CHW,KCA,MLN,BOS
+Don McMahon               22.45 18 (1957-1974) MLN,HOU,CLE,BOS,CHW,DET,SFG
+Bob Buhl                  21.85 15 (1953-1967) MLN,CHC,PHI
+Juan Pizarro              19.55 18 (1957-1974) MLN,CHW,PIT,BOS,OAK,CLE,CHC,HOU
+Lee Maye                  15.85 13 (1959-1971) MLN,HOU,CLE,WSA,CHW
+Stan Lopata               15.25 13 (1948-1960) PHI,MLN
+Joey Jay                  14.05 13 (1953-1966) MLN,CIN,ATL
+Wes Covington               9.1 11 (1956-1966) MLN,KCA,CHW,PHI,CHC,LAD
+Felix Mantilla              6.5 11 (1956-1966) MLN,NYM,BOS,HOU
+Carl Willey                6.45  8 (1958-1965) MLN,NYM
+Del Rice                    4.7 17 (1945-1961) STL,MLN,BAL,CHC,LAA
+Al Spangler                4.35 12 (1959-1970) MLN,HOU,CAL,CHC
+Frank Torre                3.85  7 (1956-1963) MLN,PHI
+Jim Pisoni                 0.35  5 (1953-1960) SLB,KCA,NYY,MLN
+Bob Trowbridge              0.3  5 (1956-1960) MLN,KCA
+Johnny O'Brien              0.0  6 (1953-1959) PIT,STL,MLN
+Bob Giggie                  0.0  3 (1959-1962) MLN,KCA
+Chuck Cottier             -0.25  8 (1959-1969) MLN,DET,WSA,CAL
+Bob Hartman                -0.4  2 (1959-1962) MLN,CLE
+Joe Morgan                 -0.7  3 (1959-1961) KCA,MLN,CLE,PHI
+John DeMerit               -1.2  5 (1957-1962) MLN,NYM
+Mel Roach                 -1.55  8 (1953-1962) MLN,CHC,PHI
+Casey Wise                -1.85  4 (1957-1960) CHC,MLN,DET

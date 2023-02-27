@@ -1,0 +1,35 @@
+Worst 30 of nyy
+Worst WAR's in nyy history.
+2023-02-26 18:01:59.740
+30 rows
+
+Tuck Stainback             -5.9 13 (1934-1946) CHC,STL,PHI,BRO,DET,NYY,PHA
+Enrique Wilson            -5.25  9 (1997-2005) CLE,PIT,NYY,CHC
+Mike Kekich               -5.05  9 (1965-1977) LAD,NYY,CLE,TEX,SEA
+Myril Hoag                 -4.2 13 (1931-1945) NYY,SLB,CHW,CLE
+Don Heffner                -3.8 11 (1934-1944) NYY,SLB,PHA,DET
+Chad Moeller               -3.6 11 (2000-2010) MIN,ARI,MIL,LAD,CIN,NYY,BAL
+Joe DeMaestri             -3.55 11 (1951-1961) CHW,SLB,PHA,KCA,NYY
+Rowland Office             -3.5 11 (1972-1983) ATL,MON,NYY
+Esmil Rogers              -3.45  7 (2009-2015) COL,CLE,TOR,NYY
+Fred Mitchell              -3.4  6 (1901-1910) BOS,PHA,PHI,BRO,NYY
+Karim Garcia               -3.2  9 (1995-2004) LAD,ARI,DET,BAL,CLE,NYY,NYM
+Kevin Cash                -3.05  8 (2002-2010) TOR,TBD,BOS,NYY,HOU
+Fernando Gonzalez         -3.05  6 (1972-1979) PIT,KCR,NYY,SDP
+Todd Greene                -2.9 11 (1996-2006) CAL,ANA,TOR,NYY,TEX,COL,SFG
+Bob McGraw                 -2.9  9 (1917-1929) NYY,BOS,BRO,STL,PHI
+John Pacella               -2.9  6 (1977-1986) NYM,MIN,NYY,BAL,DET
+John Kennedy               -2.8 12 (1962-1974) WSA,LAD,NYY,SEP,MIL,BOS
+Doc Powers                -2.75 11 (1898-1909) LOU,WHS,PHA,NYY
+Larry Murray               -2.7  6 (1974-1979) NYY,OAK
+Bob Wiesler                -2.7  6 (1951-1958) NYY,WSH
+Tommy McMillan             -2.6  4 (1908-1912) BRO,CIN,NYY
+Chris Nelson               -2.6  5 (2010-2014) COL,NYY,LAA,SDP
+Robert Perez               -2.6  6 (1994-2001) TOR,SEA,MON,NYY,MIL
+Dave Eiland               -2.55 10 (1988-2000) SDP,TBD,NYY
+Dave Madison              -2.55  3 (1950-1953) NYY,DET,SLB
+Jeff Johnson              -2.55  3 (1991-1993) NYY
+Rich McKinney              -2.5  7 (1970-1977) CHW,NYY,OAK
+Chick Fewster              -2.4 10 (1917-1926) NYY,BOS,CLE,BRO
+Dale Sveum                -2.35 12 (1986-1999) MIL,CHW,PHI,OAK,SEA,PIT,NYY
+Paul Zuvella              -2.35  9 (1982-1991) ATL,NYY,CLE,KCR

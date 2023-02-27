@@ -1,0 +1,25 @@
+Highest Paid Seasons for nyy
+Highest salaries seasons for nyy.
+2023-02-26 18:02:34.193
+20 rows
+
+Gerrit Cole                 2.2       36000000 2020 NYY
+Gerrit Cole                 5.7       36000000 2021 NYY
+Gerrit Cole                 2.4       36000000 2022 NYY
+Alex Rodriguez             4.15       33000000 2009 NYY
+Alex Rodriguez             4.15       33000000 2010 NYY
+Alex Rodriguez              4.0       32000000 2011 NYY
+Alex Rodriguez             2.25       29000000 2012 NYY
+Giancarlo Stanton           3.1       29000000 2021 NYY
+Giancarlo Stanton           0.7       29000000 2022 NYY
+Alex Rodriguez             6.75       28000000 2008 NYY
+Alex Rodriguez              0.0       28000000 2013 NYY
+Alex Rodriguez             9.35       26000000 2005 NYY
+Giancarlo Stanton           0.4       26000000 2019 NYY
+Giancarlo Stanton          0.55       26000000 2020 NYY
+CC Sabathia                 3.1       25000000 2016 NYY
+CC Sabathia                 2.8       25000000 2017 NYY
+Giancarlo Stanton           4.4       25000000 2018 NYY
+CC Sabathia                4.75       24285714 2010 NYY
+CC Sabathia                 6.4       24285714 2011 NYY
+Jason Giambi               0.85       23428571 2007 NYY

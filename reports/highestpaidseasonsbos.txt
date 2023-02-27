@@ -1,0 +1,25 @@
+Highest Paid Seasons for bos
+Highest salaries seasons for bos.
+2023-02-26 18:02:30.564
+20 rows
+
+David Price                 1.6       31000000 2019 BOS
+David Price                 2.8       30000000 2016 BOS
+David Price                 1.6       30000000 2017 BOS
+David Price                 3.7       30000000 2018 BOS
+Chris Sale                 0.95       30000000 2021 BOS
+Chris Sale                  0.0       30000000 2022 BOS
+J.D. Martinez               6.7       23750000 2018 BOS
+J.D. Martinez               3.5       23750000 2019 BOS
+J.D. Martinez              -0.7       23750000 2020 BOS
+Hanley Ramirez             2.65       22750000 2016 BOS
+Hanley Ramirez            -0.35       22750000 2017 BOS
+Hanley Ramirez              0.1       22750000 2018 BOS
+Manny Ramirez               4.1       22500000 2004 BOS
+Manny Ramirez               4.4       22000000 2005 BOS
+Rick Porcello              2.65       21125000 2018 BOS
+Rick Porcello              0.75       21125000 2019 BOS
+Rick Porcello              4.75       20125000 2016 BOS
+Rick Porcello              -0.4       20125000 2017 BOS
+Mookie Betts               7.25       20000000 2019 BOS
+Xander Bogaerts            1.55       20000000 2020 BOS

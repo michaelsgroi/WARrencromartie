@@ -1,0 +1,25 @@
+Highest Paid Seasons By WAR
+Highest $ per WAR seasons as a ratio of $ to WAR above ever lowest season WAR of -5.6.
+2023-02-26 18:02:36.556
+20 rows
+
+Chris Davis               -3.25       23000000 2018 BAL
+Patrick Corbin            -2.45       23416666 2022 WSN
+Miguel Cabrera             -1.0       32000000 2022 DET
+Albert Pujols             -1.85       26000000 2017 LAA
+Stephen Strasburg          -0.3       35000000 2022 WSN
+Stephen Strasburg         -0.25       35000000 2020 WSN
+Barry Zito                -2.45       20000000 2013 SFG
+Félix Hernández           -1.35       26857000 2018 SEA
+Ryan Howard                -1.6       25000000 2015 PHI
+Stephen Strasburg          0.15       35000000 2021 WSN
+Miguel Cabrera            -0.95       28000000 2017 DET
+Prince Fielder            -1.55       24000000 2016 TEX
+Miguel Cabrera             -0.5       30000000 2021 DET
+Ryan Howard               -1.35       25000000 2014 PHI
+Félix Hernández            -0.8       27858000 2019 SEA
+Justin Verlander           0.15       33000000 2020 HOU
+Ryan Howard                -1.2       25000000 2016 PHI
+Carlos Lee                 -2.2       19000000 2010 HOU
+Anthony Rendon              1.0       36571429 2022 LAA
+Patrick Corbin             -1.1       24416667 2021 WSN

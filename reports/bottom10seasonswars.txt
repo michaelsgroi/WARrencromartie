@@ -1,0 +1,15 @@
+Bottom 10 Season WARs
+Lowest WAR's in a single season.
+2023-02-26 18:01:49.104
+10 rows
+
+Billy Serad                -5.6 1884 BUF
+Mike Golden                -4.4 1878 MLG
+Jerry Royster             -4.05 1977 ATL
+Jim Levey                 -3.95 1933 SLB
+Jim Lillie                -3.85 1886 KCN
+Tom Fisher                -3.75 1904 BSN
+George Wright              -3.7 1985 TEX
+Ed Crane                  -3.65 1886 WHS
+Lon Knight                -3.65 1876 ATH
+Flint Rhem                -3.65 1933 PHI

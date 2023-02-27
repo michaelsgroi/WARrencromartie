@@ -1,0 +1,17 @@
+Players whose name starts with Cecil 
+Players who name starts with Cecil .
+2023-02-27 13:49:29.289
+12 rows
+
+ #1: Cecil Cooper              35.95 17 (1971-1987) BOS,MIL
+ #2: Cecil Travis              30.35 12 (1933-1947) WSH
+ #3: Cecil Fielder              17.2 13 (1985-1998) TOR,DET,NYY,ANA,CLE
+ #4: Cecil Upshaw               7.35  9 (1966-1975) ATL,HOU,NYY,CLE,CHW
+ #5: Cecil Ferguson              3.6  6 (1906-1911) NYG,BSN
+ #6: Cecil Espy                  1.6  8 (1983-1993) LAD,TEX,PIT,CIN
+ #7: Cecil Duff                 0.15  1 (1922-1922) CHW
+ #8: Cecil Butler               0.05  2 (1962-1964) MLN
+ #9: Cecil Neighbors             0.0  1 (1908-1908) PIT
+#10: Cecil Bolton               -0.1  1 (1928-1928) CLE
+#11: Cecil Perkins              -0.2  1 (1967-1967) NYY
+#12: Cecil Coombs               -0.2  1 (1914-1914) CHW

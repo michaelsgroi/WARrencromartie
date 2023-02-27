@@ -1,0 +1,25 @@
+Highest Paid Careers By WAR active
+Highest $ per WAR careers as a ratio of $ to WAR above ever lowest career WAR of -6.95 amongst active players.
+2023-02-27 13:48:37.325
+20 rows
+
+ #1: Yusei Kikuchi               1.0       59000000  4 (2019-2022) SEA,TOR
+ #2: Stephen Strasburg         32.25      215050000 13 (2010-2022) WSN
+ #3: Jordan Lyles               -1.4       30939500 12 (2011-2022) HOU,COL,SDP,MIL,PIT,TEX,BAL
+ #4: Charlie Morton             13.1      104308500 15 (2008-2022) ATL,PIT,PHI,HOU,TBR
+ #5: Miguel Cabrera            67.75      368410623 20 (2003-2022) FLA,DET
+ #6: Aroldis Chapman            19.0      127148272 13 (2010-2022) CIN,NYY,CHC
+ #7: Eric Hosmer               19.15      125280750 12 (2011-2022) KCR,SDP,BOS
+ #8: David Price               40.15      223990175 14 (2008-2022) TBR,DET,TOR,BOS,LAD
+ #9: Kenley Jansen             19.65      119260767 13 (2010-2022) LAD,ATL
+#10: Patrick Corbin             15.0       95159666 10 (2012-2022) ARI,WSN
+#11: Charlie Blackmon           19.3      110298500 12 (2011-2022) COL
+#12: Justin Upton              32.35      162409166 16 (2007-2022) ARI,ATL,SDP,DET,LAA,SEA
+#13: Hyun Jin Ryu              19.45      109065000  9 (2013-2022) LAD,TOR
+#14: Wil Myers                  13.5       83547900 10 (2013-2022) TBR,SDP
+#15: Ian Kennedy                17.3       96056200 16 (2007-2022) ARI,SDP,KCR,TEX,PHI,NYY
+#16: Jason Heyward              38.7      179411500 13 (2010-2022) ATL,STL,CHC
+#17: Zack Britton              13.95       81357500 12 (2011-2022) BAL,NYY
+#18: Jorge Soler                3.95       42658335  9 (2014-2022) CHC,KCR,ATL,MIA
+#19: Jeurys Familia             6.55       52326558 11 (2012-2022) NYM,OAK,PHI,BOS
+#20: Zack Greinke              76.55      308253000 19 (2004-2022) KCR,MIL,LAA,LAD,ARI,HOU

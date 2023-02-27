@@ -1,0 +1,518 @@
+Lowest season WAR with career WAR over 40
+Lowest season WAR with career WAR over 40.
+2023-02-27 13:49:12.264
+513 rows
+
+  #1: Joe Judge                 47.85     4.1 (1920) 20 (1915-1934) WSH,BOS,BRO
+  #2: Wally Schang               47.9     4.4 (1919) 19 (1913-1931) PHA,BOS,NYY,SLB,DET
+  #3: Jake Beckley               57.2     4.6 (1893) 19 (1888-1907) PIT,NYG,CIN,STL
+  #4: Sam Rice                   54.4     4.8 (1930) 20 (1915-1934) WSH,CLE
+  #5: Jim O'Rourke              42.15     4.9 (1884) 18 (1876-1904) BSN,PRO,BUF,NYG,WHS
+  #6: Jack Quinn                 50.1     4.9 (1924) 21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
+  #7: Curt Simmons               43.3     4.9 (1963) 20 (1947-1967) PHI,STL,CHC,CAL
+  #8: Fielder Jones              43.5     4.9 (1905) 13 (1896-1908) BRO,CHW
+  #9: Buck Ewing                 43.9     4.9 (1884) 17 (1880-1897) TRO,NYG,CLV,CIN
+ #10: Mariano Rivera            56.25     5.0 (1996) 19 (1995-2013) NYY
+ #11: Lave Cross                42.85     5.0 (1894) 16 (1892-1907) PHI,STL,CLV,BRO,PHA,WSH
+ #12: Mark Grace                 46.4     5.0 (1995) 16 (1988-2003) CHC,ARI
+ #13: Nelson Cruz               42.55     5.1 (2015) 18 (2005-2022) MIL,TEX,BAL,SEA,MIN,TBR,WSN
+ #14: Tony Fernandez             45.3     5.1 (1987) 17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
+ #15: David Justice             40.55     5.1 (2000) 14 (1989-2002) ATL,CLE,NYY,OAK
+ #16: Gabby Hartnett            55.95     5.1 (1930) 20 (1922-1941) CHC,NYG
+ #17: Jimmy Ryan                 40.9     5.1 (1888) 17 (1885-1903) CHC,WSH
+ #18: Carney Lansford           40.45     5.2 (1987) 15 (1978-1992) CAL,BOS,OAK
+ #19: Ed Konetchy                41.7     5.2 (1911) 14 (1907-1921) STL,PIT,BSN,BRO,PHI
+ #20: Larry French               45.4     5.2 (1936) 14 (1929-1942) PIT,CHC,BRO
+ #21: David Wells               53.45     5.2 (1995) 21 (1987-2007) CIN,DET,NYY,TOR,CHW,SDP,BOS,LAD,BAL
+ #22: Max Carey                 55.25     5.2 (1917) 20 (1910-1929) PIT,BRO
+ #23: Larry Doyle               45.05     5.2 (1911) 14 (1907-1920) NYG,CHC
+ #24: Harry Hooper               53.6     5.2 (1920) 17 (1909-1925) BOS,CHW
+ #25: Murry Dickson              46.1     5.2 (1952) 18 (1939-1959) STL,PIT,PHI,KCA,NYY
+ #26: Al Oliver                  43.7     5.2 (1982) 18 (1968-1985) PIT,TEX,MON,SFG,PHI,TOR,LAD
+ #27: Rabbit Maranville         43.95     5.3 (1916) 23 (1912-1935) BSN,PIT,CHC,BRO,STL
+ #28: Davey Lopes               42.45     5.3 (1975) 16 (1972-1987) LAD,OAK,CHC,HOU
+ #29: Fred Tenney                43.8     5.3 (1899) 17 (1894-1911) BSN,NYG
+ #30: Torii Hunter              50.65     5.4 (2012) 18 (1998-2015) MIN,LAA,DET
+ #31: Del Pratt                  45.7     5.4 (1919) 13 (1912-1924) SLB,NYY,BOS,DET
+ #32: Jim Sundberg               40.5     5.4 (1978) 16 (1974-1989) TEX,MIL,KCR,CHC
+ #33: Clyde Milan                40.0     5.4 (1912) 16 (1907-1922) WSH
+ #34: Dave Concepcion           40.15     5.5 (1974) 19 (1970-1988) CIN
+ #35: Ted Simmons               50.35     5.5 (1978) 21 (1968-1988) STL,MIL,ATL
+ #36: Mike Tiernan               41.5     5.5 (1896) 13 (1887-1899) NYG
+ #37: Luis Aparicio             55.85     5.6 (1960) 18 (1956-1973) CHW,BAL,BOS
+ #38: Tony Phillips              50.9     5.6 (1993) 18 (1982-1999) OAK,DET,CAL,CHW,ANA,TOR,NYM
+ #39: Brian Downing              51.5     5.6 (1979) 20 (1973-1992) CHW,CAL,TEX
+ #40: Jason Kendall             41.65     5.6 (1998) 15 (1996-2010) PIT,OAK,CHC,MIL,KCR
+ #41: Hooks Dauss               40.75     5.7 (1915) 15 (1912-1926) DET
+ #42: Roy Thomas                 40.7     5.7 (1903) 13 (1899-1911) PHI,PIT,BSN
+ #43: Ken Singleton             41.85     5.7 (1977) 15 (1970-1984) NYM,MON,BAL
+ #44: Dennis Martinez            48.7     5.7 (1991) 23 (1976-1998) BAL,MON,ATL,CLE,SEA
+ #45: Larry Gardner              48.3     5.8 (1912) 17 (1908-1924) BOS,PHA,CLE
+ #46: Steve Finley              44.25     5.8 (1996) 19 (1989-2007) BAL,HOU,SDP,ARI,LAD,LAA,SFG,COL
+ #47: Milt Pappas               43.75     5.8 (1971) 17 (1957-1973) BAL,CIN,ATL,CHC
+ #48: Dixie Walker              44.95     5.8 (1944) 18 (1931-1949) NYY,CHW,DET,BRO,PIT
+ #49: Gil McDougald              40.6     5.8 (1957) 10 (1951-1960) NYY
+ #50: Curt Flood                 41.9     5.8 (1963) 14 (1957-1971) CIN,STL,WSA
+ #51: Gary Gaetti                42.1     5.8 (1986) 20 (1981-2000) MIN,CAL,KCR,STL,CHC,BOS
+ #52: Matt Williams              46.6     5.8 (1993) 17 (1987-2003) SFG,CLE,ARI
+ #53: Jack Morris                43.5     5.8 (1979) 18 (1977-1994) DET,MIN,TOR,CLE
+ #54: Travis Jackson            43.95     5.8 (1929) 15 (1922-1936) NYG
+ #55: Lou Brock                 45.25     5.9 (1964) 19 (1961-1979) CHC,STL
+ #56: Bob Friend                40.85     5.9 (1955) 16 (1951-1966) PIT,NYY,NYM
+ #57: Mike Cameron               46.7     5.9 (2001) 17 (1995-2011) CHW,CIN,SEA,NYM,SDP,MIL,BOS,FLA
+ #58: Ben Chapman               42.75     5.9 (1931) 15 (1930-1946) NYY,WSH,BOS,CLE,CHW,BRO,PHI
+ #59: Tommy John                61.55     5.9 (1968) 26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
+ #60: Tommy Leach               47.05     5.9 (1902) 19 (1898-1918) LOU,PIT,CHC,CIN
+ #61: Jorge Posada              42.65     5.9 (2003) 17 (1995-2011) NYY
+ #62: Jack Clark                53.05     5.9 (1978) 18 (1975-1992) SFG,STL,NYY,SDP,BOS
+ #63: Roger Bresnahan            42.8     5.9 (1908) 17 (1897-1915) WHS,CHC,BLA,NYG,STL
+ #64: Gene Tenace                46.8     6.0 (1979) 15 (1969-1983) OAK,SDP,STL,PIT
+ #65: Edd Roush                  42.7     6.0 (1920) 16 (1913-1931) CHW,NYG,CIN
+ #66: Sam Thompson               44.4     6.0 (1895) 15 (1885-1906) DTN,PHI,DET
+ #67: Matt Holliday             44.55     6.0 (2007) 15 (2004-2018) COL,OAK,STL,NYY
+ #68: Johnny Evers               47.7     6.0 (1912) 18 (1902-1929) CHC,BSN,PHI,CHW
+ #69: Mark Buehrle              59.05     6.0 (2007) 16 (2000-2015) CHW,MIA,TOR
+ #70: Red Lucas                  44.7     6.0 (1932) 16 (1923-1938) NYG,BSN,CIN,PIT
+ #71: Charles Bender             48.1     6.0 (1910) 15 (1903-1925) PHA,PHI,CHW
+ #72: Omar Vizquel               45.6     6.0 (1999) 24 (1989-2012) SEA,CLE,SFG,TEX,CHW,TOR
+ #73: Waite Hoyt                 52.3     6.1 (1927) 21 (1918-1938) NYG,BOS,NYY,DET,PHA,BRO,PIT
+ #74: Jon Lester                43.45     6.1 (2009) 16 (2006-2021) BOS,OAK,CHC,WSN,STL
+ #75: Jimmy Rollins              47.6     6.1 (2007) 17 (2000-2016) PHI,LAD,CHW
+ #76: Fernando Valenzuela       41.45     6.1 (1986) 17 (1980-1997) LAD,PHI,SDP,STL,CAL,BAL
+ #77: Placido Polanco           41.85     6.1 (2007) 16 (1998-2013) STL,PHI,DET,MIA
+ #78: Johnny Damon               56.3     6.1 (2000) 18 (1995-2012) KCR,OAK,BOS,NYY,DET,TBR,CLE
+ #79: Jim Gilliam                40.8     6.1 (1956) 14 (1953-1966) BRO,LAD
+ #80: Jack Powell               55.35     6.2 (1902) 16 (1897-1912) CLV,STL,SLB,NYY
+ #81: Yogi Berra                 59.4     6.2 (1956) 19 (1946-1965) NYY,NYM
+ #82: Gil Hodges                 43.9     6.2 (1954) 18 (1943-1963) BRO,LAD,NYM
+ #83: Paul Molitor              75.65     6.2 (1982) 21 (1978-1998) MIL,TOR,MIN
+ #84: Chet Lemon                55.65     6.2 (1983) 16 (1975-1990) CHW,DET
+ #85: Sam Crawford               75.3     6.2 (1914) 19 (1899-1917) CIN,DET
+ #86: Mickey Cochrane            49.9     6.3 (1933) 13 (1925-1937) PHA,DET
+ #87: Roger Peckinpaugh         45.25     6.3 (1919) 17 (1910-1927) CLE,NYY,WSH,CHW
+ #88: Augie Galan                45.4     6.3 (1944) 16 (1934-1949) CHC,BRO,CIN,PHA,NYG
+ #89: Al Dark                   43.75     6.3 (1951) 14 (1946-1960) BSN,NYG,STL,CHC,PHI,MLN
+ #90: Tommy Bridges             50.45     6.3 (1936) 16 (1930-1946) DET
+ #91: Freddie Freeman            49.0     6.3 (2016) 13 (2010-2022) ATL,LAD
+ #92: Eppa Rixey                 55.9     6.3 (1925) 21 (1912-1933) PHI,CIN
+ #93: Don Sutton                66.75     6.3 (1972) 23 (1966-1988) LAD,HOU,MIL,OAK,CAL
+ #94: Jose Cruz                  54.4     6.3 (1984) 19 (1970-1988) STL,HOU,NYY
+ #95: Bobby Doerr                51.5     6.3 (1944) 14 (1937-1951) BOS
+ #96: Rusty Staub               45.75     6.3 (1970) 23 (1963-1985) HOU,MON,NYM,DET,TEX
+ #97: Devon White                47.3     6.3 (1991) 17 (1985-2001) CAL,TOR,FLA,ARI,LAD,MIL
+ #98: David Ortiz                55.3     6.4 (2007) 20 (1997-2016) MIN,BOS
+ #99: Virgil Trucks             40.45     6.4 (1953) 17 (1941-1958) DET,SLB,CHW,KCA,NYY
+#100: Joe Torre                  57.5     6.4 (1966) 17 (1961-1977) MLN,ATL,STL,NYM
+#101: George Mullin             45.95     6.4 (1911) 12 (1902-1913) DET,WSH
+#102: Jack Fournier              41.4     6.4 (1924) 14 (1912-1927) CHW,NYY,STL,BRO,BSN
+#103: Darryl Strawberry         42.15     6.4 (1987) 17 (1983-1999) NYM,LAD,SFG,NYY
+#104: Javier Vazquez             45.6     6.4 (2009) 14 (1998-2011) MON,NYY,ARI,CHW,ATL,FLA
+#105: Bernie Williams           49.55     6.4 (1995) 16 (1991-2006) NYY
+#106: Bob Elliott                51.0     6.5 (1947) 15 (1939-1953) PIT,BSN,NYG,SLB,CHW
+#107: Harmon Killebrew           60.3     6.5 (1967) 22 (1954-1975) WSH,MIN,KCR
+#108: Andy Van Slyke             41.3     6.5 (1988) 13 (1983-1995) STL,PIT,BAL,PHI
+#109: Jim Perry                  41.6     6.5 (1969) 17 (1959-1975) CLE,MIN,OAK,DET
+#110: Red Schoendienst           44.5     6.5 (1953) 18 (1945-1962) STL,NYG,MLN
+#111: Brad Radke                45.35     6.5 (1999) 12 (1995-2006) MIN
+#112: Mark Belanger             40.95     6.5 (1976) 18 (1965-1982) BAL,LAD
+#113: Chris Sale                 45.5     6.5 (2013) 12 (2010-2022) CHW,BOS
+#114: Bill Dickey                56.4     6.5 (1937) 17 (1928-1946) NYY
+#115: Ivan Rodriguez             68.7     6.5 (1997) 21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
+#116: Felipe Alou                42.2     6.6 (1968) 17 (1958-1974) SFG,MLN,ATL,OAK,NYY,MON,MIL
+#117: Bobby Abreu               60.15     6.6 (2004) 18 (1996-2014) HOU,PHI,NYY,LAA,LAD,NYM
+#118: Buddy Myer                 48.6     6.6 (1935) 17 (1925-1941) WSH,BOS
+#119: Bob Johnson                55.6     6.6 (1939) 13 (1933-1945) PHA,WSH,BOS
+#120: Fred Clarke               67.95     6.6 (1897) 20 (1894-1915) LOU,PIT
+#121: Stan Hack                 55.45     6.6 (1945) 16 (1932-1947) CHC
+#122: Willie Randolph           65.95     6.6 (1980) 18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
+#123: Dutch Leonard             48.95     6.6 (1947) 20 (1933-1953) BRO,WSH,PHI,CHC
+#124: Tim Salmon                40.55     6.6 (1995) 14 (1992-2006) CAL,ANA,LAA
+#125: Dick Bartell               41.7     6.6 (1937) 18 (1927-1946) PIT,PHI,NYG,CHC,DET
+#126: Cole Hamels               58.95     6.6 (2014) 15 (2006-2020) PHI,TEX,CHC,ATL
+#127: Jamie Moyer                49.8     6.6 (1999) 25 (1986-2012) CHC,STL,SEA,PHI,COL,TEX,BAL,BOS
+#128: Bert Campaneris            53.0     6.6 (1968) 19 (1964-1983) KCA,OAK,TEX,CAL,NYY
+#129: Fred McGriff               52.6     6.6 (1989) 19 (1986-2004) TOR,SDP,ATL,TBD,CHC,LAD
+#130: David Price               40.15     6.6 (2012) 14 (2008-2022) TBR,DET,TOR,BOS,LAD
+#131: Bill Nicholson             41.8     6.6 (1943) 16 (1936-1953) PHA,CHC,PHI
+#132: Adam Wainwright            46.7     6.7 (2009) 17 (2005-2022) STL
+#133: Elmer Flick                52.7     6.7 (1901) 13 (1898-1910) PHI,PHA,CLE
+#134: Brian Giles                51.1     6.7 (1999) 15 (1995-2009) CLE,PIT,SDP
+#135: Bobby Veach               48.05     6.7 (1919) 14 (1912-1925) DET,BOS,NYY,WSH
+#136: Sam Leever                 40.5     6.7 (1899) 13 (1898-1910) PIT
+#137: Claude Osteen             41.15     6.7 (1969) 18 (1957-1975) CIN,WSA,LAD,HOU,STL,CHW
+#138: Dwight Evans               67.2     6.7 (1981) 20 (1972-1991) BOS,BAL
+#139: Ron Cey                   53.75     6.7 (1975) 16 (1972-1987) LAD,CHC,OAK
+#140: Robin Ventura              56.1     6.7 (1999) 16 (1989-2004) CHW,NYM,NYY,LAD
+#141: Reggie Smith               64.5     6.7 (1970) 17 (1966-1982) BOS,STL,LAD,SFG
+#142: Troy Tulowitzki            44.5     6.8 (2007) 13 (2006-2019) COL,TOR,NYY
+#143: Lou Whitaker               75.1     6.8 (1991) 19 (1977-1995) DET
+#144: Orlando Cepeda             50.1     6.8 (1967) 17 (1958-1974) SFG,STL,ATL,BOS,KCR
+#145: Charlie Keller             43.8     6.8 (1942) 13 (1939-1952) NYY,DET
+#146: Phil Rizzuto              42.15     6.8 (1950) 13 (1941-1956) NYY
+#147: Whitey Ford               57.05     6.8 (1964) 16 (1950-1967) NYY
+#148: Julio Franco              43.55     6.8 (1990) 23 (1982-2007) PHI,CLE,TEX,CHW,MIL,TBD,ATL,NYM
+#149: Al Leiter                 40.05     6.8 (1998) 19 (1987-2005) FLA,NYM,NYY,TOR
+#150: Zack Wheat                60.55     6.8 (1924) 19 (1909-1927) BRO,PHA
+#151: Kiki Cuyler                47.9     6.8 (1925) 17 (1921-1938) PIT,CHC,CIN,BRO
+#152: Roy White                  46.8     6.8 (1970) 15 (1965-1979) NYY
+#153: Brett Butler              49.75     6.8 (1988) 17 (1981-1997) ATL,CLE,SFG,LAD,NYM
+#154: Gary Sheffield            60.55     6.8 (2003) 22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
+#155: Hoyt Wilhelm              46.75     6.8 (1959) 21 (1952-1972) NYG,CLE,STL,BAL,CHW,CAL,ATL,CHC,LAD
+#156: Andy Messersmith          40.15     6.8 (1975) 12 (1968-1979) CAL,LAD,ATL,NYY
+#157: Lance Berkman             51.95     6.9 (2008) 15 (1999-2013) HOU,NYY,STL,TEX
+#158: Enos Slaughter             57.8     6.9 (1942) 19 (1938-1959) STL,NYY,KCA,MLN
+#159: Larry Jackson              52.0     6.9 (1959) 14 (1955-1968) STL,CHC,PHI
+#160: Bartolo Colon              46.2     6.9 (2002) 21 (1997-2018) CLE,MON,CHW,ANA,LAA,BOS,NYY,OAK,NYM,MIN,ATL,TEX
+#161: Dolph Camilli              43.3     6.9 (1941) 12 (1933-1945) CHC,PHI,BRO,BOS
+#162: Lonny Frey                 44.5     6.9 (1940) 14 (1933-1948) BRO,CHC,CIN,NYY,NYG
+#163: Earl Averill              51.55     6.9 (1936) 13 (1929-1941) CLE,DET,BSN
+#164: Roy Oswalt                 50.0     6.9 (2002) 13 (2001-2013) HOU,PHI,COL,TEX
+#165: Vern Stephens             46.25     6.9 (1949) 15 (1941-1955) SLB,BOS,CHW,BAL
+#166: Buddy Bell                66.35     6.9 (1979) 18 (1972-1989) CLE,TEX,CIN,HOU
+#167: Wally Berger              42.45     6.9 (1933) 11 (1930-1940) BSN,NYG,CIN,PHI
+#168: Sherry Magee              59.35     6.9 (1907) 16 (1904-1919) PHI,BSN,CIN
+#169: Rafael Palmeiro            71.9     6.9 (1993) 20 (1986-2005) CHC,TEX,BAL
+#170: Bill Freehan               44.8     6.9 (1968) 15 (1961-1976) DET
+#171: Schoolboy Rowe            42.45     6.9 (1934) 15 (1933-1949) DET,BRO,PHI
+#172: Adrián González            43.5     6.9 (2009) 15 (2004-2018) TEX,SDP,BOS,LAD,NYM
+#173: Mel Stottlemyre            43.1     6.9 (1965) 11 (1964-1974) NYY
+#174: Jimmy Collins              53.3     6.9 (1898) 14 (1895-1908) BSN,LOU,BOS,PHA
+#175: Cap Anson                  84.7     7.0 (1886) 22 (1876-1897) CHC
+#176: Larry Doby                49.25     7.0 (1952) 13 (1947-1959) CLE,CHW,DET
+#177: Heinie Groh               48.35     7.0 (1917) 16 (1912-1927) NYG,CIN,PIT
+#178: Ian Kinsler                54.1     7.0 (2011) 14 (2006-2019) TEX,DET,LAA,BOS,SDP
+#179: Joe Kelley                50.45     7.0 (1896) 17 (1891-1908) BSN,PIT,BLN,BRO,BLA,CIN
+#180: Tony Oliva                43.05     7.0 (1970) 14 (1962-1976) MIN
+#181: Bob Lemon                  48.2     7.0 (1949) 15 (1941-1958) CLE
+#182: Edgar Martinez             68.4     7.0 (1995) 18 (1987-2004) SEA
+#183: Jimmy Sheckard            49.55     7.0 (1903) 17 (1897-1913) BRO,BLN,BLA,CHC,STL,CIN
+#184: Tom Candiotti              41.1     7.1 (1991) 16 (1983-1999) LAD,OAK,CLE,MIL,TOR
+#185: Richie Ashburn            64.25     7.1 (1954) 15 (1948-1962) PHI,CHC,NYM
+#186: Albert Belle              40.05     7.1 (1998) 12 (1989-2000) CLE,CHW,BAL
+#187: Harlond Clift             42.05     7.1 (1937) 12 (1934-1945) SLB,WSH
+#188: Earle Combs               44.75     7.1 (1927) 12 (1924-1935) NYY
+#189: Jack Glasscock             59.0     7.1 (1890) 17 (1879-1895) CLV,SLM,IND,NYG,STL,PIT,LOU,WHS
+#190: Toby Harrah                51.5     7.1 (1975) 17 (1969-1986) WSA,TEX,CLE,NYY
+#191: Bill Dahlen               75.25     7.1 (1896) 20 (1891-1911) CHC,BRO,NYG,BSN
+#192: Félix Hernández            49.7     7.1 (2010) 15 (2005-2019) SEA
+#193: Eddie Murray              68.65     7.1 (1984) 21 (1977-1997) BAL,LAD,NYM,CLE,ANA
+#194: Willie Keeler              54.2     7.1 (1897) 19 (1892-1910) NYG,BRO,BLN,NYY
+#195: Jesse Burkett             59.75     7.2 (1901) 16 (1890-1905) NYG,CLV,STL,SLB,BOS
+#196: Jeff Kent                 55.45     7.2 (2000) 17 (1992-2008) TOR,NYM,CLE,SFG,HOU,LAD
+#197: CC Sabathia                62.3     7.2 (2008) 19 (2001-2019) CLE,MIL,NYY
+#198: Eddie Rommel              49.75     7.2 (1922) 13 (1920-1932) PHA
+#199: Sad Sam Jones             42.65     7.2 (1921) 22 (1914-1935) CLE,BOS,NYY,SLB,WSH,CHW
+#200: Barry Larkin               70.5     7.2 (1996) 19 (1986-2004) CIN
+#201: Yadier Molina              42.2     7.2 (2012) 19 (2004-2022) STL
+#202: Tony Perez                53.95     7.2 (1970) 23 (1964-1986) CIN,MON,BOS,PHI
+#203: Paul Waner                 74.7     7.2 (1936) 19 (1926-1944) PIT,BRO,BSN
+#204: George Davis               84.5     7.2 (1905) 20 (1890-1909) CLV,NYG,CHW
+#205: Jim Edmonds                60.4     7.2 (2004) 17 (1993-2010) CAL,ANA,STL,SDP,CHC,MIL,CIN
+#206: Billy Herman               57.3     7.2 (1935) 15 (1931-1947) CHC,BRO,BSN,PIT
+#207: Jerry Koosman              53.6     7.2 (1979) 19 (1967-1985) NYM,PHI,MIN,CHW
+#208: David Cone                 62.3     7.2 (1993) 17 (1986-2003) NYM,TOR,NYY,BOS,KCR
+#209: Don Mattingly              42.4     7.2 (1986) 14 (1982-1995) NYY
+#210: Thurman Munson            46.05     7.2 (1973) 11 (1969-1979) NYY
+#211: Carlos Zambrano           43.85     7.2 (2004) 12 (2001-2012) CHC,MIA
+#212: Josh Donaldson            46.75     7.2 (2013) 12 (2010-2022) OAK,TOR,CLE,ATL,MIN,NYY
+#213: Jose Canseco              42.45     7.3 (1988) 17 (1985-2001) OAK,TEX,BOS,TOR,TBD,NYY,CHW
+#214: Carlos Delgado            44.35     7.3 (2000) 17 (1993-2009) TOR,FLA,NYM
+#215: Frank Thomas               73.8     7.3 (1997) 19 (1990-2008) CHW,OAK,TOR
+#216: Carlton Fisk              68.45     7.3 (1972) 24 (1969-1993) BOS,CHW
+#217: Ozzie Smith               76.85     7.3 (1989) 19 (1978-1996) SDP,STL
+#218: Heinie Manush             47.95     7.3 (1928) 17 (1923-1939) DET,SLB,WSH,BOS,BRO,PIT
+#219: Orel Hershiser            56.05     7.3 (1989) 18 (1983-2000) LAD,CLE,SFG,NYM
+#220: Frank Chance               46.0     7.3 (1906) 17 (1898-1914) CHC,NYY
+#221: Dennis Eckersley          62.05     7.3 (1978) 24 (1975-1998) CLE,CHC,BOS,OAK,STL
+#222: Manny Ramirez              69.3     7.3 (1999) 19 (1993-2011) CLE,BOS,LAD,CHW,TBR
+#223: Ryan Zimmerman            40.05     7.3 (2009) 16 (2005-2021) WSN
+#224: Brett Gardner              44.3     7.4 (2010) 14 (2008-2021) NYY
+#225: Art Fletcher              47.15     7.4 (1917) 13 (1909-1922) NYG,PHI
+#226: Dave Parker                40.1     7.4 (1977) 19 (1973-1991) PIT,CIN,OAK,MIL,CAL,TOR
+#227: Miguel Tejada              47.1     7.4 (2004) 16 (1997-2013) OAK,BAL,HOU,SDP,SFG,KCR
+#228: Jimmy Key                  48.9     7.4 (1987) 15 (1984-1998) TOR,BAL,NYY
+#229: Amos Otis                  42.8     7.4 (1978) 17 (1967-1984) NYM,KCR,PIT
+#230: Bob Welch                  43.7     7.4 (1987) 17 (1978-1994) LAD,OAK
+#231: Carl Mays                 51.25     7.4 (1921) 15 (1915-1929) BOS,NYY,CIN,NYG
+#232: Billy Pierce               53.3     7.4 (1952) 18 (1945-1964) DET,CHW,SFG
+#233: Luke Appling              77.55     7.4 (1943) 20 (1930-1950) CHW
+#234: Nomar Garciaparra         44.25     7.4 (2000) 14 (1996-2009) BOS,CHC,LAD,OAK
+#235: Pee Wee Reese             68.45     7.4 (1949) 16 (1940-1958) BRO,LAD
+#236: Roberto Alomar            67.05     7.4 (1999) 17 (1988-2004) SDP,TOR,BAL,CLE,NYM,CHW,ARI
+#237: Vladimir Guerrero         59.45     7.4 (1998) 16 (1996-2011) MON,ANA,LAA,TEX,BAL
+#238: Dave Bancroft             49.75     7.4 (1921) 16 (1915-1930) PHI,NYG,BSN,BRO
+#239: Tim Hudson                57.85     7.5 (2003) 17 (1999-2015) OAK,ATL,SFG
+#240: José Ramírez              40.35     7.5 (2018) 10 (2013-2022) CLE
+#241: Kenny Rogers              50.45     7.5 (1998) 20 (1989-2008) TEX,NYY,OAK,NYM,MIN,DET
+#242: Manny Machado              52.0     7.5 (2015) 11 (2012-2022) BAL,LAD,SDP
+#243: Mark McGwire              62.15     7.5 (1998) 16 (1986-2001) OAK,STL
+#244: Goose Goslin               66.4     7.5 (1928) 18 (1921-1938) WSH,SLB,DET
+#245: Wilbur Cooper             53.55     7.5 (1922) 15 (1912-1926) PIT,CHC,DET
+#246: Johnny Mize               70.75     7.5 (1947) 15 (1936-1953) STL,NYG,NYY
+#247: Vada Pinson                54.2     7.5 (1961) 18 (1958-1975) CIN,STL,CLE,CAL,KCR
+#248: Joe Sewell                 54.7     7.5 (1923) 14 (1920-1933) CLE,NYY
+#249: Jim Thome                 73.05     7.5 (1996) 22 (1991-2012) CLE,PHI,CHW,MIN,BAL
+#250: Curtis Granderson         47.15     7.6 (2007) 16 (2004-2019) DET,NYY,NYM,LAD,TOR,MIL,MIA
+#251: Buster Posey              44.85     7.6 (2012) 12 (2009-2021) SFG
+#252: Jim Rice                   47.7     7.6 (1978) 16 (1974-1989) BOS
+#253: Hank Greenberg             55.5     7.6 (1937) 12 (1933-1947) DET,PIT
+#254: Claude Passeau            45.15     7.6 (1940) 13 (1935-1947) PIT,PHI,CHC
+#255: Doug DeCinces              41.7     7.6 (1982) 15 (1973-1987) BAL,CAL,STL
+#256: Keith Hernandez            60.3     7.6 (1979) 17 (1974-1990) STL,NYM,CLE
+#257: Chipper Jones             85.25     7.6 (2007) 19 (1993-2012) ATL
+#258: Kenny Lofton               68.4     7.6 (1993) 17 (1991-2007) HOU,CLE,ATL,CHW,SFG,PIT,CHC,NYY,PHI,LAD,TEX
+#259: Tim Raines                69.35     7.6 (1985) 22 (1980-2002) MON,CHW,NYY,OAK,BAL,FLA
+#260: Miguel Cabrera            67.75     7.6 (2011) 20 (2003-2022) FLA,DET
+#261: Rocky Colavito            44.85     7.6 (1961) 14 (1955-1968) CLE,DET,KCA,CHW,NYY,LAD
+#262: Darrell Porter            40.85     7.6 (1979) 17 (1971-1987) MIL,KCR,STL,TEX
+#263: Chuck Finley               57.9     7.7 (1990) 17 (1986-2002) CAL,ANA,CLE,STL
+#264: Jim Kaat                  50.45     7.7 (1975) 25 (1959-1983) WSH,MIN,CHW,PHI,NYY,STL
+#265: Joe Gordon                55.75     7.7 (1942) 11 (1938-1950) NYY,CLE
+#266: Steve Rogers               44.7     7.7 (1982) 13 (1973-1985) MON
+#267: Dale Murphy                46.5     7.7 (1987) 18 (1976-1993) ATL,PHI,COL
+#268: Jim Wynn                   55.7     7.7 (1974) 15 (1963-1977) HOU,LAD,ATL,NYY,MIL
+#269: Mel Harder                 44.3     7.7 (1934) 20 (1928-1947) CLE
+#270: John Smoltz               68.95     7.7 (1996) 21 (1988-2009) ATL,BOS,STL
+#271: Billy Williams            63.65     7.7 (1965) 18 (1959-1976) CHC,OAK
+#272: Ryan Braun                 47.1     7.7 (2011) 14 (2007-2020) MIL
+#273: Bobo Newsom                47.8     7.7 (1939) 20 (1929-1953) BRO,CHC,SLB,WSH,BOS,DET,PHA,NYY,NYG
+#274: Kirby Puckett             51.15     7.8 (1988) 12 (1984-1995) MIN
+#275: Bobby Wallace              76.3     7.8 (1901) 25 (1894-1918) CLV,STL,SLB
+#276: John Olerud               58.15     7.8 (1993) 17 (1989-2005) TOR,NYM,SEA,NYY,BOS
+#277: Doc White                 48.65     7.8 (1902) 13 (1901-1913) PHI,CHW
+#278: Tony Lazzeri              47.65     7.8 (1929) 14 (1926-1939) NYY,CHC,BRO,NYG
+#279: Bobby Bonds               57.85     7.8 (1973) 14 (1968-1981) SFG,NYY,CAL,CHW,TEX,CLE,STL,CHC
+#280: Mark Teixeira              50.6     7.8 (2008) 14 (2003-2016) TEX,ATL,LAA,NYY
+#281: Andrew McCutchen           47.0     7.8 (2013) 14 (2009-2022) PIT,NYY,SFG,PHI,MIL
+#282: Joe Mauer                  55.2     7.8 (2009) 15 (2004-2018) MIN
+#283: Nolan Ryan                 81.3     7.8 (1977) 27 (1966-1993) NYM,CAL,HOU,TEX
+#284: Red Ruffing               68.65     7.8 (1932) 22 (1924-1947) BOS,NYY,CHW
+#285: Al Simmons                68.15     7.9 (1929) 20 (1924-1944) PHA,CHW,DET,WSH,BSN,CIN,BOS
+#286: Joe Tinker                 49.1     7.9 (1908) 13 (1902-1916) CHC,CIN
+#287: Lon Warneke                45.8     7.9 (1933) 15 (1930-1945) CHC,STL
+#288: Herb Pennock               45.5     7.9 (1924) 22 (1912-1934) PHA,BOS,NYY
+#289: Nolan Arenado             52.15     7.9 (2022) 10 (2013-2022) COL,STL
+#290: Andre Dawson               64.8     7.9 (1982) 21 (1976-1996) MON,CHC,BOS,FLA
+#291: Nellie Fox                 49.5     7.9 (1957) 19 (1947-1965) PHA,CHW,HOU
+#292: Luis Tiant                66.05     7.9 (1968) 19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL
+#293: Jose Altuve                46.5     7.9 (2016) 12 (2011-2022) HOU
+#294: Jim Fregosi                48.7     7.9 (1964) 18 (1961-1978) LAA,CAL,NYM,TEX,PIT
+#295: Willie Stargell            57.5     7.9 (1971) 21 (1962-1982) PIT
+#296: Sam McDowell               41.8     7.9 (1965) 15 (1961-1975) CLE,SFG,NYY,PIT
+#297: Ellis Burks               49.75     7.9 (1996) 18 (1987-2004) BOS,CHW,COL,SFG,CLE
+#298: Chuck Klein               46.55     7.9 (1933) 16 (1928-1944) PHI,CHC,PIT
+#299: Ken Williams               43.0     7.9 (1922) 13 (1915-1929) CIN,SLB,BOS
+#300: John Candelaria            41.9     7.9 (1977) 19 (1975-1993) PIT,CAL,NYM,MON,NYY,MIN,TOR,LAD
+#301: Ted Lyons                 70.55     7.9 (1927) 21 (1923-1946) CHW
+#302: Giancarlo Stanton         44.75     7.9 (2017) 13 (2010-2022) FLA,MIA,NYY
+#303: Dave Stieb                 56.4     7.9 (1984) 16 (1979-1998) TOR,CHW
+#304: Bill Terry                56.45     7.9 (1930) 14 (1923-1936) NYG
+#305: Luis Gonzalez              51.6     7.9 (2001) 19 (1990-2008) HOU,CHC,DET,ARI,LAD,FLA
+#306: Dustin Pedroia             51.9     8.0 (2011) 14 (2006-2019) BOS
+#307: Cy Seymour                 40.5     8.0 (1905) 16 (1896-1913) NYG,BLA,CIN,BSN
+#308: Ken Boyer                  62.8     8.0 (1961) 15 (1955-1969) STL,NYM,CHW,LAD
+#309: Ed Delahanty              68.95     8.0 (1899) 15 (1888-1903) PHI,WSH
+#310: Derek Jeter                71.3     8.0 (1999) 20 (1995-2014) NYY
+#311: John McGraw                45.7     8.0 (1899) 15 (1892-1906) BLN,STL,BLA,NYG
+#312: Graig Nettles             67.95     8.0 (1976) 21 (1968-1988) MIN,CLE,NYY,SDP,ATL,MON
+#313: Bill Donovan               44.9     8.0 (1903) 18 (1898-1918) WHS,BRO,DET,NYY
+#314: Cesar Cedeno               52.9     8.0 (1972) 17 (1970-1986) HOU,CIN,STL,LAD
+#315: Bob Shawkey                46.9     8.0 (1920) 15 (1913-1927) PHA,NYY
+#316: Willie McCovey            64.45     8.1 (1969) 22 (1959-1980) SFG,SDP,OAK
+#317: Catfish Hunter            40.85     8.1 (1975) 15 (1965-1979) KCA,OAK,NYY
+#318: Ned Garver                 43.0     8.1 (1950) 14 (1948-1961) SLB,DET,KCA,LAA
+#319: Ralph Kiner               48.05     8.1 (1947) 10 (1946-1955) PIT,CHC,CLE
+#320: Frank Viola               46.95     8.1 (1987) 15 (1982-1996) MIN,NYM,CIN,BOS,TOR
+#321: Joey Votto                64.35     8.1 (2017) 16 (2007-2022) CIN
+#322: Hippo Vaughn              46.85     8.1 (1918) 13 (1908-1921) NYY,WSH,CHC
+#323: Eddie Mathews             96.15     8.2 (1959) 17 (1952-1968) BSN,MLN,ATL,DET,HOU
+#324: Jesse Tannehill           46.95     8.2 (1899) 15 (1894-1911) CIN,PIT,NYY,BOS,WSH
+#325: Roger Connor               78.3     8.2 (1885) 17 (1880-1897) TRO,NYG,PHI,STL
+#326: Howard Ehmke               41.3     8.2 (1924) 14 (1916-1930) DET,BOS,PHA
+#327: Andruw Jones               62.7     8.2 (2000) 17 (1996-2012) ATL,LAD,TEX,CHW,NYY
+#328: Evan Longoria              58.1     8.2 (2010) 15 (2008-2022) TBR,SFG
+#329: Minnie Minoso             50.35     8.2 (1954) 16 (1949-1976) CLE,CHW,STL,WSA
+#330: Billy Hamilton             60.1     8.2 (1894) 12 (1890-1901) PHI,BSN
+#331: Jeff Bagwell               79.9     8.2 (1994) 15 (1991-2005) HOU
+#332: Rich Gossage              41.15     8.2 (1975) 22 (1972-1994) CHW,PIT,NYY,SDP,CHC,SFG,OAK,SEA,TEX
+#333: Carlos Beltrán             70.1     8.2 (2006) 20 (1998-2017) KCR,HOU,NYM,SFG,STL,NYY,TEX
+#334: Eddie Stanky              41.35     8.2 (1950) 11 (1943-1953) CHC,BRO,BSN,NYG,STL
+#335: Alan Trammell              70.7     8.2 (1987) 20 (1977-1996) DET
+#336: Mike Mussina               82.8     8.2 (1992) 18 (1991-2008) BAL,NYY
+#337: Don Drysdale               67.1     8.3 (1964) 14 (1956-1969) BRO,LAD
+#338: Frank Tanana              57.15     8.3 (1977) 21 (1973-1993) CAL,DET,NYM,NYY,BOS,TEX
+#339: Pete Rose                  79.6     8.3 (1973) 24 (1963-1986) CIN,PHI,MON
+#340: Sal Bando                  61.5     8.3 (1969) 16 (1966-1981) KCA,OAK,MIL
+#341: J.D. Drew                 44.85     8.3 (2004) 14 (1998-2011) STL,ATL,LAD,BOS
+#342: Hughie Jennings            41.5     8.3 (1896) 15 (1892-1918) LOU,BLN,BRO,PHI,DET
+#343: Paul Goldschmidt           58.5     8.3 (2015) 12 (2011-2022) ARI,STL
+#344: Dave Winfield              64.2     8.3 (1979) 22 (1973-1995) SDP,NYY,CAL,TOR,MIN,CLE
+#345: Willie Davis               60.7     8.3 (1964) 18 (1960-1979) LAD,MON,TEX,STL,SDP,CAL
+#346: Bobby Grich               71.05     8.3 (1973) 17 (1970-1986) BAL,CAL
+#347: David Wright              49.15     8.3 (2007) 14 (2004-2018) NYM
+#348: Early Wynn                61.05     8.4 (1956) 23 (1939-1963) WSH,CLE,CHW
+#349: Andy Pettitte              60.2     8.4 (1997) 18 (1995-2013) NYY,HOU
+#350: Al Kaline                 92.85     8.4 (1961) 22 (1953-1974) DET
+#351: George Foster             44.15     8.4 (1977) 18 (1969-1986) SFG,CIN,NYM,CHW
+#352: Burleigh Grimes            52.8     8.4 (1920) 19 (1916-1934) PIT,BRO,NYG,BSN,STL,CHC,NYY
+#353: Brooks Robinson           78.45     8.4 (1968) 23 (1955-1977) BAL
+#354: Robinson Canó              68.1     8.4 (2012) 17 (2005-2022) NYY,SEA,NYM,SDP,ATL
+#355: Jim Palmer                 68.5     8.4 (1975) 19 (1965-1984) BAL
+#356: Harry Brecheen             42.2     8.5 (1948) 12 (1940-1953) STL,SLB
+#357: Joe Medwick                54.5     8.5 (1937) 16 (1932-1947) STL,BRO,NYG,BSN
+#358: Joe Cronin                64.75     8.5 (1930) 20 (1926-1945) PIT,WSH,BOS
+#359: Urban Shocker              58.6     8.5 (1921) 13 (1916-1928) NYY,SLB
+#360: Vida Blue                  45.1     8.5 (1971) 17 (1969-1986) OAK,SFG,KCR
+#361: Noodles Hahn               44.6     8.5 (1902)  8 (1899-1906) CIN,NYY
+#362: Mark Langston             50.05     8.5 (1993) 16 (1984-1999) MON,SEA,CAL,SDP,CLE,ANA
+#363: Curt Schilling             79.5     8.5 (2001) 20 (1988-2007) HOU,PHI,ARI,BOS,BAL
+#364: Mickey Lolich              48.0     8.5 (1971) 16 (1963-1979) DET,NYM,SDP
+#365: Tony Gwynn                69.15     8.6 (1987) 20 (1982-2001) SDP
+#366: Ryne Sandberg             68.05     8.6 (1984) 16 (1981-1997) PHI,CHC
+#367: Willie Wilson             46.15     8.6 (1980) 19 (1976-1994) KCR,OAK,CHC
+#368: Justin Verlander          77.65     8.6 (2011) 17 (2005-2022) DET,HOU
+#369: Roy Halladay              64.25     8.6 (2011) 16 (1998-2013) TOR,PHI
+#370: Camilo Pascual             40.9     8.6 (1959) 18 (1954-1971) WSH,MIN,WSA,CIN,LAD,CLE
+#371: Johnny Bench              75.15     8.6 (1972) 17 (1967-1983) CIN
+#372: Clayton Kershaw            75.9     8.6 (2013) 15 (2008-2022) LAD
+#373: Gary Carter               70.15     8.6 (1982) 19 (1974-1992) MON,NYM,SFG,LAD
+#374: Will Clark                 56.5     8.6 (1989) 15 (1986-2000) SFG,TEX,BAL,STL
+#375: Ben Zobrist                44.5     8.6 (2009) 14 (2006-2019) TBD,TBR,OAK,KCR,CHC
+#376: Chuck Knoblauch            44.6     8.7 (1996) 12 (1991-2002) MIN,NYY,KCR
+#377: Mike Piazza               59.55     8.7 (1997) 16 (1992-2007) LAD,FLA,NYM,SDP,OAK
+#378: Nap Rucker                 47.2     8.7 (1911) 10 (1907-1916) BRO
+#379: Max Scherzer              71.65     8.7 (2018) 15 (2008-2022) ARI,DET,WSN,LAD,NYM
+#380: Frank Robinson           107.15     8.7 (1962) 21 (1956-1976) CIN,BAL,LAD,CAL,CLE
+#381: Johan Santana              51.7     8.8 (2004) 12 (2000-2012) MIN,NYM
+#382: Dick Allen                58.65     8.8 (1964) 15 (1963-1977) PHI,STL,LAD,CHW,OAK
+#383: Addie Joss                45.35     8.8 (1908)  9 (1902-1910) CLE
+#384: Dan Brouthers              69.0     8.8 (1892) 17 (1879-1904) TRO,BUF,DTN,BSN,BRO,BLN,LOU,PHI,NYG
+#385: Charlie Gehringer         84.75     8.8 (1934) 19 (1924-1942) DET
+#386: Fred Lynn                 50.15     8.9 (1979) 17 (1974-1990) BOS,CAL,BAL,DET,SDP
+#387: Todd Helton               61.75     8.9 (2000) 17 (1997-2013) COL
+#388: Mel Ott                  110.85     8.9 (1938) 21 (1926-1946) NYG
+#389: Lenny Dykstra             42.35     8.9 (1990) 12 (1985-1996) NYM,PHI
+#390: Roberto Clemente          94.85     9.0 (1967) 18 (1955-1972) PIT
+#391: Cliff Lee                 43.15     9.0 (2011) 13 (2002-2014) CLE,PHI,SEA,TEX
+#392: Jim Bunning                59.5     9.0 (1966) 17 (1955-1971) DET,PHI,PIT,LAD
+#393: Darrell Evans              58.8     9.0 (1973) 21 (1969-1989) ATL,SFG,DET
+#394: Chase Utley               64.55     9.0 (2008) 16 (2003-2018) PHI,LAD
+#395: Kevin Brown               67.75     9.1 (1998) 19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
+#396: Wade Boggs                 91.4     9.1 (1985) 18 (1982-1999) BOS,NYY,TBD
+#397: Al Orth                    51.3     9.1 (1906) 15 (1895-1909) PHI,WSH,NYY
+#398: Duke Snider               65.95     9.1 (1953) 18 (1947-1964) BRO,LAD,NYM,SFG
+#399: Jason Giambi               50.5     9.2 (2001) 20 (1995-2014) OAK,NYY,COL,CLE
+#400: Scott Rolen                70.1     9.2 (2004) 17 (1996-2012) PHI,STL,TOR,CIN
+#401: Ichiro Suzuki              60.0     9.2 (2004) 19 (2001-2019) SEA,NYY,MIA
+#402: Norm Cash                  52.0     9.2 (1961) 17 (1958-1974) CHW,DET
+#403: John Ward                 59.45     9.2 (1879) 16 (1878-1894) PRO,NYG,BRO
+#404: George Uhle               55.65     9.2 (1926) 17 (1919-1936) CLE,DET,NYY,NYG
+#405: Reggie Jackson            73.95     9.2 (1969) 21 (1967-1987) KCA,OAK,BAL,NYY,CAL
+#406: Tom Glavine                80.7     9.2 (1991) 22 (1987-2008) ATL,NYM
+#407: Kevin Appier               54.5     9.3 (1993) 16 (1989-2004) KCR,OAK,NYM,ANA
+#408: Babe Adams                 52.7     9.3 (1913) 19 (1906-1926) STL,PIT
+#409: Home Run Baker            62.75     9.3 (1912) 13 (1908-1922) PHA,NYY
+#410: Eddie Plank               83.85     9.3 (1904) 16 (1901-1917) PHA,SLB
+#411: Harry Heilmann             72.5     9.3 (1923) 17 (1914-1932) DET,CIN
+#412: Joe DiMaggio              79.15     9.4 (1941) 13 (1936-1951) NYY
+#413: Warren Spahn              100.1     9.4 (1947) 21 (1942-1965) BSN,MLN,NYM,SFG
+#414: Frankie Frisch            71.75     9.4 (1927) 19 (1919-1937) NYG,STL
+#415: Craig Biggio              65.45     9.4 (1997) 20 (1988-2007) HOU
+#416: George Brett               88.6     9.4 (1980) 21 (1973-1993) KCR
+#417: Tim Keefe                 53.95     9.4 (1886) 11 (1880-1893) TRO,NYG,PHI
+#418: Henry Aaron               143.0     9.4 (1961) 23 (1954-1976) MLN,ATL,MIL
+#419: Dizzy Dean                46.15     9.5 (1934) 12 (1930-1947) STL,CHC,SLB
+#420: Stan Coveleski             61.5     9.5 (1918) 14 (1912-1928) PHA,CLE,WSH,NYY
+#421: Shoeless Joe Jackson       62.2     9.5 (1912) 13 (1908-1920) PHA,CLE,CHW
+#422: Adrián Beltré              93.5     9.6 (2004) 21 (1998-2018) LAD,SEA,BOS,TEX
+#423: Ron Guidry                47.85     9.6 (1978) 14 (1975-1988) NYY
+#424: Mordecai Brown             52.3     9.6 (1909) 12 (1903-1916) STL,CHC,CIN
+#425: Greg Maddux              106.55     9.6 (1995) 23 (1986-2008) CHC,ATL,LAD,SDP
+#426: Rick Reuschel             69.45     9.6 (1977) 19 (1972-1991) CHC,NYY,PIT,SFG
+#427: Jackie Robinson            61.7     9.7 (1951) 10 (1947-1956) BRO
+#428: Bret Saberhagen           58.85     9.7 (1989) 16 (1984-2001) KCR,NYM,COL,BOS
+#429: Ken Griffey Jr.           83.85     9.7 (1996) 22 (1989-2010) SEA,CIN,CHW
+#430: Rod Carew                 81.15     9.7 (1977) 19 (1967-1985) MIN,CAL
+#431: Albert Pujols             101.6     9.7 (2009) 22 (2001-2022) STL,LAA,LAD
+#432: Bert Blyleven              94.5     9.7 (1973) 22 (1970-1992) MIN,PIT,TEX,CLE,CAL
+#433: Bryce Harper               42.5     9.7 (2015) 11 (2012-2022) WSN,PHI
+#434: Ron Santo                  70.5     9.8 (1967) 15 (1960-1974) CHC,CHW
+#435: Mike Schmidt             106.85     9.8 (1974) 18 (1972-1989) PHI
+#436: Arky Vaughan              78.05     9.8 (1935) 14 (1932-1948) PIT,BRO
+#437: Bucky Walters              53.5     9.8 (1939) 19 (1931-1950) BSN,BOS,PHI,CIN
+#438: Bob Feller                63.45     9.8 (1940) 18 (1936-1956) CLE
+#439: Larry Walker              72.75     9.8 (1997) 17 (1989-2005) MON,COL,STL
+#440: George Sisler              57.1     9.9 (1920) 15 (1915-1930) SLB,WSH,BSN
+#441: Robin Roberts              86.1     9.9 (1953) 19 (1948-1966) PHI,BAL,HOU,CHC
+#442: Sandy Koufax              48.85     9.9 (1963) 12 (1955-1966) BRO,LAD
+#443: Jacob deGrom               43.8     9.9 (2018)  9 (2014-2022) NYM
+#444: Rickey Henderson          111.1     9.9 (1990) 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+#445: Nap Lajoie                106.9    10.0 (1906) 21 (1896-1916) PHI,PHA,CLE
+#446: Carl Hubbell              68.45    10.0 (1936) 16 (1928-1943) NYG
+#447: Vic Willis                63.15    10.0 (1899) 13 (1898-1910) BSN,PIT,STL
+#448: Tris Speaker              134.7    10.1 (1912) 22 (1907-1928) BOS,CLE,WSH,PHA
+#449: Ernie Banks                67.7    10.2 (1959) 19 (1953-1971) CHC
+#450: Sammy Sosa                 58.6    10.3 (2001) 18 (1989-2007) TEX,CHW,CHC,BAL
+#451: Dazzy Vance               60.25    10.3 (1924) 16 (1915-1935) NYY,PIT,BRO,STL,CIN
+#452: Jimmie Foxx                93.1    10.4 (1932) 20 (1925-1945) PHA,BOS,CHC,PHI
+#453: Alex Rodriguez           117.55    10.4 (2000) 22 (1994-2016) SEA,TEX,NYY
+#454: Lou Boudreau              63.35    10.4 (1948) 15 (1938-1952) CLE,BOS
+#455: Phil Niekro                95.9    10.4 (1978) 24 (1964-1987) MLN,ATL,CLE,TOR,NYY
+#456: Zack Greinke              76.55    10.4 (2009) 19 (2004-2022) KCR,MIL,LAA,LAD,ARI,HOU
+#457: Rube Waddell              58.35    10.4 (1904) 13 (1897-1910) LOU,PIT,CHC,PHA,SLB
+#458: Eddie Collins            124.35    10.5 (1910) 23 (1906-1928) PHA,CHW
+#459: Randy Johnson            101.05    10.5 (2002) 22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
+#460: Clark Griffith             63.0    10.5 (1898) 19 (1893-1914) CHC,CHW,NYY,CIN,WSH
+#461: Juan Marichal              62.9    10.5 (1965) 16 (1960-1975) SFG,LAD,BOS
+#462: Mike Trout                82.35    10.5 (2012) 12 (2011-2022) LAA
+#463: Robin Yount                77.4    10.6 (1982) 20 (1974-1993) MIL
+#464: Wes Ferrell               60.15    10.6 (1935) 15 (1927-1941) CLE,BOS,WSH,NYY,BRO,BSN
+#465: Lefty Grove              106.75    10.6 (1936) 17 (1925-1941) PHA,BOS
+#466: Ted Williams              122.0    10.6 (1946) 19 (1939-1960) BOS
+#467: Mookie Betts               56.4    10.7 (2018)  9 (2014-2022) BOS,LAD
+#468: Dizzy Trout                49.8    10.9 (1944) 15 (1939-1957) DET,BOS,BAL
+#469: Dolf Luque                48.15    10.9 (1923) 20 (1914-1935) BSN,CIN,BRO,NYG
+#470: Jim McCormick             68.45    10.9 (1882) 10 (1878-1887) IND,CLV,PRO,CHC,PIT
+#471: Tom Seaver               109.85    11.0 (1973) 20 (1967-1986) NYM,CIN,CHW,BOS
+#472: Joe Morgan               100.45    11.0 (1975) 22 (1963-1984) HOU,CIN,SFG,PHI,OAK
+#473: Wilbur Wood               50.05    11.0 (1971) 17 (1961-1978) BOS,PIT,CHW
+#474: Theodore Breitenstein     50.05    11.0 (1893) 10 (1892-1901) STL,CIN
+#475: Gaylord Perry             90.05    11.0 (1972) 22 (1962-1983) SFG,CLE,TEX,SDP,ATL,SEA,KCR,NYY
+#476: Red Faber                  64.0    11.1 (1921) 20 (1914-1933) CHW
+#477: Willie Mays              156.15    11.2 (1965) 22 (1951-1973) NYG,SFG,NYM
+#478: Ty Cobb                  151.45    11.3 (1917) 24 (1905-1928) DET,PHA
+#479: Stan Musial              128.65    11.3 (1948) 22 (1941-1963) STL
+#480: Mickey Mantle             110.2    11.3 (1957) 18 (1951-1968) NYY
+#481: Jack Chesbro               42.7    11.4 (1904) 11 (1899-1909) PIT,NYY,BOS
+#482: Smoky Joe Wood             40.1    11.4 (1912) 14 (1908-1922) BOS,CLE
+#483: Honus Wagner              130.8    11.5 (1908) 21 (1897-1917) LOU,PIT
+#484: Cal Ripken Jr.            95.95    11.5 (1991) 21 (1981-2001) BAL
+#485: Pedro Martinez             83.9    11.7 (2000) 18 (1992-2009) LAD,MON,BOS,NYM,PHI
+#486: Fergie Jenkins            84.15    11.8 (1971) 19 (1965-1983) PHI,CHC,TEX,BOS
+#487: Barry Bonds               162.8    11.9 (2001) 22 (1986-2007) PIT,SFG
+#488: Christy Mathewson        106.55    11.9 (1908) 17 (1900-1916) NYG,CIN
+#489: Joe McGinnity             59.05    11.9 (1903) 10 (1899-1908) BLN,BRO,BLA,NYG
+#490: Bob Gibson                 89.2    11.9 (1968) 17 (1959-1975) STL
+#491: Eddie Cicotte              59.0    11.9 (1917) 14 (1905-1920) DET,BOS,CHW
+#492: Lou Gehrig                113.6    11.9 (1927) 17 (1923-1939) NYY
+#493: Kid Gleason               41.75    12.0 (1890) 22 (1888-1912) PHI,STL,BLN,NYG,DET,CHW
+#494: Ed Walsh                  65.85    12.1 (1912) 14 (1904-1917) CHW,BSN
+#495: Roger Clemens             139.2    12.1 (1997) 24 (1984-2007) BOS,TOR,NYY,HOU
+#496: Hal Newhouser              62.7    12.2 (1945) 17 (1939-1955) DET,CLE
+#497: Rogers Hornsby           127.35    12.3 (1924) 23 (1915-1937) STL,NYG,BSN,CHC,SLB
+#498: Mickey Welch               62.3    12.3 (1884) 13 (1880-1892) TRO,NYG
+#499: Carl Yastrzemski           96.5    12.5 (1967) 23 (1961-1983) BOS
+#500: Steve Carlton              90.2    12.5 (1972) 24 (1965-1988) STL,PHI,SFG,CHW,CLE,MIN
+#501: Pete Alexander           119.25    12.6 (1920) 20 (1911-1930) PHI,CHC,STL
+#502: Kid Nichols               116.3    13.0 (1890) 15 (1890-1906) BSN,STL,PHI
+#503: Cy Young                  163.6    13.0 (1892) 22 (1890-1911) CLV,STL,BOS,CLE,BSN
+#504: Dwight Gooden              53.0    13.3 (1985) 16 (1984-2000) NYM,NYY,CLE,HOU,TBD
+#505: Jim Whitney                55.5    13.5 (1883)  9 (1881-1889) BSN,KCN,WHS,IND
+#506: Amos Rusie                 65.8    13.7 (1894) 10 (1889-1901) IND,NYG,CIN
+#507: Babe Ruth                183.05    14.2 (1923) 22 (1914-1935) BOS,NYY,BSN
+#508: Tommy Bond                 49.9    14.3 (1879)  7 (1876-1882) HAR,BSN,WOR
+#509: John Clarkson              83.2    16.2 (1889) 12 (1882-1894) WOR,CHC,BSN,CLV
+#510: Charlie Buffinton          50.4    16.3 (1884)  9 (1882-1892) BSN,PHI,BLN
+#511: Walter Johnson            164.9    16.5 (1913) 21 (1907-1927) WSH
+#512: Pud Galvin                70.15    18.4 (1884) 12 (1879-1892) BUF,PIT,STL
+#513: Old Hoss Radbourn          67.6    19.4 (1884) 11 (1880-1891) BUF,PRO,BSN,CIN

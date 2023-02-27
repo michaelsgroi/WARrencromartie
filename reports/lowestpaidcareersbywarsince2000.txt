@@ -1,0 +1,25 @@
+Lowest Paid Careers by WAR since 2000
+Lowest Paid Careers by WAR since 2000
+2023-02-27 13:48:53.847
+20 rows
+
+ #1: Adrian Sampson             4.15         100000  5 (2016-2022) TEX,CHC,SEA
+ #2: Yordan Alvarez             13.6         764600  4 (2019-2022) HOU
+ #3: Cedric Mullins              9.2         557500  5 (2018-2022) BAL
+ #4: Chuck Smith                3.15         240000  2 (2000-2001) FLA
+ #5: Jarrod Parker              6.45         495000  3 (2011-2013) ARI,OAK
+ #6: Reid Cornelius             0.65          54500  3 (1995-2000) MON,NYM,FLA
+ #7: Austin Meadows              6.7         557400  5 (2018-2022) TBR,PIT,DET
+ #8: Mike Darr                   2.5         215000  3 (1999-2001) SDP
+ #9: Jimmy Herget                2.6         233333  4 (2019-2022) CIN,LAA,TEX
+#10: Nestor Cortes               5.9         545000  5 (2018-2022) NYY,BAL,SEA
+#11: Carlos Hernández            2.2         210000  3 (2001-2004) HOU
+#12: Jeff Zimmerman             7.55         757500  3 (1999-2001) TEX
+#13: Joey Krehbiel               0.5          50000  3 (2018-2022) ARI,BAL,TBR
+#14: Cha-Seung Baek             1.25         130833  4 (2004-2008) SEA,SDP
+#15: Justin Thompson            12.8        1357000  5 (1996-2005) DET,TEX
+#16: Nick Anderson               2.5         277500  3 (2019-2021) TBR,MIA
+#17: Julio Rodríguez             6.2         700000  1 (2022-2022) SEA
+#18: Spencer Turnbull           4.75         556100  4 (2018-2021) DET
+#19: Billy Burns                 2.0         256250  4 (2014-2017) OAK,KCR
+#20: Fabio Castro               0.85         109000  2 (2006-2007) PHI,TEX

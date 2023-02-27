@@ -1,0 +1,66 @@
+Lowest season WAR with career WAR over 80
+Lowest season WAR with career WAR over 80.
+2023-02-27 13:49:17.635
+61 rows
+
+ #1: Cap Anson                  84.7     7.0 (1886) 22 (1876-1897) CHC
+ #2: George Davis               84.5     7.2 (1905) 20 (1890-1909) CLV,NYG,CHW
+ #3: Chipper Jones             85.25     7.6 (2007) 19 (1993-2012) ATL
+ #4: Nolan Ryan                 81.3     7.8 (1977) 27 (1966-1993) NYM,CAL,HOU,TEX
+ #5: Eddie Mathews             96.15     8.2 (1959) 17 (1952-1968) BSN,MLN,ATL,DET,HOU
+ #6: Mike Mussina               82.8     8.2 (1992) 18 (1991-2008) BAL,NYY
+ #7: Al Kaline                 92.85     8.4 (1961) 22 (1953-1974) DET
+ #8: Frank Robinson           107.15     8.7 (1962) 21 (1956-1976) CIN,BAL,LAD,CAL,CLE
+ #9: Charlie Gehringer         84.75     8.8 (1934) 19 (1924-1942) DET
+#10: Mel Ott                  110.85     8.9 (1938) 21 (1926-1946) NYG
+#11: Roberto Clemente          94.85     9.0 (1967) 18 (1955-1972) PIT
+#12: Wade Boggs                 91.4     9.1 (1985) 18 (1982-1999) BOS,NYY,TBD
+#13: Tom Glavine                80.7     9.2 (1991) 22 (1987-2008) ATL,NYM
+#14: Eddie Plank               83.85     9.3 (1904) 16 (1901-1917) PHA,SLB
+#15: Warren Spahn              100.1     9.4 (1947) 21 (1942-1965) BSN,MLN,NYM,SFG
+#16: George Brett               88.6     9.4 (1980) 21 (1973-1993) KCR
+#17: Henry Aaron               143.0     9.4 (1961) 23 (1954-1976) MLN,ATL,MIL
+#18: Adrián Beltré              93.5     9.6 (2004) 21 (1998-2018) LAD,SEA,BOS,TEX
+#19: Greg Maddux              106.55     9.6 (1995) 23 (1986-2008) CHC,ATL,LAD,SDP
+#20: Ken Griffey Jr.           83.85     9.7 (1996) 22 (1989-2010) SEA,CIN,CHW
+#21: Rod Carew                 81.15     9.7 (1977) 19 (1967-1985) MIN,CAL
+#22: Albert Pujols             101.6     9.7 (2009) 22 (2001-2022) STL,LAA,LAD
+#23: Bert Blyleven              94.5     9.7 (1973) 22 (1970-1992) MIN,PIT,TEX,CLE,CAL
+#24: Mike Schmidt             106.85     9.8 (1974) 18 (1972-1989) PHI
+#25: Robin Roberts              86.1     9.9 (1953) 19 (1948-1966) PHI,BAL,HOU,CHC
+#26: Rickey Henderson          111.1     9.9 (1990) 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+#27: Nap Lajoie                106.9    10.0 (1906) 21 (1896-1916) PHI,PHA,CLE
+#28: Tris Speaker              134.7    10.1 (1912) 22 (1907-1928) BOS,CLE,WSH,PHA
+#29: Jimmie Foxx                93.1    10.4 (1932) 20 (1925-1945) PHA,BOS,CHC,PHI
+#30: Alex Rodriguez           117.55    10.4 (2000) 22 (1994-2016) SEA,TEX,NYY
+#31: Phil Niekro                95.9    10.4 (1978) 24 (1964-1987) MLN,ATL,CLE,TOR,NYY
+#32: Eddie Collins            124.35    10.5 (1910) 23 (1906-1928) PHA,CHW
+#33: Randy Johnson            101.05    10.5 (2002) 22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
+#34: Mike Trout                82.35    10.5 (2012) 12 (2011-2022) LAA
+#35: Lefty Grove              106.75    10.6 (1936) 17 (1925-1941) PHA,BOS
+#36: Ted Williams              122.0    10.6 (1946) 19 (1939-1960) BOS
+#37: Tom Seaver               109.85    11.0 (1973) 20 (1967-1986) NYM,CIN,CHW,BOS
+#38: Joe Morgan               100.45    11.0 (1975) 22 (1963-1984) HOU,CIN,SFG,PHI,OAK
+#39: Gaylord Perry             90.05    11.0 (1972) 22 (1962-1983) SFG,CLE,TEX,SDP,ATL,SEA,KCR,NYY
+#40: Willie Mays              156.15    11.2 (1965) 22 (1951-1973) NYG,SFG,NYM
+#41: Ty Cobb                  151.45    11.3 (1917) 24 (1905-1928) DET,PHA
+#42: Stan Musial              128.65    11.3 (1948) 22 (1941-1963) STL
+#43: Mickey Mantle             110.2    11.3 (1957) 18 (1951-1968) NYY
+#44: Honus Wagner              130.8    11.5 (1908) 21 (1897-1917) LOU,PIT
+#45: Cal Ripken Jr.            95.95    11.5 (1991) 21 (1981-2001) BAL
+#46: Pedro Martinez             83.9    11.7 (2000) 18 (1992-2009) LAD,MON,BOS,NYM,PHI
+#47: Fergie Jenkins            84.15    11.8 (1971) 19 (1965-1983) PHI,CHC,TEX,BOS
+#48: Barry Bonds               162.8    11.9 (2001) 22 (1986-2007) PIT,SFG
+#49: Christy Mathewson        106.55    11.9 (1908) 17 (1900-1916) NYG,CIN
+#50: Bob Gibson                 89.2    11.9 (1968) 17 (1959-1975) STL
+#51: Lou Gehrig                113.6    11.9 (1927) 17 (1923-1939) NYY
+#52: Roger Clemens             139.2    12.1 (1997) 24 (1984-2007) BOS,TOR,NYY,HOU
+#53: Rogers Hornsby           127.35    12.3 (1924) 23 (1915-1937) STL,NYG,BSN,CHC,SLB
+#54: Carl Yastrzemski           96.5    12.5 (1967) 23 (1961-1983) BOS
+#55: Steve Carlton              90.2    12.5 (1972) 24 (1965-1988) STL,PHI,SFG,CHW,CLE,MIN
+#56: Pete Alexander           119.25    12.6 (1920) 20 (1911-1930) PHI,CHC,STL
+#57: Kid Nichols               116.3    13.0 (1890) 15 (1890-1906) BSN,STL,PHI
+#58: Cy Young                  163.6    13.0 (1892) 22 (1890-1911) CLV,STL,BOS,CLE,BSN
+#59: Babe Ruth                183.05    14.2 (1923) 22 (1914-1935) BOS,NYY,BSN
+#60: John Clarkson              83.2    16.2 (1889) 12 (1882-1894) WOR,CHC,BSN,CLV
+#61: Walter Johnson            164.9    16.5 (1913) 21 (1907-1927) WSH

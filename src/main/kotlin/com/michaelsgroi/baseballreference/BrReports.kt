@@ -292,14 +292,14 @@ class BrReports(
         }
     }
 
-    private fun bestRosters(n: Int, concise: Boolean = false) =
+    private fun bestRosters(topN: Int, concise: Boolean = false) =
         object : Report(
             name = "Best Rosters",
             filename = "bestrosters${if (concise) "_concise" else ""}.txt",
             "Best rosters by career WAR."
         ) {
             override fun run(): List<String> {
-                return brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(n)
+                return brWarDaily.getRosters().sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(topN)
                     .report(concise, roundWarDecimalPlaces = 0)
             }
         }

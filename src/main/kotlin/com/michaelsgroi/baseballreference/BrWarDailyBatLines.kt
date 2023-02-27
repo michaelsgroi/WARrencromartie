@@ -1,5 +1,6 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.loadFromCache
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.warDailyBatFile
@@ -7,8 +8,12 @@ import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.IOException
+import java.time.Duration
 
-class BrWarDailyBatLines(private var filename: String = warDailyBatFile) {
+class BrWarDailyBatLines(
+    private val filename: String = warDailyBatFile,
+    private val expiration: Duration = fileExpiration
+) {
 
     fun getBatterSeasons(): List<SeasonLine> {
         // get seasons
@@ -68,7 +73,7 @@ class BrWarDailyBatLines(private var filename: String = warDailyBatFile) {
     }
 
     private fun getWarDailyBatFile(): List<String> {
-        return loadFromCache(filename) {
+        return loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
                     .url("https://www.baseball-reference.com/data/war_daily_bat.txt")

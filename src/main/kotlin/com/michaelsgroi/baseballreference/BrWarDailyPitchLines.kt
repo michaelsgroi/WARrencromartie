@@ -1,13 +1,18 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.warDailyPitchFile
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.IOException
+import java.time.Duration
 
-class BrWarDailyPitchLines(private val filename: String = warDailyPitchFile) {
+class BrWarDailyPitchLines(
+    private val filename: String = warDailyPitchFile,
+    private val expiration: Duration = fileExpiration
+) {
 
     fun getPitcherSeasons(): List<SeasonLine> {
         // get seasons
@@ -67,7 +72,7 @@ class BrWarDailyPitchLines(private val filename: String = warDailyPitchFile) {
     }
 
     private fun getWarDailyPitchFile(): List<String> {
-        return BrWarDaily.loadFromCache(filename) {
+        return BrWarDaily.loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
                     .url("https://www.baseball-reference.com/data/war_daily_pitch.txt")

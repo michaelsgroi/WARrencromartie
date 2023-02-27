@@ -1,6 +1,8 @@
 package com.michaelsgroi.baseballreference
 
 import java.io.File
+import java.time.Duration
+import java.time.Instant
 import kotlin.math.roundToInt
 
 class BrWarDaily {
@@ -88,12 +90,17 @@ class BrWarDaily {
         val majorLeagues = setOf("AL", "NL")
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
+        val fileExpiration: Duration = Duration.ofDays(7)
 
-        fun loadFromCache(filename: String, loader: () -> String): List<String> {
+        fun loadFromCache(filename: String, expiration: Duration, loader: () -> String): List<String> {
             if (!filename.fileExists()) {
                 println("filename=$filename does not exist, retrieving from baseball-reference.com ...")
                 filename.writeFile(loader.invoke())
             } else {
+                if (filename.fileExpired(expiration)) {
+                    println("filename=$filename exists but is expired, retrieving from baseball-reference.com ...")
+                    filename.writeFile(loader.invoke())
+                }
                 println("filename=$filename exists, using local copy ...")
             }
             return filename.readFile()
@@ -107,6 +114,13 @@ fun String.readFile(): List<String> {
 
 fun String.fileExists(): Boolean {
     return File(this).exists()
+}
+
+fun String.fileExpired(duration: Duration): Boolean {
+    require(fileExists())
+    val file = File(this)
+    val ageMs = Instant.now().toEpochMilli() - file.lastModified()
+    return ageMs > duration.toMillis()
 }
 
 fun String.dirExists(): Boolean {

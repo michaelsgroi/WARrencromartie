@@ -24,6 +24,7 @@ class BrReports(
             bestOrWorstNOfTeam("nyy", 30, false),
             bestRosters(1000),
             bestRostersByFranchise(),
+            roster(RosterId(1928, "pha")),
             roster(RosterId(2005, "nyy")),
             roster(RosterId(1959, "mln")),
             roster(RosterId(1996, "cle")),

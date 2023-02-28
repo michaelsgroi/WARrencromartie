@@ -104,7 +104,7 @@ fun String.fileExists(): Boolean {
 }
 
 fun String.fileExpired(duration: Duration): Boolean {
-    require(fileExists())
+    require(fileExists()) { "File $this does not exist" }
     val file = File(this)
     val ageMs = Instant.now().toEpochMilli() - file.lastModified()
     return ageMs > duration.toMillis()

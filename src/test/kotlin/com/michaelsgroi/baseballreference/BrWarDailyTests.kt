@@ -18,8 +18,9 @@ class BrWarDailyTests {
             "Johnny Damon" to 56.3,
             "David Ortiz" to 55.3
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar)
-        { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
+        assert(topPlayersByWar == expectedTop5PlayersByWar) {
+            "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
+        }
     }
 
     @Test

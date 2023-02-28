@@ -4,6 +4,7 @@ import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.warDailyPitchFile
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
+import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.IOException
@@ -20,7 +21,7 @@ class BrWarDailyPitchLines(
 
         // filter for seasons for position players with war values
         val filteredSeasons = seasons.filter {
-            it.fieldValueOrNull(WAR) != null && majorLeagues.contains(it.league())
+            it.fieldValueOrNull(WAR) != null && it.league() in majorLeagues
         }
 
         return filteredSeasons
@@ -44,10 +45,9 @@ class BrWarDailyPitchLines(
         // map to season objects
         return seasonLines.map {
             val fieldValues = it.split(",")
-            val fields = pitchingFields.zip(fieldValues).toMap().toMutableMap()
+            val fields = (pitchingFields zip fieldValues).toMap().toMutableMap()
             fields[BrWarDaily.Fields.SEASON_TYPE.fileField] = BrWarDaily.SeasonType.PITCHING.name.lowercase()
-            val seasonLine = SeasonLine(fields)
-            seasonLine
+            SeasonLine(fields)
         }
     }
 
@@ -57,12 +57,10 @@ class BrWarDailyPitchLines(
 
         // summarize player careers
         return seasonByPlayer
-            .map { entry ->
-                val playerId = entry.key
-                val seasonList = entry.value
+            .map { (playerId, seasonList) ->
                 Career(
                     playerId = playerId,
-                    playerName = entry.value.first().playerName(),
+                    playerName = seasonList.first().playerName(),
                     war = seasonList.sumOf {
                         it.war()
                     },
@@ -71,16 +69,23 @@ class BrWarDailyPitchLines(
             }
     }
 
+    private val warDailyPitchUrl = HttpUrl.Builder()
+        .scheme("https")
+        .host("www.baseball-reference.com")
+        .addPathSegment("data")
+        .addPathSegment("/war_daily_pitch.txt")
+        .build()
+
     private fun getWarDailyPitchFile(): List<String> {
         return BrWarDaily.loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
-                    .url("https://www.baseball-reference.com/data/war_daily_pitch.txt")
+                    .url(warDailyPitchUrl)
                     .get()
                     .build()
             ).execute().use { response ->
                 if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                response.body!!.string()
+                response.body!!.use { it.string() }
             }
         }
     }

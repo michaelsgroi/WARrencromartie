@@ -34,12 +34,10 @@ class BrWarDaily {
         val seasons = getSeasonLines()
 
         val careers = seasons.groupBy { it.playerId() }
-            .map { entry ->
-                val playerId = entry.key
-                val seasonList = entry.value
+            .map { (playerId, seasonList) ->
                 Career(
                     playerId = playerId,
-                    playerName = entry.value.first().playerName(),
+                    playerName = seasonList.first().playerName(),
                     war = seasonList.sumOf {
                         it.war()
                     },
@@ -140,4 +138,5 @@ fun String.writeFile(contents: String) {
     File(this).writeBytes(contents.encodeToByteArray())
 }
 
-fun Double.roundToDecimalPlaces(places: Int) = if (places == 0) roundToInt().toDouble() else (this * 10 * places).roundToInt() / (10.0 * places)
+fun Double.roundToDecimalPlaces(places: Int) =
+    if (places == 0) roundToInt().toDouble() else (this * 10 * places).roundToInt() / (10.0 * places)

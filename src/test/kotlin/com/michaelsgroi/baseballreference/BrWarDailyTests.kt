@@ -19,7 +19,7 @@ class BrWarDailyTests {
             55.3 to "David Ortiz"
         )
         assert(topPlayersByWar == expectedTop5PlayersByWar)
-        { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"}
+        { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
     @Test
@@ -42,7 +42,7 @@ class BrWarDailyTests {
 
     @Test
     fun seasonDerivations() {
-        testee.getCareers().forEach { career->
+        testee.getCareers().forEach { career ->
             val seasonCount = career.seasonCount()
             val x = career.seasons()
             assert(x.size == seasonCount) { "Expected ${x.size} to be $seasonCount" }

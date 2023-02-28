@@ -18,7 +18,7 @@ class BrWarDailyPitchLinesTest {
             116.7 to "Kid Nichols",
             116.2 to "Pete Alexander"
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"}
+        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
 }

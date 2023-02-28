@@ -1,6 +1,6 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.*
+import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType
 
 data class Season(
     val playerId: String,

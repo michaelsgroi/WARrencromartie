@@ -5,6 +5,7 @@ import com.michaelsgroi.baseballreference.BrWarDaily.Companion.loadFromCache
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.warDailyBatFile
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
+import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.IOException
@@ -21,7 +22,7 @@ class BrWarDailyBatLines(
 
         // filter for seasons for position players with war values
         val filteredSeasons = seasons.filter {
-            it.fieldValueOrNull(WAR) != null && majorLeagues.contains(it.league())
+            it.fieldValueOrNull(WAR) != null && it.league() in majorLeagues
         }
 
         return filteredSeasons
@@ -72,16 +73,23 @@ class BrWarDailyBatLines(
             }
     }
 
+    private val warDailyBatUrl = HttpUrl.Builder()
+        .scheme("https")
+        .host("www.baseball-reference.com")
+        .addPathSegment("data")
+        .addPathSegment("/war_daily_bat.txt")
+        .build()
+
     private fun getWarDailyBatFile(): List<String> {
         return loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
-                    .url("https://www.baseball-reference.com/data/war_daily_bat.txt")
+                    .url(warDailyBatUrl)
                     .get()
                     .build()
             ).execute().use { response ->
                 if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                response.body!!.string()
+                response.body!!.use { it.string() }
             }
         }
     }

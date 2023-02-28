@@ -4,7 +4,6 @@ import java.time.Duration
 import java.time.Instant
 
 // TODO: add column headers to reports
-// TODO: remove .0 suffix from some reports
 // TODO: cache careers and seasons
 class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
     init {
@@ -248,21 +247,26 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun writeReport(report: Report, lines: List<String>) {
         val contents = lines.joinToString("\n")
-        val header = "${report.name}\n${lines.size} rows\n\n"
+        val header = "${report.name}\n${lines.size} rows\n"
         val filename = report.filename
         "$reportDir/$filename".writeFile("$header$contents")
     }
 
     private fun List<Roster>.report(concise: Boolean = false, roundWarDecimalPlaces: Int = 2): List<String> {
         return if (concise) {
-            mapIndexed { index, roster ->
-                "${(index + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
-            }
+            listOf("#: year team war") +
+                    mapIndexed { index, roster ->
+                        "${(index + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
+                    }
         } else {
             val maxLength = this.size.toString().length
-            mapIndexed { index, roster ->
-                "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
-            }
+            listOf(" ".repeat(maxLength + 3) + "year".padEnd(5) + "team".padEnd(4) + "war".padStart(7)) +
+                    mapIndexed { index, roster ->
+                        "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(
+                            concise,
+                            roundWarDecimalPlaces
+                        )
+                    }
         }
     }
 

@@ -1,0 +1,24 @@
+Lowest paid careers by war who are currently active 20
+2023-02-28 11:22:11.202
+20 rows
+
+ #1: Adrian Sampson             4.15         100000  5 (2016-2022) TEX,CHC,SEA
+ #2: Yordan Alvarez             13.6         764600  4 (2019-2022) HOU
+ #3: Cedric Mullins              9.2         557500  5 (2018-2022) BAL
+ #4: Austin Meadows              6.7         557400  5 (2018-2022) TBR,PIT,DET
+ #5: Jimmy Herget                2.6         233333  4 (2019-2022) CIN,LAA,TEX
+ #6: Nestor Cortes               5.9         545000  5 (2018-2022) NYY,BAL,SEA
+ #7: Joey Krehbiel               0.5          50000  3 (2018-2022) ARI,BAL,TBR
+ #8: Julio Rodríguez             6.2         700000  1 (2022-2022) SEA
+ #9: Michael Harris             5.25         700000  1 (2022-2022) ATL
+#10: JT Chargois                 2.1         285250  5 (2016-2022) MIN,LAD,SEA,TBR
+#11: Garrett Whitlock           4.75         720000  2 (2021-2022) BOS
+#12: Trayce Thompson             3.3         512500  6 (2015-2022) CHW,LAD,OAK,CHC,SDP
+#13: Kyle Wright                 3.1         565000  5 (2018-2022) ATL
+#14: Brett Phillips             4.75         933333  6 (2017-2022) MIL,KCR,TBR,BAL
+#15: Luis Arraez               10.35        2125000  4 (2019-2022) MIN
+#16: Jeff McNeil                16.9        3567714  5 (2018-2022) NYM
+#17: Thairo Estrada              2.5         555000  4 (2019-2022) NYY,SFG
+#18: Jon Berti                  5.35        1200000  5 (2018-2022) TOR,MIA
+#19: Rob Refsnyder              0.45         100000  7 (2015-2022) NYY,TOR,TBR,TEX,MIN,BOS
+#20: Austin Voth                 1.9         437500  5 (2018-2022) WSN,BAL

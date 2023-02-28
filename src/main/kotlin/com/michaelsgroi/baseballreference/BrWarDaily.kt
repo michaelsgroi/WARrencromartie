@@ -88,7 +88,6 @@ class BrWarDaily {
                     println("filename=$filename exists but is expired, retrieving from baseball-reference.com ...")
                     filename.writeFile(loader.invoke())
                 }
-                println("filename=$filename exists, using local copy ...")
             }
             return filename.readFile()
         }

@@ -1,0 +1,24 @@
+Highest paid careers by war 20
+2023-02-28 11:21:34.558
+20 rows
+
+ #1: Jim Levey                  -7.2          13100  4 (1930-1933) SLB
+ #2: Ryan Howard               14.65      180255000 13 (2004-2016) PHI
+ #3: Yasmany Tomás              -2.5       38000000  4 (2015-2019) ARI
+ #4: Chris Davis                11.8      141958740 13 (2008-2020) TEX,BAL
+ #5: Yusei Kikuchi               1.0       59000000  4 (2019-2022) SEA,TOR
+ #6: Homer Bailey                6.2       93084500 14 (2007-2020) CIN,KCR,OAK,MIN
+ #7: Masahiro Tanaka           17.35      155000000  7 (2014-2020) NYY
+ #8: Stephen Strasburg         32.25      215050000 13 (2010-2022) WSN
+ #9: Jordan Lyles               -1.4       30939500 12 (2011-2022) HOU,COL,SDP,MIL,PIT,TEX,BAL
+#10: Jeff Samardzija           14.95      117161667 13 (2008-2020) CHC,OAK,CHW,SFG
+#11: Charlie Morton             13.1      104308500 15 (2008-2022) ATL,PIT,PHI,HOU,TBR
+#12: Andrew Miller              7.75       75930219 16 (2006-2021) DET,FLA,BOS,BAL,NYY,CLE,STL
+#13: Wade Davis                 10.3       87589000 13 (2009-2021) TBR,KCR,CHC,COL
+#14: Prince Fielder            23.85      152914500 12 (2005-2016) MIL,DET,TEX
+#15: Miguel Cabrera            67.75      368410623 20 (2003-2022) FLA,DET
+#16: Rick Porcello             18.85      127251000 12 (2009-2020) DET,BOS,NYM
+#17: Jordan Zimmermann         22.15      142566000 13 (2009-2021) WSN,DET,MIL
+#18: Aroldis Chapman            19.0      127148272 13 (2010-2022) CIN,NYY,CHC
+#19: Matt Kemp                 21.45      138981000 15 (2006-2020) LAD,SDP,ATL,CIN,COL
+#20: Eric Hosmer               19.15      125280750 12 (2011-2022) KCR,SDP,BOS

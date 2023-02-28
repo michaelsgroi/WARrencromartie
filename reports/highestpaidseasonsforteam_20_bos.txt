@@ -1,0 +1,24 @@
+Highest paid seasons for team 20 bos
+2023-02-28 11:21:20.755
+20 rows
+
+ #1: David Price                 1.6       31000000 2019 BOS
+ #2: David Price                 2.8       30000000 2016 BOS
+ #3: David Price                 1.6       30000000 2017 BOS
+ #4: David Price                 3.7       30000000 2018 BOS
+ #5: Chris Sale                 0.95       30000000 2021 BOS
+ #6: Chris Sale                  0.0       30000000 2022 BOS
+ #7: J.D. Martinez               6.7       23750000 2018 BOS
+ #8: J.D. Martinez               3.5       23750000 2019 BOS
+ #9: J.D. Martinez              -0.7       23750000 2020 BOS
+#10: Hanley Ramirez             2.65       22750000 2016 BOS
+#11: Hanley Ramirez            -0.35       22750000 2017 BOS
+#12: Hanley Ramirez              0.1       22750000 2018 BOS
+#13: Manny Ramirez               4.1       22500000 2004 BOS
+#14: Manny Ramirez               4.4       22000000 2005 BOS
+#15: Rick Porcello              2.65       21125000 2018 BOS
+#16: Rick Porcello              0.75       21125000 2019 BOS
+#17: Rick Porcello              4.75       20125000 2016 BOS
+#18: Rick Porcello              -0.4       20125000 2017 BOS
+#19: Mookie Betts               7.25       20000000 2019 BOS
+#20: Xander Bogaerts            1.55       20000000 2020 BOS

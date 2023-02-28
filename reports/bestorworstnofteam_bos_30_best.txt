@@ -1,0 +1,34 @@
+Best or worst n of team bos 30 Best
+2023-02-28 11:19:48.892
+30 rows
+
+ #1: Babe Ruth                183.05 22 (1914-1935) BOS,NYY,BSN
+ #2: Cy Young                  163.6 22 (1890-1911) CLV,STL,BOS,CLE,BSN
+ #3: Roger Clemens             139.2 24 (1984-2007) BOS,TOR,NYY,HOU
+ #4: Tris Speaker              134.7 22 (1907-1928) BOS,CLE,WSH,PHA
+ #5: Ted Williams              122.0 19 (1939-1960) BOS
+ #6: Rickey Henderson          111.1 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+ #7: Tom Seaver               109.85 20 (1967-1986) NYM,CIN,CHW,BOS
+ #8: Lefty Grove              106.75 17 (1925-1941) PHA,BOS
+ #9: Carl Yastrzemski           96.5 23 (1961-1983) BOS
+#10: Adrián Beltré              93.5 21 (1998-2018) LAD,SEA,BOS,TEX
+#11: Jimmie Foxx                93.1 20 (1925-1945) PHA,BOS,CHC,PHI
+#12: Wade Boggs                 91.4 18 (1982-1999) BOS,NYY,TBD
+#13: Fergie Jenkins            84.15 19 (1965-1983) PHI,CHC,TEX,BOS
+#14: Pedro Martinez             83.9 18 (1992-2009) LAD,MON,BOS,NYM,PHI
+#15: Curt Schilling             79.5 20 (1988-2007) HOU,PHI,ARI,BOS,BAL
+#16: Manny Ramirez              69.3 19 (1993-2011) CLE,BOS,LAD,CHW,TBR
+#17: John Smoltz               68.95 21 (1988-2009) ATL,BOS,STL
+#18: Red Ruffing               68.65 22 (1924-1947) BOS,NYY,CHW
+#19: Carlton Fisk              68.45 24 (1969-1993) BOS,CHW
+#20: Al Simmons                68.15 20 (1924-1944) PHA,CHW,DET,WSH,BSN,CIN,BOS
+#21: Dwight Evans               67.2 20 (1972-1991) BOS,BAL
+#22: Luis Tiant                66.05 19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL
+#23: Andre Dawson               64.8 21 (1976-1996) MON,CHC,BOS,FLA
+#24: Joe Cronin                64.75 20 (1926-1945) PIT,WSH,BOS
+#25: Reggie Smith               64.5 17 (1966-1982) BOS,STL,LAD,SFG
+#26: Lou Boudreau              63.35 15 (1938-1952) CLE,BOS
+#27: Juan Marichal              62.9 16 (1960-1975) SFG,LAD,BOS
+#28: David Cone                 62.3 17 (1986-2003) NYM,TOR,NYY,BOS,KCR
+#29: Dennis Eckersley          62.05 24 (1975-1998) CLE,CHC,BOS,OAK,STL
+#30: Wes Ferrell               60.15 15 (1927-1941) CLE,BOS,WSH,NYY,BRO,BSN

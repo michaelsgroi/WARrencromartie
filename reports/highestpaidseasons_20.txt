@@ -1,0 +1,24 @@
+Highest paid seasons 20
+2023-02-28 11:21:17.985
+20 rows
+
+ #1: Max Scherzer               5.25       43333333 2022 NYM
+ #2: Trevor Bauer               2.75       40000000 2021 LAD
+ #3: Stephen Strasburg          5.85       38333333 2019 WSN
+ #4: Mike Trout                  1.8       37666666 2020 LAA
+ #5: Max Scherzer               5.25       37505562 2019 WSN
+ #6: Mike Trout                  1.8       37116667 2021 LAA
+ #7: Mike Trout                 6.25       37116666 2022 LAA
+ #8: Mike Trout                  7.9       36833333 2019 LAA
+ #9: Anthony Rendon              1.0       36571429 2022 LAA
+#10: Gerrit Cole                 2.2       36000000 2020 NYY
+#11: Gerrit Cole                 5.7       36000000 2021 NYY
+#12: Gerrit Cole                 2.4       36000000 2022 NYY
+#13: Max Scherzer               2.15       35920616 2020 WSN
+#14: Clayton Kershaw            5.25       35571429 2017 LAD
+#15: Clayton Kershaw             4.0       35571429 2018 LAD
+#16: Jacob deGrom               5.05       35500000 2021 NYM
+#17: Jacob deGrom               1.45       35500000 2022 NYM
+#18: Carlos Correa              5.45       35100000 2022 MIN
+#19: Nolan Arenado              1.45       35000000 2020 COL
+#20: Nolan Arenado              4.15       35000000 2021 STL

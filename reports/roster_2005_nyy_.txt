@@ -1,0 +1,55 @@
+Roster 2005 nyy
+2023-02-28 11:20:52.012
+51 rows
+
+ #1: Alex Rodriguez           117.55 22 (1994-2016) SEA,TEX,NYY
+ #2: Randy Johnson            101.05 22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
+ #3: Mike Mussina               82.8 18 (1991-2008) BAL,NYY
+ #4: Derek Jeter                71.3 20 (1995-2014) NYY
+ #5: Robinson Canó              68.1 17 (2005-2022) NYY,SEA,NYM,SDP,ATL
+ #6: Kevin Brown               67.75 19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
+ #7: Gary Sheffield            60.55 22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
+ #8: Mariano Rivera            56.25 19 (1995-2013) NYY
+ #9: Jason Giambi               50.5 20 (1995-2014) OAK,NYY,COL,CLE
+#10: Bernie Williams           49.55 16 (1991-2006) NYY
+#11: Jorge Posada              42.65 17 (1995-2011) NYY
+#12: Al Leiter                 40.05 19 (1987-2005) FLA,NYM,NYY,TOR
+#13: Tom Gordon                34.95 21 (1988-2009) KCR,BOS,CHC,HOU,CHW,NYY,PHI,ARI
+#14: Tino Martinez              29.0 16 (1990-2005) SEA,NYY,STL,TBD
+#15: Hideki Matsui             21.25 10 (2003-2012) NYY,LAA,OAK,TBR
+#16: Melky Cabrera             20.65 15 (2005-2019) NYY,ATL,KCR,SFG,TOR,CHW,CLE,PIT
+#17: Rey Sanchez                20.6 15 (1991-2005) CHC,NYY,SFG,KCR,ATL,BOS,SEA,NYM,TBD
+#18: Paul Quantrill             17.8 14 (1992-2005) PHI,BOS,TOR,LAD,NYY,SDP,FLA
+#19: Ruben Sierra              16.75 20 (1986-2006) TEX,OAK,NYY,DET,TOR,CIN,CHW,SEA,MIN
+#20: Carl Pavano                16.4 14 (1998-2012) MON,FLA,NYY,CLE,MIN
+#21: Matt Lawton               15.15 12 (1995-2006) MIN,NYM,CLE,NYY,PIT,CHC,SEA
+#22: Mike Stanton              14.25 19 (1989-2007) ATL,BOS,TEX,NYY,NYM,WSN,SFG,CIN
+#23: Chien-Ming Wang            12.5  9 (2005-2016) NYY,WSN,KCR,TOR
+#24: Ramiro Mendoza             11.7 10 (1996-2005) NYY,BOS
+#25: Steve Karsay              11.15 11 (1993-2006) OAK,CLE,ATL,NYY,TEX
+#26: Felix Rodriguez            8.55 11 (1995-2006) LAD,CIN,ARI,SFG,PHI,NYY,WSN
+#27: Mark Bellhorn               8.0 10 (1997-2007) OAK,CHC,COL,BOS,NYY,SDP,CIN
+#28: Buddy Groom                6.75 14 (1992-2005) DET,FLA,OAK,BAL,NYY,ARI
+#29: Shawn Chacon                6.5  8 (2001-2008) COL,NYY,PIT,HOU
+#30: Darrell May                 5.7  7 (1995-2005) ATL,PIT,CAL,ANA,KCR,SDP,NYY
+#31: Tanyon Sturtze              4.6 12 (1995-2008) CHC,TEX,TBD,CHW,TOR,NYY,LAD
+#32: Jaret Wright               4.45 11 (1997-2007) CLE,SDP,ATL,NYY,BAL
+#33: Russ Johnson               2.65  7 (1997-2005) HOU,TBD,NYY
+#34: Tony Womack                2.45 13 (1993-2006) PIT,ARI,COL,CHC,STL,NYY,CIN
+#35: Alan Embree                 2.4 16 (1992-2009) ATL,ARI,SFG,CHW,SDP,BOS,NYY,OAK,COL,CLE
+#36: Aaron Small                1.55  9 (1994-2006) FLA,OAK,ARI,ATL,NYY,TOR
+#37: John Flaherty              1.55 14 (1992-2005) BOS,DET,SDP,TBD,NYY
+#38: Scott Proctor               0.8  7 (2004-2011) NYY,LAD,ATL
+#39: Jorge De Paula             0.45  3 (2003-2005) NYY
+#40: Andy Phillips               0.4  5 (2004-2008) NYY,CIN,NYM
+#41: Tim Redding                 0.3  8 (2001-2009) HOU,SDP,NYY,WSN,NYM
+#42: Mike Vento                  0.2  2 (2005-2006) NYY,WSN
+#43: Kevin Reese                 0.2  2 (2005-2006) NYY
+#44: Felix Escalona            -0.05  4 (2002-2005) TBD,NYY
+#45: Jason Anderson            -0.15  3 (2003-2005) NYY,NYM,CLE
+#46: Colter Bean               -0.25  3 (2005-2007) NYY
+#47: Wayne Franklin             -0.3  7 (2000-2006) HOU,MIL,SFG,NYY,ATL
+#48: Alex Graman                -0.5  2 (2004-2005) NYY
+#49: Sean Henn                  -1.6  6 (2005-2013) NYY,SDP,MIN,BAL,NYM
+#50: Bubba Crosby               -1.6  4 (2003-2006) LAD,NYY
+#51: Wil Nieves                 -2.2 12 (2002-2015) SDP,NYY,WSN,MIL,COL,ARI,PHI

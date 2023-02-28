@@ -1,0 +1,193 @@
+Players whose name contains war
+2023-02-28 11:23:18.806
+189 rows
+
+  #1: Warren Spahn              100.1 21 (1942-1965) BSN,MLN,NYM,SFG
+  #2: John Ward                 59.45 16 (1878-1894) PRO,NYG,BRO
+  #3: Lon Warneke                45.8 15 (1930-1945) CHC,STL
+  #4: Howard Ehmke               41.3 14 (1916-1930) DET,BOS,PHA
+  #5: Jason Heyward              38.7 13 (2010-2022) ATL,STL,CHC
+  #6: Frank Howard              37.55 16 (1958-1973) LAD,WSA,TEX,DET
+  #7: Elston Howard             27.05 14 (1955-1968) NYY,BOS
+  #8: Dave Stewart               26.5 16 (1978-1995) LAD,TEX,PHI,OAK,TOR
+  #9: Lefty Stewart              25.3 10 (1921-1935) DET,SLB,WSH,CLE
+ #10: Shannon Stewart           24.95 14 (1995-2008) TOR,MIN,OAK
+ #11: Howard Johnson             22.2 14 (1982-1995) DET,NYM,COL,CHC
+ #12: Pete Ward                 20.25  9 (1962-1970) BAL,CHW,NYY
+ #13: Gary Ward                 17.65 12 (1979-1990) MIN,TEX,NYY,DET
+ #14: Jack Warhop               16.95  8 (1908-1915) NYY
+ #15: Warren Cromartie          16.35 10 (1974-1991) MON,KCR
+ #16: Jack Warner                14.8 14 (1895-1908) BSN,LOU,NYG,BOS,DET,STL,WSH
+ #17: Johnny Edwards            14.75 14 (1961-1974) CIN,STL,HOU
+ #18: Ryan Howard               14.65 13 (2004-2016) PHI
+ #19: Warren Hacker             13.85 12 (1948-1961) CHC,CIN,PHI,CHW
+ #20: Aaron Ward                13.85 12 (1917-1928) NYY,CHW,CLE
+ #21: Kyle Schwarber            11.15  8 (2015-2022) CHC,BOS,WSN,PHI
+ #22: Hank Edwards              10.85 11 (1941-1953) CLE,CHC,CIN,CHW,SLB
+ #23: Duane Ward                10.15  9 (1986-1995) ATL,TOR
+ #24: Sammy Stewart              9.95 10 (1978-1987) CLE,BAL,BOS
+ #25: Adam Warren                6.55  8 (2012-2019) NYY,CHC,SEA,SDP
+ #26: Bud Stewart                 5.9  9 (1941-1954) PIT,WSH,CHW
+ #27: Kirt Manwaring              5.2 13 (1987-1999) SFG,HOU,COL
+ #28: Howard Wilson               4.9  4 (1899-1904) CLV,PHA,WSH
+ #29: Anthony Swarzak            4.85 11 (2009-2021) MIN,NYY,CHW,MIL,NYM,ATL,SEA,KCR,ARI,CLE
+ #30: Bruce Edwards              4.65  9 (1946-1956) BRO,CHC,WSH,CIN
+ #31: Turner Ward                 4.5 11 (1990-2000) CLE,TOR,MIL,PIT,ARI
+ #32: Ward Miller                 4.0  6 (1909-1917) PIT,CIN,CHC,SLB
+ #33: Rabbit Warstler             3.9 11 (1930-1940) BOS,PHA,BSN,CHC
+ #34: Edward Mujica              3.85 11 (2006-2017) SDP,FLA,MIA,STL,BOS,OAK,DET,CLE
+ #35: Ivan Howard                3.85  4 (1914-1917) SLB,CLE
+ #36: Warren Brusstar             3.8  9 (1977-1985) PHI,CHW,CHC
+ #37: Carl Edwards Jr.           3.65  8 (2015-2022) CHC,SDP,ATL,TOR,SEA,WSN
+ #38: Piggy Ward                  3.5  6 (1883-1894) PHI,PIT,BLN,CIN,WHS
+ #39: Ian Stewart                3.25  7 (2007-2014) COL,CHC,LAA
+ #40: Taylor Ward                 3.2  5 (2018-2022) LAA
+ #41: Warren Morris              2.85  5 (1999-2003) PIT,MIN,DET
+ #42: Warren Newson               2.6  8 (1991-1998) CHW,SEA,TEX
+ #43: David Howard                2.6  9 (1991-1999) KCR,STL
+ #44: Bennie Warren               2.4  6 (1939-1947) PHI,NYG
+ #45: Thomas Howard               2.4 11 (1990-2000) SDP,CLE,CIN,HOU,LAD,STL
+ #46: Bruce Howard               2.25  6 (1963-1968) CHW,BAL,WSA
+ #47: Howard Freigau              1.9  7 (1922-1928) STL,CHC,BRO,BSN
+ #48: Edward Cabrera             1.65  2 (2021-2022) MIA
+ #49: Woody Woodward              1.6  9 (1963-1971) MLN,ATL,CIN
+ #50: Howard Mills                1.4  5 (1934-1940) SLB
+ #51: Chris Stewart               1.3 12 (2006-2018) CHW,TEX,NYY,SDP,SFG,PIT,ATL,ARI
+ #52: Chris Howard               1.15  3 (1993-1995) CHW,BOS,TEX
+ #53: Chris Woodward              1.1 12 (1999-2011) TOR,NYM,ATL,SEA,BOS
+ #54: Del Howard                  1.1  5 (1905-1909) PIT,BSN,CHC
+ #55: Carl Warwick               0.95  6 (1961-1966) LAD,STL,HOU,BAL,CHC
+ #56: Scott Stewart              0.95  4 (2001-2004) MON,LAD,CLE
+ #57: Wayne Edwards              0.85  3 (1989-1991) CHW
+ #58: Fred Howard                0.75  1 (1979-1979) CHW
+ #59: Austin Warren              0.75  2 (2021-2022) LAA
+ #60: Edward Tate                 0.7  4 (1885-1888) BSN
+ #61: Warwick Saupold             0.7  3 (2016-2018) DET
+ #62: Jeff Schwarz                0.6  2 (1993-1994) CHW,CAL
+ #63: Dan Warthen                0.55  4 (1975-1978) MON,PHI,HOU
+ #64: Art Warren                 0.55  3 (2019-2022) CIN,SEA
+ #65: Ed Seward                   0.5  2 (1885-1891) PRO,CLV
+ #66: DJ Stewart                 0.45  4 (2018-2021) BAL
+ #67: Fred Warner                 0.4  4 (1876-1883) ATH,IND,CLV,PHI
+ #68: Ed Swartwood                0.4  2 (1881-1892) BUF,PIT
+ #69: Lee Howard                  0.4  2 (1946-1947) PIT
+ #70: Warren Gill                 0.3  1 (1908-1908) PIT
+ #71: Clyde Wares                 0.3  2 (1913-1914) SLB
+ #72: Ed Warner                   0.3  1 (1912-1912) PIT
+ #73: Jack Warner                0.25  8 (1925-1933) DET,BRO,PHI
+ #74: Jon Edwards                0.25  4 (2014-2019) TEX,SDP,CLE
+ #75: Cy Warmoth                 0.25  3 (1916-1923) STL,WSH
+ #76: Jackie Warner              0.25  1 (1966-1966) CAL
+ #77: Mack Stewart                0.2  2 (1944-1945) CHC
+ #78: Kohl Stewart                0.2  3 (2018-2021) CHC,MIN
+ #79: Preston Ward                0.2  9 (1948-1959) BRO,CHC,PIT,CLE,KCA
+ #80: Chris Howard               0.15  3 (1991-1994) SEA
+ #81: Colby Ward                 0.15  1 (1990-1990) CLE
+ #82: Howard Maple               0.15  1 (1932-1932) WSH
+ #83: Howard Hilton              0.15  1 (1990-1990) STL
+ #84: Howard Battle               0.1  3 (1995-1999) TOR,PHI,ATL
+ #85: Jack Warner                 0.1  4 (1962-1965) CHC
+ #86: Dave Edwards                0.1  5 (1978-1982) MIN,SDP
+ #87: Monty Swartz                0.1  1 (1920-1920) CIN
+ #88: Earl Howard                0.05  1 (1918-1918) STL
+ #89: Ron Rightnowar             0.05  1 (1995-1995) MIL
+ #90: Paul Howard                0.05  1 (1909-1909) BOS
+ #91: Rube Ward                  0.05  1 (1902-1902) BRO
+ #92: Hal Warnock                0.05  1 (1935-1935) SLB
+ #93: Bill Warwick               0.05  3 (1921-1926) PIT,STL
+ #94: Sherman Edwards            0.05  1 (1934-1934) CIN
+ #95: Larry Howard               0.05  4 (1970-1973) HOU,ATL
+ #96: Colin Ward                  0.0  1 (1985-1985) SFG
+ #97: Edwar Ramirez               0.0  4 (2007-2010) NYY,OAK
+ #98: Bryan Ward                  0.0  3 (1998-2000) CHW,PHI,ANA
+ #99: Tuffy Stewart               0.0  1 (1913-1913) CHC
+#100: Mark Stewart                0.0  1 (1913-1913) CIN
+#101: Edward Paredes            -0.05  2 (2017-2018) LAD
+#102: Andy Stewart              -0.05  1 (1997-1997) KCR
+#103: Jim Ward                  -0.05  1 (1876-1876) ATH
+#104: Howard Groskloss          -0.05  3 (1930-1932) PIT
+#105: George Seward             -0.05  1 (1876-1876) NYU
+#106: Howard Armstrong          -0.05  1 (1911-1911) PHA
+#107: Dick Aylward              -0.05  1 (1953-1953) CLE
+#108: Mike Howard                -0.1  3 (1981-1983) NYM
+#109: Howard Wakefield           -0.1  3 (1905-1907) CLE,WSH
+#110: Howard Craghead            -0.1  2 (1931-1933) CLE
+#111: Howard Earl                -0.1  1 (1890-1890) CHC
+#112: Jon Warden                 -0.1  1 (1968-1968) DET
+#113: Jay Ward                   -0.1  3 (1963-1970) MIN,CIN
+#114: Howard Baker               -0.1  3 (1912-1915) CLE,CHW,NYG
+#115: James Edwards              -0.1  6 (1922-1928) CLE,CHW,CIN
+#116: Warren Shanabrook          -0.1  1 (1906-1906) WSH
+#117: Ralph Edwards              -0.1  1 (1915-1915) PHA
+#118: Howard Fahey               -0.1  1 (1912-1912) PHA
+#119: Edward Santry              -0.1  1 (1884-1884) DTN
+#120: Bud Swartz                 -0.1  1 (1947-1947) SLB
+#121: Edward Cramer             -0.15  1 (1883-1883) NYG
+#122: Frank Stewart             -0.15  1 (1927-1927) CHW
+#123: Edwar Colina              -0.15  1 (2020-2020) MIN
+#124: Marshall Edwards          -0.15  3 (1981-1983) MIL
+#125: Dick Ward                 -0.15  2 (1934-1935) CHC,STL
+#126: Hap Ward                  -0.15  1 (1912-1912) DET
+#127: Rob Woodward              -0.15  4 (1985-1988) BOS
+#128: Kevin Ward                 -0.2  2 (1991-1992) SDP
+#129: Bill Stewart               -0.2  1 (1955-1955) KCA
+#130: John Ward                  -0.2  1 (1885-1885) PRO
+#131: Jim Howarth                -0.2  4 (1971-1974) SFG
+#132: Randy Schwartz            -0.25  2 (1965-1966) KCA
+#133: Frank Woodward            -0.35  5 (1918-1923) PHI,STL,WSH,CHW
+#134: Wilbur Howard             -0.35  6 (1973-1978) MIL,HOU
+#135: Howard McGraner            -0.4  1 (1912-1912) CIN
+#136: Warner Madrigal            -0.4  2 (2008-2009) TEX
+#137: Warren Bogle               -0.4  1 (1968-1968) OAK
+#138: Edwar Cabrera              -0.4  1 (2012-2012) COL
+#139: Mike Edwards               -0.4  3 (2003-2006) OAK,LAD,PIT
+#140: Neb Stewart                -0.4  1 (1940-1940) PHI
+#141: Foster Edwards             -0.4  5 (1925-1930) BSN,NYY
+#142: Warren Fitzgerald         -0.45  1 (1892-1892) LOU
+#143: Joe Stewart               -0.45  1 (1904-1904) BSN
+#144: Matt Swarmer              -0.45  1 (2022-2022) CHC
+#145: Warren McLaughlin          -0.5  3 (1900-1903) PHI,PIT
+#146: Howard Farmer              -0.5  1 (1990-1990) MON
+#147: Tommy Warren               -0.5  1 (1944-1944) BRO
+#148: Steve Howard               -0.5  1 (1990-1990) OAK
+#149: Howard Murphy              -0.5  1 (1909-1909) STL
+#150: Sam Howard                -0.55  5 (2018-2022) COL,PIT
+#151: Edward Olivares           -0.55  3 (2020-2022) KCR,SDP
+#152: Dave Swartzbaugh          -0.55  3 (1995-1997) CHC
+#153: Howard Lohr                -0.6  2 (1914-1916) CIN,CLE
+#154: Mike Shawaryn              -0.6  1 (2019-2019) BOS
+#155: Matt Howard                -0.6  1 (1996-1996) NYY
+#156: Joe Ward                  -0.65  3 (1906-1910) PHI,NYY
+#157: Jeff Ware                 -0.65  2 (1995-1996) TOR
+#158: Frank Seward              -0.65  2 (1943-1944) NYG
+#159: Ben Howard                 -0.7  3 (2002-2004) SDP,FLA
+#160: Bill Swarback              -0.7  1 (1887-1887) NYG
+#161: Stuffy Stewart            -0.75  8 (1916-1929) STL,PIT,BRO,WSH
+#162: Chris Ward                -0.75  1 (1974-1974) CHC
+#163: Josh Stewart               -0.8  2 (2003-2004) CHW
+#164: Hooks Warner               -0.8  4 (1916-1921) PIT,CHC
+#165: Ace Stewart               -0.85  1 (1895-1895) CHC
+#166: Mike Warren               -0.85  3 (1983-1985) OAK
+#167: Warren Miller             -0.95  2 (1909-1911) WSH
+#168: Warren Huston              -1.0  2 (1937-1944) PHA,BSN
+#169: Howard Fitzgerald         -1.15  3 (1922-1926) CHC,BOS
+#170: Christin Stewart          -1.15  3 (2018-2020) DET
+#171: Curt Wardle                -1.2  2 (1984-1985) MIN,CLE
+#172: Jimmy Stewart              -1.2 10 (1963-1973) CHC,CHW,CIN,HOU
+#173: Bill Schwartz             -1.25  1 (1904-1904) CLE
+#174: Doug Howard                -1.3  5 (1972-1976) CAL,STL,CLE
+#175: Kaleb Cowart               -1.4  5 (2015-2019) LAA
+#176: Howard Bailey             -1.45  3 (1981-1983) DET
+#177: War Sanders               -1.55  2 (1903-1904) STL
+#178: Brock Stewart              -1.6  4 (2016-2019) LAD,TOR
+#179: Zach Stewart               -1.7  2 (2011-2012) TOR,CHW,BOS
+#180: Mike Edwards               -1.7  4 (1977-1980) PIT,OAK
+#181: Chuck Ward                 -1.7  6 (1917-1922) PIT,BRO
+#182: Glen Stewart               -1.8  3 (1940-1944) NYG,PHI
+#183: Ray Hayward                -1.9  3 (1986-1988) SDP,TEX
+#184: Doc Edwards                -1.9  5 (1962-1970) CLE,KCA,NYY,PHI
+#185: Spencer Howard             -2.0  3 (2020-2022) TEX,PHI
+#186: Jackson Kowar              -2.0  2 (2021-2022) KCR
+#187: Edwards Guzman            -2.15  3 (1999-2003) SFG,MON
+#188: Bunky Stewart             -2.75  5 (1952-1956) WSH
+#189: Daryle Ward               -4.45 10 (1999-2008) HOU,LAD,PIT,WSN,ATL,CHC

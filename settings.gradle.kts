@@ -1,3 +1,3 @@
 
-rootProject.name = "war-analysis"
+rootProject.name = "WARrencromartie"
 

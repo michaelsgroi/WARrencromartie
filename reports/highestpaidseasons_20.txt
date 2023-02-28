@@ -1,5 +1,4 @@
 Highest paid seasons 20
-2023-02-28 11:21:17.985
 20 rows
 
  #1: Max Scherzer               5.25       43333333 2022 NYM

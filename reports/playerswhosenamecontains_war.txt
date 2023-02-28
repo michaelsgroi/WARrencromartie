@@ -1,5 +1,4 @@
 Players whose name contains war
-2023-02-28 11:23:18.806
 189 rows
 
   #1: Warren Spahn              100.1 21 (1942-1965) BSN,MLN,NYM,SFG

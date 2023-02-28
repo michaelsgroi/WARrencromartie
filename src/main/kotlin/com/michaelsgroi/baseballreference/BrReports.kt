@@ -1,8 +1,5 @@
 package com.michaelsgroi.baseballreference
 
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
-
 // TODO: add column headers to reports
 // TODO: remove .0 suffix from some reports
 class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
@@ -242,7 +239,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun writeReport(report: Report, lines: List<String>) {
         val contents = lines.joinToString("\n")
-        val header = "${report.name}\n${now()}\n${lines.size} rows\n\n"
+        val header = "${report.name}\n${lines.size} rows\n\n"
         val filename = report.filename
         "$reportDir/$filename".writeFile("$header$contents")
     }
@@ -361,12 +358,6 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     companion object {
         private val pattern = "(?<=.)[A-Z]".toRegex()
-
-        private fun now(): String? {
-            val now = LocalDateTime.now()
-            val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
-            return formatter.format(now)
-        }
 
         private fun String.toHumanReadable(): String {
             val replaced = replace(pattern, " $0").lowercase()

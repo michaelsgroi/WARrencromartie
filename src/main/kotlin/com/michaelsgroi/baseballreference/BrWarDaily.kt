@@ -29,7 +29,7 @@ class BrWarDaily {
     fun getCareers(): List<Career> {
         val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
-        val careerWars = playerIdToSeasonLines.map { (playerId, seasonList) ->
+        val careerWars = playerIdToSeasonLines.map { (_, seasonList) ->
             seasonList.sumOf { it.war() }
         }.sorted()
 

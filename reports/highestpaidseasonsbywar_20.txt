@@ -1,5 +1,4 @@
 Highest paid seasons by war 20
-2023-02-28 11:21:27.126
 20 rows
 
  #1: Chris Davis               -3.25       23000000 2018 BAL

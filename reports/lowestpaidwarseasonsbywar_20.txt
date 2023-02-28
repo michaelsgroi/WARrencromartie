@@ -1,5 +1,4 @@
 Lowest paid war seasons by war 20
-2023-02-28 11:21:44.635
 20 rows
 
  #1: Jim Devlin                 18.3           1600 1876 LOU

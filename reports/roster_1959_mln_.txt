@@ -1,5 +1,4 @@
 Roster 1959 mln
-2023-02-28 11:21:06.643
 37 rows
 
  #1: Henry Aaron               143.0 23 (1954-1976) MLN,ATL,MIL

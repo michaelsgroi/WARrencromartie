@@ -1,5 +1,4 @@
 Highest paid seasons for team 20 bos
-2023-02-28 11:21:20.755
 20 rows
 
  #1: David Price                 1.6       31000000 2019 BOS

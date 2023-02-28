@@ -1,5 +1,6 @@
 package com.michaelsgroi.baseballreference
 
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class BrWarDailyTests {
@@ -18,7 +19,7 @@ class BrWarDailyTests {
             "Johnny Damon" to 56.3,
             "David Ortiz" to 55.3
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) {
+        assertEquals(expectedTop5PlayersByWar, topPlayersByWar) {
             "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
         }
     }
@@ -29,7 +30,7 @@ class BrWarDailyTests {
         val careerStr = """
             { "war":70.15, "pitchingWar":79.65, "battingWar":-9.45, "war/season":5.85, "id":"galvipu01", "name":"Pud Galvin", "seasons":12, "seasonsRange":"1879-1892"}
         """.trimIndent()
-        assert(careerStr == career.toString()) { "Expected $careerStr, but was $career" }
+        assertEquals(careerStr, career.toString()) { "Expected $careerStr, but was $career" }
     }
 
     @Test
@@ -38,7 +39,7 @@ class BrWarDailyTests {
         val careerStr = """
             { "war":-0.9, "pitchingWar":0.0, "battingWar":-0.9, "war/season":-0.1, "id":"sadledo01", "name":"Donnie Sadler", "seasons":8, "seasonsRange":"1998-2007"}
         """.trimIndent()
-        assert(careerStr == career.toString()) { "Expected $careerStr, but was $career" }
+        assertEquals(careerStr, career.toString()) { "Expected $careerStr, but was $career" }
     }
 
     @Test
@@ -46,10 +47,10 @@ class BrWarDailyTests {
         testee.careers.forEach { career ->
             val seasonCount = career.seasonCount()
             val x = career.seasons()
-            assert(x.size == seasonCount) { "Expected ${x.size} to be $seasonCount" }
+            assertEquals(x.size, seasonCount) { "Expected ${x.size} to be $seasonCount" }
             val roundToDecimalPlaces = x.sumOf { it.war }.roundToDecimalPlaces(2)
             val war = career.war.roundToDecimalPlaces(2)
-            assert(war == roundToDecimalPlaces) { "Expected $war to be $roundToDecimalPlaces" }
+            assertEquals(roundToDecimalPlaces, war) { "Expected $war to be $roundToDecimalPlaces" }
         }
     }
 
@@ -64,7 +65,7 @@ class BrWarDailyTests {
             "Barry Bonds" to 162.8,
             "Willie Mays" to 156.15
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
+        assertEquals(expectedTop5PlayersByWar, topPlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
     @Test
@@ -80,7 +81,7 @@ class BrWarDailyTests {
             "Kid Nichols" to 116.7,
             "Pete Alexander" to 116.2
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
+        assertEquals(expectedTop5PlayersByWar, topPlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
 
@@ -97,7 +98,7 @@ class BrWarDailyTests {
             "Ty Cobb" to 151.4,
             "Henry Aaron" to 143.0
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
+        assertEquals(expectedTop5PlayersByWar, topPlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
 }

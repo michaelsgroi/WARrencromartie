@@ -9,15 +9,15 @@ Best or worst n of team bos 30 Worst
  #6: Moe Berg                  -4.65 15 (1923-1939) BRO,CHW,CLE,WSH,BOS
  #7: Jerry Stephenson          -4.45  7 (1963-1970) BOS,SEP,LAD
  #8: Kevin Jarvis               -4.1 12 (1994-2006) CIN,DET,MIN,COL,SDP,SEA,STL,ARI,BOS,OAK
- #9: Tom Carey                  -3.8  8 (1935-1946) SLB,BOS
-#10: Paul Lehner                -3.8  7 (1946-1952) SLB,PHA,CHW,CLE,BOS
+ #9: Paul Lehner                -3.8  7 (1946-1952) SLB,PHA,CHW,CLE,BOS
+#10: Tom Carey                  -3.8  8 (1935-1946) SLB,BOS
 #11: Faye Throneberry          -3.75  8 (1952-1961) BOS,WSH,LAA
 #12: Dalton Jones               -3.7  9 (1964-1972) BOS,DET,TEX
 #13: Dud Lee                   -3.45  5 (1920-1926) SLB,BOS
 #14: Frank Oberlin             -3.45  4 (1906-1910) BOS,WSH
 #15: Fred Mitchell              -3.4  6 (1901-1910) BOS,PHA,PHI,BRO,NYY
-#16: Sam Dente                  -3.3  9 (1947-1955) BOS,SLB,WSH,CHW,CLE
-#17: Ken Wood                   -3.3  6 (1948-1953) SLB,BOS,WSH
+#16: Ken Wood                   -3.3  6 (1948-1953) SLB,BOS,WSH
+#17: Sam Dente                  -3.3  9 (1947-1955) BOS,SLB,WSH,CHW,CLE
 #18: Mike Guerra                -3.2  9 (1937-1951) WSH,PHA,BOS
 #19: Luis Alvarado             -3.15  9 (1968-1977) BOS,CHW,CLE,STL,DET,NYM
 #20: Walter Moser              -3.15  2 (1906-1911) PHI,BOS,SLB
@@ -26,8 +26,8 @@ Best or worst n of team bos 30 Worst
 #23: Dylan Covey               -3.05  4 (2017-2020) CHW,BOS
 #24: Bob McGraw                 -2.9  9 (1917-1929) NYY,BOS,BRO,STL,PHI
 #25: Arnold Earley             -2.85  8 (1960-1967) BOS,CHC,HOU
-#26: John Kennedy               -2.8 12 (1962-1974) WSA,LAD,NYY,SEP,MIL,BOS
-#27: Eddie Pellagrini           -2.8  8 (1946-1954) BOS,SLB,PHI,CIN,PIT
+#26: Eddie Pellagrini           -2.8  8 (1946-1954) BOS,SLB,PHI,CIN,PIT
+#27: John Kennedy               -2.8 12 (1962-1974) WSA,LAD,NYY,SEP,MIL,BOS
 #28: Todd Benzinger            -2.75  9 (1987-1995) BOS,CIN,KCR,LAD,SFG
 #29: Owen Friend               -2.65  4 (1949-1955) SLB,DET,CLE,BOS,CHC
 #30: Sergio Valdez              -2.6  8 (1986-1995) MON,ATL,CLE,SFG,BOS

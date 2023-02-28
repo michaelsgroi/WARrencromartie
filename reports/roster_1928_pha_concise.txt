@@ -15,7 +15,7 @@ Roster 1928 pha concise
 12: Bullet Joe Bush 37
 13: Rube Walberg 37
 14: Jimmy Dykes 35
-15: Bing Miller 30
+15: Bing Miller 29
 16: George Earnshaw 22
 17: Sammy Hale 13
 18: Mule Haas 13

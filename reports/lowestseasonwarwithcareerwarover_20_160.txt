@@ -1,7 +1,7 @@
 Lowest season war with career war over 20 160
 4 rows
 
-#1: Barry Bonds               162.8    11.9 (2001) 22 (1986-2007) PIT,SFG
+#1: Barry Bonds               162.8   11.85 (2001) 22 (1986-2007) PIT,SFG
 #2: Cy Young                  163.6    13.0 (1892) 22 (1890-1911) CLV,STL,BOS,CLE,BSN
-#3: Babe Ruth                183.05    14.2 (1923) 22 (1914-1935) BOS,NYY,BSN
-#4: Walter Johnson            164.9    16.5 (1913) 21 (1907-1927) WSH
+#3: Babe Ruth                183.05   14.15 (1923) 22 (1914-1935) BOS,NYY,BSN
+#4: Walter Johnson            164.9   16.45 (1913) 21 (1907-1927) WSH

@@ -1,23 +1,23 @@
 Highest season war with career war under 20 30
 20 rows
 
- #1: Russ Ford                 28.45    11.9 (1910)  5 (1909-1913) NYY
- #2: Jouett Meekin              26.6    11.1 (1894)  9 (1892-1900) LOU,WHS,NYG,BSN,PIT
+ #1: Russ Ford                 28.45   11.95 (1910)  5 (1909-1913) NYY
+ #2: Jouett Meekin              26.6   11.15 (1894)  9 (1892-1900) LOU,WHS,NYG,BSN,PIT
  #3: Billy Rhines              25.95    10.5 (1890)  9 (1890-1899) CIN,LOU,PIT
- #4: Lady Baldwin              15.45    10.5 (1886)  5 (1885-1890) DTN,BRO
- #5: Al Spalding               10.25    10.2 (1876)  3 (1876-1878) CHC
- #6: Sam Weaver                10.15    10.2 (1878)  1 (1878-1878) MLG
- #7: Dick Ellsworth            20.05     9.9 (1963) 13 (1958-1971) CHC,PHI,BOS,CLE,MIL
+ #4: Lady Baldwin              15.45   10.45 (1886)  5 (1885-1890) DTN,BRO
+ #5: Al Spalding               10.25   10.15 (1876)  3 (1876-1878) CHC
+ #6: Sam Weaver                10.15   10.15 (1878)  1 (1878-1878) MLG
+ #7: Dick Ellsworth            20.05    9.95 (1963) 13 (1958-1971) CHC,PHI,BOS,CLE,MIL
  #8: Jack Coombs               26.75     9.9 (1910) 14 (1906-1920) PHA,BRO,DET
  #9: George Weidman             15.1     9.8 (1882)  9 (1880-1888) BUF,DTN,KCN,NYG
 #10: Shohei Ohtani             24.75     9.6 (2022)  5 (2018-2022) LAA
-#11: Mark Fidrych              11.35     9.6 (1976)  5 (1976-1980) DET
-#12: Dan Casey                 19.65     9.3 (1887)  5 (1885-1889) DTN,PHI
+#11: Mark Fidrych              11.35    9.55 (1976)  5 (1976-1980) DET
+#12: Dan Casey                 19.65    9.25 (1887)  5 (1885-1889) DTN,PHI
 #13: Aaron Nola                29.65     9.2 (2018)  8 (2015-2022) PHI
-#14: Reb Russell               27.85     9.2 (1913)  9 (1913-1923) CHW,PIT
+#14: Reb Russell               27.85    9.15 (1913)  9 (1913-1923) CHW,PIT
 #15: George Bradley             16.6     9.1 (1876)  7 (1876-1883) STL,CHC,TRO,PRO,DTN,CLV
 #16: Shohei Ohtani             24.75     9.6 (2022)  5 (2018-2022) LAA
-#17: George McQuillan           18.0     8.9 (1908) 10 (1907-1918) PHI,CIN,PIT,CLE
-#18: Snuffy Stirnweiss          27.4     8.9 (1945) 10 (1943-1952) NYY,SLB,CLE
+#17: George McQuillan           18.0    8.85 (1908) 10 (1907-1918) PHI,CIN,PIT,CLE
+#18: Snuffy Stirnweiss          27.4    8.85 (1945) 10 (1943-1952) NYY,SLB,CLE
 #19: Bret Boone                 22.8     8.8 (2001) 14 (1992-2005) SEA,CIN,ATL,SDP,MIN
 #20: George Stone              25.95     8.7 (1906)  7 (1903-1910) BOS,SLB

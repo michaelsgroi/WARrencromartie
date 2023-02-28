@@ -1,7 +1,11 @@
 package com.michaelsgroi.baseballreference
 
+import java.time.Duration
+import java.time.Instant
+
 // TODO: add column headers to reports
 // TODO: remove .0 suffix from some reports
+// TODO: cache careers and seasons
 class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
     init {
         reportDir.createDirectoryIfNotExists()
@@ -63,8 +67,14 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             playersWhoseNameContains("war"),
         )
         println("running ${reports.size} reports to '$reportDir' directory")
-        reports.forEach { report ->
+        val startMs = Instant.now().toEpochMilli()
+        reports.forEachIndexed { index, report ->
             writeReport(report, report.run())
+            val etaDuration = Duration.ofMillis(
+                (reports.size - index + 1) *
+                        ((Instant.now().toEpochMilli() - startMs) / (index + 1))
+            )
+            println("report #${(index + 1)} of ${reports.size}: ${report.filename}, estimated time to complete: $etaDuration")
         }
         println("wrote ${reports.size} reports to '$reportDir' directory")
     }
@@ -132,9 +142,9 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         buildReport(topN, getLowestPaidWarSeasonsReportFunction(topN) { year -> year >= 2000 })
 
     private fun getLowestPaidWarSeasonsReportFunction(topN: Int, yearFilter: (Int) -> Boolean): () -> List<String> = {
-            brWarDaily.getSeasons().filter { it.salary > 0 && yearFilter(it.season) }
-                .sortedByDescending { it.war / it.salary }.take(topN).report(includeSalary = true)
-        }
+        brWarDaily.getSeasons().filter { it.salary > 0 && yearFilter(it.season) }
+            .sortedByDescending { it.war / it.salary }.take(topN).report(includeSalary = true)
+    }
 
     private fun lowestPaidCareersByWar(topN: Int) =
         buildReport(topN, lowestPaidWarCareersReportFunction(topN) { true })
@@ -185,11 +195,10 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
                 .report(includeSalary = true)
         }
 
-    private fun theSteveBalboniAllStars() =
-        buildReport {
-            brWarDaily.getCareers().sortedBy { it.war() }
-                .filter { it.seasonCount() >= 10 && (it.war() / it.seasonCount()) < 0.5 }.report()
-        }
+    private fun theSteveBalboniAllStars() = buildReport {
+        brWarDaily.getCareers().sortedWith(compareBy({ it.war }, { it.playerName }))
+            .filter { it.seasonCount() >= 10 && (it.war() / it.seasonCount()) < 0.5 }.report()
+    }
 
     private fun theRowlandOfficeAllStars() =
         buildReport {
@@ -262,9 +271,9 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         val team = rosterId.team
         val war = players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces)
         return if (concise) {
-            "$season $team ${war.toInt()}"
+            "$season $team $war"
         } else {
-            season.padEnd(5) + team.padEnd(4) + war.toString().padStart(7)
+            season.padEnd(5) + team.padEnd(4) + war.padStart(7)
         }
     }
 
@@ -294,18 +303,18 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         includePeakWar: Boolean = false
     ): String {
         if (concise) {
-            return "$playerName ${war().roundToDecimalPlaces(0).toInt()}"
+            return "$playerName ${war().roundToDecimalPlaces(0)}"
         }
         return this.playerName.padEnd(24) +
-            war().toString().padStart(7) +
-            (if (includePeakWar) {
-                val peakSeason = seasons().maxBy { it.war }
-                ("${peakSeason.war.roundToDecimalPlaces(1)} (${peakSeason.season})").padStart(15)
-            } else "") +
-            (if (includeSalary) salary().toString().padStart(15) else "") +
-            seasonCount().toString().padStart(3) +
-            (" (" + seasonRange() + ") ").padEnd(12) +
-            teams().joinToString(",")
+                war().roundToDecimalPlaces(2).padStart(7) +
+                (if (includePeakWar) {
+                    val peakSeason = seasons().maxBy { it.war }
+                    ("${peakSeason.war.roundToDecimalPlaces(2)} (${peakSeason.season})").padStart(15)
+                } else "") +
+                (if (includeSalary) salary().toString().padStart(15) else "") +
+                seasonCount().toString().padStart(3) +
+                (" (" + seasonRange() + ") ").padEnd(12) +
+                teams().joinToString(",")
     }
 
     private fun List<Season>.report(includeSalary: Boolean = false): List<String> {
@@ -319,10 +328,10 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun Season.report(includeSalary: Boolean = false): String =
         playerName.padEnd(24) +
-            war.roundToDecimalPlaces(2).toString().padStart(7) +
-            (if (includeSalary) salary.toString().padStart(15) else "") +
-            season.toString().padStart(5) + " " +
-            teams.joinToString(",")
+                war.roundToDecimalPlaces(2).padStart(7) +
+                (if (includeSalary) salary.toString().padStart(15) else "") +
+                season.toString().padStart(5) + " " +
+                teams.joinToString(",")
 
     class Report(
         val name: String,
@@ -368,6 +377,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             return replace(pattern, "$0").lowercase()
         }
     }
+
     private fun Boolean.concise() = if (this) "concise" else ""
 
 }

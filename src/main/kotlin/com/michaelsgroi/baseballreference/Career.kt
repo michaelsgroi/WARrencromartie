@@ -11,7 +11,7 @@ data class Career(
     val seasonLines: List<SeasonLine>,
     val warPercentile: Double = 0.0,
 ) {
-    fun war() = seasons().sumOf { it.war }.roundToDecimalPlaces(2)
+    fun war() = seasons().sumOf { it.war }
 
     fun seasonRange() = "${seasonLines.minOf { it.season() }}-${seasonLines.maxOf { it.season() }}"
 
@@ -21,9 +21,9 @@ data class Career(
 
     fun salary() = seasons().sumOf { it.salary }
 
-    fun battingWar() = seasons().sumOf { it.battingWar }.roundToDecimalPlaces(2)
+    fun battingWar() = seasons().sumOf { it.battingWar }
 
-    fun pitchingWar() = seasons().sumOf { it.pitchingWar }.roundToDecimalPlaces(2)
+    fun pitchingWar() = seasons().sumOf { it.pitchingWar }
 
     fun seasons() = seasonLines.groupBy { it.season() }.mapValues { (season, seasonLines) ->
         Season(

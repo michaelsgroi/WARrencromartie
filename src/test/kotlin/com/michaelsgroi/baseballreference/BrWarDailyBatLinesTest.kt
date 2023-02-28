@@ -10,11 +10,11 @@ class BrWarDailyBatLinesTest {
     fun testTopCareerWars() {
         val playersByWarDescending = testee.getCareers().sortedByDescending { it.battingWar() }
         val topPlayersByWar =
-            playersByWarDescending.take(5).associate { it.playerName to it.battingWar() }
+            playersByWarDescending.take(5).associate { it.playerName to it.battingWar().roundToDecimalPlaces(1).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
             "Barry Bonds" to 162.8,
             "Babe Ruth" to 162.7,
-            "Willie Mays" to 156.15,
+            "Willie Mays" to 156.1,
             "Ty Cobb" to 151.4,
             "Henry Aaron" to 143.0
         )

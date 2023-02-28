@@ -48,7 +48,7 @@ Roster 2005 nyy concise
 45: Jason Anderson 0
 46: Colter Bean 0
 47: Wayne Franklin 0
-48: Alex Graman 0
+48: Alex Graman -1
 49: Sean Henn -2
 50: Bubba Crosby -2
 51: Wil Nieves -2

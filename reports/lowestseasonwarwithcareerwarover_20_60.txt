@@ -3,21 +3,21 @@ Lowest season war with career war over 20 60
 
  #1: Tommy John                61.55     5.9 (1968) 26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
  #2: Paul Molitor              75.65     6.2 (1982) 21 (1978-1998) MIL,TOR,MIN
- #3: Sam Crawford               75.3     6.2 (1914) 19 (1899-1917) CIN,DET
+ #3: Sam Crawford               75.3    6.25 (1914) 19 (1899-1917) CIN,DET
  #4: Don Sutton                66.75     6.3 (1972) 23 (1966-1988) LAD,HOU,MIL,OAK,CAL
- #5: Harmon Killebrew           60.3     6.5 (1967) 22 (1954-1975) WSH,MIN,KCR
- #6: Ivan Rodriguez             68.7     6.5 (1997) 21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
- #7: Bobby Abreu               60.15     6.6 (2004) 18 (1996-2014) HOU,PHI,NYY,LAA,LAD,NYM
+ #5: Harmon Killebrew           60.3    6.45 (1967) 22 (1954-1975) WSH,MIN,KCR
+ #6: Ivan Rodriguez             68.7    6.55 (1997) 21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
+ #7: Bobby Abreu               60.15    6.55 (2004) 18 (1996-2014) HOU,PHI,NYY,LAA,LAD,NYM
  #8: Fred Clarke               67.95     6.6 (1897) 20 (1894-1915) LOU,PIT
  #9: Willie Randolph           65.95     6.6 (1980) 18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
 #10: Dwight Evans               67.2     6.7 (1981) 20 (1972-1991) BOS,BAL
-#11: Reggie Smith               64.5     6.7 (1970) 17 (1966-1982) BOS,STL,LAD,SFG
-#12: Lou Whitaker               75.1     6.8 (1991) 19 (1977-1995) DET
+#11: Reggie Smith               64.5    6.75 (1970) 17 (1966-1982) BOS,STL,LAD,SFG
+#12: Lou Whitaker               75.1    6.75 (1991) 19 (1977-1995) DET
 #13: Zack Wheat                60.55     6.8 (1924) 19 (1909-1927) BRO,PHA
-#14: Gary Sheffield            60.55     6.8 (2003) 22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
+#14: Gary Sheffield            60.55    6.85 (2003) 22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
 #15: Buddy Bell                66.35     6.9 (1979) 18 (1972-1989) CLE,TEX,CIN,HOU
 #16: Rafael Palmeiro            71.9     6.9 (1993) 20 (1986-2005) CHC,TEX,BAL
-#17: Cap Anson                  84.7     7.0 (1886) 22 (1876-1897) CHC
-#18: Edgar Martinez             68.4     7.0 (1995) 18 (1987-2004) SEA
-#19: Richie Ashburn            64.25     7.1 (1954) 15 (1948-1962) PHI,CHC,NYM
+#17: Cap Anson                  84.7    6.95 (1886) 22 (1876-1897) CHC
+#18: Edgar Martinez             68.4    7.05 (1995) 18 (1987-2004) SEA
+#19: Richie Ashburn            64.25    7.05 (1954) 15 (1948-1962) PHI,CHC,NYM
 #20: Bill Dahlen               75.25     7.1 (1896) 20 (1891-1911) CHC,BRO,NYG,BSN

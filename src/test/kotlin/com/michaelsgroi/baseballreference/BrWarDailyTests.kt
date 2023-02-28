@@ -8,7 +8,7 @@ class BrWarDailyTests {
 
     @Test
     fun topFive2004RedSox() {
-        val topPlayersByWar = testee.getRosters().first { roster ->
+        val topPlayersByWar = testee.rosters.first { roster ->
             roster.rosterId == RosterId(2004, "bos")
         }.players.sortedByDescending { it.war() }.take(5).associate { it.playerName to it.war().roundToDecimalPlaces(2).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
@@ -25,7 +25,7 @@ class BrWarDailyTests {
 
     @Test
     fun testBattingPitcher() {
-        val career = testee.getCareers().first { it.playerName == "Pud Galvin" }
+        val career = testee.careers.first { it.playerName == "Pud Galvin" }
         val careerStr = """
             { "war":70.15, "pitchingWar":79.65, "battingWar":-9.45, "war/season":5.85, "id":"galvipu01", "name":"Pud Galvin", "seasons":12, "seasonsRange":"1879-1892"}
         """.trimIndent()
@@ -34,7 +34,7 @@ class BrWarDailyTests {
 
     @Test
     fun testMidSeasonTraded() {
-        val career = testee.getCareers().first { it.playerName == "Donnie Sadler" }
+        val career = testee.careers.first { it.playerName == "Donnie Sadler" }
         val careerStr = """
             { "war":-0.9, "pitchingWar":0.0, "battingWar":-0.9, "war/season":-0.1, "id":"sadledo01", "name":"Donnie Sadler", "seasons":8, "seasonsRange":"1998-2007"}
         """.trimIndent()
@@ -43,7 +43,7 @@ class BrWarDailyTests {
 
     @Test
     fun seasonDerivations() {
-        testee.getCareers().forEach { career ->
+        testee.careers.forEach { career ->
             val seasonCount = career.seasonCount()
             val x = career.seasons()
             assert(x.size == seasonCount) { "Expected ${x.size} to be $seasonCount" }
@@ -55,7 +55,7 @@ class BrWarDailyTests {
 
     @Test
     fun testTopCareerWars() {
-        val playersByWarDescending = testee.getCareers().sortedByDescending { it.war() }
+        val playersByWarDescending = testee.careers.sortedByDescending { it.war() }
         val topPlayersByWar = playersByWarDescending.take(5).associate { it.playerName to it.war().roundToDecimalPlaces(2).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
             "Babe Ruth" to 183.05,

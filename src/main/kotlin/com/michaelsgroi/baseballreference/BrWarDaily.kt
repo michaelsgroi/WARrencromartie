@@ -1,6 +1,5 @@
 package com.michaelsgroi.baseballreference
 
-import com.google.common.base.Suppliers
 import java.io.File
 import java.time.Duration
 import java.time.Instant
@@ -11,25 +10,13 @@ class BrWarDaily {
     private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
     private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
 
-    private val rostersMemoizer = Suppliers.memoize { getRostersInternal() }
-    private val seasonsMemoizer = Suppliers.memoize { getSeasonsInternal() }
-    private val careersMemoizer = Suppliers.memoize { getCareersInternal() }
-
-    fun getRosters(): List<Roster> {
-        return rostersMemoizer.get()
-    }
-
-    fun getSeasons(): List<Season> {
-        return seasonsMemoizer.get()
-    }
-
-    fun getCareers(): List<Career> {
-        return careersMemoizer.get()
-    }
+    val rosters: List<Roster> by lazy { this.getRostersInternal() }
+    val seasons: List<Season> by lazy { this.getSeasonsInternal() }
+    val careers: List<Career> by lazy { this.getCareersInternal() }
 
     private fun getRostersInternal(): List<Roster> {
-        val careers = getCareers().associateBy { it.playerId }
-        return getSeasons().flatMap { playerSeason ->
+        val careers = careers.associateBy { it.playerId }
+        return seasons.flatMap { playerSeason ->
             playerSeason.teams.map { team ->
                 RosterId(playerSeason.season, team.lowercase()) to careers[playerSeason.playerId]!!
             }
@@ -40,7 +27,7 @@ class BrWarDaily {
     }
 
     private fun getSeasonsInternal(): List<Season> {
-        return getCareers().flatMap { it.seasons() }
+        return careers.flatMap { it.seasons() }
     }
 
     private fun getCareersInternal(): List<Career> {

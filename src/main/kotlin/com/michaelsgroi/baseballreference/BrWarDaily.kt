@@ -27,28 +27,22 @@ class BrWarDaily {
     }
 
     fun getCareers(): List<Career> {
-        val seasons = getSeasonLines()
+        val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
-        val careers = seasons.groupBy { it.playerId() }
-            .map { (playerId, seasonList) ->
-                Career(
-                    playerId = playerId,
-                    playerName = seasonList.first().playerName(),
-                    war = seasonList.sumOf {
-                        it.war()
-                    },
-                    seasonLines = seasonList
-                )
-            }
+        val careerWars = playerIdToSeasonLines.map { (playerId, seasonList) ->
+            seasonList.sumOf { it.war() }
+        }.sorted()
 
-        val careerWars = careers.map { it.war }.sortedBy { it }
-
-        careers.forEach { career ->
-            val careerPercentileWar = careerWars.percentile(career.war)
-            career.warPercentile = careerPercentileWar
+        return playerIdToSeasonLines.map { (playerId, seasonList) ->
+            val war = seasonList.sumOf { it.war() }
+            Career(
+                playerId = playerId,
+                playerName = seasonList.first().playerName(),
+                war = war,
+                seasonLines = seasonList,
+                warPercentile = careerWars.percentile(war)
+            )
         }
-
-        return careers
     }
 
     private fun List<Double>.percentile(value: Double): Double {

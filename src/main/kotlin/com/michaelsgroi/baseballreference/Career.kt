@@ -9,7 +9,7 @@ data class Career(
     val playerName: String,
     val war: Double,
     val seasonLines: List<SeasonLine>,
-    var warPercentile: Double = 0.0,
+    val warPercentile: Double = 0.0,
 ) {
     fun war() = seasons().sumOf { it.war }.roundToDecimalPlaces(2)
 

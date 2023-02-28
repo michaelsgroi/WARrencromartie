@@ -66,6 +66,7 @@ class BrReports(
             lowestPeakToCareerWar(20, 160),
             playersNameStartsWith("Cecil "),
             playersNameStartsWith("Babe "),
+            playersNameStartsWith("war"),
         )
         println("running ${reports.size} reports to '$reportDir' directory")
         reports.forEach { report ->
@@ -81,6 +82,16 @@ class BrReports(
             description = "Players who name starts with $startsWith."
         ) {
             brWarDaily.getCareers().filter { it.playerName.lowercase().startsWith(startsWith.lowercase()) }
+                .sortedByDescending { it.war }.report()
+        }
+
+    private fun playersNameContains(contains: String) =
+        Report(
+            name = "Players whose name contains $contains",
+            filename = "playerwhosenamecontainswith${contains}.txt",
+            description = "Players who name contains $contains."
+        ) {
+            brWarDaily.getCareers().filter { it.playerName.lowercase().contains(contains.lowercase()) }
                 .sortedByDescending { it.war }.report()
         }
 

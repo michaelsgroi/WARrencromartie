@@ -1,33 +1,33 @@
 Best or worst n of team nyy 30 Best
 30 rows
 
- #1: Babe Ruth                183.05 22 (1914-1935) BOS,NYY,BSN
- #2: Roger Clemens             139.2 24 (1984-2007) BOS,TOR,NYY,HOU
+ #1: Babe Ruth                183.07 22 (1914-1935) BOS,NYY,BSN
+ #2: Roger Clemens            139.22 24 (1984-2007) BOS,TOR,NYY,HOU
  #3: Alex Rodriguez           117.55 22 (1994-2016) SEA,TEX,NYY
- #4: Lou Gehrig                113.6 17 (1923-1939) NYY
- #5: Rickey Henderson          111.1 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
- #6: Mickey Mantle             110.2 18 (1951-1968) NYY
- #7: Randy Johnson            101.05 22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
+ #4: Lou Gehrig               113.61 17 (1923-1939) NYY
+ #5: Rickey Henderson         111.12 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+ #6: Mickey Mantle            110.18 18 (1951-1968) NYY
+ #7: Randy Johnson            101.06 22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
  #8: Phil Niekro                95.9 24 (1964-1987) MLN,ATL,CLE,TOR,NYY
- #9: Wade Boggs                 91.4 18 (1982-1999) BOS,NYY,TBD
-#10: Gaylord Perry             90.05 22 (1962-1983) SFG,CLE,TEX,SDP,ATL,SEA,KCR,NYY
-#11: Mike Mussina               82.8 18 (1991-2008) BAL,NYY
-#12: Joe DiMaggio              79.15 13 (1936-1951) NYY
-#13: Reggie Jackson            73.95 21 (1967-1987) KCA,OAK,BAL,NYY,CAL
-#14: Derek Jeter                71.3 20 (1995-2014) NYY
-#15: Johnny Mize               70.75 15 (1936-1953) STL,NYG,NYY
-#16: Carlos Beltrán             70.1 20 (1998-2017) KCR,HOU,NYM,SFG,STL,NYY,TEX
-#17: Rick Reuschel             69.45 19 (1972-1991) CHC,NYY,PIT,SFG
-#18: Tim Raines                69.35 22 (1980-2002) MON,CHW,NYY,OAK,BAL,FLA
-#19: Ivan Rodriguez             68.7 21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
-#20: Red Ruffing               68.65 22 (1924-1947) BOS,NYY,CHW
-#21: Kenny Lofton               68.4 17 (1991-2007) HOU,CLE,ATL,CHW,SFG,PIT,CHC,NYY,PHI,LAD,TEX
+ #9: Wade Boggs                91.42 18 (1982-1999) BOS,NYY,TBD
+#10: Gaylord Perry             90.04 22 (1962-1983) SFG,CLE,TEX,SDP,ATL,SEA,KCR,NYY
+#11: Mike Mussina              82.81 18 (1991-2008) BAL,NYY
+#12: Joe DiMaggio              79.16 13 (1936-1951) NYY
+#13: Reggie Jackson            73.97 21 (1967-1987) KCA,OAK,BAL,NYY,CAL
+#14: Derek Jeter               71.29 20 (1995-2014) NYY
+#15: Johnny Mize               70.73 15 (1936-1953) STL,NYG,NYY
+#16: Carlos Beltrán            70.09 20 (1998-2017) KCR,HOU,NYM,SFG,STL,NYY,TEX
+#17: Rick Reuschel             69.47 19 (1972-1991) CHC,NYY,PIT,SFG
+#18: Tim Raines                69.37 22 (1980-2002) MON,CHW,NYY,OAK,BAL,FLA
+#19: Ivan Rodriguez            68.71 21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
+#20: Red Ruffing               68.63 22 (1924-1947) BOS,NYY,CHW
+#21: Kenny Lofton              68.41 17 (1991-2007) HOU,CLE,ATL,CHW,SFG,PIT,CHC,NYY,PHI,LAD,TEX
 #22: Robinson Canó              68.1 17 (2005-2022) NYY,SEA,NYM,SDP,ATL
-#23: Graig Nettles             67.95 21 (1968-1988) MIN,CLE,NYY,SDP,ATL,MON
-#24: Kevin Brown               67.75 19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
+#23: Graig Nettles             67.97 21 (1968-1988) MIN,CLE,NYY,SDP,ATL,MON
+#24: Kevin Brown               67.77 19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
 #25: Luis Tiant                66.05 19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL
-#26: Willie Randolph           65.95 18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
-#27: Dave Winfield              64.2 22 (1973-1995) SDP,NYY,CAL,TOR,MIN,CLE
+#26: Willie Randolph           65.94 18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
+#27: Dave Winfield             64.22 22 (1973-1995) SDP,NYY,CAL,TOR,MIN,CLE
 #28: Clark Griffith             63.0 19 (1893-1914) CHC,CHW,NYY,CIN,WSH
-#29: Home Run Baker            62.75 13 (1908-1922) PHA,NYY
-#30: Andruw Jones               62.7 17 (1996-2012) ATL,LAD,TEX,CHW,NYY
+#29: Home Run Baker            62.77 13 (1908-1922) PHA,NYY
+#30: Andruw Jones              62.71 17 (1996-2012) ATL,LAD,TEX,CHW,NYY

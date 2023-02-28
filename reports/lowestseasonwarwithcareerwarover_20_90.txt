@@ -1,23 +1,23 @@
 Lowest season war with career war over 20 90
 20 rows
 
- #1: Eddie Mathews             96.15    8.15 (1959) 17 (1952-1968) BSN,MLN,ATL,DET,HOU
- #2: Al Kaline                 92.85    8.35 (1961) 22 (1953-1974) DET
- #3: Frank Robinson           107.15     8.7 (1962) 21 (1956-1976) CIN,BAL,LAD,CAL,CLE
- #4: Mel Ott                  110.85    8.85 (1938) 21 (1926-1946) NYG
- #5: Roberto Clemente          94.85    8.95 (1967) 18 (1955-1972) PIT
- #6: Wade Boggs                 91.4     9.1 (1985) 18 (1982-1999) BOS,NYY,TBD
- #7: Warren Spahn              100.1    9.35 (1947) 21 (1942-1965) BSN,MLN,NYM,SFG
- #8: Henry Aaron               143.0    9.45 (1961) 23 (1954-1976) MLN,ATL,MIL
+ #1: Eddie Mathews             96.13    8.15 (1959) 17 (1952-1968) BSN,MLN,ATL,DET,HOU
+ #2: Al Kaline                 92.87    8.37 (1961) 22 (1953-1974) DET
+ #3: Frank Robinson           107.17    8.71 (1962) 21 (1956-1976) CIN,BAL,LAD,CAL,CLE
+ #4: Mel Ott                  110.84    8.86 (1938) 21 (1926-1946) NYG
+ #5: Roberto Clemente          94.83    8.95 (1967) 18 (1955-1972) PIT
+ #6: Wade Boggs                91.42    9.08 (1985) 18 (1982-1999) BOS,NYY,TBD
+ #7: Warren Spahn             100.09    9.36 (1947) 21 (1942-1965) BSN,MLN,NYM,SFG
+ #8: Henry Aaron              143.01    9.44 (1961) 23 (1954-1976) MLN,ATL,MIL
  #9: Adrián Beltré              93.5    9.55 (2004) 21 (1998-2018) LAD,SEA,BOS,TEX
-#10: Greg Maddux              106.55     9.6 (1995) 23 (1986-2008) CHC,ATL,LAD,SDP
-#11: Albert Pujols             101.6    9.75 (2009) 22 (2001-2022) STL,LAA,LAD
-#12: Bert Blyleven              94.5    9.75 (1973) 22 (1970-1992) MIN,PIT,TEX,CLE,CAL
-#13: Mike Schmidt             106.85    9.75 (1974) 18 (1972-1989) PHI
-#14: Rickey Henderson          111.1    9.95 (1990) 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
-#15: Nap Lajoie                106.9    10.0 (1906) 21 (1896-1916) PHI,PHA,CLE
-#16: Tris Speaker              134.7   10.15 (1912) 22 (1907-1928) BOS,CLE,WSH,PHA
+#10: Greg Maddux              106.56    9.61 (1995) 23 (1986-2008) CHC,ATL,LAD,SDP
+#11: Albert Pujols             101.6    9.73 (2009) 22 (2001-2022) STL,LAA,LAD
+#12: Bert Blyleven             94.52    9.74 (1973) 22 (1970-1992) MIN,PIT,TEX,CLE,CAL
+#13: Mike Schmidt             106.83    9.75 (1974) 18 (1972-1989) PHI
+#14: Rickey Henderson         111.12    9.94 (1990) 25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+#15: Nap Lajoie               106.92   10.01 (1906) 21 (1896-1916) PHI,PHA,CLE
+#16: Tris Speaker             134.72   10.14 (1912) 22 (1907-1928) BOS,CLE,WSH,PHA
 #17: Jimmie Foxx                93.1   10.35 (1932) 20 (1925-1945) PHA,BOS,CHC,PHI
-#18: Alex Rodriguez           117.55   10.35 (2000) 22 (1994-2016) SEA,TEX,NYY
-#19: Phil Niekro                95.9    10.4 (1978) 24 (1964-1987) MLN,ATL,CLE,TOR,NYY
+#18: Alex Rodriguez           117.55   10.36 (2000) 22 (1994-2016) SEA,TEX,NYY
+#19: Phil Niekro                95.9   10.39 (1978) 24 (1964-1987) MLN,ATL,CLE,TOR,NYY
 #20: Eddie Collins            124.35   10.45 (1910) 23 (1906-1928) PHA,CHW

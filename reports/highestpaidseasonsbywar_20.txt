@@ -3,21 +3,21 @@ Highest paid seasons by war 20
 
  #1: Chris Davis               -3.25       23000000 2018 BAL
  #2: Patrick Corbin            -2.45       23416666 2022 WSN
- #3: Miguel Cabrera             -1.0       32000000 2022 DET
- #4: Albert Pujols             -1.85       26000000 2017 LAA
- #5: Stephen Strasburg          -0.3       35000000 2022 WSN
- #6: Stephen Strasburg         -0.25       35000000 2020 WSN
- #7: Barry Zito                -2.45       20000000 2013 SFG
+ #3: Miguel Cabrera            -0.99       32000000 2022 DET
+ #4: Albert Pujols             -1.83       26000000 2017 LAA
+ #5: Stephen Strasburg         -0.29       35000000 2022 WSN
+ #6: Stephen Strasburg         -0.24       35000000 2020 WSN
+ #7: Barry Zito                -2.46       20000000 2013 SFG
  #8: Félix Hernández           -1.35       26857000 2018 SEA
  #9: Ryan Howard                -1.6       25000000 2015 PHI
-#10: Stephen Strasburg          0.15       35000000 2021 WSN
-#11: Miguel Cabrera            -0.95       28000000 2017 DET
-#12: Prince Fielder            -1.55       24000000 2016 TEX
-#13: Miguel Cabrera             -0.5       30000000 2021 DET
-#14: Ryan Howard               -1.35       25000000 2014 PHI
+#10: Stephen Strasburg          0.13       35000000 2021 WSN
+#11: Miguel Cabrera            -0.93       28000000 2017 DET
+#12: Prince Fielder            -1.57       24000000 2016 TEX
+#13: Miguel Cabrera            -0.51       30000000 2021 DET
+#14: Ryan Howard               -1.34       25000000 2014 PHI
 #15: Félix Hernández            -0.8       27858000 2019 SEA
 #16: Justin Verlander           0.15       33000000 2020 HOU
-#17: Ryan Howard                -1.2       25000000 2016 PHI
-#18: Carlos Lee                 -2.2       19000000 2010 HOU
-#19: Anthony Rendon              1.0       36571429 2022 LAA
-#20: Patrick Corbin             -1.1       24416667 2021 WSN
+#17: Ryan Howard               -1.18       25000000 2016 PHI
+#18: Carlos Lee                -2.19       19000000 2010 HOU
+#19: Anthony Rendon             1.02       36571429 2022 LAA
+#20: Patrick Corbin            -1.08       24416667 2021 WSN

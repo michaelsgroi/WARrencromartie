@@ -1,6 +1,7 @@
 package com.michaelsgroi.baseballreference
 
 import java.io.File
+import java.math.RoundingMode.HALF_UP
 import java.time.Duration
 import java.time.Instant
 import kotlin.math.roundToInt
@@ -132,4 +133,4 @@ fun String.writeFile(contents: String) {
 }
 
 fun Double.roundToDecimalPlaces(places: Int) =
-    (if (places == 0) roundToInt() else (this * 10 * places).roundToInt() / (10.0 * places)).toString()
+    (if (places == 0) roundToInt() else toBigDecimal().setScale(2, HALF_UP).toDouble()).toString()

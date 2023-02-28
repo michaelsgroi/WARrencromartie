@@ -1,33 +1,33 @@
 Best or worst n of team nyy 30 Worst
 30 rows
 
- #1: Tuck Stainback             -5.9 13 (1934-1946) CHC,STL,PHI,BRO,DET,NYY,PHA
- #2: Enrique Wilson            -5.25  9 (1997-2005) CLE,PIT,NYY,CHC
- #3: Mike Kekich               -5.05  9 (1965-1977) LAD,NYY,CLE,TEX,SEA
+ #1: Tuck Stainback            -5.89 13 (1934-1946) CHC,STL,PHI,BRO,DET,NYY,PHA
+ #2: Enrique Wilson            -5.26  9 (1997-2005) CLE,PIT,NYY,CHC
+ #3: Mike Kekich               -5.06  9 (1965-1977) LAD,NYY,CLE,TEX,SEA
  #4: Myril Hoag                 -4.2 13 (1931-1945) NYY,SLB,CHW,CLE
- #5: Don Heffner                -3.8 11 (1934-1944) NYY,SLB,PHA,DET
- #6: Chad Moeller               -3.6 11 (2000-2010) MIN,ARI,MIL,CIN,LAD,NYY,BAL
- #7: Joe DeMaestri             -3.55 11 (1951-1961) CHW,SLB,PHA,KCA,NYY
- #8: Rowland Office             -3.5 11 (1972-1983) ATL,MON,NYY
- #9: Esmil Rogers              -3.45  7 (2009-2015) COL,CLE,TOR,NYY
-#10: Fred Mitchell              -3.4  6 (1901-1910) BOS,PHA,PHI,BRO,NYY
+ #5: Don Heffner               -3.78 11 (1934-1944) NYY,SLB,PHA,DET
+ #6: Chad Moeller              -3.58 11 (2000-2010) MIN,ARI,MIL,CIN,LAD,NYY,BAL
+ #7: Joe DeMaestri             -3.56 11 (1951-1961) CHW,SLB,PHA,KCA,NYY
+ #8: Rowland Office            -3.51 11 (1972-1983) ATL,MON,NYY
+ #9: Esmil Rogers              -3.44  7 (2009-2015) COL,CLE,TOR,NYY
+#10: Fred Mitchell             -3.41  6 (1901-1910) BOS,PHA,PHI,BRO,NYY
 #11: Karim Garcia               -3.2  9 (1995-2004) LAD,ARI,DET,BAL,CLE,NYY,NYM
-#12: Kevin Cash                -3.05  8 (2002-2010) TOR,TBD,BOS,NYY,HOU
-#13: Fernando Gonzalez         -3.05  6 (1972-1979) PIT,KCR,NYY,SDP
-#14: Todd Greene                -2.9 11 (1996-2006) CAL,ANA,TOR,NYY,TEX,COL,SFG
+#12: Kevin Cash                -3.07  8 (2002-2010) TOR,TBD,BOS,NYY,HOU
+#13: Fernando Gonzalez         -3.03  6 (1972-1979) PIT,KCR,NYY,SDP
+#14: Todd Greene               -2.91 11 (1996-2006) CAL,ANA,TOR,NYY,TEX,COL,SFG
 #15: John Pacella               -2.9  6 (1977-1986) NYM,NYY,MIN,BAL,DET
 #16: Bob McGraw                 -2.9  9 (1917-1929) NYY,BOS,BRO,STL,PHI
-#17: John Kennedy               -2.8 12 (1962-1974) WSA,LAD,NYY,SEP,MIL,BOS
-#18: Doc Powers                -2.75 11 (1898-1909) LOU,WHS,PHA,NYY
-#19: Bob Wiesler                -2.7  6 (1951-1958) NYY,WSH
-#20: Larry Murray               -2.7  6 (1974-1979) NYY,OAK
-#21: Chris Nelson               -2.6  5 (2010-2014) COL,NYY,LAA,SDP
+#17: John Kennedy              -2.79 12 (1962-1974) WSA,LAD,NYY,SEP,MIL,BOS
+#18: Doc Powers                -2.76 11 (1898-1909) LOU,WHS,PHA,NYY
+#19: Bob Wiesler               -2.71  6 (1951-1958) NYY,WSH
+#20: Larry Murray              -2.71  6 (1974-1979) NYY,OAK
+#21: Chris Nelson              -2.62  5 (2010-2014) COL,NYY,LAA,SDP
 #22: Tommy McMillan             -2.6  4 (1908-1912) BRO,CIN,NYY
-#23: Robert Perez               -2.6  6 (1994-2001) TOR,SEA,MON,NYY,MIL
-#24: Dave Eiland               -2.55 10 (1988-2000) SDP,TBD,NYY
-#25: Dave Madison              -2.55  3 (1950-1953) NYY,SLB,DET
-#26: Jeff Johnson              -2.55  3 (1991-1993) NYY
-#27: Rich McKinney              -2.5  7 (1970-1977) CHW,NYY,OAK
-#28: Chick Fewster              -2.4 10 (1917-1926) NYY,BOS,CLE,BRO
-#29: Paul Zuvella              -2.35  9 (1982-1991) ATL,NYY,CLE,KCR
-#30: Dale Sveum                -2.35 12 (1986-1999) MIL,CHW,PHI,OAK,SEA,PIT,NYY
+#23: Robert Perez              -2.58  6 (1994-2001) TOR,SEA,MON,NYY,MIL
+#24: Dave Eiland               -2.57 10 (1988-2000) SDP,TBD,NYY
+#25: Dave Madison              -2.53  3 (1950-1953) NYY,SLB,DET
+#26: Jeff Johnson              -2.53  3 (1991-1993) NYY
+#27: Rich McKinney             -2.52  7 (1970-1977) CHW,NYY,OAK
+#28: Chick Fewster             -2.41 10 (1917-1926) NYY,BOS,CLE,BRO
+#29: Paul Zuvella              -2.36  9 (1982-1991) ATL,NYY,CLE,KCR
+#30: Dale Sveum                -2.34 12 (1986-1999) MIL,CHW,PHI,OAK,SEA,PIT,NYY

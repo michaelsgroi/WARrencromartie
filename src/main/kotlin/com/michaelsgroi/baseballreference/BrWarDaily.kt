@@ -12,18 +12,14 @@ class BrWarDaily {
 
     fun getRosters(): List<Roster> {
         val careers = getCareers().associateBy { it.playerId }
-        val seasons = getSeasons()
-        val rosters = mutableMapOf<RosterId, Roster>()
-        seasons.forEach { playerSeason ->
-            playerSeason.teams.forEach { team ->
-                val rosterId = RosterId(playerSeason.season, team.lowercase())
-                rosters.getOrPut(rosterId) {
-                    Roster(rosterId, mutableSetOf())
-                }.players.add(careers[playerSeason.playerId]!!)
+        return getSeasons().flatMap { playerSeason ->
+            playerSeason.teams.map { team ->
+                RosterId(playerSeason.season, team.lowercase()) to careers[playerSeason.playerId]!!
             }
-        }
-
-        return rosters.values.toList()
+        }.groupBy({ it.first }, { it.second })
+            .map { (rosterId, careers) ->
+                Roster(rosterId, careers.toSet())
+            }
     }
 
     fun getSeasons(): List<Season> {
@@ -65,7 +61,7 @@ class BrWarDaily {
         return batterSeasons + pitchingSeasons
     }
 
-    enum class Fields(var fileField: String) {
+    enum class Fields(val fileField: String) {
         /*
          * name_common,age,mlb_ID,player_ID,year_ID,team_ID,stint_ID,lg_ID,G,runs_above_avg,WAR,salary,
          * teamRpG,oppRpG,path_exponent,waa_win_per,waa_win_per_rep

@@ -45,8 +45,8 @@ class BrWarDailyPitchLines(
         // map to season objects
         return seasonLines.map {
             val fieldValues = it.split(",")
-            val fields = (pitchingFields zip fieldValues).toMap().toMutableMap()
-            fields[BrWarDaily.Fields.SEASON_TYPE.fileField] = BrWarDaily.SeasonType.PITCHING.name.lowercase()
+            val fields = ((pitchingFields zip fieldValues) +
+                (BrWarDaily.Fields.SEASON_TYPE.fileField to BrWarDaily.SeasonType.PITCHING.name.lowercase())).toMap()
             SeasonLine(fields)
         }
     }

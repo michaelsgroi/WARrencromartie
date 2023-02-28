@@ -1,5 +1,6 @@
 package com.michaelsgroi.baseballreference
 
+import com.google.common.base.Suppliers
 import java.io.File
 import java.time.Duration
 import java.time.Instant
@@ -10,7 +11,23 @@ class BrWarDaily {
     private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
     private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
 
+    private val rostersMemoizer = Suppliers.memoize { getRostersInternal() }
+    private val seasonsMemoizer = Suppliers.memoize { getSeasonsInternal() }
+    private val careersMemoizer = Suppliers.memoize { getCareersInternal() }
+
     fun getRosters(): List<Roster> {
+        return rostersMemoizer.get()
+    }
+
+    fun getSeasons(): List<Season> {
+        return seasonsMemoizer.get()
+    }
+
+    fun getCareers(): List<Career> {
+        return careersMemoizer.get()
+    }
+
+    private fun getRostersInternal(): List<Roster> {
         val careers = getCareers().associateBy { it.playerId }
         return getSeasons().flatMap { playerSeason ->
             playerSeason.teams.map { team ->
@@ -22,11 +39,12 @@ class BrWarDaily {
             }
     }
 
-    fun getSeasons(): List<Season> {
+    private fun getSeasonsInternal(): List<Season> {
         return getCareers().flatMap { it.seasons() }
     }
 
-    fun getCareers(): List<Career> {
+    private fun getCareersInternal(): List<Career> {
+
         val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
         val careerWars = playerIdToSeasonLines.map { (_, seasonList) ->

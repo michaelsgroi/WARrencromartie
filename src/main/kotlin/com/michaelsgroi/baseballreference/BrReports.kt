@@ -4,7 +4,6 @@ import java.time.Duration
 import java.time.Instant
 
 // TODO: add column headers to reports
-// TODO: cache careers and seasons
 class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
     init {
         reportDir.createDirectoryIfNotExists()

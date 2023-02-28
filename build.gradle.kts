@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation("com.google.guava:guava:31.1-jre")
     testImplementation(kotlin("test"))
 }
 

@@ -7,23 +7,19 @@ import kotlin.math.roundToInt
 
 class BrWarDaily {
 
-    private val batting: BrWarDailyBatLines = BrWarDailyBatLines(warDailyBatFile)
-    private val pitching: BrWarDailyPitchLines = BrWarDailyPitchLines(warDailyPitchFile)
+    private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
+    private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
 
     fun getRosters(): List<Roster> {
         val careers = getCareers().associateBy { it.playerId }
-        val seasons = getSeasons()
-        val rosters = mutableMapOf<RosterId, Roster>()
-        seasons.forEach { playerSeason ->
-            playerSeason.teams.forEach { team ->
-                val rosterId = RosterId(playerSeason.season, team.lowercase())
-                rosters.getOrPut(rosterId) {
-                    Roster(rosterId, mutableSetOf())
-                }.players.add(careers[playerSeason.playerId]!!)
+        return getSeasons().flatMap { playerSeason ->
+            playerSeason.teams.map { team ->
+                RosterId(playerSeason.season, team.lowercase()) to careers[playerSeason.playerId]!!
             }
-        }
-
-        return rosters.values.toList()
+        }.groupBy({ it.first }, { it.second })
+            .map { (rosterId, careers) ->
+                Roster(rosterId, careers.toSet())
+            }
     }
 
     fun getSeasons(): List<Season> {
@@ -31,30 +27,22 @@ class BrWarDaily {
     }
 
     fun getCareers(): List<Career> {
-        val seasons = getSeasonLines()
+        val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
-        val careers = seasons.groupBy { it.playerId() }
-            .map { entry ->
-                val playerId = entry.key
-                val seasonList = entry.value
-                Career(
-                    playerId = playerId,
-                    playerName = entry.value.first().playerName(),
-                    war = seasonList.sumOf {
-                        it.war()
-                    },
-                    seasonLines = seasonList
-                )
-            }
+        val careerWars = playerIdToSeasonLines.map { (playerId, seasonList) ->
+            seasonList.sumOf { it.war() }
+        }.sorted()
 
-        val careerWars = careers.map { it.war }.sortedBy { it }
-
-        careers.forEach { career ->
-            val careerPercentileWar = careerWars.percentile(career.war)
-            career.warPercentile = careerPercentileWar
+        return playerIdToSeasonLines.map { (playerId, seasonList) ->
+            val war = seasonList.sumOf { it.war() }
+            Career(
+                playerId = playerId,
+                playerName = seasonList.first().playerName(),
+                war = war,
+                seasonLines = seasonList,
+                warPercentile = careerWars.percentile(war)
+            )
         }
-
-        return careers
     }
 
     private fun List<Double>.percentile(value: Double): Double {
@@ -62,12 +50,10 @@ class BrWarDaily {
     }
 
     private fun getSeasonLines(): List<SeasonLine> {
-        val batterSeasons = batting.getBatterSeasons()
-        val pitchingSeasons = pitching.getPitcherSeasons()
-        return batterSeasons + pitchingSeasons
+        return listOf(batting, pitching).flatMap { it.getSeasons() }
     }
 
-    enum class Fields(var fileField: String) {
+    enum class Fields(val fileField: String) {
         /*
          * name_common,age,mlb_ID,player_ID,year_ID,team_ID,stint_ID,lg_ID,G,runs_above_avg,WAR,salary,
          * teamRpG,oppRpG,path_exponent,waa_win_per,waa_win_per_rep
@@ -82,8 +68,9 @@ class BrWarDaily {
         SEASON("year_id")
     }
 
-    enum class SeasonType {
-        BATTING, PITCHING
+    enum class SeasonType(val brFilename: String) {
+        BATTING("war_daily_bat.txt"),
+        PITCHING("war_daily_pitch.txt")
     }
 
     companion object {
@@ -117,7 +104,7 @@ fun String.fileExists(): Boolean {
 }
 
 fun String.fileExpired(duration: Duration): Boolean {
-    require(fileExists())
+    require(fileExists()) { "File $this does not exist" }
     val file = File(this)
     val ageMs = Instant.now().toEpochMilli() - file.lastModified()
     return ageMs > duration.toMillis()
@@ -140,4 +127,5 @@ fun String.writeFile(contents: String) {
     File(this).writeBytes(contents.encodeToByteArray())
 }
 
-fun Double.roundToDecimalPlaces(places: Int) = if (places == 0) roundToInt().toDouble() else (this * 10 * places).roundToInt() / (10.0 * places)
+fun Double.roundToDecimalPlaces(places: Int) =
+    if (places == 0) roundToInt().toDouble() else (this * 10 * places).roundToInt() / (10.0 * places)

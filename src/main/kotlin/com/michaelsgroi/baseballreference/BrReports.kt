@@ -91,7 +91,7 @@ class BrReports(
             filename = "playerwhosenamecontainswith${contains}.txt",
             description = "Players who name contains $contains."
         ) {
-            brWarDaily.getCareers().filter { it.playerName.lowercase().contains(contains.lowercase()) }
+            brWarDaily.getCareers().filter { contains.lowercase() in it.playerName.lowercase() }
                 .sortedByDescending { it.war }.report()
         }
 
@@ -106,7 +106,7 @@ class BrReports(
 
             brWarDaily.getSeasons()
                 .asSequence()
-                .filter { careersUnderMaxWar.keys.contains(it.playerId) }.sortedByDescending { it.war }.take(topN)
+                .filter { it.playerId in careersUnderMaxWar.keys }.sortedByDescending { it.war }.take(topN)
                 .map { careersUnderMaxWar[it.playerId]!! }.toList().report(includePeakWar = true)
         }
 
@@ -151,7 +151,7 @@ class BrReports(
             filename = "highestpaidseasons$team.txt",
             "Highest salaries seasons for $team."
         ) {
-            brWarDaily.getSeasons().filter { it.teams.map { team -> team.lowercase() }.contains(team.lowercase()) }
+            brWarDaily.getSeasons().filter { team.lowercase() in it.teams.map { team -> team.lowercase() } }
                 .sortedByDescending { it.salary }.take(topN).toList().report(includeSalary = true)
         }
 
@@ -286,7 +286,7 @@ class BrReports(
             "$bestOrWorst WAR's in $team history."
         ) {
             brWarDaily.getCareers().filter {
-                it.teams().map { team -> team.lowercase() }.contains(team.lowercase())
+                team.lowercase() in it.teams().map { team -> team.lowercase() }
             }.sortedWith { o1, o2 ->
                 if (best) {
                     o2.war().compareTo(o1.war())

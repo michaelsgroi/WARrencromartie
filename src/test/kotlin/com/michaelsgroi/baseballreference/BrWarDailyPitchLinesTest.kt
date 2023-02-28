@@ -4,21 +4,21 @@ import kotlin.test.Test
 
 class BrWarDailyPitchLinesTest {
 
-    private val testee: BrWarDailyPitchLines = BrWarDailyPitchLines()
+    private val testee = BrWarDailyLines(BrWarDaily.warDailyPitchFile, BrWarDaily.SeasonType.PITCHING)
 
     @Test
     fun testTopCareerWars() {
-        val playersByWarDescending = testee.getPitcherCareers().sortedByDescending { it.pitchingWar() }
+        val playersByWarDescending = testee.getCareers().sortedByDescending { it.pitchingWar() }
         val topPlayersByWar =
-            playersByWarDescending.take(5).associate { it.pitchingWar() to it.playerName }.toSortedMap(reverseOrder())
+            playersByWarDescending.take(5).associate { it.playerName to it.pitchingWar() }
         val expectedTop5PlayersByWar = mapOf(
-            165.6 to "Cy Young",
-            152.25 to "Walter Johnson",
-            138.65 to "Roger Clemens",
-            116.7 to "Kid Nichols",
-            116.2 to "Pete Alexander"
+            "Cy Young" to 165.6,
+            "Walter Johnson" to 152.25,
+            "Roger Clemens" to 138.65,
+            "Kid Nichols" to 116.7,
+            "Pete Alexander" to 116.2
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"}
+        assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }
 
 }

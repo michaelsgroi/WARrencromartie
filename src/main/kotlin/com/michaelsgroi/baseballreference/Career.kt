@@ -1,7 +1,7 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType
-import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.*
+import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.BATTING
+import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.PITCHING
 import kotlin.math.roundToLong
 
 data class Career(
@@ -9,7 +9,7 @@ data class Career(
     val playerName: String,
     val war: Double,
     val seasonLines: List<SeasonLine>,
-    var warPercentile: Double = 0.0,
+    val warPercentile: Double = 0.0,
 ) {
     fun war() = seasons().sumOf { it.war }.roundToDecimalPlaces(2)
 
@@ -25,9 +25,7 @@ data class Career(
 
     fun pitchingWar() = seasons().sumOf { it.pitchingWar }.roundToDecimalPlaces(2)
 
-    fun seasons() = seasonLines.groupBy { it.season() }.mapValues {
-        val season = it.key
-        val seasonLines = it.value
+    fun seasons() = seasonLines.groupBy { it.season() }.mapValues { (season, seasonLines) ->
         Season(
             playerId = playerId,
             playerName = playerName,
@@ -46,14 +44,14 @@ data class Career(
 
     override fun toString(): String {
         return "{ " +
-                "\"war\":${this.war()}, " +
-                "\"pitchingWar\":${this.pitchingWar()}, " +
-                "\"battingWar\":${this.battingWar()}, " +
-                "\"war/season\":${(this.war() / this.seasonCount()).roundToDecimalPlaces(2)}, " +
-                "\"id\":\"${this.playerId}\", " +
-                "\"name\":\"${this.playerName}\", " +
-                "\"seasons\":${this.seasonCount()}, " +
-                "\"seasonsRange\":\"${this.seasonRange()}\"" +
-                "}"
+            "\"war\":${this.war()}, " +
+            "\"pitchingWar\":${this.pitchingWar()}, " +
+            "\"battingWar\":${this.battingWar()}, " +
+            "\"war/season\":${(this.war() / this.seasonCount()).roundToDecimalPlaces(2)}, " +
+            "\"id\":\"${this.playerId}\", " +
+            "\"name\":\"${this.playerName}\", " +
+            "\"seasons\":${this.seasonCount()}, " +
+            "\"seasonsRange\":\"${this.seasonRange()}\"" +
+            "}"
     }
 }

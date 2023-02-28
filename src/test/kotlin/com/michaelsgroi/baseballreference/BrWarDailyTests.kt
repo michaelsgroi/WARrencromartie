@@ -10,16 +10,17 @@ class BrWarDailyTests {
     fun topFive2004RedSox() {
         val topPlayersByWar = testee.getRosters().first { roster ->
             roster.rosterId == RosterId(2004, "bos")
-        }.players.sortedByDescending { it.war() }.take(5).associate { it.war() to it.playerName }
+        }.players.sortedByDescending { it.war() }.take(5).associate { it.playerName to it.war() }
         val expectedTop5PlayersByWar = mapOf(
-            83.9 to "Pedro Martinez",
-            79.5 to "Curt Schilling",
-            69.3 to "Manny Ramirez",
-            56.3 to "Johnny Damon",
-            55.3 to "David Ortiz"
+            "Pedro Martinez" to 83.9,
+            "Curt Schilling" to 79.5,
+            "Manny Ramirez" to 69.3,
+            "Johnny Damon" to 56.3,
+            "David Ortiz" to 55.3
         )
-        assert(topPlayersByWar == expectedTop5PlayersByWar)
-        { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"}
+        assert(topPlayersByWar == expectedTop5PlayersByWar) {
+            "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
+        }
     }
 
     @Test
@@ -42,7 +43,7 @@ class BrWarDailyTests {
 
     @Test
     fun seasonDerivations() {
-        testee.getCareers().forEach { career->
+        testee.getCareers().forEach { career ->
             val seasonCount = career.seasonCount()
             val x = career.seasons()
             assert(x.size == seasonCount) { "Expected ${x.size} to be $seasonCount" }
@@ -55,14 +56,13 @@ class BrWarDailyTests {
     @Test
     fun testTopCareerWars() {
         val playersByWarDescending = testee.getCareers().sortedByDescending { it.war() }
-        val topPlayersByWar =
-            playersByWarDescending.take(5).associate { it.war() to it.playerName }.toSortedMap(reverseOrder())
+        val topPlayersByWar = playersByWarDescending.take(5).associate { it.playerName to it.war() }
         val expectedTop5PlayersByWar = mapOf(
-            183.05 to "Babe Ruth",
-            164.9 to "Walter Johnson",
-            163.6 to "Cy Young",
-            162.8 to "Barry Bonds",
-            156.15 to "Willie Mays"
+            "Babe Ruth" to 183.05,
+            "Walter Johnson" to 164.9,
+            "Cy Young" to 163.6,
+            "Barry Bonds" to 162.8,
+            "Willie Mays" to 156.15
         )
         assert(topPlayersByWar == expectedTop5PlayersByWar) { "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar" }
     }

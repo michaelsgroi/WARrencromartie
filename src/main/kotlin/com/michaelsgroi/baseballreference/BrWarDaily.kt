@@ -7,8 +7,8 @@ import kotlin.math.roundToInt
 
 class BrWarDaily {
 
-    private val batting: BrWarDailyBatLines = BrWarDailyBatLines(warDailyBatFile)
-    private val pitching: BrWarDailyPitchLines = BrWarDailyPitchLines(warDailyPitchFile)
+    private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
+    private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
 
     fun getRosters(): List<Roster> {
         val careers = getCareers().associateBy { it.playerId }
@@ -50,9 +50,7 @@ class BrWarDaily {
     }
 
     private fun getSeasonLines(): List<SeasonLine> {
-        val batterSeasons = batting.getBatterSeasons()
-        val pitchingSeasons = pitching.getPitcherSeasons()
-        return batterSeasons + pitchingSeasons
+        return listOf(batting, pitching).flatMap { it.getSeasons() }
     }
 
     enum class Fields(val fileField: String) {
@@ -70,8 +68,9 @@ class BrWarDaily {
         SEASON("year_id")
     }
 
-    enum class SeasonType {
-        BATTING, PITCHING
+    enum class SeasonType(val brFilename: String) {
+        BATTING("war_daily_bat.txt"),
+        PITCHING("war_daily_pitch.txt")
     }
 
     companion object {

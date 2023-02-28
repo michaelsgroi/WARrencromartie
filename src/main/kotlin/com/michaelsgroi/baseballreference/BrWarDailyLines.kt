@@ -2,7 +2,6 @@ package com.michaelsgroi.baseballreference
 
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.warDailyPitchFile
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
@@ -10,14 +9,15 @@ import okhttp3.Request
 import java.io.IOException
 import java.time.Duration
 
-class BrWarDailyPitchLines(
-    private val filename: String = warDailyPitchFile,
+class BrWarDailyLines(
+    private val filename: String,
+    private val seasonType: BrWarDaily.SeasonType,
     private val expiration: Duration = fileExpiration
 ) {
 
-    fun getPitcherSeasons(): List<SeasonLine> {
+    fun getSeasons(): List<SeasonLine> {
         // get seasons
-        val seasons = deserializeToPitchingSeasons(getWarDailyPitchFile())
+        val seasons = deserializeToSeasons(getWarDailyFile())
 
         // filter for seasons for position players with war values
         val filteredSeasons = seasons.filter {
@@ -27,31 +27,32 @@ class BrWarDailyPitchLines(
         return filteredSeasons
     }
 
-    fun getPitcherCareers(): List<Career> {
+    fun getCareers(): List<Career> {
         // get seasons
-        val seasons = getPitcherSeasons()
+        val seasons = getSeasons()
 
         // get player careers
-        return getPitcherCareersInternal(seasons)
+        return getCareersInternal(seasons)
     }
 
-    private fun deserializeToPitchingSeasons(warDailyPitchLines: List<String>): List<SeasonLine> {
+    private fun deserializeToSeasons(warDailyLines: List<String>): List<SeasonLine> {
         // get header
-        val pitchingFields = warDailyPitchLines[0].lowercase().split(",")
+        val fields = warDailyLines[0].lowercase().split(",")
 
         // get season lines
-        val seasonLines = warDailyPitchLines.subList(1, warDailyPitchLines.size)
+        val seasonLines = warDailyLines.subList(1, warDailyLines.size)
 
         // map to season objects
         return seasonLines.map {
             val fieldValues = it.split(",")
-            val fields = ((pitchingFields zip fieldValues) +
-                (BrWarDaily.Fields.SEASON_TYPE.fileField to BrWarDaily.SeasonType.PITCHING.name.lowercase())).toMap()
-            SeasonLine(fields)
+            val fieldsMap =
+                ((fields zip fieldValues) +
+                    (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())).toMap()
+            SeasonLine(fieldsMap)
         }
     }
 
-    private fun getPitcherCareersInternal(seasonLines: List<SeasonLine>): List<Career> {
+    private fun getCareersInternal(seasonLines: List<SeasonLine>): List<Career> {
         // group player's season
         val seasonByPlayer = seasonLines.groupBy { it.playerId() }
 
@@ -69,18 +70,18 @@ class BrWarDailyPitchLines(
             }
     }
 
-    private val warDailyPitchUrl = HttpUrl.Builder()
+    private val warDailyUrl = HttpUrl.Builder()
         .scheme("https")
         .host("www.baseball-reference.com")
         .addPathSegment("data")
-        .addPathSegment("/war_daily_pitch.txt")
+        .addPathSegment(seasonType.brFilename)
         .build()
 
-    private fun getWarDailyPitchFile(): List<String> {
+    private fun getWarDailyFile(): List<String> {
         return BrWarDaily.loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
-                    .url(warDailyPitchUrl)
+                    .url(warDailyUrl)
                     .get()
                     .build()
             ).execute().use { response ->
@@ -89,5 +90,4 @@ class BrWarDailyPitchLines(
             }
         }
     }
-
 }

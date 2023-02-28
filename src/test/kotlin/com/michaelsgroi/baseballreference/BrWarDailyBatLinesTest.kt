@@ -4,11 +4,11 @@ import kotlin.test.Test
 
 class BrWarDailyBatLinesTest {
 
-    private val testee: BrWarDailyBatLines = BrWarDailyBatLines()
+    private val testee = BrWarDailyLines(BrWarDaily.warDailyBatFile, BrWarDaily.SeasonType.BATTING)
 
     @Test
     fun testTopCareerWars() {
-        val playersByWarDescending = testee.getBatterCareers().sortedByDescending { it.battingWar() }
+        val playersByWarDescending = testee.getCareers().sortedByDescending { it.battingWar() }
         val topPlayersByWar =
             playersByWarDescending.take(5).associate { it.battingWar() to it.playerName }.toSortedMap(reverseOrder())
         val expectedTop5PlayersByWar = mapOf(

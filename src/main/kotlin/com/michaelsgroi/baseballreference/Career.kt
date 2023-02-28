@@ -44,9 +44,9 @@ data class Career(
 
     override fun toString(): String {
         return "{ " +
-            "\"war\":${this.war()}, " +
-            "\"pitchingWar\":${this.pitchingWar()}, " +
-            "\"battingWar\":${this.battingWar()}, " +
+            "\"war\":${this.war().roundToDecimalPlaces(2)}, " +
+            "\"pitchingWar\":${this.pitchingWar().roundToDecimalPlaces(2)}, " +
+            "\"battingWar\":${this.battingWar().roundToDecimalPlaces(2)}, " +
             "\"war/season\":${(this.war() / this.seasonCount()).roundToDecimalPlaces(2)}, " +
             "\"id\":\"${this.playerId}\", " +
             "\"name\":\"${this.playerName}\", " +

@@ -54,4 +54,15 @@ data class Career(
             "\"seasonsRange\":\"${this.seasonRange()}\"" +
             "}"
     }
+
+    companion object {
+        val careerFormatter = BrReportFormatter<Career>(listOf(
+            BrReportFormatter.Field("#", 5, true) { index, _ -> "#${(index + 1)}:" },
+            BrReportFormatter.Field("name", 20, false) { _, career -> career.playerName },
+            BrReportFormatter.Field("war", 10, true) { _, career -> career.war.roundToDecimalPlaces(2) },
+            BrReportFormatter.Field("seasons", 7, true) { _, career -> career.seasons().size.toString() },
+            BrReportFormatter.Field("", 11, false) { _, career -> "(${career.seasonRange()})" },
+            BrReportFormatter.Field("teams", 256, false) { _, career -> career.teams().joinToString(", ") },
+        ))
+    }
 }

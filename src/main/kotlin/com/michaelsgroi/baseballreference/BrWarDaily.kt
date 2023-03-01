@@ -16,10 +16,10 @@ class BrWarDaily {
     val careers: List<Career> by lazy { this.getCareersInternal() }
 
     private fun getRostersInternal(): List<Roster> {
-        val careers = careers.associateBy { it.playerId }
+        val careersForPlayerId = careers.associateBy { it.playerId }
         return seasons.flatMap { playerSeason ->
             playerSeason.teams.map { team ->
-                RosterId(playerSeason.season, team.lowercase()) to careers[playerSeason.playerId]!!
+                RosterId(playerSeason.season, team.lowercase()) to careersForPlayerId[playerSeason.playerId]!!
             }
         }.groupBy({ it.first }, { it.second })
             .map { (rosterId, careers) ->
@@ -35,7 +35,7 @@ class BrWarDaily {
 
         val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
-        val careerWars = playerIdToSeasonLines.map { (_, seasonList) ->
+        val careerWars = playerIdToSeasonLines.values.map { seasonList ->
             seasonList.sumOf { it.war() }
         }.sorted()
 

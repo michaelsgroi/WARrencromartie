@@ -25,7 +25,7 @@ class BrReportFormatter<T>(private val fields: List<Field<T>>) {
         private val valueSupplier: (Int, T) -> String) {
 
         fun getHeader(): String = fieldPadder.pad(header)
-        fun getField(index: Int, row: T): String = fieldPadder.pad(valueSupplier.invoke(index, row))
+        fun getField(index: Int, row: T): String = fieldPadder.pad(valueSupplier(index, row))
     }
 
     companion object {

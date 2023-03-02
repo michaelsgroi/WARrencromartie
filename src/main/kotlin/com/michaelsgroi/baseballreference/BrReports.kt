@@ -18,6 +18,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         val reports = listOf(
             theSteveBalboniAllStars(),
             theRowlandOfficeAllStars(),
+            topSeasonWars(10),
             bottomSeasonWars(10),
             bestOrWorstNOfTeam("bos", 30, true),
             bestOrWorstNOfTeam("bos", 30, false),
@@ -199,6 +200,11 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     private fun theRowlandOfficeAllStars() =
         buildReport(getCareerFormatter()) {
             brWarDaily.careers.sortedBy { it.war() }.filter { it.seasonCount() >= 10 && it.war() < 0.0 }
+        }
+
+    private fun topSeasonWars(topN: Int) =
+        buildReport(getSeasonFormatter()) {
+            brWarDaily.seasons.sortedByDescending { it.war }.take(topN)
         }
 
     private fun bottomSeasonWars(topN: Int) =

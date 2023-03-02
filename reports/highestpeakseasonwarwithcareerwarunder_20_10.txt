@@ -1,0 +1,24 @@
+Highest peak season war with career war under 20 10
+20 rows
+
+    # name                        war      peakwar seasons             teams
+  #1: Irv Young                  8.67  8.69 (1905)       6 (1905-1911) BSN,PIT,CHW
+  #2: Bill James                  8.7  8.34 (1914)       4 (1913-1919) BSN
+  #3: George Derby               4.85  7.54 (1881)       3 (1881-1883) DTN,BUF
+  #4: Andrés Giménez             9.24  7.38 (2022)       3 (2020-2022) NYM,CLE
+  #5: Charlie Sweeney            5.84  7.14 (1884)       5 (1882-1886) PRO,SLM
+  #6: Pete Conway                3.81  6.95 (1888)       5 (1885-1889) BUF,KCN,DTN,PIT
+  #7: Joe Mays                   9.39  6.58 (2001)       7 (1999-2006) MIN,CIN,KCR
+  #8: Ed Daily                   4.46  6.57 (1885)       5 (1885-1890) PHI,WHS,NYG
+  #9: Roscoe Miller              6.56  6.52 (1901)       4 (1901-1904) DET,NYG,PIT
+ #10: Lou Klein                  8.04   6.5 (1943)       5 (1943-1951) STL,PHA
+ #11: Billy Grabarkewitz         5.79  6.48 (1970)       7 (1969-1975) LAD,CAL,PHI,CHC,OAK
+ #12: Dylan Cease                9.33  6.42 (2022)       4 (2019-2022) CHW
+ #13: Ricky Romero               9.89   6.4 (2011)       5 (2009-2013) TOR
+ #14: Rube Vickers               2.92  6.29 (1908)       5 (1902-1909) CIN,BRO,PHA
+ #15: Tyler O'Neill              9.85  6.26 (2021)       5 (2018-2022) STL
+ #16: Gus Krock                  4.67  6.24 (1888)       2 (1888-1889) CHC,IND,WHS
+ #17: Julio Rodríguez            6.22  6.22 (2022)       1 (2022-2022) SEA
+ #18: Roberto Hernandez          4.67  6.13 (2007)      11 (2006-2016) CLE,TBR,PHI,LAD,HOU,ATL
+ #19: Wayne Twitchell            2.28  6.12 (1973)      10 (1970-1979) MIL,PHI,MON,NYM,SEA
+ #20: Mitchell Page              7.93  6.06 (1977)       7 (1977-1983) OAK

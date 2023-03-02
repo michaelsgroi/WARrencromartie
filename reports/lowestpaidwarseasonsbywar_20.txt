@@ -1,23 +1,24 @@
 Lowest paid war seasons by war 20
 20 rows
 
- #1: Jim Devlin                18.28           1600 1876 LOU
- #2: Cy Young                   13.0           1400 1892 CLV
- #3: Charlie Buffinton         16.26           1800 1884 BSN
- #4: Jim Whitney                8.65           1050 1881 BSN
- #5: Jim McCormick              9.81           1300 1879 CLV
- #6: Old Hoss Radbourn         14.34           2000 1883 PRO
- #7: Pud Galvin                18.41           2600 1884 BUF
- #8: Jim Devlin                13.42           2000 1877 LOU
- #9: Tommy Bond                14.34           2200 1879 BSN
-#10: Charlie Ferguson           11.7           1800 1886 PHI
-#11: Old Hoss Radbourn         19.41           3000 1884 PRO
-#12: Doc White                  7.76           1200 1902 PHI
-#13: Pud Galvin                 7.49           1200 1881 BUF
-#14: Christy Mathewson          8.75           1500 1901 NYG
-#15: Pud Galvin                 9.82           1700 1883 BUF
-#16: Jimmy Lavender             1.87            344 1912 CHC
-#17: George Derby               7.54           1400 1881 DTN
-#18: Mark Baldwin               5.26           1000 1887 CHC
-#19: Lady Baldwin              10.47           2000 1886 DTN
-#20: Pete Alexander              7.7           1500 1911 PHI
+    # name                                  war     salary year teams
+  #1: Jim Devlin                          18.28       1600 1876 LOU
+  #2: Cy Young                             13.0       1400 1892 CLV
+  #3: Charlie Buffinton                   16.26       1800 1884 BSN
+  #4: Jim Whitney                          8.65       1050 1881 BSN
+  #5: Jim McCormick                        9.81       1300 1879 CLV
+  #6: Old Hoss Radbourn                   14.34       2000 1883 PRO
+  #7: Pud Galvin                          18.41       2600 1884 BUF
+  #8: Jim Devlin                          13.42       2000 1877 LOU
+  #9: Tommy Bond                          14.34       2200 1879 BSN
+ #10: Charlie Ferguson                     11.7       1800 1886 PHI
+ #11: Old Hoss Radbourn                   19.41       3000 1884 PRO
+ #12: Doc White                            7.76       1200 1902 PHI
+ #13: Pud Galvin                           7.49       1200 1881 BUF
+ #14: Christy Mathewson                    8.75       1500 1901 NYG
+ #15: Pud Galvin                           9.82       1700 1883 BUF
+ #16: Jimmy Lavender                       1.87        344 1912 CHC
+ #17: George Derby                         7.54       1400 1881 DTN
+ #18: Mark Baldwin                         5.26       1000 1887 CHC
+ #19: Lady Baldwin                        10.47       2000 1886 DTN
+ #20: Pete Alexander                        7.7       1500 1911 PHI

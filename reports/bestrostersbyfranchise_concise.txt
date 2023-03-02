@@ -1,6 +1,7 @@
 Best rosters by franchise concise
 64 rows
 
+# year team war
 1: 1928 pha 1133
 2: 2005 nyy 1101
 3: 1996 cle 947

@@ -1,23 +1,24 @@
 Highest paid careers by war of players who are currently active 20
 20 rows
 
- #1: Yusei Kikuchi               1.0       59000000  4 (2019-2022) SEA,TOR
- #2: Stephen Strasburg         32.25      215050000 13 (2010-2022) WSN
- #3: Jordan Lyles              -1.38       30939500 12 (2011-2022) HOU,COL,SDP,MIL,PIT,TEX,BAL
- #4: Charlie Morton             13.1      104308500 15 (2008-2022) ATL,PIT,PHI,HOU,TBR
- #5: Miguel Cabrera            67.74      368410623 20 (2003-2022) FLA,DET
- #6: Aroldis Chapman            19.0      127148272 13 (2010-2022) CIN,NYY,CHC
- #7: Eric Hosmer               19.14      125280750 12 (2011-2022) KCR,SDP,BOS
- #8: David Price               40.14      223990175 14 (2008-2022) TBR,DET,TOR,BOS,LAD
- #9: Kenley Jansen             19.63      119260767 13 (2010-2022) LAD,ATL
-#10: Patrick Corbin            15.01       95159666 10 (2012-2022) ARI,WSN
-#11: Charlie Blackmon          19.32      110298500 12 (2011-2022) COL
-#12: Justin Upton              32.34      162409166 16 (2007-2022) ARI,ATL,SDP,DET,LAA,SEA
-#13: Hyun Jin Ryu              19.46      109065000  9 (2013-2022) LAD,TOR
-#14: Wil Myers                 13.51       83547900 10 (2013-2022) TBR,SDP
-#15: Ian Kennedy               17.31       96056200 16 (2007-2022) ARI,SDP,KCR,TEX,PHI,NYY
-#16: Jason Heyward             38.71      179411500 13 (2010-2022) ATL,STL,CHC
-#17: Zack Britton              13.95       81357500 12 (2011-2022) BAL,NYY
-#18: Jorge Soler                3.96       42658335  9 (2014-2022) CHC,KCR,ATL,MIA
-#19: Jeurys Familia             6.54       52326558 11 (2012-2022) NYM,OAK,PHI,BOS
-#20: Zack Greinke              76.53      308253000 19 (2004-2022) KCR,MIL,LAA,LAD,ARI,HOU
+    # name                        war     salary seasons             teams
+  #1: Yusei Kikuchi               1.0   59000000       4 (2019-2022) SEA,TOR
+  #2: Stephen Strasburg         32.25  215050000      13 (2010-2022) WSN
+  #3: Jordan Lyles              -1.38   30939500      12 (2011-2022) HOU,COL,SDP,MIL,PIT,TEX,BAL
+  #4: Charlie Morton             13.1  104308500      15 (2008-2022) ATL,PIT,PHI,HOU,TBR
+  #5: Miguel Cabrera            67.74  368410623      20 (2003-2022) FLA,DET
+  #6: Aroldis Chapman            19.0  127148272      13 (2010-2022) CIN,NYY,CHC
+  #7: Eric Hosmer               19.14  125280750      12 (2011-2022) KCR,SDP,BOS
+  #8: David Price               40.14  223990175      14 (2008-2022) TBR,DET,TOR,BOS,LAD
+  #9: Kenley Jansen             19.63  119260767      13 (2010-2022) LAD,ATL
+ #10: Patrick Corbin            15.01   95159666      10 (2012-2022) ARI,WSN
+ #11: Charlie Blackmon          19.32  110298500      12 (2011-2022) COL
+ #12: Justin Upton              32.34  162409166      16 (2007-2022) ARI,ATL,SDP,DET,LAA,SEA
+ #13: Hyun Jin Ryu              19.46  109065000       9 (2013-2022) LAD,TOR
+ #14: Wil Myers                 13.51   83547900      10 (2013-2022) TBR,SDP
+ #15: Ian Kennedy               17.31   96056200      16 (2007-2022) ARI,SDP,KCR,TEX,PHI,NYY
+ #16: Jason Heyward             38.71  179411500      13 (2010-2022) ATL,STL,CHC
+ #17: Zack Britton              13.95   81357500      12 (2011-2022) BAL,NYY
+ #18: Jorge Soler                3.96   42658335       9 (2014-2022) CHC,KCR,ATL,MIA
+ #19: Jeurys Familia             6.54   52326558      11 (2012-2022) NYM,OAK,PHI,BOS
+ #20: Zack Greinke              76.53  308253000      19 (2004-2022) KCR,MIL,LAA,LAD,ARI,HOU

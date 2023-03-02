@@ -1,0 +1,24 @@
+Lowest peak season war with career war over 20 80
+20 rows
+
+    # name                        war      peakwar seasons             teams
+  #1: Cap Anson                 84.72  6.95 (1886)      22 (1876-1897) CHC
+  #2: George Davis              84.48   7.2 (1905)      20 (1890-1909) CLV,NYG,CHW
+  #3: Chipper Jones             85.25   7.6 (2007)      19 (1993-2012) ATL
+  #4: Nolan Ryan                81.28  7.83 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
+  #5: Eddie Mathews             96.13  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+  #6: Mike Mussina              82.81  8.22 (1992)      18 (1991-2008) BAL,NYY
+  #7: Al Kaline                 92.87  8.37 (1961)      22 (1953-1974) DET
+  #8: Frank Robinson           107.17  8.71 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE
+  #9: Charlie Gehringer         84.76  8.83 (1934)      19 (1924-1942) DET
+ #10: Mel Ott                  110.84  8.86 (1938)      21 (1926-1946) NYG
+ #11: Roberto Clemente          94.83  8.95 (1967)      18 (1955-1972) PIT
+ #12: Wade Boggs                91.42  9.08 (1985)      18 (1982-1999) BOS,NYY,TBD
+ #13: Tom Glavine                80.7  9.24 (1991)      22 (1987-2008) ATL,NYM
+ #14: Eddie Plank               83.84  9.31 (1904)      16 (1901-1917) PHA,SLB
+ #15: Warren Spahn             100.09  9.36 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
+ #16: George Brett               88.6  9.41 (1980)      21 (1973-1993) KCR
+ #17: Henry Aaron              143.01  9.44 (1961)      23 (1954-1976) MLN,ATL,MIL
+ #18: Adrián Beltré              93.5  9.55 (2004)      21 (1998-2018) LAD,SEA,BOS,TEX
+ #19: Greg Maddux              106.56  9.61 (1995)      23 (1986-2008) CHC,ATL,LAD,SDP
+ #20: Ken Griffey Jr.           83.84   9.7 (1996)      22 (1989-2010) SEA,CIN,CHW

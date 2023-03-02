@@ -4,32 +4,39 @@ import com.michaelsgroi.baseballreference.BrReports.*
 
 class BrReportFormatter<T>(private val fields: List<Field<T>>) {
 
-    fun format(report: Report<T>): List<String> {
+    fun format(report: Report<T>): String {
         val rows = report.run()
-        return listOf(
+        return (listOf(
             report.name, // report name
             "${rows.size} rows", // row count
             "", // blank row
         ) + fields.joinToString(" ") { field -> // header row
-            field.header.pad(field.length, field.alignRight)
+            field.getHeader()
         } + rows.mapIndexed { index, row -> // data rows
             fields.joinToString(" ") { field ->
-                field.valueSupplier.invoke(index, row).pad(field.length, field.alignRight)
+                field.getField(index, row)
             }
-        }
-    }
-
-    private fun String.pad(length: Int, alignRight: Boolean): String = if (alignRight) {
-        padStart(length)
-    } else {
-        padEnd(length)
+        }).joinToString("\n") { it.trimEnd() }
     }
 
     data class Field<T>(
-        val header: String,
-        val length: Int,
-        val alignRight: Boolean,
-        val valueSupplier: (Int, T) -> String
-    )
+        private val header: String, // TODO allow for header that overflows into next field
+        private val fieldPadder: Padder,
+        private val valueSupplier: (Int, T) -> String) {
 
+        fun getHeader(): String = fieldPadder.pad(header)
+        fun getField(index: Int, row: T): String = fieldPadder.pad(valueSupplier.invoke(index, row))
+    }
+
+    companion object {
+        fun leftAlign(length: Int) = Padder(length) { it.padEnd(length) }
+        fun rightAlign(length: Int) = Padder(length) { it.padStart(length) }
+        fun asIs(length: Int) = Padder(length) { it }
+    }
+
+    class Padder(val length: Int, private val padder: (String) -> String) {
+        fun pad(string: String): String {
+            return padder(string)
+        }
+    }
 }

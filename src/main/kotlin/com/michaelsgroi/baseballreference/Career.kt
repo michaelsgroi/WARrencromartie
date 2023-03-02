@@ -1,7 +1,15 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.asIs
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Field
 import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.BATTING
 import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.PITCHING
+import com.michaelsgroi.baseballreference.Verbosity.CONCISE
+import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
+import okhttp3.internal.toImmutableList
+import java.util.LinkedList
 import kotlin.math.roundToLong
 
 data class Career(
@@ -44,25 +52,58 @@ data class Career(
 
     override fun toString(): String {
         return "{ " +
-            "\"war\":${this.war().roundToDecimalPlaces(2)}, " +
-            "\"pitchingWar\":${this.pitchingWar().roundToDecimalPlaces(2)}, " +
-            "\"battingWar\":${this.battingWar().roundToDecimalPlaces(2)}, " +
-            "\"war/season\":${(this.war() / this.seasonCount()).roundToDecimalPlaces(2)}, " +
-            "\"id\":\"${this.playerId}\", " +
-            "\"name\":\"${this.playerName}\", " +
-            "\"seasons\":${this.seasonCount()}, " +
-            "\"seasonsRange\":\"${this.seasonRange()}\"" +
-            "}"
+                "\"war\":${this.war().roundToDecimalPlaces(2)}, " +
+                "\"pitchingWar\":${this.pitchingWar().roundToDecimalPlaces(2)}, " +
+                "\"battingWar\":${this.battingWar().roundToDecimalPlaces(2)}, " +
+                "\"war/season\":${(this.war() / this.seasonCount()).roundToDecimalPlaces(2)}, " +
+                "\"id\":\"${this.playerId}\", " +
+                "\"name\":\"${this.playerName}\", " +
+                "\"seasons\":${this.seasonCount()}, " +
+                "\"seasonsRange\":\"${this.seasonRange()}\"" +
+                "}"
     }
 
     companion object {
-        val careerFormatter = BrReportFormatter<Career>(listOf(
-            BrReportFormatter.Field("#", 5, true) { index, _ -> "#${(index + 1)}:" },
-            BrReportFormatter.Field("name", 20, false) { _, career -> career.playerName },
-            BrReportFormatter.Field("war", 10, true) { _, career -> career.war.roundToDecimalPlaces(2) },
-            BrReportFormatter.Field("seasons", 7, true) { _, career -> career.seasons().size.toString() },
-            BrReportFormatter.Field("", 11, false) { _, career -> "(${career.seasonRange()})" },
-            BrReportFormatter.Field("teams", 256, false) { _, career -> career.teams().joinToString(", ") },
-        ))
+        private val careerFormatterDefaultFields = listOf<Field<Career>>(
+            Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
+            Field("name", leftAlign(20)) { _, career -> career.playerName },
+            Field("war", rightAlign(10)) { _, career -> career.war.roundToDecimalPlaces(2) },
+            Field("seasons", rightAlign(7)) { _, career -> career.seasons().size.toString() },
+            Field("", leftAlign(11)) { _, career -> "(${career.seasonRange()})" },
+            Field("teams", leftAlign(256)) { _, career -> career.teams().joinToString(",") },
+        )
+
+        fun getCareerFormatter(
+            verbosity: Verbosity = VERBOSE,
+            includeSalary: Boolean = false,
+            includePeakWar: Boolean = false
+        ): BrReportFormatter<Career> = when (verbosity) {
+            CONCISE -> {
+                BrReportFormatter(
+                    fields = listOf(
+                        Field("#", asIs(5)) { index, _ -> "#${(index + 1)}:" },
+                        Field("name", asIs(20)) { _, career -> career.playerName },
+                        Field("war", asIs(10)) { _, career -> career.war.roundToDecimalPlaces(0) }
+                    )
+                )
+            }
+            VERBOSE -> {
+                val fieldsLinkedList = LinkedList(careerFormatterDefaultFields)
+                if (includeSalary) {
+                    fieldsLinkedList.add(
+                        3,
+                        Field("salary", rightAlign(10)) { _, career -> career.salary().toString() })
+                }
+                if (includePeakWar) {
+                    fieldsLinkedList.add(
+                        3,
+                        Field("peakwar", rightAlign(12)) { _, career ->
+                            val peakSeason = career.seasons().maxBy { it.war }
+                            "${peakSeason.war.roundToDecimalPlaces(2)} (${peakSeason.season})"
+                        })
+                }
+                BrReportFormatter(fieldsLinkedList.toImmutableList())
+            }
+        }
     }
 }

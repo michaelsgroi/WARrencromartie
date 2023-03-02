@@ -1,5 +1,6 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.Roster.RosterId
 import java.io.File
 import java.math.RoundingMode.HALF_UP
 import java.time.Duration

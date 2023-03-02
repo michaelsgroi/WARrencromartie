@@ -1,18 +1,33 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.asIs
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Field
+import com.michaelsgroi.baseballreference.Verbosity.CONCISE
+import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
+
 data class Roster(val rosterId: RosterId, val players: Set<Career>) {
     companion object {
-        val rosterFormatter = BrReportFormatter<Roster>(
-            listOf(
-                BrReportFormatter.Field("#", 5, true) { index, _ -> "#${(index + 1)}:" },
-//                BrReportFormatter.Field("playerId", 10, false) { _, career -> career.playerName },
-//                BrReportFormatter.Field("playerName", 20, true) { _, career -> career.war.roundToDecimalPlaces(2) },
-//                BrReportFormatter.Field("seasons", 7, true) { _, career -> career.seasons().size.toString() },
-//                BrReportFormatter.Field("", 11, false) { _, career -> "(${career.seasonRange()})" },
-//                BrReportFormatter.Field("teams", 256, false) { _, career -> career.teams().joinToString(", ") },
-            )
+        private val rosterDefaultFields = listOf<Field<Roster>>(
+            Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
+            Field("year", leftAlign(4)) { _, roster -> roster.rosterId.season.toString() },
+            Field("team", rightAlign(4)) { _, roster -> roster.rosterId.team },
+            Field("war", rightAlign(4)) { _, roster -> roster.players.sumOf { it.war }.roundToDecimalPlaces(0) },
         )
-    }
-}
+        private val rosterConciseFields = listOf<Field<Roster>>(
+            Field("#", asIs(5)) { index, _ -> "${(index + 1)}:" },
+            Field("year", asIs(4)) { _, roster -> roster.rosterId.season.toString() },
+            Field("team", asIs(4)) { _, roster -> roster.rosterId.team },
+            Field("war", asIs(4)) { _, roster -> roster.players.sumOf { it.war }.roundToDecimalPlaces(0) },
+        )
 
-data class RosterId(val season: Int, val team: String)
+        fun getRosterFormatter(verbosity: Verbosity = VERBOSE): BrReportFormatter<Roster> =
+            when (verbosity) {
+                CONCISE -> BrReportFormatter(rosterConciseFields)
+                VERBOSE -> BrReportFormatter(rosterDefaultFields)
+            }
+    }
+
+    data class RosterId(val season: Int, val team: String)
+}

@@ -1,6 +1,11 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
+import com.michaelsgroi.baseballreference.BrReportFormatter.Field
 import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType
+import okhttp3.internal.toImmutableList
+import java.util.LinkedList
 
 data class Season(
     val playerId: String,
@@ -15,15 +20,22 @@ data class Season(
     val pitchingWar: Double
 ) {
     companion object {
-        val seasonFormatter = BrReportFormatter<Season>(
-            listOf(
-                BrReportFormatter.Field("#", 5, true) { index, _ -> "#${(index + 1)}:" },
-                BrReportFormatter.Field("playerId", 10, false) { _, career -> career.playerName },
-                BrReportFormatter.Field("playerName", 20, true) { _, career -> career.war.roundToDecimalPlaces(2) },
-//                BrReportFormatter.Field("seasons", 7, true) { _, career -> career.seasons().size.toString() },
-//                BrReportFormatter.Field("", 11, false) { _, career -> "(${career.seasonRange()})" },
-//                BrReportFormatter.Field("teams", 256, false) { _, career -> career.teams().joinToString(", ") },
+        private val seasonFormatterDefaultFields =
+            listOf<Field<Season>>(
+                Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
+                Field("name", leftAlign(20)) { _, season -> season.playerName },
+                Field("war", rightAlign(20)) { _, season -> season.war.roundToDecimalPlaces(2) },
+                Field("year", rightAlign(4)) { _, season -> season.season.toString() },
+                Field("teams", leftAlign(256)) { _, season -> season.teams.joinToString(",") },
             )
-        )
+        fun getSeasonFormatter(includeSalary: Boolean = false): BrReportFormatter<Season> {
+            val fieldsLinkedList = LinkedList(seasonFormatterDefaultFields)
+            if (includeSalary) {
+                fieldsLinkedList.add(
+                    3,
+                    Field("salary", rightAlign(10)) { _, career -> career.salary.toString() })
+            }
+            return  BrReportFormatter(fieldsLinkedList.toImmutableList())
+        }
     }
 }

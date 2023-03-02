@@ -262,14 +262,14 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     }
 
     private fun <T> buildReport(
-        argsStrings: List<Any>,
+        args: List<Any>,
         formatter: BrReportFormatter<T>,
         run: () -> List<T>): Report<T> {
         val methodName = getCallerMethod()
         return Report(
-            name = "${methodName.toHumanReadable()} ${argsStrings.joinToString(" ").trim()}",
+            name = "${methodName.toHumanReadable()} ${args.joinToString(" ").trim()}",
             filename = "${methodName}${
-                if (argsStrings.isNotEmpty()) "_" + argsStrings.joinToString("_") {
+                if (args.isNotEmpty()) "_" + args.joinToString("_") {
                     it.toString().lowercase()
                 }.trim() else ""
             }.txt".toFileName(),

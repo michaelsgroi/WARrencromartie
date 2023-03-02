@@ -89,11 +89,11 @@ class BrWarDaily {
         fun loadFromCache(filename: String, expiration: Duration, loader: () -> String): List<String> {
             if (!filename.fileExists()) {
                 println("filename=$filename does not exist, retrieving from baseball-reference.com ...")
-                filename.writeFile(loader.invoke())
+                filename.writeFile(loader())
             } else {
                 if (filename.fileExpired(expiration)) {
                     println("filename=$filename exists but is expired, retrieving from baseball-reference.com ...")
-                    filename.writeFile(loader.invoke())
+                    filename.writeFile(loader())
                 }
             }
             return filename.readFile()

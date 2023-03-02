@@ -19,13 +19,13 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             bestOrWorstNOfTeam("nyy", 30, true),
             bestOrWorstNOfTeam("nyy", 30, false),
             bestRosters(1000),
-            bestRosters(1000, concise = true),
+            bestRosters(1000, Verbosity.CONCISE),
             bestRostersByFranchise(),
-            bestRostersByFranchise(concise = true),
-            roster(RosterId(1928, "pha"), concise = true),
+            bestRostersByFranchise(Verbosity.CONCISE),
+            roster(RosterId(1928, "pha"), Verbosity.CONCISE),
             roster(RosterId(1928, "pha")),
             roster(RosterId(2005, "nyy")),
-            roster(RosterId(2005, "nyy"), concise = true),
+            roster(RosterId(2005, "nyy"), Verbosity.CONCISE),
             roster(RosterId(1959, "mln")),
             roster(RosterId(1996, "cle")),
             highestPaidSeasons(20),
@@ -221,27 +221,27 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             }.take(topN).report()
         }
 
-    private fun bestRosters(topN: Int, concise: Boolean = false) =
-        buildReport(listOf(topN, concise.concise())) {
+    private fun bestRosters(topN: Int, verbosity: Verbosity = Verbosity.VERBOSE) =
+        buildReport(listOf(topN, verbosity)) {
             brWarDaily.rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(topN)
-                .report(concise, roundWarDecimalPlaces = 0)
+                .report(verbosity, roundWarDecimalPlaces = 0)
         }
 
-    private fun bestRostersByFranchise(concise: Boolean = false) =
-        buildReport(concise.concise()) {
+    private fun bestRostersByFranchise(verbosity: Verbosity = Verbosity.VERBOSE) =
+        buildReport(verbosity) {
             val rosters = brWarDaily.rosters
             val topRosters =
                 rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }
             val teams = rosters.map { it.rosterId.team }.distinct()
             teams.map { team -> topRosters.first { it.rosterId.team == team } }
                 .sortedByDescending { roster -> roster.players.sumOf { it.war } }
-                .report(concise, roundWarDecimalPlaces = 0)
+                .report(verbosity, roundWarDecimalPlaces = 0)
         }
 
-    private fun roster(rosterId: RosterId, concise: Boolean = false) =
-        buildReport(listOf(rosterId.season, rosterId.team, concise.concise())) {
+    private fun roster(rosterId: RosterId, verbosity: Verbosity = Verbosity.VERBOSE) =
+        buildReport(listOf(rosterId.season, rosterId.team, verbosity)) {
             brWarDaily.rosters.first { it.rosterId == rosterId }.players.sortedByDescending { it.war }
-                .report(concise = concise)
+                .report(verbosity)
         }
 
     private fun writeReport(report: Report, lines: List<String>) {
@@ -251,44 +251,48 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         "$reportDir/$filename".writeFile("$header$contents")
     }
 
-    private fun List<Roster>.report(concise: Boolean = false, roundWarDecimalPlaces: Int = 2): List<String> {
-        return if (concise) {
-            mapIndexed { index, roster ->
-                "${(index + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
+    private fun List<Roster>.report(
+        verbosity: Verbosity = Verbosity.VERBOSE,
+        roundWarDecimalPlaces: Int = 2
+    ): List<String> {
+        return when (verbosity) {
+            Verbosity.CONCISE -> mapIndexed { index, roster ->
+                "${(index + 1)}: " + roster.report(verbosity, roundWarDecimalPlaces)
             }
-        } else {
-            val maxLength = this.size.toString().length
-            mapIndexed { index, roster ->
-                "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(concise, roundWarDecimalPlaces)
+
+            Verbosity.VERBOSE -> {
+                val maxLength = this.size.toString().length
+                mapIndexed { index, roster ->
+                    "${("#" + (index + 1)).padStart(maxLength + 1)}: " + roster.report(verbosity, roundWarDecimalPlaces)
+                }
             }
         }
     }
 
-    private fun Roster.report(concise: Boolean = false, roundWarDecimalPlaces: Int = 2): String {
+    private fun Roster.report(verbosity: Verbosity = Verbosity.VERBOSE, roundWarDecimalPlaces: Int = 2): String {
         val season = rosterId.season.toString()
         val team = rosterId.team
         val war = players.sumOf { it.war }.roundToDecimalPlaces(roundWarDecimalPlaces)
-        return if (concise) {
-            "$season $team $war"
-        } else {
-            season.padEnd(5) + team.padEnd(4) + war.padStart(7)
+        return when (verbosity) {
+            Verbosity.CONCISE -> "$season $team $war"
+            Verbosity.VERBOSE -> season.padEnd(5) + team.padEnd(4) + war.padStart(7)
         }
     }
 
     private fun List<Career>.report(
-        concise: Boolean = false,
+        verbosity: Verbosity = Verbosity.VERBOSE,
         includeSalary: Boolean = false,
         includePeakWar: Boolean = false
     ): List<String> {
         val maxLength = this.size.toString().length
         return this.mapIndexed { index, career ->
-            val prefixNew = if (concise) {
-                "${(index + 1)}: "
-            } else {
-                "${("#" + (index + 1)).padStart(maxLength + 1)}: "
-            }
+            val prefixNew =
+                when (verbosity) {
+                    Verbosity.CONCISE -> "${(index + 1)}: "
+                    Verbosity.VERBOSE -> "${("#" + (index + 1)).padStart(maxLength + 1)}: "
+                }
             prefixNew + career.report(
-                concise,
+                verbosity,
                 includeSalary,
                 includePeakWar
             )
@@ -296,14 +300,13 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     }
 
     private fun Career.report(
-        concise: Boolean = false,
+        verbosity: Verbosity = Verbosity.VERBOSE,
         includeSalary: Boolean = false,
         includePeakWar: Boolean = false
     ): String {
-        if (concise) {
-            return "$playerName ${war().roundToDecimalPlaces(0)}"
-        }
-        return this.playerName.padEnd(24) +
+        return when (verbosity) {
+            Verbosity.CONCISE -> "$playerName ${war().roundToDecimalPlaces(0)}"
+            Verbosity.VERBOSE -> this.playerName.padEnd(24) +
                 war().roundToDecimalPlaces(2).padStart(7) +
                 (if (includePeakWar) {
                     val peakSeason = seasons().maxBy { it.war }
@@ -313,6 +316,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
                 seasonCount().toString().padStart(3) +
                 (" (" + seasonRange() + ") ").padEnd(12) +
                 teams().joinToString(",")
+        }
     }
 
     private fun List<Season>.report(includeSalary: Boolean = false): List<String> {
@@ -375,7 +379,4 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             return replace(pattern, "$0").lowercase()
         }
     }
-
-    private fun Boolean.concise() = if (this) "concise" else ""
-
 }

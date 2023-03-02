@@ -192,12 +192,9 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         }
 
     private fun theSteveBalboniAllStars() = buildReport(getCareerFormatter()) {
-        theSteveBalboniAllStarsCareers()
+        brWarDaily.careers.sortedWith(compareBy({ it.war }, { it.playerName }))
+            .filter { it.seasonCount() >= 10 && (it.war() / it.seasonCount()) < 0.5 }
     }
-
-    // TODO inline ...
-    private fun theSteveBalboniAllStarsCareers() = brWarDaily.careers.sortedWith(compareBy({ it.war }, { it.playerName }))
-        .filter { it.seasonCount() >= 10 && (it.war() / it.seasonCount()) < 0.5 }
 
     private fun theRowlandOfficeAllStars() =
         buildReport(getCareerFormatter()) {

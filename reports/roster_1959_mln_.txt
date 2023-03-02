@@ -1,40 +1,41 @@
 Roster 1959 mln
 37 rows
 
- #1: Henry Aaron              143.01 23 (1954-1976) MLN,ATL,MIL
- #2: Warren Spahn             100.09 21 (1942-1965) BSN,MLN,NYM,SFG
- #3: Eddie Mathews             96.13 17 (1952-1968) BSN,MLN,ATL,DET,HOU
- #4: Enos Slaughter            57.81 19 (1938-1959) STL,NYY,KCA,MLN
- #5: Red Schoendienst          44.51 18 (1945-1962) STL,NYG,MLN
- #6: Andy Pafko                36.84 17 (1943-1959) CHC,BRO,MLN
- #7: Bob Rush                  35.96 13 (1948-1960) CHC,MLN,CHW
- #8: Mickey Vernon             35.58 19 (1939-1959) WSH,CLE,BOS,MLN
- #9: Joe Adcock                33.48 17 (1950-1966) CIN,MLN,CLE,LAA,CAL
-#10: Johnny Logan              33.02 13 (1951-1963) BSN,MLN,PIT
-#11: Lew Burdette              28.59 18 (1950-1967) NYY,BSN,MLN,STL,CHC,PHI,CAL
-#12: Bobby Avila               28.39 11 (1949-1959) CLE,BAL,BOS,MLN
-#13: Del Crandall              28.07 16 (1949-1966) BSN,MLN,SFG,PIT,CLE
-#14: Bill Bruton               26.26 12 (1953-1964) MLN,DET
-#15: Ray Boone                 25.79 13 (1948-1960) CLE,DET,CHW,KCA,MLN,BOS
-#16: Don McMahon               22.46 18 (1957-1974) MLN,HOU,CLE,BOS,CHW,DET,SFG
-#17: Bob Buhl                  21.87 15 (1953-1967) MLN,CHC,PHI
-#18: Juan Pizarro              19.56 18 (1957-1974) MLN,CHW,PIT,BOS,CLE,OAK,CHC,HOU
-#19: Lee Maye                  15.84 13 (1959-1971) MLN,HOU,CLE,WSA,CHW
-#20: Stan Lopata               15.27 13 (1948-1960) PHI,MLN
-#21: Joey Jay                  14.04 13 (1953-1966) MLN,CIN,ATL
-#22: Wes Covington               9.1 11 (1956-1966) MLN,CHW,KCA,PHI,CHC,LAD
-#23: Felix Mantilla              6.5 11 (1956-1966) MLN,NYM,BOS,HOU
-#24: Carl Willey                6.45  8 (1958-1965) MLN,NYM
-#25: Del Rice                   4.72 17 (1945-1961) STL,MLN,BAL,CHC,LAA
-#26: Al Spangler                4.34 12 (1959-1970) MLN,HOU,CAL,CHC
-#27: Frank Torre                3.83  7 (1956-1963) MLN,PHI
-#28: Jim Pisoni                 0.34  5 (1953-1960) SLB,KCA,NYY,MLN
-#29: Bob Trowbridge              0.3  5 (1956-1960) MLN,KCA
-#30: Johnny O'Brien             0.02  6 (1953-1959) PIT,STL,MLN
-#31: Bob Giggie                 0.01  3 (1959-1962) MLN,KCA
-#32: Chuck Cottier             -0.25  8 (1959-1969) MLN,DET,WSA,CAL
-#33: Bob Hartman               -0.38  2 (1959-1962) MLN,CLE
-#34: Joe Morgan                 -0.7  3 (1959-1961) KCA,MLN,CLE,PHI
-#35: John DeMerit               -1.2  5 (1957-1962) MLN,NYM
-#36: Mel Roach                 -1.53  8 (1953-1962) MLN,CHC,PHI
-#37: Casey Wise                -1.86  4 (1957-1960) CHC,MLN,DET
+    # name                        war seasons             teams
+  #1: Henry Aaron              143.01      23 (1954-1976) MLN,ATL,MIL
+  #2: Warren Spahn             100.09      21 (1942-1965) BSN,MLN,NYM,SFG
+  #3: Eddie Mathews             96.13      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+  #4: Enos Slaughter            57.81      19 (1938-1959) STL,NYY,KCA,MLN
+  #5: Red Schoendienst          44.51      18 (1945-1962) STL,NYG,MLN
+  #6: Andy Pafko                36.84      17 (1943-1959) CHC,BRO,MLN
+  #7: Bob Rush                  35.96      13 (1948-1960) CHC,MLN,CHW
+  #8: Mickey Vernon             35.58      19 (1939-1959) WSH,CLE,BOS,MLN
+  #9: Joe Adcock                33.48      17 (1950-1966) CIN,MLN,CLE,LAA,CAL
+ #10: Johnny Logan              33.02      13 (1951-1963) BSN,MLN,PIT
+ #11: Lew Burdette              28.59      18 (1950-1967) NYY,BSN,MLN,STL,CHC,PHI,CAL
+ #12: Bobby Avila               28.39      11 (1949-1959) CLE,BAL,BOS,MLN
+ #13: Del Crandall              28.07      16 (1949-1966) BSN,MLN,SFG,PIT,CLE
+ #14: Bill Bruton               26.26      12 (1953-1964) MLN,DET
+ #15: Ray Boone                 25.79      13 (1948-1960) CLE,DET,CHW,KCA,MLN,BOS
+ #16: Don McMahon               22.46      18 (1957-1974) MLN,HOU,CLE,BOS,CHW,DET,SFG
+ #17: Bob Buhl                  21.87      15 (1953-1967) MLN,CHC,PHI
+ #18: Juan Pizarro              19.56      18 (1957-1974) MLN,CHW,PIT,BOS,CLE,OAK,CHC,HOU
+ #19: Lee Maye                  15.84      13 (1959-1971) MLN,HOU,CLE,WSA,CHW
+ #20: Stan Lopata               15.27      13 (1948-1960) PHI,MLN
+ #21: Joey Jay                  14.04      13 (1953-1966) MLN,CIN,ATL
+ #22: Wes Covington               9.1      11 (1956-1966) MLN,CHW,KCA,PHI,CHC,LAD
+ #23: Felix Mantilla              6.5      11 (1956-1966) MLN,NYM,BOS,HOU
+ #24: Carl Willey                6.45       8 (1958-1965) MLN,NYM
+ #25: Del Rice                   4.72      17 (1945-1961) STL,MLN,BAL,CHC,LAA
+ #26: Al Spangler                4.34      12 (1959-1970) MLN,HOU,CAL,CHC
+ #27: Frank Torre                3.83       7 (1956-1963) MLN,PHI
+ #28: Jim Pisoni                 0.34       5 (1953-1960) SLB,KCA,NYY,MLN
+ #29: Bob Trowbridge              0.3       5 (1956-1960) MLN,KCA
+ #30: Johnny O'Brien             0.02       6 (1953-1959) PIT,STL,MLN
+ #31: Bob Giggie                 0.01       3 (1959-1962) MLN,KCA
+ #32: Chuck Cottier             -0.25       8 (1959-1969) MLN,DET,WSA,CAL
+ #33: Bob Hartman               -0.38       2 (1959-1962) MLN,CLE
+ #34: Joe Morgan                 -0.7       3 (1959-1961) KCA,MLN,CLE,PHI
+ #35: John DeMerit               -1.2       5 (1957-1962) MLN,NYM
+ #36: Mel Roach                 -1.53       8 (1953-1962) MLN,CHC,PHI
+ #37: Casey Wise                -1.86       4 (1957-1960) CHC,MLN,DET

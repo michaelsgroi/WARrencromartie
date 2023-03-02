@@ -1,0 +1,24 @@
+Highest peak season war with career war under 20 20
+20 rows
+
+    # name                        war      peakwar seasons             teams
+  #1: Lady Baldwin              15.47 10.47 (1886)       5 (1885-1890) DTN,BRO
+  #2: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
+  #3: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
+  #4: George Weidman            15.11  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
+  #5: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
+  #6: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
+  #7: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,DTN,CLV
+  #8: George McQuillan          17.99  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
+  #9: Irv Young                  8.67  8.69 (1905)       6 (1905-1911) BSN,PIT,CHW
+ #10: Cody Bellinger            17.82  8.63 (2019)       6 (2017-2022) LAD
+ #11: Ben Sanders               19.63  8.47 (1888)       3 (1888-1892) PHI,LOU
+ #12: Bill James                  8.7  8.34 (1914)       4 (1913-1919) BSN
+ #13: Dontrelle Willis          19.74   8.3 (2005)       9 (2003-2011) FLA,DET,ARI,CIN
+ #14: Bill Hoffer               19.37  8.25 (1896)       6 (1895-1901) BLN,PIT,CLE
+ #15: Mike Caldwell             18.41  8.21 (1978)      14 (1971-1984) SDP,SFG,CIN,MIL
+ #16: Sandy Alcantara           16.15  8.04 (2022)       6 (2017-2022) STL,MIA
+ #17: Tim Lincecum              19.54   8.0 (2008)      10 (2007-2016) SFG,LAA
+ #18: Mark Prior                16.55  7.93 (2003)       5 (2002-2006) CHC
+ #19: Bill Hoffer               19.37  8.25 (1896)       6 (1895-1901) BLN,PIT,CLE
+ #20: Jay Hughes                14.87  7.89 (1899)       4 (1898-1902) BLN,BRO

@@ -1,0 +1,10 @@
+Lowest peak season war with career war over 20 150
+6 rows
+
+    # name                        war      peakwar seasons             teams
+  #1: Willie Mays              156.14 11.24 (1965)      22 (1951-1973) NYG,SFG,NYM
+  #2: Ty Cobb                  151.46 11.28 (1917)      24 (1905-1928) DET,PHA
+  #3: Barry Bonds              162.79 11.85 (2001)      22 (1986-2007) PIT,SFG
+  #4: Cy Young                 163.62  13.0 (1892)      22 (1890-1911) CLV,STL,BOS,CLE,BSN
+  #5: Babe Ruth                183.07 14.16 (1923)      22 (1914-1935) BOS,NYY,BSN
+  #6: Walter Johnson            164.9 16.45 (1913)      21 (1907-1927) WSH

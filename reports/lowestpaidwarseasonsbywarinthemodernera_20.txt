@@ -1,23 +1,24 @@
 Lowest paid war seasons by war in the modern era 20
 20 rows
 
- #1: Johnny Pesky               4.53           2000 1947 BOS
- #2: Al Brazle                  3.71           3000 1947 STL
- #3: Nels Potter                3.44           2833 1948 SLB,PHA,BSN
- #4: Richie Ashburn             4.68           3900 1948 PHI
- #5: Bobby Shantz               2.31           2000 1949 PHA
- #6: Al Brazle                  3.37           3000 1949 STL
- #7: Ewell Blackwell            8.71           8000 1947 CIN
- #8: Tommie Agee                6.42           6000 1966 CHW
- #9: Fred Baczewski             2.94           2750 1953 CHC,CIN
-#10: Gene Bearden               5.09           5000 1948 CLE
-#11: Ralph Branca               6.36           6500 1947 BRO
-#12: Lou Brock                  5.87           6000 1964 CHC,STL
-#13: Ray Boone                  5.84           6000 1953 CLE,DET
-#14: Gary Peters                6.99           7500 1963 CHW
-#15: Walt Dropo                 0.92           1000 1958 CHW,CIN
-#16: Al Kaline                  8.24           9000 1955 DET
-#17: Tony Oliva                 6.79           7500 1964 MIN
-#18: Willie Mays               10.47          12500 1954 NYG
-#19: Duke Snider                5.42           6500 1949 BRO
-#20: Jim Bunning                6.99           8500 1957 DET
+    # name                                  war     salary year teams
+  #1: Johnny Pesky                         4.53       2000 1947 BOS
+  #2: Al Brazle                            3.71       3000 1947 STL
+  #3: Nels Potter                          3.44       2833 1948 SLB,PHA,BSN
+  #4: Richie Ashburn                       4.68       3900 1948 PHI
+  #5: Bobby Shantz                         2.31       2000 1949 PHA
+  #6: Al Brazle                            3.37       3000 1949 STL
+  #7: Ewell Blackwell                      8.71       8000 1947 CIN
+  #8: Tommie Agee                          6.42       6000 1966 CHW
+  #9: Fred Baczewski                       2.94       2750 1953 CHC,CIN
+ #10: Gene Bearden                         5.09       5000 1948 CLE
+ #11: Ralph Branca                         6.36       6500 1947 BRO
+ #12: Lou Brock                            5.87       6000 1964 CHC,STL
+ #13: Ray Boone                            5.84       6000 1953 CLE,DET
+ #14: Gary Peters                          6.99       7500 1963 CHW
+ #15: Walt Dropo                           0.92       1000 1958 CHW,CIN
+ #16: Al Kaline                            8.24       9000 1955 DET
+ #17: Tony Oliva                           6.79       7500 1964 MIN
+ #18: Willie Mays                         10.47      12500 1954 NYG
+ #19: Duke Snider                          5.42       6500 1949 BRO
+ #20: Jim Bunning                          6.99       8500 1957 DET

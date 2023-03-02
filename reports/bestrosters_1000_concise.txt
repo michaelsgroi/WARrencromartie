@@ -1,6 +1,7 @@
 Best rosters 1000 concise
 1000 rows
 
+# year team war
 1: 1928 pha 1133
 2: 2005 nyy 1101
 3: 2012 nyy 1030

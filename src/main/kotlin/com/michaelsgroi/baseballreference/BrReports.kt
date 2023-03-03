@@ -8,10 +8,11 @@ import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
 import com.michaelsgroi.warrencromartie.createDirectoryIfNotExists
 import com.michaelsgroi.warrencromartie.writeFile
+import com.michaelsgroi.warrencromartie.War
 import java.time.Duration
 import java.time.Instant
 
-class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
+class BrReports(private val war: War, private val reportDir: String = "reports") {
     init {
         reportDir.createDirectoryIfNotExists()
     }
@@ -87,23 +88,23 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun playersWhoseNameStartsWith(startsWith: String): Report<Career> {
         return buildReport(startsWith, getCareerFormatter()) {
-            brWarDaily.careers.filter { it.playerName.lowercase().startsWith(startsWith.lowercase()) }
+            war.careers.filter { it.playerName.lowercase().startsWith(startsWith.lowercase()) }
                 .sortedByDescending { it.war }
         }
     }
 
     private fun playersWhoseNameContains(contains: String) =
         buildReport(contains, getCareerFormatter()) {
-            brWarDaily.careers.filter { contains.lowercase() in it.playerName.lowercase() }
+            war.careers.filter { contains.lowercase() in it.playerName.lowercase() }
                 .sortedByDescending { it.war }
         }
 
     private fun highestPeakSeasonWarWithCareerWarUnder(topN: Int, maxWar: Int) =
         buildReport(listOf(topN, maxWar), getCareerFormatter(includePeakWar = true)) {
             val careersUnderMaxWar =
-                brWarDaily.careers.filter { it.war < maxWar }.associateBy { it.playerId }
+                war.careers.filter { it.war < maxWar }.associateBy { it.playerId }
 
-            brWarDaily.seasons
+            war.seasons
                 .asSequence()
                 .filter { it.playerId in careersUnderMaxWar.keys }.sortedByDescending { it.war }.take(topN)
                 .map { careersUnderMaxWar[it.playerId]!! }.toList()
@@ -111,27 +112,26 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun lowestPeakSeasonWarWithCareerWarOver(topN: Int, minWar: Int) =
         buildReport(listOf(topN, minWar), getCareerFormatter(includePeakWar = true)) {
-            val careersOverMinWar = brWarDaily.careers.filter { it.war > minWar }.associateBy { it.playerId }
+            val careersOverMinWar = war.careers.filter { it.war > minWar }.associateBy { it.playerId }
             val minimumMaxSeasons =
                 careersOverMinWar.values.map { career -> career.seasons().maxBy { season -> season.war } }
                     .sortedBy { season -> season.war }
             minimumMaxSeasons.map { careersOverMinWar[it.playerId]!! }.take(topN)
         }
 
-
     private fun career(playerId: String) =
         buildReport(playerId, getSeasonFormatter()) {
-            brWarDaily.careers.first { it.playerId == playerId }.seasons().toList()
+            war.careers.first { it.playerId == playerId }.seasons().toList()
         }
 
     private fun highestPaidSeasons(topN: Int) =
         buildReport(topN, getSeasonFormatter(includeSalary = true)) {
-            brWarDaily.seasons.sortedByDescending { it.salary }.take(topN)
+            war.seasons.sortedByDescending { it.salary }.take(topN)
         }
 
     private fun highestPaidSeasonsForTeam(topN: Int, team: String) =
         buildReport(listOf(topN, team), getSeasonFormatter(includeSalary = true)) {
-            brWarDaily.seasons.filter { team.lowercase() in it.teams.map { team -> team.lowercase() } }
+            war.seasons.filter { team.lowercase() in it.teams.map { team -> team.lowercase() } }
                 .sortedByDescending { it.salary }.take(topN).toList()
         }
 
@@ -145,7 +145,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         buildReport(topN, getSeasonFormatter(includeSalary = true), getLowestPaidWarSeasonsReportFunction(topN) { year -> year >= 2000 })
 
     private fun getLowestPaidWarSeasonsReportFunction(topN: Int, yearFilter: (Int) -> Boolean): () -> List<Season> = {
-        brWarDaily.seasons.filter { it.salary > 0 && yearFilter(it.season) }
+        war.seasons.filter { it.salary > 0 && yearFilter(it.season) }
             .sortedByDescending { it.war / it.salary }.take(topN)
     }
 
@@ -162,27 +162,27 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         buildReport(topN, getCareerFormatter(includeSalary = true), lowestPaidWarCareersReportFunction(topN) { year -> year >= 2022 })
 
     private fun lowestPaidWarCareersReportFunction(topN: Int, yearFilter: (Int) -> Boolean): () -> List<Career> = {
-        brWarDaily.careers.filter { it.salary() > 0 && yearFilter(it.seasonLines.maxOf { sl -> sl.season() }) }
+        war.careers.filter { it.salary() > 0 && yearFilter(it.seasonLines.maxOf { sl -> sl.season() }) }
             .sortedByDescending { it.war / it.salary() }.take(topN)
     }
 
     private fun highestPaidSeasonsByWar(topN: Int) =
         buildReport(topN, getSeasonFormatter(includeSalary = true)) {
-            val seasons = brWarDaily.seasons
+            val seasons = war.seasons
             val lowestWar = seasons.minOf { it.war }
             seasons.filter { it.salary > 0 }.sortedByDescending { it.salary / (it.war - lowestWar) }.take(topN)
         }
 
     private fun highestPaidCareersByWar(topN: Int) =
         buildReport(topN, getCareerFormatter(includeSalary = true)) {
-            val careers = brWarDaily.careers
+            val careers = war.careers
             val lowestWar = careers.minOf { it.war }
             careers.filter { it.salary() > 0 }.sortedByDescending { it.salary() / (it.war - lowestWar) }.take(topN)
         }
 
     private fun highestPaidCareersByWarOfPlayersWhoAreCurrentlyActive(topN: Int) =
         buildReport(topN, getCareerFormatter(includeSalary = true)) {
-            val careers = brWarDaily.careers
+            val careers = war.careers
             val lowestWar = careers.minOf { it.war }
 
             careers.filter { it.salary() > 0 && it.seasonLines.maxOf { sl -> sl.season() } >= 2022 }
@@ -191,32 +191,32 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun highestPaidCareersWithNegativeWar(topN: Int) =
         buildReport(topN, getCareerFormatter(includeSalary = true)) {
-            brWarDaily.careers.filter { it.war < 0 }.sortedByDescending { it.salary() }.take(topN)
+            war.careers.filter { it.war < 0 }.sortedByDescending { it.salary() }.take(topN)
         }
 
     private fun theSteveBalboniAllStars() = buildReport(getCareerFormatter()) {
-        brWarDaily.careers.sortedWith(compareBy({ it.war }, { it.playerName }))
+        war.careers.sortedWith(compareBy({ it.war }, { it.playerName }))
             .filter { it.seasonCount() >= 10 && (it.war() / it.seasonCount()) < 0.5 }
     }
 
     private fun theRowlandOfficeAllStars() =
         buildReport(getCareerFormatter()) {
-            brWarDaily.careers.sortedBy { it.war() }.filter { it.seasonCount() >= 10 && it.war() < 0.0 }
+            war.careers.sortedBy { it.war() }.filter { it.seasonCount() >= 10 && it.war() < 0.0 }
         }
 
     private fun topSeasonWars(topN: Int) =
         buildReport(getSeasonFormatter()) {
-            brWarDaily.seasons.sortedByDescending { it.war }.take(topN)
+            war.seasons.sortedByDescending { it.war }.take(topN)
         }
 
     private fun bottomSeasonWars(topN: Int) =
         buildReport(getSeasonFormatter()) {
-            brWarDaily.seasons.sortedBy { it.war }.take(topN)
+            war.seasons.sortedBy { it.war }.take(topN)
         }
 
     private fun bestOrWorstNOfTeam(team: String, topN: Int, best: Boolean): Report<Career> =
         buildReport(listOf(team, topN, if (best) "Best" else "Worst"), getCareerFormatter()) {
-            brWarDaily.careers.filter {
+            war.careers.filter {
                 team.lowercase() in it.teams().map { team -> team.lowercase() }
             }.sortedWith { o1, o2 ->
                 if (best) {
@@ -229,12 +229,12 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun bestRosters(topN: Int, verbosity: Verbosity = VERBOSE) =
         buildReport(listOf(topN, verbosity), getRosterFormatter(verbosity)) {
-            brWarDaily.rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(topN)
+            war.rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }.take(topN)
         }
 
     private fun bestRostersByFranchise(verbosity: Verbosity = VERBOSE) =
         buildReport(verbosity, getRosterFormatter(verbosity)) {
-            val rosters = brWarDaily.rosters
+            val rosters = war.rosters
             val topRosters =
                 rosters.sortedByDescending { roster -> roster.players.sumOf { it.war } }
             val teams = rosters.map { it.rosterId.team }.distinct()
@@ -245,7 +245,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     private fun roster(rosterId: RosterId, verbosity: Verbosity = VERBOSE) =
         buildReport(listOf(rosterId.season, rosterId.team, verbosity), getCareerFormatter(verbosity)) {
-            brWarDaily.rosters.first { it.rosterId == rosterId }.players.sortedByDescending { it.war }
+            war.rosters.first { it.rosterId == rosterId }.players.sortedByDescending { it.war }
         }
 
     private fun <T> writeReport(report: Report<T>) {

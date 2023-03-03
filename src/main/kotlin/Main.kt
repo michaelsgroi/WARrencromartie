@@ -1,6 +1,6 @@
 import com.michaelsgroi.baseballreference.BrReports
-import com.michaelsgroi.baseballreference.BrWarDaily
+import com.michaelsgroi.warrencromartie.War
 
 fun main() {
-    BrReports(BrWarDaily()).run()
+    BrReports(War()).run()
 }

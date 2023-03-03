@@ -3,7 +3,8 @@ package com.michaelsgroi.baseballreference
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Field
-import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType
+import com.michaelsgroi.warrencromartie.War.SeasonType
+import com.michaelsgroi.warrencromartie.roundToDecimalPlaces
 import okhttp3.internal.toImmutableList
 import java.util.LinkedList
 

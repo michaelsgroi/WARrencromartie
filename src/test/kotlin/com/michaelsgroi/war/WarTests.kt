@@ -1,14 +1,16 @@
-package com.michaelsgroi.baseballreference
+package com.michaelsgroi.war
 
 import com.michaelsgroi.baseballreference.Roster.RosterId
+import com.michaelsgroi.warrencromartie.War
+import com.michaelsgroi.warrencromartie.roundToDecimalPlaces
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
-class BrWarDailyTests {
+class WarTests {
 
-    private val testee = BrWarDaily()
+    private val testee = War()
 
     @Test
     fun topFive2004RedSox() {
@@ -77,8 +79,7 @@ class BrWarDailyTests {
 
     @Test
     fun testTopCareerWarsPitching() {
-        val testee = BrWarDailyLines(BrWarDaily.warDailyPitchFile, BrWarDaily.SeasonType.PITCHING)
-        val playersByWarDescending = testee.getCareers().sortedByDescending { it.pitchingWar() }
+        val playersByWarDescending = testee.careers.sortedByDescending { it.pitchingWar() }
         val topPlayersByWar =
             playersByWarDescending.take(5)
                 .associate { it.playerName to it.pitchingWar().roundToDecimalPlaces(1).toDouble() }
@@ -94,11 +95,9 @@ class BrWarDailyTests {
         }
     }
 
-
     @Test
     fun testTopCareerWarsBatting() {
-        val testee = BrWarDailyLines(BrWarDaily.warDailyBatFile, BrWarDaily.SeasonType.BATTING)
-        val playersByWarDescending = testee.getCareers().sortedByDescending { it.battingWar() }
+        val playersByWarDescending = testee.careers.sortedByDescending { it.battingWar() }
         val topPlayersByWar =
             playersByWarDescending.take(5)
                 .associate { it.playerName to it.battingWar().roundToDecimalPlaces(1).toDouble() }

@@ -1,9 +1,10 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
-import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import com.michaelsgroi.warrencromartie.CachedFile.Companion.loadFromCache
 import com.michaelsgroi.warrencromartie.Constants.Companion.fileExpiration
+import com.michaelsgroi.warrencromartie.War
+import com.michaelsgroi.warrencromartie.War.Companion.majorLeagues
+import com.michaelsgroi.warrencromartie.War.Fields.WAR
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -12,7 +13,7 @@ import java.time.Duration
 
 class BrWarDailyLines(
     private val filename: String,
-    private val seasonType: BrWarDaily.SeasonType,
+    private val seasonType: War.SeasonType,
     private val expiration: Duration = fileExpiration
 ) {
 
@@ -28,50 +29,24 @@ class BrWarDailyLines(
         return filteredSeasons
     }
 
-    fun getCareers(): List<Career> {
-        // get seasons
-        val seasons = getSeasons()
-
-        // get player careers
-        return getCareersInternal(seasons)
-    }
-
-    private fun deserializeToSeasons(warDailyLines: List<String>): List<SeasonLine> {
+    private fun deserializeToSeasons(lines: List<String>): List<SeasonLine> {
         // get header
-        val fields = warDailyLines[0].lowercase().split(",")
+        val fields = lines[0].lowercase().split(",")
 
         // get season lines
-        val seasonLines = warDailyLines.subList(1, warDailyLines.size)
+        val seasonLines = lines.subList(1, lines.size)
 
         // map to season objects
         return seasonLines.map {
             val fieldValues = it.split(",")
             val fieldsMap =
                 ((fields zip fieldValues) +
-                    (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())).toMap()
+                    (War.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())).toMap()
             SeasonLine(fieldsMap)
         }
     }
 
-    private fun getCareersInternal(seasonLines: List<SeasonLine>): List<Career> {
-        // group player's season
-        val seasonByPlayer = seasonLines.groupBy { it.playerId() }
-
-        // summarize player careers
-        return seasonByPlayer
-            .map { (playerId, seasonList) ->
-                Career(
-                    playerId = playerId,
-                    playerName = seasonList.first().playerName(),
-                    war = seasonList.sumOf {
-                        it.war()
-                    },
-                    seasonLines = seasonList
-                )
-            }
-    }
-
-    private val warDailyUrl = HttpUrl.Builder()
+    private val url = HttpUrl.Builder()
         .scheme("https")
         .host("www.baseball-reference.com")
         .addPathSegment("data")
@@ -82,7 +57,7 @@ class BrWarDailyLines(
         return loadFromCache(filename, expiration) {
             OkHttpClient().newCall(
                 Request.Builder()
-                    .url(warDailyUrl)
+                    .url(url)
                     .get()
                     .build()
             ).execute().use { response ->

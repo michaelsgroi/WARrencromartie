@@ -1,10 +1,15 @@
-package com.michaelsgroi.baseballreference
+package com.michaelsgroi.warrencromartie
 
+import com.michaelsgroi.baseballreference.BrWarDailyLines
+import com.michaelsgroi.baseballreference.Career
+import com.michaelsgroi.baseballreference.Roster
 import com.michaelsgroi.baseballreference.Roster.RosterId
+import com.michaelsgroi.baseballreference.Season
+import com.michaelsgroi.baseballreference.SeasonLine
 import java.math.RoundingMode.HALF_UP
 import kotlin.math.roundToInt
 
-class BrWarDaily {
+class War {
 
     private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
     private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
@@ -30,7 +35,6 @@ class BrWarDaily {
     }
 
     private fun getCareersInternal(): List<Career> {
-
         val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
         val careerWars = playerIdToSeasonLines.values.map { seasonList ->
@@ -82,7 +86,7 @@ class BrWarDaily {
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
     }
-
 }
+
 fun Double.roundToDecimalPlaces(places: Int) =
     (if (places == 0) roundToInt() else toBigDecimal().setScale(2, HALF_UP).toDouble()).toString()

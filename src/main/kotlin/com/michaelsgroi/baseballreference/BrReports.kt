@@ -18,7 +18,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         val reports = listOf(
             theSteveBalboniAllStars(),
             theRowlandOfficeAllStars(),
-            topSeasonWars(10),
+            topSeasonWars(100),
             bottomSeasonWars(10),
             bestOrWorstNOfTeam("bos", 30, true),
             bestOrWorstNOfTeam("bos", 30, false),

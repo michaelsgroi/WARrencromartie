@@ -148,10 +148,8 @@ class BaseballDatabank(private val filename: String, private val expiration: Dur
 
 }
 
-fun Set<RankedAwardShare>.awardWinCount(award: Award) = awardWinCount(setOf(award))
 fun Set<RankedAwardShare>.awardWinCount(awards: Set<Award>) = filter { awards.contains(it.award()) }.count { it.isWinner() }
 
-fun Set<RankedAwardShare>.awardVotes(award: Award) = awardVotes(setOf(award))
 fun Set<RankedAwardShare>.awardVotes(awards: Set<Award>) = filter { awards.contains(it.award()) }.sumOf {
     it.votePoints
 }

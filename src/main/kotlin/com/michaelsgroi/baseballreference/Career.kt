@@ -4,10 +4,11 @@ import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.asIs
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Field
-import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.BATTING
-import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.PITCHING
 import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
+import com.michaelsgroi.warrencromartie.War.SeasonType.BATTING
+import com.michaelsgroi.warrencromartie.War.SeasonType.PITCHING
+import com.michaelsgroi.warrencromartie.roundToDecimalPlaces
 import okhttp3.internal.toImmutableList
 import java.util.LinkedList
 import kotlin.math.roundToLong

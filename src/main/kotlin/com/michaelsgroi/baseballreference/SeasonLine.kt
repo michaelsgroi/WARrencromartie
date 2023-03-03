@@ -1,6 +1,7 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.Fields
+import com.michaelsgroi.warrencromartie.War.Fields
+import com.michaelsgroi.warrencromartie.War.SeasonType
 
 data class SeasonLine(val fields: Map<String, String>) {
     fun fieldValueOrNull(fieldName: Fields): String? {
@@ -18,6 +19,6 @@ data class SeasonLine(val fields: Map<String, String>) {
     fun league() = fieldValue(Fields.LEAGUE)
     fun team() = fieldValue(Fields.TEAM_ID)
     fun salary() = fieldValueOrNull(Fields.SALARY)?.toLong() ?: 0L
-    fun seasonsType() = BrWarDaily.SeasonType.valueOf(fieldValue(Fields.SEASON_TYPE).uppercase())
+    fun seasonsType() = SeasonType.valueOf(fieldValue(Fields.SEASON_TYPE).uppercase())
     fun season() = fieldValue(Fields.SEASON).toInt()
 }

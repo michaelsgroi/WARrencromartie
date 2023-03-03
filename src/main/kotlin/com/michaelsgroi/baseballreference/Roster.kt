@@ -6,6 +6,7 @@ import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Field
 import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
+import com.michaelsgroi.warrencromartie.roundToDecimalPlaces
 
 data class Roster(val rosterId: RosterId, val players: Set<Career>) {
     companion object {

@@ -2,7 +2,6 @@ package com.michaelsgroi.baseballreference
 
 import com.michaelsgroi.baseballreference.Roster.RosterId
 import java.math.RoundingMode.HALF_UP
-import java.time.Duration
 import kotlin.math.roundToInt
 
 class BrWarDaily {
@@ -82,7 +81,6 @@ class BrWarDaily {
         val majorLeagues = setOf("AL", "NL")
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
-        val fileExpiration: Duration = Duration.ofDays(7)
     }
 
 }

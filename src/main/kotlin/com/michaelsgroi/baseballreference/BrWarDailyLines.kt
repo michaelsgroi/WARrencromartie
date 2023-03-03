@@ -1,9 +1,9 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
 import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
-import com.michaelsgroi.war.CachedFile.Companion.loadFromCache
+import com.michaelsgroi.warrencromartie.CachedFile.Companion.loadFromCache
+import com.michaelsgroi.warrencromartie.Constants.Companion.fileExpiration
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request

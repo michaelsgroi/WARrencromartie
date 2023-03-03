@@ -1,6 +1,9 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballdatabank.awardVotes
+import com.michaelsgroi.baseballdatabank.awardWinCount
 import com.michaelsgroi.baseballreference.Career.Companion.getCareerFormatter
+import com.michaelsgroi.baseballreference.Career.Companion.relevantAwards
 import com.michaelsgroi.baseballreference.Roster.Companion.getRosterFormatter
 import com.michaelsgroi.baseballreference.Roster.RosterId
 import com.michaelsgroi.baseballreference.Season.Companion.getSeasonFormatter
@@ -19,6 +22,8 @@ class BrReports(private val war: War, private val reportDir: String = "reports")
 
     fun run() {
         val reports = listOf(
+            mostCareerAwards(100),
+            mostCareerAwardVotes(100),
             theSteveBalboniAllStars(),
             theRowlandOfficeAllStars(),
             topSeasonWars(10),
@@ -84,6 +89,26 @@ class BrReports(private val war: War, private val reportDir: String = "reports")
             println("report #${(index + 1)} of ${reports.size}: ${report.filename}, estimated time to complete: $etaDuration")
         }
         println("wrote ${reports.size} reports to '$reportDir' directory")
+    }
+
+    private fun mostCareerAwards(topN: Int): Report<Career> {
+        return buildReport(getCareerFormatter(includeAwardCounts = true)) {
+            war.careers.sortedByDescending { career ->
+                career.seasons().sumOf { season ->
+                    season.awardVoting.awardWinCount(relevantAwards)
+                }
+            }.take(topN)
+        }
+    }
+
+    private fun mostCareerAwardVotes(topN: Int): Report<Career> {
+        return buildReport(getCareerFormatter(includeAwardPoints = true)) {
+            war.careers.sortedByDescending { career ->
+                career.seasons().sumOf { season ->
+                    season.awardVoting.awardVotes(relevantAwards)
+                }
+            }.take(topN)
+        }
     }
 
     private fun playersWhoseNameStartsWith(startsWith: String): Report<Career> {

@@ -1,5 +1,6 @@
 package com.michaelsgroi.warrencromartie
 
+import com.michaelsgroi.baseballdatabank.BaseballDatabank
 import com.michaelsgroi.baseballreference.BrWarDailyLines
 import com.michaelsgroi.baseballreference.Career
 import com.michaelsgroi.baseballreference.Roster
@@ -13,6 +14,7 @@ class War {
 
     private val batting = BrWarDailyLines(warDailyBatFile, SeasonType.BATTING)
     private val pitching = BrWarDailyLines(warDailyPitchFile, SeasonType.PITCHING)
+    private val awardShares = BaseballDatabank(awardSharePlayersFile)
 
     val rosters: List<Roster> by lazy { this.getRostersInternal() }
     val seasons: List<Season> by lazy { this.getSeasonsInternal() }
@@ -35,6 +37,8 @@ class War {
     }
 
     private fun getCareersInternal(): List<Career> {
+        val awardSharePlayer = awardShares.getRankedAwardSharePlayers().groupBy { it.playerId }
+
         val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
 
         val careerWars = playerIdToSeasonLines.values.map { seasonList ->
@@ -48,6 +52,7 @@ class War {
                 playerName = seasonList.first().playerName(),
                 war = war,
                 seasonLines = seasonList,
+                awardVoteLines = awardSharePlayer[playerId] ?: emptyList(),
                 warPercentile = careerWars.percentile(war)
             )
         }
@@ -85,6 +90,7 @@ class War {
         val majorLeagues = setOf("AL", "NL")
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
+        const val awardSharePlayersFile = "awardshareplayers.txt"
     }
 }
 

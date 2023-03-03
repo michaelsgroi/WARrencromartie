@@ -1,5 +1,6 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballdatabank.BaseballDatabank.RankedAwardShare
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Field
@@ -18,7 +19,8 @@ data class Season(
     val war: Double,
     val salary: Long,
     val battingWar: Double,
-    val pitchingWar: Double
+    val pitchingWar: Double,
+    val awardVoting: Set<RankedAwardShare>
 ) {
     companion object {
         private val seasonFormatterDefaultFields =

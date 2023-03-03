@@ -1,4 +1,4 @@
-package com.michaelsgroi.baseballreference
+package com.michaelsgroi.war
 
 import java.io.File
 import java.time.Duration

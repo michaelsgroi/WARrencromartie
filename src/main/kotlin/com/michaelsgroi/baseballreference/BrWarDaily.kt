@@ -78,7 +78,7 @@ class BrWarDaily {
     }
 
     companion object {
-        val majorLeagues = setOf("AL", "NL")
+        val majorLeagues = setOf("AL", "NL") // TODO -> enum
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
     }

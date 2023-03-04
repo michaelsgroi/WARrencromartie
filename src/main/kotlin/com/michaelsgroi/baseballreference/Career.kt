@@ -64,7 +64,7 @@ data class Career(
         awardVotesBySeason.values.forEach { awardLines ->
             val awardNames = awardLines.map { awardLine -> awardLine.awardName }
             require(awardNames.size == awardNames.toSet().size) {
-                "duplicate awards found: $awardNames"
+                "duplicate awards found in: $awardNames"
             }
         }
     }

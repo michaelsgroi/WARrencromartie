@@ -1,10 +1,7 @@
 package com.michaelsgroi.baseballreference
 
 import com.michaelsgroi.baseballreference.Roster.RosterId
-import java.io.File
 import java.math.RoundingMode.HALF_UP
-import java.time.Duration
-import java.time.Instant
 import kotlin.math.roundToInt
 
 class BrWarDaily {
@@ -81,57 +78,11 @@ class BrWarDaily {
     }
 
     companion object {
-        val majorLeagues = setOf("AL", "NL")
+        val majorLeagues = setOf("AL", "NL") // TODO -> enum
         const val warDailyBatFile = "war_daily_bat.txt"
         const val warDailyPitchFile = "war_daily_pitch.txt"
-        val fileExpiration: Duration = Duration.ofDays(7)
-
-        fun loadFromCache(filename: String, expiration: Duration, loader: () -> String): List<String> {
-            if (!filename.fileExists()) {
-                println("filename=$filename does not exist, retrieving from baseball-reference.com ...")
-                filename.writeFile(loader())
-            } else {
-                if (filename.fileExpired(expiration)) {
-                    println("filename=$filename exists but is expired, retrieving from baseball-reference.com ...")
-                    filename.writeFile(loader())
-                }
-            }
-            return filename.readFile()
-        }
     }
-}
 
-fun String.readFile(): List<String> {
-    return File(this).useLines { it.toList() }
 }
-
-fun String.fileExists(): Boolean {
-    return File(this).exists()
-}
-
-fun String.fileExpired(duration: Duration): Boolean {
-    require(fileExists()) { "File $this does not exist" }
-    val file = File(this)
-    val ageMs = Instant.now().toEpochMilli() - file.lastModified()
-    return ageMs > duration.toMillis()
-}
-
-fun String.dirExists(): Boolean {
-    val file = File(this)
-    val exists = file.exists()
-    require(!exists || file.isDirectory) { "File $this is not a directory" }
-    return exists
-}
-
-fun String.createDirectoryIfNotExists() {
-    if (!this.dirExists()) {
-        File(this).mkdirs()
-    }
-}
-
-fun String.writeFile(contents: String) {
-    File(this).writeBytes(contents.encodeToByteArray())
-}
-
 fun Double.roundToDecimalPlaces(places: Int) =
     (if (places == 0) roundToInt() else toBigDecimal().setScale(2, HALF_UP).toDouble()).toString()

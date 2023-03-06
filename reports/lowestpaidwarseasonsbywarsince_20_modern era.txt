@@ -1,4 +1,4 @@
-Lowest paid war seasons by war in the modern era 20
+Lowest paid war seasons by war since 20 modern era
 20 rows
 
     # name                                  war     salary year teams

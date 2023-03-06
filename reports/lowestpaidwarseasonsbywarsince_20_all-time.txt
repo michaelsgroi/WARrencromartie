@@ -1,4 +1,4 @@
-Lowest paid war seasons by war 20
+Lowest paid war seasons by war since 20 all-time
 20 rows
 
     # name                                  war     salary year teams

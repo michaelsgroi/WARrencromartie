@@ -8,6 +8,7 @@ import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
 import java.time.Duration
 import java.time.Instant
+import java.time.ZoneId
 
 class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: String = "reports") {
     init {
@@ -16,72 +17,75 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     fun run() {
         val reports = listOf(
-            consecutiveSeasonsWithWarOver(50, 5.0),
-            consecutiveSeasonsWithWarOver(50, 6.0),
-            consecutiveSeasonsWithWarOver(50, 7.0),
-            consecutiveSeasonsWithWarOver(50, 8.0),
-            consecutiveSeasonsWithWarOver(50, 9.0),
-            consecutiveSeasonsWithWarOver(50, 10.0),
-            consecutiveSeasonsWithWarOver(50, 11.0),
-            consecutiveSeasonsWithWarOver(50, 12.0),
-            consecutiveSeasonsWithWarOver(50, 13.0),
-            consecutiveSeasonsWithWarOver(50, 14.0),
-            bestTopNSeasons(3, 50),
-            bestTopNSeasons(5, 50),
-            bestTopNSeasons(7, 50),
-            theSteveBalboniAllStars(),
-            theRowlandOfficeAllStars(),
-            topSeasonWars(10),
-            bottomSeasonWars(10),
-            bestOrWorstNOfTeam("bos", 30, true),
-            bestOrWorstNOfTeam("bos", 30, false),
-            bestOrWorstNOfTeam("nyy", 30, true),
-            bestOrWorstNOfTeam("nyy", 30, false),
-            bestRosters(1000),
-            bestRosters(1000, CONCISE),
-            bestRostersByFranchise(),
-            bestRostersByFranchise(CONCISE),
-            roster(RosterId(1928, "pha"), CONCISE),
-            roster(RosterId(1928, "pha")),
-            roster(RosterId(2005, "nyy")),
-            roster(RosterId(2005, "nyy"), CONCISE),
-            roster(RosterId(1959, "mln")),
-            roster(RosterId(1996, "cle")),
-            highestPaidSeasons(20),
-            highestPaidSeasonsForTeam(20, "bos"),
-            highestPaidSeasonsForTeam(20, "nyy"),
-            highestPaidSeasonsByWar(20),
-            highestPaidCareersByWar(20),
-            highestPaidCareersByWarOfPlayersWhoAreCurrentlyActive(20),
-            highestPaidCareersWithNegativeWar(20),
-            lowestPaidWarSeasonsByWar(20),
-            lowestPaidWarSeasonsByWarInTheModernEra(20),
-            lowestPaidWarSeasonsByWarSince2000(20),
-            lowestPaidCareersByWar(20),
-            lowestPaidCareersByWarInTheModernEra(20),
-            lowestPaidCareersByWarSince2000(20),
-            lowestPaidCareersByWarWhoAreCurrentlyActive(20),
-            career("ruthba01"),
-            highestPeakSeasonWarWithCareerWarUnder(20, 10),
-            highestPeakSeasonWarWithCareerWarUnder(20, 15),
-            highestPeakSeasonWarWithCareerWarUnder(20, 20),
-            highestPeakSeasonWarWithCareerWarUnder(20, 30),
-            lowestPeakSeasonWarWithCareerWarOver(20, 40),
-            lowestPeakSeasonWarWithCareerWarOver(20, 50),
-            lowestPeakSeasonWarWithCareerWarOver(20, 60),
-            lowestPeakSeasonWarWithCareerWarOver(20, 70),
-            lowestPeakSeasonWarWithCareerWarOver(20, 80),
-            lowestPeakSeasonWarWithCareerWarOver(20, 90),
-            lowestPeakSeasonWarWithCareerWarOver(20, 100),
-            lowestPeakSeasonWarWithCareerWarOver(20, 110),
-            lowestPeakSeasonWarWithCareerWarOver(20, 120),
-            lowestPeakSeasonWarWithCareerWarOver(20, 130),
-            lowestPeakSeasonWarWithCareerWarOver(20, 140),
-            lowestPeakSeasonWarWithCareerWarOver(20, 150),
-            lowestPeakSeasonWarWithCareerWarOver(20, 160),
-            playersWhoseNameStartsWith("Cecil "),
-            playersWhoseNameStartsWith("Babe "),
-            playersWhoseNameContains("war"),
+//            consecutiveSeasonsWithWarOver(50, 5.0),
+//            consecutiveSeasonsWithWarOver(50, 6.0),
+//            consecutiveSeasonsWithWarOver(50, 7.0),
+//            consecutiveSeasonsWithWarOver(50, 8.0),
+//            consecutiveSeasonsWithWarOver(50, 9.0),
+//            consecutiveSeasonsWithWarOver(50, 10.0),
+//            consecutiveSeasonsWithWarOver(50, 11.0),
+//            consecutiveSeasonsWithWarOver(50, 12.0),
+//            consecutiveSeasonsWithWarOver(50, 13.0),
+//            consecutiveSeasonsWithWarOver(50, 14.0),
+            bestTopNSeasons(3, 50, "all-time"),
+            bestTopNSeasons(5, 50, "all-time"),
+            bestTopNSeasons(7, 50, "all-time"),
+            bestTopNSeasons(3, 50, "modern era", modernEra),
+            bestTopNSeasons(5, 50, "modern era", modernEra),
+            bestTopNSeasons(7, 50, "modern era", modernEra),
+//            theSteveBalboniAllStars(),
+//            theRowlandOfficeAllStars(),
+//            topSeasonWars(10),
+//            bottomSeasonWars(10),
+//            bestOrWorstNOfTeam("bos", 30, true),
+//            bestOrWorstNOfTeam("bos", 30, false),
+//            bestOrWorstNOfTeam("nyy", 30, true),
+//            bestOrWorstNOfTeam("nyy", 30, false),
+//            bestRosters(1000),
+//            bestRosters(1000, CONCISE),
+//            bestRostersByFranchise(),
+//            bestRostersByFranchise(CONCISE),
+//            roster(RosterId(1928, "pha"), CONCISE),
+//            roster(RosterId(1928, "pha")),
+//            roster(RosterId(2005, "nyy")),
+//            roster(RosterId(2005, "nyy"), CONCISE),
+//            roster(RosterId(1959, "mln")),
+//            roster(RosterId(1996, "cle")),
+//            highestPaidSeasons(20),
+//            highestPaidSeasonsForTeam(20, "bos"),
+//            highestPaidSeasonsForTeam(20, "nyy"),
+//            highestPaidSeasonsByWar(20),
+//            highestPaidCareersByWar(20),
+//            highestPaidCareersByWarOfPlayersWhoAreCurrentlyActive(20),
+//            highestPaidCareersWithNegativeWar(20),
+            lowestPaidWarSeasonsByWarSince(20, "all-time"),
+            lowestPaidWarSeasonsByWarSince(20, "modern era", modernEra),
+            lowestPaidWarSeasonsByWarSince(20, "since 2000", since2000),
+//            lowestPaidCareersByWar(20),
+//            lowestPaidCareersByWarInTheModernEra(20),
+//            lowestPaidCareersByWarSince2000(20),
+//            lowestPaidCareersByWarWhoAreCurrentlyActive(20),
+//            career("ruthba01"),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 10),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 15),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 20),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 30),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 40),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 50),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 60),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 70),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 80),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 90),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 100),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 110),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 120),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 130),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 140),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 150),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 160),
+//            playersWhoseNameStartsWith("Cecil "),
+//            playersWhoseNameStartsWith("Babe "),
+//            playersWhoseNameContains("war"),
         )
         // TODO add report run duration
         println("running ${reports.size} reports to '$reportDir' directory")
@@ -108,14 +112,21 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         }
     }
 
-    private fun bestTopNSeasons(topNSeasons: Int, topNPlayers: Int): Report<Career> {
-        return buildReport(listOf(topNSeasons, topNPlayers), getCareerFormatter()) {
-            brWarDaily.careers.map { career ->
-                career.copy(seasonsPredicate = {
-                    it.season in career.seasons().sortedByDescending { season -> season.war }.take(topNSeasons)
-                        .map { season -> season.season }.toSet()
-                })
-            }.sortedByDescending { career -> career.war() }.take(topNPlayers)
+    private fun bestTopNSeasons(
+        topNSeasons: Int,
+        topNPlayers: Int,
+        desc: String,
+        yearFilter: (Int) -> Boolean = { true }
+    ): Report<Career> {
+        return buildReport(listOf(topNSeasons, topNPlayers, desc), getCareerFormatter()) {
+            brWarDaily.careers
+                .filter { career -> yearFilter(career.seasons().maxOf { season -> season.season }) }
+                .map { career ->
+                    career.copy(seasonsPredicate = {
+                        it.season in career.seasons().sortedByDescending { season -> season.war }.take(topNSeasons)
+                            .map { season -> season.season }.toSet()
+                    })
+                }.sortedByDescending { career -> career.war() }.take(topNPlayers)
         }
     }
 
@@ -169,28 +180,14 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
                 .sortedByDescending { it.salary }.take(topN).toList()
         }
 
-    private fun lowestPaidWarSeasonsByWar(topN: Int) =
+    private fun lowestPaidWarSeasonsByWarSince(topN: Int, desc: String, yearFilter: (Int) -> Boolean = { true }) =
         buildReport(
-            topN,
-            getSeasonFormatter(includeSalary = true),
-            getLowestPaidWarSeasonsReportFunction(topN) { true })
-
-    private fun lowestPaidWarSeasonsByWarInTheModernEra(topN: Int) =
-        buildReport(
-            topN,
-            getSeasonFormatter(includeSalary = true),
-            getLowestPaidWarSeasonsReportFunction(topN) { year -> year >= 1947 })
-
-    private fun lowestPaidWarSeasonsByWarSince2000(topN: Int) =
-        buildReport(
-            topN,
-            getSeasonFormatter(includeSalary = true),
-            getLowestPaidWarSeasonsReportFunction(topN) { year -> year >= 2000 })
-
-    private fun getLowestPaidWarSeasonsReportFunction(topN: Int, yearFilter: (Int) -> Boolean): () -> List<Season> = {
-        brWarDaily.seasons.filter { it.salary > 0 && yearFilter(it.season) }
-            .sortedByDescending { it.war / it.salary }.take(topN)
-    }
+            listOf(topN, desc),
+            getSeasonFormatter(includeSalary = true)
+        ) {
+            brWarDaily.seasons.filter { it.salary > 0 && yearFilter(it.season) }
+                .sortedByDescending { it.war / it.salary }.take(topN)
+        }
 
     private fun lowestPaidCareersByWar(topN: Int) =
         buildReport(topN, getCareerFormatter(includeSalary = true), lowestPaidWarCareersReportFunction(topN) { true })
@@ -199,19 +196,22 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         buildReport(
             topN,
             getCareerFormatter(includeSalary = true),
-            lowestPaidWarCareersReportFunction(topN) { year -> year >= 1947 })
+            lowestPaidWarCareersReportFunction(topN, modernEra)
+        )
 
     private fun lowestPaidCareersByWarSince2000(topN: Int) =
         buildReport(
             topN,
             getCareerFormatter(includeSalary = true),
-            lowestPaidWarCareersReportFunction(topN) { year -> year >= 2000 })
+            lowestPaidWarCareersReportFunction(topN, since2000)
+        )
 
     private fun lowestPaidCareersByWarWhoAreCurrentlyActive(topN: Int) =
         buildReport(
             topN,
             getCareerFormatter(includeSalary = true),
-            lowestPaidWarCareersReportFunction(topN) { year -> year >= 2022 })
+            lowestPaidWarCareersReportFunction(topN, active)
+        )
 
     private fun lowestPaidWarCareersReportFunction(topN: Int, yearFilter: (Int) -> Boolean): () -> List<Career> = {
         brWarDaily.careers.filter { it.salary() > 0 && yearFilter(it.seasons().maxOf { sl -> sl.season }) }
@@ -345,6 +345,9 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     companion object {
         private val pattern = "(?<=.)[A-Z]".toRegex()
+        private val modernEra: (Int) -> Boolean = { year -> year >= 1947 }
+        private val since2000: (Int) -> Boolean = { year -> year >= 2000 }
+        private val active: (Int) -> Boolean = { year -> year >= Instant.now().atZone(ZoneId.systemDefault()).year - 1 }
 
         private fun String.toHumanReadable(): String {
             val replaced = replace(pattern, " $0").lowercase()

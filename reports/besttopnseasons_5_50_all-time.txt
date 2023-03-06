@@ -1,4 +1,4 @@
-Best top n seasons 5 50
+Best top n seasons 5 50 all-time
 50 rows
 
     # name                        war seasons             teams

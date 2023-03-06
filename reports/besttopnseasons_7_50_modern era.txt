@@ -1,0 +1,54 @@
+Best top n seasons 7 50 modern era
+50 rows
+
+    # name                        war seasons             teams
+  #1: Willie Mays               73.54       7 (1954-1965) NYG,SFG
+  #2: Barry Bonds               72.72       7 (1990-2004) PIT,SFG
+  #3: Ted Williams              68.08       7 (1941-1957) BOS
+  #4: Roger Clemens             65.88       7 (1986-2005) TOR,HOU,BOS
+  #5: Mike Trout                65.06       7 (2012-2019) LAA
+  #6: Mickey Mantle             64.68       7 (1954-1961) NYY
+  #7: Stan Musial               64.58       7 (1943-1953) STL
+  #8: Alex Rodriguez            64.28       7 (1996-2007) SEA,TEX,NYY
+  #9: Albert Pujols             61.72       7 (2003-2009) STL
+ #10: Randy Johnson             61.52       7 (1995-2004) ARI,SEA
+ #11: Bob Gibson                61.23       7 (1962-1972) STL
+ #12: Henry Aaron               60.29       7 (1959-1969) MLN,ATL
+ #13: Tom Seaver                59.32       7 (1967-1977) NYM,CIN
+ #14: Joe Morgan                59.25       7 (1965-1977) HOU,CIN
+ #15: Mike Schmidt              58.76       7 (1974-1981) PHI
+ #16: Pedro Martinez            58.24       7 (1997-2005) MON,BOS,NYM
+ #17: Rickey Henderson          57.55       7 (1980-1990) OAK,NYY
+ #18: Wade Boggs                 56.4       7 (1983-1991) BOS
+ #19: Cal Ripken Jr.             56.3       7 (1983-1991) BAL
+ #20: Greg Maddux               56.27       7 (1992-2000) CHC,ATL
+ #21: Carl Yastrzemski          55.53       7 (1963-1973) BOS
+ #22: Robin Roberts             55.05       7 (1950-1958) PHI
+ #23: Roberto Clemente          54.46       7 (1964-1971) PIT
+ #24: Phil Niekro               54.32       7 (1969-1979) ATL
+ #25: Steve Carlton              54.3       7 (1969-1983) STL,PHI
+ #26: Ken Griffey Jr.           54.04       7 (1991-1998) SEA
+ #27: Eddie Mathews             53.92       7 (1953-1963) MLN
+ #28: Ron Santo                 53.77       7 (1963-1969) CHC
+ #29: George Brett              53.29       7 (1975-1985) KCR
+ #30: Arky Vaughan               53.2       7 (1933-1940) PIT
+ #31: Frank Robinson             52.8       7 (1956-1969) CIN,BAL
+ #32: Hal Newhouser             52.65       7 (1942-1949) DET
+ #33: Gaylord Perry             52.32       7 (1969-1976) SFG,CLE,TEX
+ #34: Joe DiMaggio              52.11       7 (1937-1948) NYY
+ #35: Ernie Banks               52.02       7 (1955-1961) CHC
+ #36: Juan Marichal             51.85       7 (1962-1969) SFG
+ #37: Bob Feller                51.62       7 (1938-1950) CLE
+ #38: Warren Spahn              51.43       7 (1947-1959) BSN,MLN
+ #39: Jackie Robinson           51.41       7 (1948-1956) BRO
+ #40: Fergie Jenkins            51.39       7 (1968-1978) CHC,TEX
+ #41: Roy Halladay               50.6       7 (2002-2011) TOR,PHI
+ #42: Mookie Betts              50.54       7 (2015-2022) BOS,LAD
+ #43: Justin Verlander          50.41       7 (2011-2022) DET,HOU
+ #44: Bert Blyleven             50.33       7 (1971-1985) MIN,TEX,CLE
+ #45: Rod Carew                 49.76       7 (1969-1977) MIN
+ #46: Clayton Kershaw           49.71       7 (2011-2017) LAD
+ #47: Duke Snider               49.47       7 (1949-1957) BRO
+ #48: Robinson Canó             49.38       7 (2007-2016) NYY,SEA
+ #49: Chase Utley               49.26       7 (2005-2011) PHI
+ #50: Lou Boudreau               49.1       7 (1940-1948) CLE

@@ -76,8 +76,8 @@ Players whose name contains war
  #72: Ed Warner                   0.3       1 (1912-1912) PIT
  #73: Jack Warner                0.26       8 (1925-1933) DET,BRO,PHI
  #74: Jon Edwards                0.25       4 (2014-2019) TEX,SDP,CLE
- #75: Cy Warmoth                 0.24       3 (1916-1923) STL,WSH
- #76: Jackie Warner              0.24       1 (1966-1966) CAL
+ #75: Jackie Warner              0.24       1 (1966-1966) CAL
+ #76: Cy Warmoth                 0.24       3 (1916-1923) STL,WSH
  #77: Mack Stewart               0.22       2 (1944-1945) CHC
  #78: Kohl Stewart               0.21       3 (2018-2021) CHC,MIN
  #79: Preston Ward               0.18       9 (1948-1959) BRO,CHC,PIT,CLE,KCA
@@ -110,13 +110,13 @@ Players whose name contains war
 #106: Howard Armstrong          -0.06       1 (1911-1911) PHA
 #107: Dick Aylward              -0.07       1 (1953-1953) CLE
 #108: Mike Howard               -0.08       3 (1981-1983) NYM
-#109: Howard Wakefield          -0.09       3 (1905-1907) CLE,WSH
-#110: Howard Craghead           -0.09       2 (1931-1933) CLE
-#111: Howard Earl               -0.09       1 (1890-1890) CHC
-#112: Jon Warden                -0.09       1 (1968-1968) DET
-#113: Jay Ward                  -0.09       3 (1963-1970) MIN,CIN
-#114: Howard Baker              -0.09       3 (1912-1915) CLE,CHW,NYG
-#115: James Edwards             -0.09       6 (1922-1928) CLE,CHW,CIN
+#109: James Edwards             -0.09       6 (1922-1928) CLE,CHW,CIN
+#110: Howard Wakefield          -0.09       3 (1905-1907) CLE,WSH
+#111: Howard Craghead           -0.09       2 (1931-1933) CLE
+#112: Howard Earl               -0.09       1 (1890-1890) CHC
+#113: Jon Warden                -0.09       1 (1968-1968) DET
+#114: Jay Ward                  -0.09       3 (1963-1970) MIN,CIN
+#115: Howard Baker              -0.09       3 (1912-1915) CLE,CHW,NYG
 #116: Warren Shanabrook          -0.1       1 (1906-1906) WSH
 #117: Ralph Edwards             -0.12       1 (1915-1915) PHA
 #118: Howard Fahey              -0.12       1 (1912-1912) PHA

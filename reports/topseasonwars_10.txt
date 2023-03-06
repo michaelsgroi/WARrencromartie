@@ -1,0 +1,14 @@
+Top season wars 10
+10 rows
+
+    # name                                  war year teams
+  #1: Old Hoss Radbourn                   19.41 1884 PRO
+  #2: Pud Galvin                          18.41 1884 BUF
+  #3: Jim Devlin                          18.28 1876 LOU
+  #4: Walter Johnson                      16.45 1913 WSH
+  #5: Charlie Buffinton                   16.26 1884 BSN
+  #6: John Clarkson                       16.18 1889 BSN
+  #7: John Clarkson                       14.99 1887 CHC
+  #8: Tommy Bond                          14.34 1879 BSN
+  #9: Old Hoss Radbourn                   14.34 1883 PRO
+ #10: Walter Johnson                      14.28 1912 WSH

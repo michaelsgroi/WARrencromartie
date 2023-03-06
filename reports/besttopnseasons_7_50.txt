@@ -1,0 +1,54 @@
+Best top n seasons 7 50
+50 rows
+
+    # name                        war seasons             teams
+  #1: Henry Aaron               60.29       7 (1959-1969) MLN,ATL
+  #2: Bobby Abreu                41.6       7 (1998-2004) PHI
+  #3: José Abreu                27.46       7 (2014-2022) CHW
+  #4: Jim Abbott                 22.5       7 (1990-1998) CAL,NYY,CHW
+  #5: Ted Abernathy             18.41       7 (1965-1972) CHC,CIN,KCR,STL
+  #6: Don Aase                  14.46       7 (1977-1986) BOS,CAL,BAL
+  #7: Ed Abbaticchio              9.9       7 (1897-1910) PHI,BSN,PIT
+  #8: Cal Abrams                 8.95       7 (1949-1956) BRO,CIN,PIT,BAL,CHW
+  #9: Glenn Abbott               8.02       7 (1973-1983) OAK,SEA,DET
+ #10: Dustin Ackley              7.65       6 (2011-2016) SEA,NYY
+ #11: Paul Abbott                7.57       7 (1991-2003) MIN,SEA,KCR
+ #12: Jim Acker                  6.32       7 (1983-1990) ATL,TOR
+ #13: Tom Acker                  4.45       4 (1956-1959) CIN
+ #14: Fernando Abad              4.25       7 (2010-2019) HOU,WSN,OAK,MIN,BOS,SFG
+ #15: Alfredo Aceves             4.18       7 (2008-2014) NYY,BOS
+ #16: Juan Acevedo               3.67       7 (1995-2002) COL,NYM,STL,MIL,FLA,DET
+ #17: David Aardsma              2.51       7 (2004-2015) SFG,CHC,SEA,NYM,ATL,NYY
+ #18: Jeremy Accardo             2.41       7 (2005-2012) SFG,TOR,BAL,CLE,OAK
+ #19: Kurt Abbott                1.89       7 (1993-2001) OAK,FLA,NYM,ATL
+ #20: Charlie Abbey               1.7       5 (1893-1897) WHS
+ #21: Bryan Abreu                 0.7       4 (2019-2022) HOU
+ #22: Al Aber                    0.64       6 (1950-1957) CLE,DET,KCA
+ #23: Fred Abbott                0.51       3 (1903-1905) CLE,PHI
+ #24: Woody Abernathy            0.34       2 (1946-1947) NYG
+ #25: Bert Abbey                 0.31       5 (1892-1896) WHS,CHC,BRO
+ #26: A.J. Achter                0.27       3 (2014-2016) MIN,LAA
+ #27: CJ Abrams                  0.13       1 (2022-2022) SDP,WSN
+ #28: Fritz Ackley               0.12       2 (1963-1964) CHW
+ #29: Cliff Aberson              0.11       3 (1947-1949) CHC
+ #30: Joe Abreu                   0.1       1 (1942-1942) CIN
+ #31: Juan Abreu                 0.09       1 (2011-2011) HOU
+ #32: Albert Abreu               0.09       3 (2020-2022) NYY,KCR,TEX
+ #33: Brent Abernathy            0.04       4 (2001-2005) TBD,KCR,MIN
+ #34: George Abrams             -0.07       1 (1923-1923) CIN
+ #35: Bill Abernathie            -0.1       1 (1952-1952) CLE
+ #36: Reggie Abercrombie         -0.2       3 (2006-2008) FLA,HOU
+ #37: Andy Abad                 -0.35       2 (2001-2003) OAK,BOS
+ #38: Cory Abbott               -0.37       2 (2021-2022) CHC,WSN
+ #39: Ody Abbott                -0.41       1 (1910-1910) STL
+ #40: Bill Abstein              -0.44       3 (1906-1910) PIT,SLB
+ #41: Tony Abreu                -0.45       6 (2007-2014) LAD,ARI,KCR,SFG
+ #42: Johnny Abrego             -0.55       1 (1985-1985) CHC
+ #43: Winston Abreu             -0.83       3 (2006-2009) WSN,TBR,CLE,BAL
+ #44: Ted Abernathy             -1.23       3 (1942-1944) PHA
+ #45: Shawn Abner               -1.33       6 (1987-1992) SDP,CAL,CHW
+ #46: Kyle Abbott               -1.41       4 (1991-1996) PHI,CAL
+ #47: Jeff Abbott               -1.44       5 (1997-2001) CHW,FLA
+ #48: Harry Ables                -1.9       3 (1905-1911) SLB,CLE,NYY
+ #49: Jose Acevedo              -2.48       5 (2001-2005) CIN,COL
+ #50: Tommie Aaron              -2.77       7 (1962-1971) MLN,ATL

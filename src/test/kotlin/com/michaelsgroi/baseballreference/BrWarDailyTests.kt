@@ -53,7 +53,7 @@ class BrWarDailyTests {
             val seasons = career.seasons()
             assertEquals(seasonCount, seasons.size) { "Expected ${seasons.size} to be $seasonCount" }
             val roundToDecimalPlaces = seasons.sumOf { it.war }.roundToDecimalPlaces(2)
-            val war = career.war.roundToDecimalPlaces(2)
+            val war = career.war().roundToDecimalPlaces(2)
             assertEquals(roundToDecimalPlaces, war) { "Expected $war to be $roundToDecimalPlaces" }
         }
     }

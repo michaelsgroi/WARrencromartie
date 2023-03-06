@@ -33,27 +33,13 @@ class BrWarDaily {
     }
 
     private fun getCareersInternal(): List<Career> {
-
-        val playerIdToSeasonLines = getSeasonLines().groupBy { it.playerId() }
-
-        val careerWars = playerIdToSeasonLines.values.map { seasonList ->
-            seasonList.sumOf { it.war() }
-        }.sorted()
-
-        return playerIdToSeasonLines.map { (playerId, seasonList) ->
-            val war = seasonList.sumOf { it.war() }
+        return getSeasonLines().groupBy { it.playerId() }.map { (playerId, seasonList) ->
             Career(
                 playerId = playerId,
                 playerName = seasonList.first().playerName(),
-                war = war,
                 seasonLines = seasonList,
-                warPercentile = careerWars.percentile(war)
             )
         }
-    }
-
-    private fun List<Double>.percentile(value: Double): Double {
-        return (indexOf(value).toDouble() / this.size.toDouble()) * 100
     }
 
     private fun getSeasonLines(): List<SeasonLine> {

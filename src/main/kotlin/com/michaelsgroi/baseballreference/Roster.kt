@@ -13,13 +13,13 @@ data class Roster(val rosterId: RosterId, val players: Set<Career>) {
             Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
             Field("year", leftAlign(4)) { _, roster -> roster.rosterId.season.toString() },
             Field("team", rightAlign(4)) { _, roster -> roster.rosterId.team },
-            Field("war", rightAlign(4)) { _, roster -> roster.players.sumOf { it.war }.roundToDecimalPlaces(0) },
+            Field("war", rightAlign(4)) { _, roster -> roster.players.sumOf { it.war() }.roundToDecimalPlaces(0) },
         )
         private val rosterConciseFields = listOf<Field<Roster>>(
             Field("#", asIs(5)) { index, _ -> "${(index + 1)}:" },
             Field("year", asIs(4)) { _, roster -> roster.rosterId.season.toString() },
             Field("team", asIs(4)) { _, roster -> roster.rosterId.team },
-            Field("war", asIs(4)) { _, roster -> roster.players.sumOf { it.war }.roundToDecimalPlaces(0) },
+            Field("war", asIs(4)) { _, roster -> roster.players.sumOf { it.war() }.roundToDecimalPlaces(0) },
         )
 
         fun getRosterFormatter(verbosity: Verbosity = VERBOSE): BrReportFormatter<Roster> =

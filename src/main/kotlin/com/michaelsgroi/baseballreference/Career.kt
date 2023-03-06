@@ -15,13 +15,14 @@ import kotlin.math.roundToLong
 data class Career(
     val playerId: String,
     val playerName: String,
-    val war: Double,
-    val seasonLines: List<SeasonLine>,
-    val warPercentile: Double = 0.0,
+    private val seasonLines: List<SeasonLine>,
+    var seasonsPredicate: (Season) -> Boolean = { true },
 ) {
     fun war() = seasons().sumOf { it.war }
 
-    fun seasonRange() = "${seasonLines.minOf { it.season() }}-${seasonLines.maxOf { it.season() }}"
+    fun seasonRange(): String {
+        return "${seasons().minOf { it.season }}-${seasons().maxOf { it.season }}"
+    }
 
     fun seasonCount() = seasons().size
 
@@ -48,7 +49,7 @@ data class Career(
             pitchingWar = seasonLines.filter { seasonLine -> seasonLine.seasonsType() == PITCHING }
                 .sumOf { seasonLine -> seasonLine.war() },
         )
-    }.values
+    }.values.filter { seasonsPredicate(it) }
 
     override fun toString(): String {
         return "{ " +
@@ -67,7 +68,7 @@ data class Career(
         private val careerFormatterDefaultFields = listOf<Field<Career>>(
             Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
             Field("name", leftAlign(20)) { _, career -> career.playerName },
-            Field("war", rightAlign(10)) { _, career -> career.war.roundToDecimalPlaces(2) },
+            Field("war", rightAlign(10)) { _, career -> career.war().roundToDecimalPlaces(2) },
             Field("seasons", rightAlign(7)) { _, career -> career.seasons().size.toString() },
             Field("", leftAlign(11)) { _, career -> "(${career.seasonRange()})" },
             Field("teams", leftAlign(256)) { _, career -> career.teams().joinToString(",") },
@@ -76,14 +77,14 @@ data class Career(
         fun getCareerFormatter(
             verbosity: Verbosity = VERBOSE,
             includeSalary: Boolean = false,
-            includePeakWar: Boolean = false
+            includePeakWar: Boolean = false,
         ): BrReportFormatter<Career> = when (verbosity) {
             CONCISE -> {
                 BrReportFormatter(
                     fields = listOf(
                         Field("#", asIs(5)) { index, _ -> "#${(index + 1)}:" },
                         Field("name", asIs(20)) { _, career -> career.playerName },
-                        Field("war", asIs(10)) { _, career -> career.war.roundToDecimalPlaces(0) }
+                        Field("war", asIs(10)) { _, career -> career.war().roundToDecimalPlaces(0) }
                     )
                 )
             }

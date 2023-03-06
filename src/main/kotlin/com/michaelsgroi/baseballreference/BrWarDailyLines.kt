@@ -62,9 +62,6 @@ class BrWarDailyLines(
                 Career(
                     playerId = playerId,
                     playerName = seasonList.first().playerName(),
-                    war = seasonList.sumOf {
-                        it.war()
-                    },
                     seasonLines = seasonList
                 )
             }

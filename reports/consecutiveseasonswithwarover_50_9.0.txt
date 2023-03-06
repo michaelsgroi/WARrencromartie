@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 9.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Walter Johnson             5 (1912-1916) WSH
+  #2: Pete Alexander             4 (1914-1917) PHI
+  #3: Barry Bonds                4 (2001-2004) SFG
+  #4: Tommy Bond                 4 (1876-1879) HAR,BSN
+  #5: Ty Cobb                    4 (1909-1912) DET
+  #6: Willie Mays                4 (1962-1965) SFG
+  #7: Ted Williams               4 (1941-1947) BOS
+  #8: Bob Gibson                 3 (1968-1970) STL
+  #9: Lefty Grove                3 (1930-1932) PHA
+ #10: Rogers Hornsby             3 (1920-1922) STL
+ #11: Mickey Mantle              3 (1955-1957) NYY
+ #12: Babe Ruth                  3 (1919-1921) BOS,NYY
+ #13: Ed Walsh                   3 (1910-1912) CHW
+ #14: Ernie Banks                2 (1958-1959) CHC
+ #15: Theodore Breitenstein       2 (1893-1894) STL
+ #16: Mordecai Brown             2 (1908-1909) CHC
+ #17: Charlie Buffinton          2 (1888-1889) PHI
+ #18: Eddie Collins              2 (1909-1910) PHA
+ #19: Jim Devlin                 2 (1876-1877) LOU
+ #20: Red Faber                  2 (1921-1922) CHW
+ #21: Bob Feller                 2 (1939-1940) CLE
+ #22: Charlie Ferguson           2 (1886-1887) PHI
+ #23: Pud Galvin                 2 (1883-1884) BUF
+ #24: Lou Gehrig                 2 (1927-1928) NYY
+ #25: Ken Griffey Jr.            2 (1996-1997) SEA
+ #26: Bill Hutchison             2 (1891-1892) CHC
+ #27: Shoeless Joe Jackson       2 (1911-1912) CLE
+ #28: Randy Johnson              2 (2001-2002) ARI
+ #29: Juan Marichal              2 (1965-1966) SFG
+ #30: Christy Mathewson          2 (1908-1909) NYG
+ #31: Jim McCormick              2 (1879-1880) CLV
+ #32: Joe McGinnity              2 (1903-1904) NYG
+ #33: Joe Morgan                 2 (1975-1976) CIN
+ #34: Stan Musial                2 (1948-1949) STL
+ #35: Hal Newhouser              2 (1945-1946) DET
+ #36: Kid Nichols                2 (1890-1891) BSN
+ #37: Shohei Ohtani              2 (2021-2022) LAA
+ #38: Albert Pujols              2 (2008-2009) STL
+ #39: Old Hoss Radbourn          2 (1883-1884) PRO
+ #40: Amos Rusie                 2 (1893-1894) NYG
+ #41: Mike Trout                 2 (2015-2016) LAA
+ #42: Rube Waddell               2 (1904-1905) PHA
+ #43: Honus Wagner               2 (1908-1909) PIT
+ #44: Mickey Welch               2 (1884-1885) NYG
+ #45: Wilbur Wood                2 (1971-1972) CHW
+ #46: Carl Yastrzemski           2 (1967-1968) BOS
+ #47: Cy Young                   2 (1892-1893) CLV
+ #48: Henry Aaron                1 (1961-1961) MLN
+ #49: Babe Adams                 1 (1913-1913) PIT
+ #50: Kevin Appier               1 (1993-1993) KCR

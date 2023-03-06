@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 13.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Tommy Bond                 2 (1878-1879) BSN
+  #2: Jim Devlin                 2 (1876-1877) LOU
+  #3: Walter Johnson             2 (1912-1913) WSH
+  #4: Old Hoss Radbourn          2 (1883-1884) PRO
+  #5: Charlie Buffinton          1 (1884-1884) BSN
+  #6: John Clarkson              1 (1889-1889) BSN
+  #7: Pud Galvin                 1 (1884-1884) BUF
+  #8: Dwight Gooden              1 (1985-1985) NYM
+  #9: Amos Rusie                 1 (1894-1894) NYG
+ #10: Babe Ruth                  1 (1923-1923) NYY
+ #11: Jim Whitney                1 (1883-1883) BSN
+ #12: David Aardsma              0
+ #13: Henry Aaron                0
+ #14: Tommie Aaron               0
+ #15: Don Aase                   0
+ #16: Andy Abad                  0
+ #17: Fernando Abad              0
+ #18: Ed Abbaticchio             0
+ #19: Bert Abbey                 0
+ #20: Charlie Abbey              0
+ #21: Cory Abbott                0
+ #22: Fred Abbott                0
+ #23: Glenn Abbott               0
+ #24: Jeff Abbott                0
+ #25: Jim Abbott                 0
+ #26: Kurt Abbott                0
+ #27: Kyle Abbott                0
+ #28: Ody Abbott                 0
+ #29: Paul Abbott                0
+ #30: Al Aber                    0
+ #31: Reggie Abercrombie         0
+ #32: Bill Abernathie            0
+ #33: Brent Abernathy            0
+ #34: Ted Abernathy              0
+ #35: Ted Abernathy              0
+ #36: Woody Abernathy            0
+ #37: Cliff Aberson              0
+ #38: Harry Ables                0
+ #39: Shawn Abner                0
+ #40: Cal Abrams                 0
+ #41: CJ Abrams                  0
+ #42: George Abrams              0
+ #43: Johnny Abrego              0
+ #44: Albert Abreu               0
+ #45: Bobby Abreu                0
+ #46: Bryan Abreu                0
+ #47: Joe Abreu                  0
+ #48: José Abreu                 0
+ #49: Juan Abreu                 0
+ #50: Tony Abreu                 0

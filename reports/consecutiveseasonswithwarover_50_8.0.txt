@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 8.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Walter Johnson            10 (1910-1919) WSH
+  #2: Willie Mays                7 (1960-1966) SFG
+  #3: Albert Pujols              7 (2003-2009) STL
+  #4: Babe Ruth                  7 (1926-1932) NYY
+  #5: Kid Nichols                6 (1890-1895) BSN
+  #6: Honus Wagner               6 (1904-1909) PIT
+  #7: Ted Williams               6 (1941-1949) BOS
+  #8: Wade Boggs                 5 (1985-1989) BOS
+  #9: Joe Morgan                 5 (1972-1976) CIN
+ #10: Cy Young                   5 (1892-1896) CLV
+ #11: Pete Alexander             4 (1914-1917) PHI
+ #12: Barry Bonds                4 (2001-2004) SFG
+ #13: Tommy Bond                 4 (1876-1879) HAR,BSN
+ #14: Ty Cobb                    4 (1909-1912) DET
+ #15: Eddie Collins              4 (1912-1915) PHA,CHW
+ #16: Lou Gehrig                 4 (1934-1937) NYY
+ #17: Randy Johnson              4 (1999-2002) ARI
+ #18: Mickey Mantle              4 (1955-1958) NYY
+ #19: Christy Mathewson          4 (1907-1910) NYG
+ #20: Robin Roberts              4 (1951-1954) PHI
+ #21: Alex Rodriguez             4 (2000-2003) SEA,TEX
+ #22: Jim Whitney                4 (1881-1884) BSN
+ #23: Henry Aaron                3 (1961-1963) MLN
+ #24: John Clarkson              3 (1889-1891) BSN
+ #25: Roberto Clemente           3 (1966-1968) PIT
+ #26: Bob Feller                 3 (1939-1941) CLE
+ #27: Charlie Ferguson           3 (1885-1887) PHI
+ #28: Jimmie Foxx                3 (1932-1934) PHA
+ #29: Bob Gibson                 3 (1968-1970) STL
+ #30: Lefty Grove                3 (1930-1932) PHA
+ #31: Rogers Hornsby             3 (1920-1922) STL
+ #32: Bill Hutchison             3 (1890-1892) CHC
+ #33: Joe McGinnity              3 (1902-1904) BLA,NYG
+ #34: Stan Musial                3 (1943-1946) STL
+ #35: Hal Newhouser              3 (1944-1946) DET
+ #36: Old Hoss Radbourn          3 (1883-1885) PRO
+ #37: Duke Snider                3 (1953-1955) BRO
+ #38: Tris Speaker               3 (1912-1914) BOS
+ #39: Ed Walsh                   3 (1910-1912) CHW
+ #40: Ernie Banks                2 (1958-1959) CHC
+ #41: Lou Boudreau               2 (1943-1944) CLE
+ #42: Theodore Breitenstein       2 (1893-1894) STL
+ #43: George Brett               2 (1979-1980) KCR
+ #44: Mordecai Brown             2 (1908-1909) CHC
+ #45: Charlie Buffinton          2 (1888-1889) PHI
+ #46: Jim Bunning                2 (1965-1966) PHI
+ #47: Roger Clemens              2 (1997-1998) TOR
+ #48: George Cuppy               2 (1895-1896) CLV
+ #49: Jim Devlin                 2 (1876-1877) LOU
+ #50: Red Faber                  2 (1921-1922) CHW

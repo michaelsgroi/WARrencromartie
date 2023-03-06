@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 12.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Walter Johnson             4 (1912-1915) WSH
+  #2: Tommy Bond                 2 (1878-1879) BSN
+  #3: Jim Devlin                 2 (1876-1877) LOU
+  #4: Old Hoss Radbourn          2 (1883-1884) PRO
+  #5: Pete Alexander             1 (1920-1920) CHC
+  #6: Charlie Buffinton          1 (1884-1884) BSN
+  #7: Steve Carlton              1 (1972-1972) PHI
+  #8: John Clarkson              1 (1889-1889) BSN
+  #9: Roger Clemens              1 (1997-1997) TOR
+ #10: Pud Galvin                 1 (1884-1884) BUF
+ #11: Dwight Gooden              1 (1985-1985) NYM
+ #12: Rogers Hornsby             1 (1924-1924) STL
+ #13: Hal Newhouser              1 (1945-1945) DET
+ #14: Kid Nichols                1 (1890-1890) BSN
+ #15: Amos Rusie                 1 (1894-1894) NYG
+ #16: Babe Ruth                  1 (1923-1923) NYY
+ #17: Ed Walsh                   1 (1912-1912) CHW
+ #18: Mickey Welch               1 (1884-1884) NYG
+ #19: Jim Whitney                1 (1883-1883) BSN
+ #20: Carl Yastrzemski           1 (1967-1967) BOS
+ #21: Cy Young                   1 (1892-1892) CLV
+ #22: David Aardsma              0
+ #23: Henry Aaron                0
+ #24: Tommie Aaron               0
+ #25: Don Aase                   0
+ #26: Andy Abad                  0
+ #27: Fernando Abad              0
+ #28: Ed Abbaticchio             0
+ #29: Bert Abbey                 0
+ #30: Charlie Abbey              0
+ #31: Cory Abbott                0
+ #32: Fred Abbott                0
+ #33: Glenn Abbott               0
+ #34: Jeff Abbott                0
+ #35: Jim Abbott                 0
+ #36: Kurt Abbott                0
+ #37: Kyle Abbott                0
+ #38: Ody Abbott                 0
+ #39: Paul Abbott                0
+ #40: Al Aber                    0
+ #41: Reggie Abercrombie         0
+ #42: Bill Abernathie            0
+ #43: Brent Abernathy            0
+ #44: Ted Abernathy              0
+ #45: Ted Abernathy              0
+ #46: Woody Abernathy            0
+ #47: Cliff Aberson              0
+ #48: Harry Ables                0
+ #49: Shawn Abner                0
+ #50: Cal Abrams                 0

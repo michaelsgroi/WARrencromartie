@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 14.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Walter Johnson             2 (1912-1913) WSH
+  #2: Old Hoss Radbourn          2 (1883-1884) PRO
+  #3: Tommy Bond                 1 (1879-1879) BSN
+  #4: Charlie Buffinton          1 (1884-1884) BSN
+  #5: John Clarkson              1 (1889-1889) BSN
+  #6: Jim Devlin                 1 (1876-1876) LOU
+  #7: Pud Galvin                 1 (1884-1884) BUF
+  #8: Babe Ruth                  1 (1923-1923) NYY
+  #9: David Aardsma              0
+ #10: Henry Aaron                0
+ #11: Tommie Aaron               0
+ #12: Don Aase                   0
+ #13: Andy Abad                  0
+ #14: Fernando Abad              0
+ #15: Ed Abbaticchio             0
+ #16: Bert Abbey                 0
+ #17: Charlie Abbey              0
+ #18: Cory Abbott                0
+ #19: Fred Abbott                0
+ #20: Glenn Abbott               0
+ #21: Jeff Abbott                0
+ #22: Jim Abbott                 0
+ #23: Kurt Abbott                0
+ #24: Kyle Abbott                0
+ #25: Ody Abbott                 0
+ #26: Paul Abbott                0
+ #27: Al Aber                    0
+ #28: Reggie Abercrombie         0
+ #29: Bill Abernathie            0
+ #30: Brent Abernathy            0
+ #31: Ted Abernathy              0
+ #32: Ted Abernathy              0
+ #33: Woody Abernathy            0
+ #34: Cliff Aberson              0
+ #35: Harry Ables                0
+ #36: Shawn Abner                0
+ #37: Cal Abrams                 0
+ #38: CJ Abrams                  0
+ #39: George Abrams              0
+ #40: Johnny Abrego              0
+ #41: Albert Abreu               0
+ #42: Bobby Abreu                0
+ #43: Bryan Abreu                0
+ #44: Joe Abreu                  0
+ #45: José Abreu                 0
+ #46: Juan Abreu                 0
+ #47: Tony Abreu                 0
+ #48: Winston Abreu              0
+ #49: Bill Abstein               0
+ #50: Jeremy Accardo             0

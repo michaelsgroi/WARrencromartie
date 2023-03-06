@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 11.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Walter Johnson             4 (1912-1915) WSH
+  #2: Tommy Bond                 3 (1877-1879) BSN
+  #3: Barry Bonds                2 (2001-2002) SFG
+  #4: Charlie Buffinton          2 (1888-1889) PHI
+  #5: Jim Devlin                 2 (1876-1877) LOU
+  #6: Bob Gibson                 2 (1968-1969) STL
+  #7: Mickey Mantle              2 (1956-1957) NYY
+  #8: Willie Mays                2 (1964-1965) SFG
+  #9: Kid Nichols                2 (1897-1898) BSN
+ #10: Old Hoss Radbourn          2 (1883-1884) PRO
+ #11: Amos Rusie                 2 (1893-1894) NYG
+ #12: Babe Ruth                  2 (1923-1924) NYY
+ #13: Pete Alexander             1 (1920-1920) CHC
+ #14: Theodore Breitenstein       1 (1893-1893) STL
+ #15: Steve Carlton              1 (1972-1972) PHI
+ #16: Jack Chesbro               1 (1904-1904) NYY
+ #17: Eddie Cicotte              1 (1917-1917) CHW
+ #18: John Clarkson              1 (1889-1889) BSN
+ #19: Roger Clemens              1 (1997-1997) TOR
+ #20: Ty Cobb                    1 (1917-1917) DET
+ #21: Red Faber                  1 (1921-1921) CHW
+ #22: Charlie Ferguson           1 (1886-1886) PHI
+ #23: Russ Ford                  1 (1910-1910) NYY
+ #24: Pud Galvin                 1 (1884-1884) BUF
+ #25: Lou Gehrig                 1 (1927-1927) NYY
+ #26: Kid Gleason                1 (1890-1890) PHI
+ #27: Dwight Gooden              1 (1985-1985) NYM
+ #28: Pink Hawley                1 (1895-1895) PIT
+ #29: Rogers Hornsby             1 (1924-1924) STL
+ #30: Fergie Jenkins             1 (1971-1971) CHC
+ #31: Pedro Martinez             1 (2000-2000) BOS
+ #32: Christy Mathewson          1 (1908-1908) NYG
+ #33: Joe McGinnity              1 (1903-1903) NYG
+ #34: Jouett Meekin              1 (1894-1894) NYG
+ #35: Stan Musial                1 (1948-1948) STL
+ #36: Hal Newhouser              1 (1945-1945) DET
+ #37: Gaylord Perry              1 (1972-1972) CLE
+ #38: Cal Ripken Jr.             1 (1991-1991) BAL
+ #39: Honus Wagner               1 (1908-1908) PIT
+ #40: Ed Walsh                   1 (1912-1912) CHW
+ #41: Mickey Welch               1 (1884-1884) NYG
+ #42: Jim Whitney                1 (1883-1883) BSN
+ #43: Smoky Joe Wood             1 (1912-1912) BOS
+ #44: Carl Yastrzemski           1 (1967-1967) BOS
+ #45: Cy Young                   1 (1892-1892) CLV
+ #46: David Aardsma              0
+ #47: Henry Aaron                0
+ #48: Tommie Aaron               0
+ #49: Don Aase                   0
+ #50: Andy Abad                  0

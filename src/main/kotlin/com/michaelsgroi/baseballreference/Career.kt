@@ -34,6 +34,18 @@ data class Career(
 
     fun pitchingWar() = seasons().sumOf { it.pitchingWar }
 
+    fun consecutiveSeasonsOver(minWar: Double): List<Season> {
+        val seasonOrdinals = seasons().mapIndexed { index, season -> index + 1 to season }.toMap()
+        val seasonsOrdered = seasonOrdinals.filter { it.value.war > minWar }.keys.sorted()
+        var groupNum = 0
+        val seasonGroups = seasonsOrdered.mapIndexed { index, currentValue ->
+            if (!(index != 0 && currentValue - seasonsOrdered[index - 1] == 1)) groupNum++
+            currentValue to groupNum
+        }.groupBy { it.second }.map { groups -> groups.value.map { seasonOrdinals[it.first]!! } }
+        val longestGroupLength = seasonGroups.maxOfOrNull { it.size } ?: return emptyList()
+        return seasonGroups.filter { it.size == longestGroupLength }.maxBy { it.sumOf { season -> season.war } }
+    }
+
     fun seasons() = seasonLines.groupBy { it.season() }.mapValues { (season, seasonLines) ->
         Season(
             playerId = playerId,
@@ -68,14 +80,15 @@ data class Career(
         private val careerFormatterDefaultFields = listOf<Field<Career>>(
             Field("#", rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
             Field("name", leftAlign(20)) { _, career -> career.playerName },
-            Field("war", rightAlign(10)) { _, career -> career.war().roundToDecimalPlaces(2) },
             Field("seasons", rightAlign(7)) { _, career -> career.seasons().size.toString() },
-            Field("", leftAlign(11)) { _, career -> "(${career.seasonRange()})" },
+            Field("", leftAlign(11)) { _, career ->
+                if (career.seasons().isEmpty()) "" else "(${career.seasonRange()})" },
             Field("teams", leftAlign(256)) { _, career -> career.teams().joinToString(",") },
         )
 
         fun getCareerFormatter(
             verbosity: Verbosity = VERBOSE,
+            includeWar: Boolean = true,
             includeSalary: Boolean = false,
             includePeakWar: Boolean = false,
         ): BrReportFormatter<Career> = when (verbosity) {
@@ -88,8 +101,15 @@ data class Career(
                     )
                 )
             }
+
             VERBOSE -> {
                 val fieldsLinkedList = LinkedList(careerFormatterDefaultFields)
+                if (includeWar) {
+                    fieldsLinkedList.add(
+                        2,
+                        Field("war", rightAlign(10)) { _, career -> career.war().roundToDecimalPlaces(2) }
+                    )
+                }
                 if (includeSalary) {
                     fieldsLinkedList.add(
                         3,

@@ -16,6 +16,16 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     fun run() {
         val reports = listOf(
+            consecutiveSeasonsWithWarOver(50, 5.0),
+            consecutiveSeasonsWithWarOver(50, 6.0),
+            consecutiveSeasonsWithWarOver(50, 7.0),
+            consecutiveSeasonsWithWarOver(50, 8.0),
+            consecutiveSeasonsWithWarOver(50, 9.0),
+            consecutiveSeasonsWithWarOver(50, 10.0),
+            consecutiveSeasonsWithWarOver(50, 11.0),
+            consecutiveSeasonsWithWarOver(50, 12.0),
+            consecutiveSeasonsWithWarOver(50, 13.0),
+            consecutiveSeasonsWithWarOver(50, 14.0),
             bestTopNSeasons(3, 50),
             bestTopNSeasons(5, 50),
             bestTopNSeasons(7, 50),
@@ -73,6 +83,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             playersWhoseNameStartsWith("Babe "),
             playersWhoseNameContains("war"),
         )
+        // TODO add report run duration
         println("running ${reports.size} reports to '$reportDir' directory")
         val startMs = Instant.now().toEpochMilli()
         reports.forEachIndexed { index, report ->
@@ -84,6 +95,17 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             println("report #${(index + 1)} of ${reports.size}: ${report.filename}, estimated time to complete: $etaDuration")
         }
         println("wrote ${reports.size} reports to '$reportDir' directory")
+    }
+
+    private fun consecutiveSeasonsWithWarOver(topN: Int, minWar: Double): Report<Career> {
+        return buildReport(listOf(topN, minWar), getCareerFormatter(includeWar = false)) {
+            brWarDaily.careers
+                .sortedByDescending { career -> career.consecutiveSeasonsOver(minWar).size }.take(topN).map { career ->
+                    val consecutiveSeasons =
+                        career.consecutiveSeasonsOver(minWar).map { season -> season.season }.toSet()
+                    career.copy(seasonsPredicate = { it.season in consecutiveSeasons })
+                }
+        }
     }
 
     private fun bestTopNSeasons(topNSeasons: Int, topNPlayers: Int): Report<Career> {
@@ -235,7 +257,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         }
 
     private fun topSeasonWars(topN: Int) =
-        buildReport(getSeasonFormatter()) {
+        buildReport(topN, getSeasonFormatter()) {
             brWarDaily.seasons.sortedByDescending { it.war }.take(topN)
         }
 

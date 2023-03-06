@@ -1,0 +1,54 @@
+Consecutive seasons with war over 50 7.0
+50 rows
+
+    # name                 seasons             teams
+  #1: Willie Mays               13 (1954-1966) NYG,SFG
+  #2: Lou Gehrig                11 (1927-1937) NYY
+  #3: Walter Johnson            10 (1910-1919) WSH
+  #4: Honus Wagner               9 (1901-1909) PIT
+  #5: Henry Aaron                8 (1956-1963) MLN
+  #6: Albert Pujols              8 (2003-2010) STL
+  #7: Cy Young                   8 (1898-1905) CLV,STL,BOS
+  #8: Christy Mathewson          7 (1907-1913) NYG
+  #9: Babe Ruth                  7 (1926-1932) NYY
+ #10: Roberto Clemente           6 (1964-1969) PIT
+ #11: Lefty Grove                6 (1928-1933) PHA
+ #12: Stan Musial                6 (1948-1953) STL
+ #13: Kid Nichols                6 (1890-1895) BSN
+ #14: Alex Rodriguez             6 (2000-2005) SEA,TEX,NYY
+ #15: Tris Speaker               6 (1912-1917) BOS,CLE
+ #16: Ted Williams               6 (1941-1949) BOS
+ #17: Wade Boggs                 5 (1985-1989) BOS
+ #18: Barry Bonds                5 (2000-2004) SFG
+ #19: Ty Cobb                    5 (1909-1913) DET
+ #20: Eddie Collins              5 (1912-1916) PHA,CHW
+ #21: Charlie Gehringer          5 (1933-1937) DET
+ #22: Greg Maddux                5 (1994-1998) ATL
+ #23: Joe Morgan                 5 (1972-1976) CIN
+ #24: Amos Rusie                 5 (1890-1894) NYG
+ #25: Mike Trout                 5 (2012-2016) LAA
+ #26: Chase Utley                5 (2005-2009) PHI
+ #27: Pete Alexander             4 (1914-1917) PHI
+ #28: Tommy Bond                 4 (1876-1879) HAR,BSN
+ #29: Stan Coveleski             4 (1917-1920) CLE
+ #30: Jimmie Foxx                4 (1932-1935) PHA
+ #31: Hughie Jennings            4 (1895-1898) BLN
+ #32: Randy Johnson              4 (1999-2002) ARI
+ #33: Mickey Mantle              4 (1955-1958) NYY
+ #34: Joe McGinnity              4 (1901-1904) BLA,NYG
+ #35: Old Hoss Radbourn          4 (1882-1885) PRO
+ #36: Robin Roberts              4 (1951-1954) PHI
+ #37: Jackie Robinson            4 (1949-1952) BRO
+ #38: Ron Santo                  4 (1964-1967) CHC
+ #39: Mike Schmidt               4 (1974-1977) PHI
+ #40: Duke Snider                4 (1953-1956) BRO
+ #41: Rube Waddell               4 (1902-1905) PHA
+ #42: Jim Whitney                4 (1881-1884) BSN
+ #43: Home Run Baker             3 (1912-1914) PHA
+ #44: Ernie Banks                3 (1958-1960) CHC
+ #45: Theodore Breitenstein       3 (1893-1895) STL
+ #46: Jim Bunning                3 (1965-1967) PHI
+ #47: Miguel Cabrera             3 (2011-2013) DET
+ #48: Gary Carter                3 (1982-1984) MON
+ #49: John Clarkson              3 (1889-1891) BSN
+ #50: Roger Clemens              3 (1996-1998) BOS,TOR

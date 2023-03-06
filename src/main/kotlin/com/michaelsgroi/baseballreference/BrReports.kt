@@ -93,7 +93,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
                     it.season in career.seasons().sortedByDescending { season -> season.war }.take(topNSeasons)
                         .map { season -> season.season }.toSet()
                 })
-            }.take(topNPlayers).sortedByDescending { career -> career.war() }
+            }.sortedByDescending { career -> career.war() }.take(topNPlayers)
         }
     }
 

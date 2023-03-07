@@ -89,6 +89,7 @@ data class Career(
         fun getCareerFormatter(
             verbosity: Verbosity = VERBOSE,
             includeWar: Boolean = true,
+            includeAverageWar: Boolean = false,
             includeSalary: Boolean = false,
             includePeakWar: Boolean = false,
         ): BrReportFormatter<Career> = when (verbosity) {
@@ -108,6 +109,12 @@ data class Career(
                     fieldsLinkedList.add(
                         2,
                         Field("war", rightAlign(10)) { _, career -> career.war().roundToDecimalPlaces(2) }
+                    )
+                }
+                if (includeAverageWar) {
+                    fieldsLinkedList.add(
+                        2,
+                        Field("avg war", rightAlign(10)) { _, career -> (career.war() / career.seasons().size).roundToDecimalPlaces(1) }
                     )
                 }
                 if (includeSalary) {

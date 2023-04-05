@@ -2,23 +2,23 @@ Lowest peak season war with career war over 20 70
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Paul Molitor              75.63  6.22 (1982)      21 (1978-1998) MIL,TOR,MIN
-  #2: Sam Crawford              75.31  6.24 (1914)      19 (1899-1917) CIN,DET
-  #3: Lou Whitaker              75.09  6.75 (1991)      19 (1977-1995) DET
-  #4: Rafael Palmeiro           71.88  6.91 (1993)      20 (1986-2005) CHC,TEX,BAL
-  #5: Cap Anson                 84.72  6.95 (1886)      22 (1876-1897) CHC
-  #6: Bill Dahlen               75.23  7.11 (1896)      20 (1891-1911) CHC,BRO,NYG,BSN
-  #7: Barry Larkin              70.49  7.19 (1996)      19 (1986-2004) CIN
-  #8: Paul Waner                 74.7  7.19 (1936)      19 (1926-1944) PIT,BRO,BSN
-  #9: George Davis              84.48   7.2 (1905)      20 (1890-1909) CLV,NYG,CHW
- #10: Frank Thomas              73.81  7.27 (1997)      19 (1990-2008) CHW,OAK,TOR
+  #1: Paul Molitor              75.69  6.22 (1982)      21 (1978-1998) MIL,TOR,MIN
+  #2: Sam Crawford              75.34  6.26 (1914)      19 (1899-1917) CIN,DET
+  #3: Lou Whitaker               75.1  6.75 (1991)      19 (1977-1995) DET
+  #4: Rafael Palmeiro           71.87  6.91 (1993)      20 (1986-2005) CHC,TEX,BAL
+  #5: Cap Anson                 84.76  6.95 (1886)      22 (1876-1897) CHC
+  #6: Bill Dahlen               75.25  7.11 (1896)      20 (1891-1911) CHC,BRO,NYG,BSN
+  #7: Paul Waner                74.79  7.18 (1936)      19 (1926-1944) PIT,BRO,BSN
+  #8: Barry Larkin               70.5  7.19 (1996)      19 (1986-2004) CIN
+  #9: George Davis              84.53  7.22 (1905)      20 (1890-1909) CLV,NYG,CHW
+ #10: Frank Thomas              73.82  7.27 (1997)      19 (1990-2008) CHW,OAK,TOR
  #11: Ozzie Smith               76.87  7.29 (1989)      19 (1978-1996) SDP,STL
- #12: Luke Appling              77.57  7.41 (1943)      20 (1930-1950) CHW
- #13: Johnny Mize               70.73  7.51 (1947)      15 (1936-1953) STL,NYG,NYY
+ #12: Luke Appling              77.48  7.35 (1943)      20 (1930-1950) CHW
+ #13: Johnny Mize               70.59  7.51 (1947)      15 (1936-1953) STL,NYG,NYY
  #14: Jim Thome                 73.05  7.52 (1996)      22 (1991-2012) CLE,PHI,CHW,MIN,BAL
  #15: Chipper Jones             85.25   7.6 (2007)      19 (1993-2012) ATL
- #16: Bobby Wallace             76.31  7.75 (1901)      25 (1894-1918) CLV,STL,SLB
- #17: Nolan Ryan                81.28  7.83 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
- #18: Ted Lyons                 70.54  7.93 (1927)      21 (1923-1946) CHW
+ #16: Bobby Wallace              76.4  7.75 (1901)      25 (1894-1918) CLV,STL,SLB
+ #17: Nolan Ryan                81.28  7.84 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
+ #18: Ted Lyons                 70.56  7.94 (1927)      21 (1923-1946) CHW
  #19: Derek Jeter               71.29   8.0 (1999)      20 (1995-2014) NYY
- #20: Eddie Mathews             96.13  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+ #20: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU

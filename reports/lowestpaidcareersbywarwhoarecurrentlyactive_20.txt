@@ -2,23 +2,23 @@ Lowest paid careers by war who are currently active 20
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Adrian Sampson             4.16     100000       5 (2016-2022) TEX,CHC,SEA
-  #2: Yordan Alvarez             13.6     764600       4 (2019-2022) HOU
-  #3: Cedric Mullins             9.21     557500       5 (2018-2022) BAL
-  #4: Austin Meadows              6.7     557400       5 (2018-2022) TBR,PIT,DET
-  #5: Jimmy Herget                2.6     233333       4 (2019-2022) CIN,LAA,TEX
-  #6: Nestor Cortes               5.9     545000       5 (2018-2022) NYY,BAL,SEA
+  #1: Adrian Sampson             4.19     100000       5 (2016-2022) TEX,CHC,SEA
+  #2: Yordan Alvarez            13.61     764600       4 (2019-2022) HOU
+  #3: Cedric Mullins             9.38     557500       5 (2018-2022) BAL
+  #4: Austin Meadows             6.54     557400       5 (2018-2022) PIT,TBR,DET
+  #5: Jimmy Herget               2.57     233333       4 (2019-2022) CIN,LAA,TEX
+  #6: Nestor Cortes              5.94     545000       5 (2018-2022) NYY,BAL,SEA
   #7: Joey Krehbiel              0.49      50000       3 (2018-2022) ARI,BAL,TBR
   #8: Julio Rodríguez            6.22     700000       1 (2022-2022) SEA
-  #9: Michael Harris             5.25     700000       1 (2022-2022) ATL
- #10: JT Chargois                2.09     285250       5 (2016-2022) MIN,LAD,SEA,TBR
- #11: Garrett Whitlock           4.73     720000       2 (2021-2022) BOS
- #12: Trayce Thompson            3.31     512500       6 (2015-2022) CHW,LAD,OAK,CHC,SDP
- #13: Kyle Wright                 3.1     565000       5 (2018-2022) ATL
- #14: Brett Phillips             4.76     933333       6 (2017-2022) MIL,KCR,TBR,BAL
- #15: Luis Arraez               10.36    2125000       4 (2019-2022) MIN
- #16: Jeff McNeil                16.9    3567714       5 (2018-2022) NYM
- #17: Thairo Estrada             2.48     555000       4 (2019-2022) NYY,SFG
- #18: Jon Berti                  5.36    1200000       5 (2018-2022) TOR,MIA
- #19: Rob Refsnyder              0.44     100000       7 (2015-2022) NYY,TOR,TBR,TEX,MIN,BOS
- #20: Austin Voth                1.91     437500       5 (2018-2022) WSN,BAL
+  #9: Michael Harris II          5.25     700000       1 (2022-2022) ATL
+ #10: JT Chargois                2.13     285250       5 (2016-2022) MIN,LAD,SEA,TBR
+ #11: Garrett Whitlock           4.71     720000       2 (2021-2022) BOS
+ #12: Trayce Thompson            3.32     512500       6 (2015-2022) CHW,LAD,OAK,CHC,SDP
+ #13: Kyle Wright                3.01     565000       5 (2018-2022) ATL
+ #14: Brett Phillips             4.77     933333       6 (2017-2022) MIL,KCR,TBR,BAL
+ #15: Luis Arraez               10.27    2125000       4 (2019-2022) MIN
+ #16: Jeff McNeil               16.85    3567714       5 (2018-2022) NYM
+ #17: Thairo Estrada             2.49     555000       4 (2019-2022) NYY,SFG
+ #18: Jon Berti                  5.32    1200000       5 (2018-2022) TOR,MIA
+ #19: Austin Voth                1.92     437500       5 (2018-2022) WSN,BAL
+ #20: Adam Kolarek               1.21     280400       6 (2017-2022) TBR,LAD,OAK

@@ -2,19 +2,19 @@ Players whose name starts with Babe
 16 rows
 
     # name                        war seasons             teams
-  #1: Babe Ruth                183.07      22 (1914-1935) BOS,NYY,BSN
-  #2: Babe Adams                52.68      19 (1906-1926) STL,PIT
-  #3: Babe Herman               39.41      13 (1926-1945) BRO,CIN,CHC,PIT,DET
-  #4: Babe Phelps               13.03      10 (1933-1942) CHC,BRO,PIT
-  #5: Babe Young                11.26       7 (1939-1948) NYG,CIN,STL
-  #6: Babe Pinelli               5.91       8 (1918-1927) CHW,DET,CIN
-  #7: Babe Dahlgren              2.65      11 (1935-1946) BOS,NYY,BSN,CHC,BRO,PHI,PIT,SLB
+  #1: Babe Ruth                182.55      22 (1914-1935) BOS,NYY,BSN
+  #2: Babe Adams                52.66      19 (1906-1926) STL,PIT
+  #3: Babe Herman               39.54      13 (1926-1945) BRO,CIN,CHC,PIT,DET
+  #4: Babe Phelps                13.0      10 (1933-1942) CHC,BRO,PIT
+  #5: Babe Young                11.17       7 (1939-1948) NYG,CIN,STL
+  #6: Babe Pinelli               5.96       8 (1918-1927) CHW,DET,CIN
+  #7: Babe Dahlgren              2.61      11 (1935-1946) BOS,NYY,BSN,CHC,BRO,PHI,PIT,SLB
   #8: Babe Borton                1.72       3 (1912-1916) CHW,NYY,SLB
-  #9: Babe Birrer                0.94       3 (1955-1958) DET,BAL,LAD
+  #9: Babe Birrer                0.93       3 (1955-1958) DET,BAL,LAD
  #10: Babe Ganzel                0.46       2 (1927-1928) WSH
  #11: Babe Twombly               0.33       2 (1920-1921) CHC
  #12: Babe Towne                  0.1       1 (1906-1906) CHW
- #13: Babe Barna                 0.08       5 (1937-1943) PHA,NYG,BOS
+ #13: Babe Barna                 0.07       5 (1937-1943) PHA,NYG,BOS
  #14: Babe Danzig               -0.02       1 (1909-1909) BOS
- #15: Babe Martin               -0.81       6 (1944-1953) SLB,BOS
+ #15: Babe Martin                -0.8       6 (1944-1953) SLB,BOS
  #16: Babe Ellison              -0.91       5 (1916-1920) DET

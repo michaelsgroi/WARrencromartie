@@ -2,53 +2,53 @@ Best top n seasons 5 50 all-time
 50 rows
 
     # name                        war seasons             teams
-  #1: Walter Johnson            67.58       5 (1912-1918) WSH
-  #2: Babe Ruth                 62.83       5 (1920-1927) NYY
-  #3: John Clarkson             62.73       5 (1885-1891) CHC,BSN
+  #1: Walter Johnson            67.63       5 (1912-1918) WSH
+  #2: John Clarkson             62.73       5 (1885-1891) CHC,BSN
+  #3: Babe Ruth                 62.47       5 (1920-1927) NYY
   #4: Cy Young                  58.21       5 (1892-1901) CLV,BOS
   #5: Kid Nichols               56.38       5 (1890-1898) BSN
   #6: Old Hoss Radbourn         54.88       5 (1882-1886) PRO,BSN
-  #7: Pete Alexander            54.44       5 (1914-1920) PHI,CHC
-  #8: Rogers Hornsby             54.1       5 (1921-1929) STL,NYG,CHC
-  #9: Barry Bonds                53.9       5 (1990-2004) PIT,SFG
- #10: Willie Mays               53.82       5 (1954-1965) NYG,SFG
+  #7: Grover Alexander          54.46       5 (1914-1920) PHI,CHC
+  #8: Rogers Hornsby            53.91       5 (1921-1929) STL,NYG,CHC
+  #9: Barry Bonds               53.88       5 (1990-2004) PIT,SFG
+ #10: Willie Mays               53.78       5 (1954-1965) NYG,SFG
  #11: Christy Mathewson         52.64       5 (1903-1910) NYG
- #12: Ty Cobb                   51.87       5 (1909-1917) DET
- #13: Mickey Mantle             51.17       5 (1955-1961) NYY
+ #12: Ty Cobb                   51.89       5 (1909-1917) DET
+ #13: Mickey Mantle             51.19       5 (1955-1961) NYY
  #14: Ed Walsh                  51.17       5 (1907-1912) CHW
  #15: Pud Galvin                51.11       5 (1879-1887) BUF,PIT
- #16: Ted Williams              50.75       5 (1941-1957) BOS
- #17: Lou Gehrig                 50.7       5 (1927-1936) NYY
+ #16: Lou Gehrig                 50.7       5 (1927-1936) NYY
+ #17: Ted Williams              50.62       5 (1941-1957) BOS
  #18: Tommy Bond                50.58       5 (1876-1880) HAR,BSN
  #19: Amos Rusie                50.09       5 (1890-1897) NYG
  #20: Roger Clemens             49.51       5 (1986-1997) TOR,BOS
- #21: Lefty Grove               49.48       5 (1930-1937) PHA,BOS
+ #21: Lefty Grove               49.46       5 (1930-1937) PHA,BOS
  #22: Mike Trout                49.46       5 (2012-2018) LAA
  #23: Charlie Buffinton         49.37       5 (1883-1889) BSN,PHI
- #24: Honus Wagner              49.08       5 (1905-1909) PIT
- #25: Bob Gibson                48.58       5 (1965-1972) STL
- #26: Stan Musial                48.2       5 (1943-1949) STL
- #27: Joe Morgan                47.78       5 (1972-1976) CIN
+ #24: Honus Wagner              49.17       5 (1905-1909) PIT
+ #25: Bob Gibson                48.56       5 (1965-1972) STL
+ #26: Stan Musial               48.19       5 (1943-1949) STL
+ #27: Joe Morgan                47.76       5 (1972-1976) CIN
  #28: Eddie Collins             47.49       5 (1909-1915) PHA,CHW
- #29: Alex Rodriguez            47.39       5 (1996-2007) SEA,TEX,NYY
+ #29: Alex Rodriguez            47.37       5 (1996-2007) SEA,TEX,NYY
  #30: Jim Whitney               47.23       5 (1881-1887) BSN,WHS
  #31: Jim McCormick             46.98       5 (1879-1886) CLV,CHC
- #32: Tris Speaker              46.43       5 (1912-1923) BOS,CLE
+ #32: Tris Speaker              46.44       5 (1912-1923) BOS,CLE
  #33: Joe McGinnity             46.07       5 (1899-1904) BLN,BLA,NYG
- #34: Tom Seaver                45.62       5 (1969-1977) NYM,CIN
- #35: Randy Johnson             45.41       5 (1995-2004) ARI,SEA
+ #34: Tom Seaver                45.65       5 (1969-1977) NYM,CIN
+ #35: Randy Johnson             45.42       5 (1995-2004) ARI,SEA
  #36: Pedro Martinez            45.33       5 (1997-2003) MON,BOS
  #37: Albert Pujols             44.86       5 (2003-2009) STL
- #38: Carl Yastrzemski          44.55       5 (1963-1973) BOS
- #39: Nap Lajoie                44.54       5 (1901-1910) PHA,CLE
- #40: Henry Aaron               44.23       5 (1959-1967) MLN,ATL
- #41: Rickey Henderson          44.19       5 (1980-1990) OAK,NYY
+ #38: Nap Lajoie                44.52       5 (1901-1910) PHA,CLE
+ #39: Carl Yastrzemski          44.52       5 (1963-1970) BOS
+ #40: Henry Aaron               44.22       5 (1959-1967) MLN,ATL
+ #41: Rickey Henderson          44.21       5 (1980-1990) OAK,NYY
  #42: Cal Ripken Jr.            43.91       5 (1983-1991) BAL
  #43: Jimmie Foxx               43.54       5 (1929-1935) PHA
  #44: Mickey Welch              43.43       5 (1880-1889) TRO,NYG
- #45: Mike Schmidt              43.42       5 (1974-1980) PHI
- #46: Steve Carlton             43.06       5 (1969-1982) STL,PHI
- #47: Hal Newhouser              43.0       5 (1944-1948) DET
+ #45: Mike Schmidt              43.41       5 (1974-1980) PHI
+ #46: Hal Newhouser             43.09       5 (1944-1948) DET
+ #47: Steve Carlton             43.06       5 (1969-1982) STL,PHI
  #48: Wes Ferrell               42.85       5 (1930-1936) CLE,BOS
- #49: Robin Roberts              42.7       5 (1950-1954) PHI
- #50: Bob Feller                42.64       5 (1939-1947) CLE
+ #49: Robin Roberts             42.77       5 (1950-1954) PHI
+ #50: Bob Feller                42.65       5 (1939-1947) CLE

@@ -2,53 +2,53 @@ Best top n seasons 7 50 all-time
 50 rows
 
     # name                        war seasons             teams
-  #1: Walter Johnson            89.39       7 (1912-1919) WSH
-  #2: Babe Ruth                 84.93       7 (1920-1931) NYY
-  #3: Cy Young                  78.04       7 (1892-1908) CLV,BOS
+  #1: Walter Johnson            89.44       7 (1912-1919) WSH
+  #2: Babe Ruth                 84.36       7 (1920-1931) NYY
+  #3: Cy Young                  78.02       7 (1892-1908) CLV,BOS
   #4: John Clarkson             74.65       7 (1885-1892) CHC,BSN,CLV
   #5: Kid Nichols               74.45       7 (1890-1898) BSN
-  #6: Rogers Hornsby            74.11       7 (1917-1929) STL,NYG,CHC
-  #7: Willie Mays               73.54       7 (1954-1965) NYG,SFG
-  #8: Barry Bonds               72.72       7 (1990-2004) PIT,SFG
+  #6: Rogers Hornsby            73.91       7 (1917-1929) STL,NYG,CHC
+  #7: Willie Mays                73.5       7 (1954-1965) NYG,SFG
+  #8: Barry Bonds                72.7       7 (1990-2004) PIT,SFG
   #9: Christy Mathewson         70.24       7 (1901-1910) NYG
- #10: Pete Alexander            69.68       7 (1911-1920) PHI,CHC
- #11: Ty Cobb                    69.0       7 (1909-1917) DET
- #12: Ted Williams              68.08       7 (1941-1957) BOS
- #13: Lou Gehrig                67.63       7 (1927-1936) NYY
+ #10: Grover Alexander           69.7       7 (1911-1920) PHI,CHC
+ #11: Ty Cobb                   69.02       7 (1909-1917) DET
+ #12: Ted Williams               67.9       7 (1941-1957) BOS
+ #13: Lou Gehrig                67.67       7 (1927-1936) NYY
  #14: Roger Clemens             65.88       7 (1986-2005) TOR,HOU,BOS
- #15: Lefty Grove               65.64       7 (1929-1937) PHA,BOS
- #16: Honus Wagner              65.27       7 (1904-1912) PIT
+ #15: Lefty Grove               65.62       7 (1929-1937) PHA,BOS
+ #16: Honus Wagner              65.46       7 (1904-1912) PIT
  #17: Mike Trout                65.06       7 (2012-2019) LAA
- #18: Mickey Mantle             64.68       7 (1954-1961) NYY
+ #18: Mickey Mantle              64.7       7 (1954-1961) NYY
  #19: Stan Musial               64.58       7 (1943-1953) STL
- #20: Alex Rodriguez            64.28       7 (1996-2007) SEA,TEX,NYY
+ #20: Alex Rodriguez            64.26       7 (1996-2007) SEA,TEX,NYY
  #21: Eddie Collins             64.23       7 (1909-1920) PHA,CHW
  #22: Old Hoss Radbourn         63.41       7 (1881-1889) PRO,BSN
  #23: Amos Rusie                63.33       7 (1890-1897) NYG
- #24: Tris Speaker              62.57       7 (1912-1923) BOS,CLE
+ #24: Tris Speaker              62.59       7 (1910-1923) BOS,CLE
  #25: Ed Walsh                  62.33       7 (1906-1912) CHW
  #26: Albert Pujols             61.72       7 (2003-2009) STL
- #27: Randy Johnson             61.52       7 (1995-2004) ARI,SEA
- #28: Bob Gibson                61.23       7 (1962-1972) STL
+ #27: Randy Johnson             61.53       7 (1995-2004) ARI,SEA
+ #28: Bob Gibson                 61.2       7 (1962-1972) STL
  #29: Jim McCormick             60.98       7 (1879-1886) CLV,CHC
  #30: Pud Galvin                60.66       7 (1879-1888) BUF,PIT
- #31: Henry Aaron               60.29       7 (1959-1969) MLN,ATL
- #32: Nap Lajoie                60.06       7 (1901-1910) PHA,CLE
- #33: Tom Seaver                59.32       7 (1967-1977) NYM,CIN
- #34: Joe Morgan                59.25       7 (1965-1977) HOU,CIN
+ #31: Henry Aaron               60.28       7 (1959-1969) MLN,ATL
+ #32: Nap Lajoie                60.05       7 (1901-1910) PHA,CLE
+ #33: Tom Seaver                59.38       7 (1967-1977) NYM,CIN
+ #34: Joe Morgan                59.22       7 (1965-1977) HOU,CIN
  #35: Mike Schmidt              58.76       7 (1974-1981) PHI
  #36: Pedro Martinez            58.24       7 (1997-2005) MON,BOS,NYM
- #37: Jimmie Foxx               57.89       7 (1929-1938) PHA,BOS
- #38: Rickey Henderson          57.55       7 (1980-1990) OAK,NYY
- #39: Wade Boggs                 56.4       7 (1983-1991) BOS
+ #37: Jimmie Foxx               57.87       7 (1929-1938) PHA,BOS
+ #38: Rickey Henderson          57.56       7 (1980-1990) OAK,NYY
+ #39: Wade Boggs                56.41       7 (1983-1991) BOS
  #40: Cal Ripken Jr.             56.3       7 (1983-1991) BAL
  #41: Greg Maddux               56.27       7 (1992-2000) CHC,ATL
- #42: Carl Yastrzemski          55.53       7 (1963-1973) BOS
- #43: Robin Roberts             55.05       7 (1950-1958) PHI
+ #42: Carl Yastrzemski          55.54       7 (1963-1973) BOS
+ #43: Robin Roberts             55.11       7 (1950-1958) PHI
  #44: Jim Whitney               54.69       7 (1881-1887) BSN,KCN,WHS
  #45: Roberto Clemente          54.46       7 (1964-1971) PIT
  #46: Wes Ferrell               54.36       7 (1929-1936) CLE,BOS
- #47: Phil Niekro               54.32       7 (1969-1979) ATL
- #48: Steve Carlton              54.3       7 (1969-1983) STL,PHI
+ #47: Steve Carlton             54.32       7 (1969-1983) STL,PHI
+ #48: Phil Niekro               54.31       7 (1969-1979) ATL
  #49: Joe McGinnity             54.13       7 (1899-1905) BLN,BRO,BLA,NYG
  #50: Mickey Welch               54.1       7 (1880-1889) TRO,NYG

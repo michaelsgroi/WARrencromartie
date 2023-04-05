@@ -3,11 +3,11 @@ Players whose name starts with Cecil
 
     # name                        war seasons             teams
   #1: Cecil Cooper              35.97      17 (1971-1987) BOS,MIL
-  #2: Cecil Travis              30.34      12 (1933-1947) WSH
-  #3: Cecil Fielder             17.19      13 (1985-1998) TOR,DET,NYY,ANA,CLE
+  #2: Cecil Travis              30.44      12 (1933-1947) WSH
+  #3: Cecil Fielder             17.23      13 (1985-1998) TOR,DET,NYY,ANA,CLE
   #4: Cecil Upshaw               7.37       9 (1966-1975) ATL,HOU,NYY,CLE,CHW
   #5: Cecil Ferguson              3.6       6 (1906-1911) NYG,BSN
-  #6: Cecil Espy                 1.59       8 (1983-1993) LAD,TEX,PIT,CIN
+  #6: Cecil Espy                 1.58       8 (1983-1993) LAD,TEX,PIT,CIN
   #7: Cecil Duff                 0.16       1 (1922-1922) CHW
   #8: Cecil Butler               0.04       2 (1962-1964) MLN
   #9: Cecil Neighbors             0.0       1 (1908-1908) PIT

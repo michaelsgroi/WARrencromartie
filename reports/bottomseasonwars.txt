@@ -4,8 +4,8 @@ Bottom season wars
     # name                                  war year teams
   #1: Billy Serad                         -5.61 1884 BUF
   #2: Mike Golden                         -4.39 1878 MLG
-  #3: Jerry Royster                       -4.05 1977 ATL
-  #4: Jim Levey                           -3.94 1933 SLB
+  #3: Jerry Royster                       -4.03 1977 ATL
+  #4: Jim Levey                           -3.93 1933 SLB
   #5: Jim Lillie                          -3.87 1886 KCN
   #6: Tom Fisher                          -3.76 1904 BSN
   #7: George Wright                       -3.71 1985 TEX

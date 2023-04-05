@@ -2,23 +2,23 @@ Lowest peak season war with career war over 20 60
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Tommy John                61.55  5.91 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
-  #2: Paul Molitor              75.63  6.22 (1982)      21 (1978-1998) MIL,TOR,MIN
-  #3: Sam Crawford              75.31  6.24 (1914)      19 (1899-1917) CIN,DET
-  #4: Don Sutton                66.73  6.31 (1972)      23 (1966-1988) LAD,HOU,MIL,OAK,CAL
-  #5: Harmon Killebrew          60.28  6.45 (1967)      22 (1954-1975) WSH,MIN,KCR
+  #1: Tommy John                61.58   5.9 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
+  #2: Paul Molitor              75.69  6.22 (1982)      21 (1978-1998) MIL,TOR,MIN
+  #3: Sam Crawford              75.34  6.26 (1914)      19 (1899-1917) CIN,DET
+  #4: Don Sutton                66.71   6.3 (1972)      23 (1966-1988) LAD,HOU,MIL,CAL,OAK
+  #5: Harmon Killebrew          60.38  6.45 (1967)      22 (1954-1975) WSH,MIN,KCR
   #6: Ivan Rodriguez            68.71  6.54 (1997)      21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
   #7: Bobby Abreu               60.17  6.56 (2004)      18 (1996-2014) HOU,PHI,NYY,LAA,LAD,NYM
-  #8: Fred Clarke               67.94  6.58 (1897)      20 (1894-1915) LOU,PIT
-  #9: Willie Randolph           65.94  6.58 (1980)      18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
- #10: Dwight Evans              67.19  6.69 (1981)      20 (1972-1991) BOS,BAL
- #11: Reggie Smith              64.51  6.73 (1970)      17 (1966-1982) BOS,STL,LAD,SFG
- #12: Lou Whitaker              75.09  6.75 (1991)      19 (1977-1995) DET
- #13: Zack Wheat                60.53   6.8 (1924)      19 (1909-1927) BRO,PHA
- #14: Gary Sheffield            60.53  6.83 (2003)      22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
- #15: Buddy Bell                66.34  6.91 (1979)      18 (1972-1989) CLE,TEX,CIN,HOU
- #16: Rafael Palmeiro           71.88  6.91 (1993)      20 (1986-2005) CHC,TEX,BAL
- #17: Cap Anson                 84.72  6.95 (1886)      22 (1876-1897) CHC
+  #8: Fred Clarke               68.03  6.57 (1897)      20 (1894-1915) LOU,PIT
+  #9: Willie Randolph           65.91  6.58 (1980)      18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
+ #10: Dwight Evans              67.17  6.69 (1981)      20 (1972-1991) BOS,BAL
+ #11: Reggie Smith              64.55  6.73 (1970)      17 (1966-1982) BOS,STL,LAD,SFG
+ #12: Zack Wheat                60.35  6.75 (1924)      19 (1909-1927) BRO,PHA
+ #13: Lou Whitaker               75.1  6.75 (1991)      19 (1977-1995) DET
+ #14: Gary Sheffield            60.54  6.83 (2003)      22 (1988-2009) MIL,SDP,FLA,LAD,ATL,NYY,DET,NYM
+ #15: Buddy Bell                66.31  6.91 (1979)      18 (1972-1989) CLE,TEX,CIN,HOU
+ #16: Rafael Palmeiro           71.87  6.91 (1993)      20 (1986-2005) CHC,TEX,BAL
+ #17: Cap Anson                 84.76  6.95 (1886)      22 (1876-1897) CHC
  #18: Edgar Martinez            68.41  7.04 (1995)      18 (1987-2004) SEA
- #19: Richie Ashburn            64.24  7.07 (1954)      15 (1948-1962) PHI,CHC,NYM
- #20: Bill Dahlen               75.23  7.11 (1896)      20 (1891-1911) CHC,BRO,NYG,BSN
+ #19: Richie Ashburn            64.29  7.05 (1954)      15 (1948-1962) PHI,CHC,NYM
+ #20: Bill Dahlen               75.25  7.11 (1896)      20 (1891-1911) CHC,BRO,NYG,BSN

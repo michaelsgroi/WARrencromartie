@@ -2,23 +2,23 @@ Lowest peak season war with career war over 20 50
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Jake Beckley              57.18  4.56 (1893)      19 (1888-1907) PIT,NYG,CIN,STL
-  #2: Sam Rice                  54.42  4.83 (1930)      20 (1915-1934) WSH,CLE
-  #3: Jack Quinn                50.08  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
+  #1: Jake Beckley               57.2  4.56 (1893)      19 (1888-1907) PIT,NYG,CIN,STL
+  #2: Sam Rice                   54.3  4.84 (1930)      20 (1915-1934) WSH,CLE
+  #3: Jack Quinn                50.26  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
   #4: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
-  #5: Gabby Hartnett            55.93  5.12 (1930)      20 (1922-1941) CHC,NYG
-  #6: David Wells               53.45  5.23 (1995)      21 (1987-2007) CIN,DET,NYY,TOR,CHW,SDP,BOS,LAD,BAL
-  #7: Max Carey                 55.25  5.23 (1917)      20 (1910-1929) PIT,BRO
-  #8: Harry Hooper              53.61  5.23 (1920)      17 (1909-1925) BOS,CHW
+  #5: Gabby Hartnett             55.4  5.13 (1930)      20 (1922-1941) CHC,NYG
+  #6: David Wells               53.44  5.23 (1995)      21 (1987-2007) CIN,DET,NYY,TOR,CHW,SDP,BOS,LAD,BAL
+  #7: Max Carey                 55.56  5.23 (1917)      20 (1910-1929) PIT,BRO
+  #8: Harry Hooper              53.66  5.23 (1920)      17 (1909-1925) BOS,CHW
   #9: Torii Hunter              50.65  5.35 (2012)      18 (1998-2015) MIN,LAA,DET
- #10: Ted Simmons               50.34  5.51 (1978)      21 (1968-1988) STL,MIL,ATL
- #11: Luis Aparicio             55.85  5.55 (1960)      18 (1956-1973) CHW,BAL,BOS
- #12: Tony Phillips             50.88  5.58 (1993)      18 (1982-1999) OAK,DET,CAL,CHW,ANA,TOR,NYM
- #13: Brian Downing              51.5  5.59 (1979)      20 (1973-1992) CHW,CAL,TEX
- #14: Tommy John                61.55  5.91 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
- #15: Jack Clark                53.06  5.93 (1978)      18 (1975-1992) SFG,STL,NYY,SDP,BOS
- #16: Mark Buehrle              59.06  6.02 (2007)      16 (2000-2015) CHW,MIA,TOR
- #17: Waite Hoyt                 52.3  6.05 (1927)      21 (1918-1938) NYG,BOS,NYY,DET,PHA,BRO,PIT
- #18: Johnny Damon              56.31  6.13 (2000)      18 (1995-2012) KCR,OAK,BOS,NYY,DET,TBR,CLE
- #19: Jack Powell               55.35  6.17 (1902)      16 (1897-1912) CLV,STL,SLB,NYY
- #20: Yogi Berra                59.42  6.18 (1956)      19 (1946-1965) NYY,NYM
+ #10: Ted Simmons               50.33  5.51 (1978)      21 (1968-1988) STL,MIL,ATL
+ #11: Luis Aparicio             55.81  5.55 (1960)      18 (1956-1973) CHW,BAL,BOS
+ #12: Tony Phillips             50.91  5.58 (1993)      18 (1982-1999) OAK,DET,CAL,CHW,ANA,NYM,TOR
+ #13: Brian Downing             51.52  5.59 (1979)      20 (1973-1992) CHW,CAL,TEX
+ #14: Tommy John                61.58   5.9 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
+ #15: Jack Clark                53.08  5.94 (1978)      18 (1975-1992) SFG,STL,NYY,SDP,BOS
+ #16: Mark Buehrle              59.05  6.02 (2007)      16 (2000-2015) CHW,MIA,TOR
+ #17: Waite Hoyt                52.53  6.07 (1927)      21 (1918-1938) NYG,BOS,NYY,DET,PHA,BRO,PIT
+ #18: Johnny Damon              56.33  6.15 (2000)      18 (1995-2012) KCR,OAK,BOS,NYY,DET,TBR,CLE
+ #19: Jack Powell               55.33  6.16 (1902)      16 (1897-1912) CLV,STL,SLB,NYY
+ #20: Yogi Berra                59.46  6.18 (1956)      19 (1946-1965) NYY,NYM

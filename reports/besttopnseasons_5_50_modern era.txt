@@ -2,53 +2,53 @@ Best top n seasons 5 50 modern era
 50 rows
 
     # name                        war seasons             teams
-  #1: Barry Bonds                53.9       5 (1990-2004) PIT,SFG
-  #2: Willie Mays               53.82       5 (1954-1965) NYG,SFG
-  #3: Mickey Mantle             51.17       5 (1955-1961) NYY
-  #4: Ted Williams              50.75       5 (1941-1957) BOS
+  #1: Barry Bonds               53.88       5 (1990-2004) PIT,SFG
+  #2: Willie Mays               53.78       5 (1954-1965) NYG,SFG
+  #3: Mickey Mantle             51.19       5 (1955-1961) NYY
+  #4: Ted Williams              50.62       5 (1941-1957) BOS
   #5: Roger Clemens             49.51       5 (1986-1997) TOR,BOS
   #6: Mike Trout                49.46       5 (2012-2018) LAA
-  #7: Bob Gibson                48.58       5 (1965-1972) STL
-  #8: Stan Musial                48.2       5 (1943-1949) STL
-  #9: Joe Morgan                47.78       5 (1972-1976) CIN
- #10: Alex Rodriguez            47.39       5 (1996-2007) SEA,TEX,NYY
- #11: Tom Seaver                45.62       5 (1969-1977) NYM,CIN
- #12: Randy Johnson             45.41       5 (1995-2004) ARI,SEA
+  #7: Bob Gibson                48.56       5 (1965-1972) STL
+  #8: Stan Musial               48.19       5 (1943-1949) STL
+  #9: Joe Morgan                47.76       5 (1972-1976) CIN
+ #10: Alex Rodriguez            47.37       5 (1996-2007) SEA,TEX,NYY
+ #11: Tom Seaver                45.65       5 (1969-1977) NYM,CIN
+ #12: Randy Johnson             45.42       5 (1995-2004) ARI,SEA
  #13: Pedro Martinez            45.33       5 (1997-2003) MON,BOS
  #14: Albert Pujols             44.86       5 (2003-2009) STL
- #15: Carl Yastrzemski          44.55       5 (1963-1973) BOS
- #16: Henry Aaron               44.23       5 (1959-1967) MLN,ATL
- #17: Rickey Henderson          44.19       5 (1980-1990) OAK,NYY
+ #15: Carl Yastrzemski          44.52       5 (1963-1970) BOS
+ #16: Henry Aaron               44.22       5 (1959-1967) MLN,ATL
+ #17: Rickey Henderson          44.21       5 (1980-1990) OAK,NYY
  #18: Cal Ripken Jr.            43.91       5 (1983-1991) BAL
- #19: Mike Schmidt              43.42       5 (1974-1980) PHI
- #20: Steve Carlton             43.06       5 (1969-1982) STL,PHI
- #21: Hal Newhouser              43.0       5 (1944-1948) DET
- #22: Robin Roberts              42.7       5 (1950-1954) PHI
- #23: Bob Feller                42.64       5 (1939-1947) CLE
+ #19: Mike Schmidt              43.41       5 (1974-1980) PHI
+ #20: Hal Newhouser             43.09       5 (1944-1948) DET
+ #21: Steve Carlton             43.06       5 (1969-1982) STL,PHI
+ #22: Robin Roberts             42.77       5 (1950-1954) PHI
+ #23: Bob Feller                42.65       5 (1939-1947) CLE
  #24: Greg Maddux               42.54       5 (1992-1997) CHC,ATL
- #25: Ernie Banks               42.22       5 (1955-1960) CHC
+ #25: Ernie Banks               42.23       5 (1955-1960) CHC
  #26: Wade Boggs                42.19       5 (1985-1989) BOS
  #27: Juan Marichal             41.99       5 (1963-1969) SFG
- #28: Ron Santo                 41.85       5 (1963-1967) CHC
- #29: Jackie Robinson           41.61       5 (1949-1953) BRO
+ #28: Ron Santo                 41.86       5 (1963-1967) CHC
+ #29: Jackie Robinson           41.63       5 (1949-1953) BRO
  #30: Ken Griffey Jr.            41.6       5 (1991-1997) SEA
- #31: Phil Niekro               41.48       5 (1974-1979) ATL
- #32: George Brett              41.46       5 (1976-1985) KCR
- #33: Arky Vaughan              40.86       5 (1934-1940) PIT
- #34: Gaylord Perry             40.77       5 (1969-1974) SFG,CLE
- #35: Mookie Betts              40.26       5 (2016-2022) BOS,LAD
- #36: Sandy Koufax              40.15       5 (1961-1966) LAD
- #37: Roberto Clemente          40.09       5 (1966-1971) PIT
- #38: Fergie Jenkins            40.09       5 (1968-1974) CHC,TEX
- #39: Joe DiMaggio               40.0       5 (1937-1948) NYY
- #40: Lou Boudreau              39.74       5 (1940-1948) CLE
- #41: Wilbur Wood                39.7       5 (1968-1974) CHW
- #42: Chase Utley               39.66       5 (2005-2009) PHI
- #43: Warren Spahn              39.48       5 (1947-1959) BSN,MLN
- #44: Frank Robinson            39.43       5 (1961-1969) CIN,BAL
- #45: Eddie Mathews             39.33       5 (1953-1963) MLN
- #46: Duke Snider               39.04       5 (1950-1956) BRO
+ #31: George Brett              41.48       5 (1976-1985) KCR
+ #32: Phil Niekro               41.47       5 (1974-1979) ATL
+ #33: Gaylord Perry             40.76       5 (1969-1974) SFG,CLE
+ #34: Arky Vaughan              40.74       5 (1934-1940) PIT
+ #35: Mookie Betts              40.25       5 (2016-2022) BOS,LAD
+ #36: Sandy Koufax              40.14       5 (1961-1966) LAD
+ #37: Roberto Clemente          40.12       5 (1966-1971) PIT
+ #38: Fergie Jenkins            40.12       5 (1968-1974) CHC,TEX
+ #39: Joe DiMaggio              39.97       5 (1937-1948) NYY
+ #40: Wilbur Wood               39.68       5 (1968-1974) CHW
+ #41: Chase Utley               39.66       5 (2005-2009) PHI
+ #42: Lou Boudreau               39.6       5 (1940-1948) CLE
+ #43: Warren Spahn              39.51       5 (1947-1959) BSN,MLN
+ #44: Frank Robinson            39.45       5 (1961-1969) CIN,BAL
+ #45: Eddie Mathews             39.25       5 (1953-1963) MLN
+ #46: Duke Snider               39.03       5 (1950-1956) BRO
  #47: Roy Halladay              38.93       5 (2002-2011) TOR,PHI
- #48: Rod Carew                 38.81       5 (1973-1977) MIN
- #49: Jim Bunning               38.61       5 (1957-1967) DET,PHI
+ #48: Rod Carew                 38.86       5 (1973-1977) MIN
+ #49: Jim Bunning               38.59       5 (1957-1967) DET,PHI
  #50: Clayton Kershaw           38.36       5 (2011-2015) LAD

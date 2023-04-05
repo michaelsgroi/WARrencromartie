@@ -3,52 +3,52 @@ Best top n seasons 3 50 all-time
 
     # name                        war seasons             teams
   #1: John Clarkson             43.98       3 (1885-1889) CHC,BSN
-  #2: Walter Johnson            43.44       3 (1912-1914) WSH
+  #2: Walter Johnson            43.49       3 (1912-1914) WSH
   #3: Old Hoss Radbourn         42.25       3 (1883-1885) PRO
   #4: Charlie Buffinton         39.34       3 (1884-1889) BSN,PHI
-  #5: Babe Ruth                 39.33       3 (1921-1927) NYY
+  #5: Babe Ruth                 39.32       3 (1921-1927) NYY
   #6: Tommy Bond                39.23       3 (1877-1879) BSN
   #7: Pud Galvin                37.26       3 (1879-1884) BUF
   #8: Cy Young                  37.07       3 (1892-1901) CLV,BOS
   #9: Kid Nichols               35.82       3 (1890-1898) BSN
- #10: Pete Alexander            35.55       3 (1915-1920) PHI,CHC
+ #10: Grover Alexander          35.55       3 (1915-1920) PHI,CHC
  #11: Ed Walsh                  34.42       3 (1908-1912) CHW
- #12: Barry Bonds               34.24       3 (2001-2004) SFG
- #13: Rogers Hornsby            33.63       3 (1921-1929) STL,CHC
- #14: Amos Rusie                33.63       3 (1891-1894) NYG
+ #12: Barry Bonds               34.22       3 (2001-2004) SFG
+ #13: Amos Rusie                33.63       3 (1891-1894) NYG
+ #14: Rogers Hornsby            33.51       3 (1921-1929) STL,CHC
  #15: Christy Mathewson         33.24       3 (1903-1909) NYG
- #16: Bob Gibson                33.21       3 (1968-1970) STL
- #17: Mickey Mantle             32.95       3 (1956-1961) NYY
- #18: Willie Mays               32.86       3 (1963-1965) SFG
- #19: Ty Cobb                   32.48       3 (1910-1917) DET
- #20: Carl Yastrzemski          32.44       3 (1967-1970) BOS
- #21: Roger Clemens             31.93       3 (1987-1997) TOR,BOS
+ #16: Bob Gibson                 33.2       3 (1968-1970) STL
+ #17: Mickey Mantle             32.98       3 (1956-1961) NYY
+ #18: Willie Mays               32.85       3 (1963-1965) SFG
+ #19: Ty Cobb                    32.5       3 (1910-1917) DET
+ #20: Carl Yastrzemski          32.43       3 (1967-1970) BOS
+ #21: Roger Clemens             31.94       3 (1987-1997) TOR,BOS
  #22: Jim Devlin                 31.7       2 (1876-1877) LOU
- #23: Lou Gehrig                 31.6       3 (1927-1936) NYY
- #24: Ted Williams              31.54       3 (1941-1946) BOS
- #25: Jim McCormick             31.51       3 (1879-1882) CLV
+ #23: Lou Gehrig                31.59       3 (1927-1936) NYY
+ #24: Jim McCormick             31.51       3 (1879-1882) CLV
+ #25: Ted Williams              31.43       3 (1941-1946) BOS
  #26: Lefty Grove                31.0       3 (1930-1936) PHA,BOS
- #27: Mike Trout                30.94       3 (2012-2018) LAA
- #28: Honus Wagner              30.93       3 (1905-1908) PIT
+ #27: Honus Wagner              30.97       3 (1905-1908) PIT
+ #28: Mike Trout                30.94       3 (2012-2018) LAA
  #29: Mickey Welch              30.73       3 (1884-1888) NYG
  #30: Jim Whitney               30.48       3 (1881-1884) BSN
- #31: Tom Seaver                30.27       3 (1971-1977) NYM,CIN
+ #31: Tom Seaver                30.28       3 (1971-1977) NYM,CIN
  #32: Pedro Martinez            30.22       3 (1997-2000) MON,BOS
- #33: Stan Musial               30.18       3 (1943-1948) STL
- #34: Joe McGinnity             30.03       3 (1902-1904) BLA,NYG
- #35: Hal Newhouser              30.0       3 (1944-1946) DET
- #36: Steve Carlton             29.95       3 (1969-1980) STL,PHI
+ #33: Stan Musial               30.11       3 (1943-1948) STL
+ #34: Hal Newhouser             30.08       3 (1944-1946) DET
+ #35: Joe McGinnity             30.03       3 (1902-1904) BLA,NYG
+ #36: Steve Carlton             29.96       3 (1969-1980) STL,PHI
  #37: Joe Morgan                29.89       3 (1972-1976) CIN
  #38: Charlie Ferguson          29.76       3 (1885-1887) PHI
  #39: Cal Ripken Jr.            29.75       3 (1983-1991) BAL
  #40: Eddie Collins             29.49       3 (1909-1915) PHA,CHW
- #41: Rube Waddell              29.49       3 (1902-1905) PHA
+ #41: Rube Waddell              29.47       3 (1902-1905) PHA
  #42: Alex Rodriguez            29.21       3 (1996-2007) SEA,NYY
- #43: Bob Feller                29.18       3 (1939-1946) CLE
- #44: Tris Speaker              29.18       3 (1912-1923) BOS,CLE
+ #43: Bob Feller                29.19       3 (1939-1946) CLE
+ #44: Tris Speaker              29.19       3 (1912-1923) BOS,CLE
  #45: Wilbur Wood               28.87       3 (1971-1973) CHW
- #46: Eddie Cicotte             28.77       3 (1913-1919) CHW
- #47: Rickey Henderson          28.63       3 (1980-1990) OAK,NYY
- #48: Randy Johnson             28.59       3 (1999-2002) ARI
- #49: Juan Marichal             28.37       3 (1963-1966) SFG
- #50: Nap Lajoie                28.29       3 (1904-1910) CLE
+ #46: Eddie Cicotte             28.76       3 (1913-1919) CHW
+ #47: Rickey Henderson          28.65       3 (1980-1990) OAK,NYY
+ #48: Randy Johnson              28.6       3 (1999-2002) ARI
+ #49: Juan Marichal             28.36       3 (1963-1966) SFG
+ #50: Nap Lajoie                28.27       3 (1904-1910) CLE

@@ -6,8 +6,8 @@ Highest paid seasons for team 20 bos
   #2: David Price                          2.78   30000000 2016 BOS
   #3: David Price                          1.61   30000000 2017 BOS
   #4: David Price                          3.68   30000000 2018 BOS
-  #5: Chris Sale                           0.95   30000000 2021 BOS
-  #6: Chris Sale                           0.02   30000000 2022 BOS
+  #5: Chris Sale                           0.92   30000000 2021 BOS
+  #6: Chris Sale                           0.01   30000000 2022 BOS
   #7: J.D. Martinez                        6.71   23750000 2018 BOS
   #8: J.D. Martinez                        3.51   23750000 2019 BOS
   #9: J.D. Martinez                       -0.71   23750000 2020 BOS

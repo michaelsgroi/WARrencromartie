@@ -3,13 +3,13 @@ Highest paid seasons for team 20 nyy
 
     # name                                  war     salary year teams
   #1: Gerrit Cole                          2.18   36000000 2020 NYY
-  #2: Gerrit Cole                          5.69   36000000 2021 NYY
-  #3: Gerrit Cole                          2.41   36000000 2022 NYY
+  #2: Gerrit Cole                          5.71   36000000 2021 NYY
+  #3: Gerrit Cole                          2.47   36000000 2022 NYY
   #4: Alex Rodriguez                       4.15   33000000 2009 NYY
   #5: Alex Rodriguez                       4.15   33000000 2010 NYY
   #6: Alex Rodriguez                       4.02   32000000 2011 NYY
   #7: Alex Rodriguez                       2.23   29000000 2012 NYY
-  #8: Giancarlo Stanton                    3.08   29000000 2021 NYY
+  #8: Giancarlo Stanton                    3.07   29000000 2021 NYY
   #9: Giancarlo Stanton                    0.69   29000000 2022 NYY
  #10: Alex Rodriguez                       6.76   28000000 2008 NYY
  #11: Alex Rodriguez                       0.01   28000000 2013 NYY

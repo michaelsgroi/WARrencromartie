@@ -2,23 +2,23 @@ Lowest peak season war with career war over 20 100
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Frank Robinson           107.17  8.71 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE
-  #2: Mel Ott                  110.84  8.86 (1938)      21 (1926-1946) NYG
-  #3: Warren Spahn             100.09  9.36 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
-  #4: Henry Aaron              143.01  9.44 (1961)      23 (1954-1976) MLN,ATL,MIL
+  #1: Frank Robinson           107.25  8.71 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE
+  #2: Mel Ott                  110.88  8.89 (1938)      21 (1926-1946) NYG
+  #3: Warren Spahn             100.04  9.42 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
+  #4: Henry Aaron              142.98  9.44 (1961)      23 (1954-1976) MLN,ATL,MIL
   #5: Greg Maddux              106.56  9.61 (1995)      23 (1986-2008) CHC,ATL,LAD,SDP
-  #6: Albert Pujols             101.6  9.73 (2009)      22 (2001-2022) STL,LAA,LAD
-  #7: Mike Schmidt             106.83  9.75 (1974)      18 (1972-1989) PHI
-  #8: Rickey Henderson         111.12  9.94 (1990)      25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
-  #9: Nap Lajoie               106.92 10.01 (1906)      21 (1896-1916) PHI,PHA,CLE
- #10: Tris Speaker             134.72 10.14 (1912)      22 (1907-1928) BOS,CLE,WSH,PHA
- #11: Alex Rodriguez           117.55 10.36 (2000)      22 (1994-2016) SEA,TEX,NYY
- #12: Eddie Collins            124.35 10.45 (1910)      23 (1906-1928) PHA,CHW
- #13: Randy Johnson            101.06 10.48 (2002)      22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
- #14: Lefty Grove              106.76 10.63 (1936)      17 (1925-1941) PHA,BOS
- #15: Ted Williams             122.01 10.63 (1946)      19 (1939-1960) BOS
- #16: Tom Seaver               109.87 10.96 (1973)      20 (1967-1986) NYM,CIN,CHW,BOS
+  #6: Albert Pujols            101.52  9.73 (2009)      22 (2001-2022) STL,LAA,LAD
+  #7: Mike Schmidt             106.84  9.75 (1974)      18 (1972-1989) PHI
+  #8: Rickey Henderson         111.15  9.94 (1990)      25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
+  #9: Nap Lajoie                106.9  10.0 (1906)      21 (1896-1916) PHI,PHA,CLE
+ #10: Tris Speaker             134.87 10.14 (1912)      22 (1907-1928) BOS,CLE,WSH,PHA
+ #11: Alex Rodriguez           117.53 10.36 (2000)      22 (1994-2016) SEA,TEX,NYY
+ #12: Eddie Collins            124.21 10.45 (1910)      23 (1906-1928) PHA,CHW
+ #13: Randy Johnson            101.07 10.49 (2002)      22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
+ #14: Ted Williams             121.82 10.57 (1946)      19 (1939-1960) BOS
+ #15: Lefty Grove              106.77 10.63 (1936)      17 (1925-1941) PHA,BOS
+ #16: Tom Seaver               109.92 10.96 (1973)      20 (1967-1986) NYM,CIN,CHW,BOS
  #17: Joe Morgan               100.44 10.96 (1975)      22 (1963-1984) HOU,CIN,SFG,PHI,OAK
- #18: Willie Mays              156.14 11.24 (1965)      22 (1951-1973) NYG,SFG,NYM
- #19: Ty Cobb                  151.46 11.28 (1917)      24 (1905-1928) DET,PHA
- #20: Stan Musial              128.64  11.3 (1948)      22 (1941-1963) STL
+ #18: Willie Mays              156.17 11.23 (1965)      22 (1951-1973) NYG,SFG,NYM
+ #19: Stan Musial              128.56 11.27 (1948)      22 (1941-1963) STL
+ #20: Ty Cobb                  151.45  11.3 (1917)      24 (1905-1928) DET,PHA

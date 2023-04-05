@@ -1,0 +1,53 @@
+Season 2019 oak
+49 rows
+
+    # name                                  war year teams
+  #1: Marcus Semien                        8.49 2019 OAK
+  #2: Matt Chapman                         7.79 2019 OAK
+  #3: Matt Olson                           4.89 2019 OAK
+  #4: Mark Canha                            4.2 2019 OAK
+  #5: Liam Hendriks                        3.66 2019 OAK
+  #6: Ramón Laureano                       3.48 2019 OAK
+  #7: Mike Fiers                           3.38 2019 OAK
+  #8: Brett Anderson                       3.08 2019 OAK
+  #9: Frankie Montas                       2.62 2019 OAK
+ #10: Tanner Roark                         2.51 2019 CIN,OAK
+ #11: Yusmeiro Petit                       2.43 2019 OAK
+ #12: Homer Bailey                         2.27 2019 KCR,OAK
+ #13: Chris Bassitt                        2.08 2019 OAK
+ #14: Chad Pinder                          1.59 2019 OAK
+ #15: Sean Manaea                          1.51 2019 OAK
+ #16: Ryan Buchter                         1.03 2019 OAK
+ #17: Robbie Grossman                      0.96 2019 OAK
+ #18: Stephen Piscotty                     0.94 2019 OAK
+ #19: Dustin Garneau                       0.88 2019 LAA,OAK
+ #20: Seth Brown                           0.75 2019 OAK
+ #21: Sean Murphy                          0.61 2019 OAK
+ #22: Jesús Luzardo                        0.57 2019 OAK
+ #23: Joakim Soria                         0.52 2019 OAK
+ #24: Wei-Chung Wang                       0.47 2019 OAK,PIT
+ #25: J.B. Wendelken                       0.42 2019 OAK
+ #26: Daniel Mengden                       0.39 2019 OAK
+ #27: Sheldon Neuse                        0.31 2019 OAK
+ #28: Josh Phegley                         0.31 2019 OAK
+ #29: Jake Diekman                          0.3 2019 KCR,OAK
+ #30: A.J. Puk                             0.22 2019 OAK
+ #31: Brian Schlitter                      0.12 2019 OAK
+ #32: Aaron Brooks                         0.11 2019 BAL,OAK
+ #33: Beau Taylor                          0.01 2019 OAK,TOR
+ #34: Nick Martini                         0.01 2019 OAK,SDP
+ #35: Jurickson Profar                    -0.08 2019 OAK
+ #36: Skye Bolt                            -0.1 2019 OAK
+ #37: Blake Treinen                       -0.15 2019 OAK
+ #38: Khris Davis                         -0.18 2019 OAK
+ #39: Tanner Anderson                     -0.18 2019 OAK
+ #40: Chris Herrmann                      -0.26 2019 OAK
+ #41: Fernando Rodney                     -0.26 2019 OAK,WSN
+ #42: Nick Hundley                        -0.34 2019 OAK
+ #43: Marco Estrada                       -0.36 2019 OAK
+ #44: Corban Joseph                       -0.41 2019 OAK,PIT,SFG
+ #45: Franklin Barreto                    -0.51 2019 OAK
+ #46: Paul Blackburn                      -0.51 2019 OAK
+ #47: Lou Trivino                         -0.69 2019 OAK
+ #48: Ryan Dull                           -0.82 2019 NYY,OAK,TOR
+ #49: Kendrys Morales                      -0.9 2019 NYY,OAK

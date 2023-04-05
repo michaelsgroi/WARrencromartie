@@ -1,0 +1,51 @@
+Season 2019 bos
+47 rows
+
+    # name                                  war year teams
+  #1: Mookie Betts                         7.27 2019 BOS
+  #2: Xander Bogaerts                       6.3 2019 BOS
+  #3: Eduardo Rodriguez                    5.47 2019 BOS
+  #4: Rafael Devers                        5.37 2019 BOS
+  #5: J.D. Martinez                        3.51 2019 BOS
+  #6: Brandon Workman                      3.07 2019 BOS
+  #7: Christian Vázquez                    2.31 2019 BOS
+  #8: Andrew Cashner                       2.17 2019 BAL,BOS
+  #9: Chris Sale                           2.13 2019 BOS
+ #10: Jackie Bradley Jr.                   2.04 2019 BOS
+ #11: Andrew Benintendi                    1.78 2019 BOS
+ #12: David Price                           1.6 2019 BOS
+ #13: Brock Holt                           1.52 2019 BOS
+ #14: Mitch Moreland                       1.33 2019 BOS
+ #15: Josh Taylor                          1.28 2019 BOS
+ #16: Matt Barnes                          1.17 2019 BOS
+ #17: Marcus Walden                        1.05 2019 BOS
+ #18: Michael Chavis                       0.91 2019 BOS
+ #19: Colten Brewer                        0.78 2019 BOS
+ #20: Rick Porcello                        0.75 2019 BOS
+ #21: Heath Hembree                        0.38 2019 BOS
+ #22: Travis Lakins Sr.                    0.33 2019 BOS
+ #23: Ryan Weber                           0.13 2019 BOS
+ #24: Darwinzon Hernandez                  0.12 2019 BOS
+ #25: Ryan Brasier                         0.03 2019 BOS
+ #26: Tzu-Wei Lin                          0.01 2019 BOS
+ #27: Juan Centeno                        -0.08 2019 BOS
+ #28: Nathan Eovaldi                      -0.09 2019 BOS
+ #29: Marco Hernández                     -0.09 2019 BOS
+ #30: Erasmo Ramírez                      -0.09 2019 BOS
+ #31: Josh A. Smith                       -0.09 2019 BOS
+ #32: Steven Wright                       -0.11 2019 BOS
+ #33: Bobby Poyner                        -0.15 2019 BOS
+ #34: Hector Velázquez                    -0.19 2019 BOS
+ #35: Tyler Thornburg                     -0.21 2019 BOS
+ #36: Brian Johnson                       -0.29 2019 BOS
+ #37: Trevor Kelley                       -0.32 2019 BOS
+ #38: Gorkys Hernández                    -0.47 2019 BOS
+ #39: Dustin Pedroia                      -0.47 2019 BOS
+ #40: Jhoulys Chacín                      -0.58 2019 MIL,BOS
+ #41: Steve Pearce                        -0.59 2019 BOS
+ #42: Sandy Leon                           -0.6 2019 BOS
+ #43: Mike Shawaryn                        -0.6 2019 BOS
+ #44: Sam Travis                          -0.74 2019 BOS
+ #45: Blake Swihart                       -0.94 2019 ARI,BOS
+ #46: Chris Owings                        -1.15 2019 BOS,KCR
+ #47: Eduardo Núñez                       -1.42 2019 BOS

@@ -4,7 +4,6 @@ import com.michaelsgroi.baseballreference.Career.Companion.getCareerFormatter
 import com.michaelsgroi.baseballreference.Roster.Companion.getRosterFormatter
 import com.michaelsgroi.baseballreference.Roster.RosterId
 import com.michaelsgroi.baseballreference.Season.Companion.getSeasonFormatter
-import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
 import java.time.Duration
 import java.time.Instant
@@ -17,79 +16,86 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     fun run() {
         val reports = listOf(
+            relativeRosterRetention("oak", 2019, "oak", 2022),
             relativeRosterRetention("oak", 2019, "bos", 2022),
             relativeRosterRetention("oak", 2019, "nyy", 2022),
-            averageSeasonWar(50),
-            bestCareerWar(50),
-            consecutiveSeasonsWithWarOver(50, 5.0),
-            consecutiveSeasonsWithWarOver(50, 6.0),
-            consecutiveSeasonsWithWarOver(50, 7.0),
-            consecutiveSeasonsWithWarOver(50, 8.0),
-            consecutiveSeasonsWithWarOver(50, 9.0),
-            consecutiveSeasonsWithWarOver(50, 10.0),
-            consecutiveSeasonsWithWarOver(50, 11.0),
-            consecutiveSeasonsWithWarOver(50, 12.0),
-            consecutiveSeasonsWithWarOver(50, 13.0),
-            consecutiveSeasonsWithWarOver(50, 14.0),
-            bestTopNSeasons(3, 50, "all-time"),
-            bestTopNSeasons(5, 50, "all-time"),
-            bestTopNSeasons(7, 50, "all-time"),
-            bestTopNSeasons(3, 50, "modern era", modernEra),
-            bestTopNSeasons(5, 50, "modern era", modernEra),
-            bestTopNSeasons(7, 50, "modern era", modernEra),
-            theSteveBalboniAllStars(),
-            theRowlandOfficeAllStars(),
-            topSeasonWars(10),
-            bottomSeasonWars(10),
-            bestOrWorstNOfTeam("bos", 30, true),
-            bestOrWorstNOfTeam("bos", 30, false),
-            bestOrWorstNOfTeam("nyy", 30, true),
-            bestOrWorstNOfTeam("nyy", 30, false),
-            bestRosters(1000),
-            bestRosters(1000, CONCISE),
-            bestRostersByFranchise(),
-            bestRostersByFranchise(CONCISE),
-            roster(RosterId(1928, "pha"), CONCISE),
-            roster(RosterId(1928, "pha")),
-            roster(RosterId(2005, "nyy")),
-            roster(RosterId(2005, "nyy"), CONCISE),
-            roster(RosterId(1959, "mln")),
-            roster(RosterId(1996, "cle")),
-            highestPaidSeasons(20),
-            highestPaidSeasonsForTeam(20, "bos"),
-            highestPaidSeasonsForTeam(20, "nyy"),
-            highestPaidSeasonsByWar(20),
-            highestPaidCareersByWar(20),
-            highestPaidCareersByWarOfPlayersWhoAreCurrentlyActive(20),
-            highestPaidCareersWithNegativeWar(20),
-            lowestPaidWarSeasonsByWarSince(20, "all-time"),
-            lowestPaidWarSeasonsByWarSince(20, "modern era", modernEra),
-            lowestPaidWarSeasonsByWarSince(20, "since 2000", since2000),
-            lowestPaidCareersByWar(20),
-            lowestPaidCareersByWarInTheModernEra(20),
-            lowestPaidCareersByWarSince2000(20),
-            lowestPaidCareersByWarWhoAreCurrentlyActive(20),
-            career("ruthba01"),
-            highestPeakSeasonWarWithCareerWarUnder(20, 10),
-            highestPeakSeasonWarWithCareerWarUnder(20, 15),
-            highestPeakSeasonWarWithCareerWarUnder(20, 20),
-            highestPeakSeasonWarWithCareerWarUnder(20, 30),
-            lowestPeakSeasonWarWithCareerWarOver(20, 40),
-            lowestPeakSeasonWarWithCareerWarOver(20, 50),
-            lowestPeakSeasonWarWithCareerWarOver(20, 60),
-            lowestPeakSeasonWarWithCareerWarOver(20, 70),
-            lowestPeakSeasonWarWithCareerWarOver(20, 80),
-            lowestPeakSeasonWarWithCareerWarOver(20, 90),
-            lowestPeakSeasonWarWithCareerWarOver(20, 100),
-            lowestPeakSeasonWarWithCareerWarOver(20, 110),
-            lowestPeakSeasonWarWithCareerWarOver(20, 120),
-            lowestPeakSeasonWarWithCareerWarOver(20, 130),
-            lowestPeakSeasonWarWithCareerWarOver(20, 140),
-            lowestPeakSeasonWarWithCareerWarOver(20, 150),
-            lowestPeakSeasonWarWithCareerWarOver(20, 160),
-            playersWhoseNameStartsWith("Cecil "),
-            playersWhoseNameStartsWith("Babe "),
-            playersWhoseNameContains("war"),
+            season(RosterId(2019, "oak")),
+            season(RosterId(2022, "oak")),
+            season(RosterId(2019, "bos")),
+            season(RosterId(2022, "bos")),
+            season(RosterId(2019, "nyy")),
+            season(RosterId(2022, "nyy")),
+//            averageSeasonWar(50),
+//            bestCareerWar(50),
+//            consecutiveSeasonsWithWarOver(50, 5.0),
+//            consecutiveSeasonsWithWarOver(50, 6.0),
+//            consecutiveSeasonsWithWarOver(50, 7.0),
+//            consecutiveSeasonsWithWarOver(50, 8.0),
+//            consecutiveSeasonsWithWarOver(50, 9.0),
+//            consecutiveSeasonsWithWarOver(50, 10.0),
+//            consecutiveSeasonsWithWarOver(50, 11.0),
+//            consecutiveSeasonsWithWarOver(50, 12.0),
+//            consecutiveSeasonsWithWarOver(50, 13.0),
+//            consecutiveSeasonsWithWarOver(50, 14.0),
+//            bestTopNSeasons(3, 50, "all-time"),
+//            bestTopNSeasons(5, 50, "all-time"),
+//            bestTopNSeasons(7, 50, "all-time"),
+//            bestTopNSeasons(3, 50, "modern era", modernEra),
+//            bestTopNSeasons(5, 50, "modern era", modernEra),
+//            bestTopNSeasons(7, 50, "modern era", modernEra),
+//            theSteveBalboniAllStars(),
+//            theRowlandOfficeAllStars(),
+//            topSeasonWars(10),
+//            bottomSeasonWars(10),
+//            bestOrWorstNOfTeam("bos", 30, true),
+//            bestOrWorstNOfTeam("bos", 30, false),
+//            bestOrWorstNOfTeam("nyy", 30, true),
+//            bestOrWorstNOfTeam("nyy", 30, false),
+//            bestRosters(1000),
+//            bestRosters(1000, CONCISE),
+//            bestRostersByFranchise(),
+//            bestRostersByFranchise(CONCISE),
+//            roster(RosterId(1928, "pha"), CONCISE),
+//            roster(RosterId(1928, "pha")),
+//            roster(RosterId(2005, "nyy")),
+//            roster(RosterId(2005, "nyy"), CONCISE),
+//            roster(RosterId(1959, "mln")),
+//            roster(RosterId(1996, "cle")),
+//            highestPaidSeasons(20),
+//            highestPaidSeasonsForTeam(20, "bos"),
+//            highestPaidSeasonsForTeam(20, "nyy"),
+//            highestPaidSeasonsByWar(20),
+//            highestPaidCareersByWar(20),
+//            highestPaidCareersByWarOfPlayersWhoAreCurrentlyActive(20),
+//            highestPaidCareersWithNegativeWar(20),
+//            lowestPaidWarSeasonsByWarSince(20, "all-time"),
+//            lowestPaidWarSeasonsByWarSince(20, "modern era", modernEra),
+//            lowestPaidWarSeasonsByWarSince(20, "since 2000", since2000),
+//            lowestPaidCareersByWar(20),
+//            lowestPaidCareersByWarInTheModernEra(20),
+//            lowestPaidCareersByWarSince2000(20),
+//            lowestPaidCareersByWarWhoAreCurrentlyActive(20),
+//            career("ruthba01"),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 10),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 15),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 20),
+//            highestPeakSeasonWarWithCareerWarUnder(20, 30),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 40),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 50),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 60),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 70),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 80),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 90),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 100),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 110),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 120),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 130),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 140),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 150),
+//            lowestPeakSeasonWarWithCareerWarOver(20, 160),
+//            playersWhoseNameStartsWith("Cecil "),
+//            playersWhoseNameStartsWith("Babe "),
+//            playersWhoseNameContains("war"),
         )
         // TODO add report run duration
         println("running ${reports.size} reports to '$reportDir' directory")
@@ -114,43 +120,55 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         }
     }
 
-    private fun relativeRosterRetention(sourceTeam: String, sourceYear: Int, targetTeam: String, targetYear: Int): Report<Career> {
-        val teamRosterInitialYear = brWarDaily.rosters.first { roster ->
+    private fun relativeRosterRetention(sourceTeam: String, sourceYear: Int, targetTeam: String, targetYear: Int): Report<Season> {
+        // source team computation
+        val sourceRosterSourceYear = brWarDaily.rosters.first { roster ->
             roster.rosterId.season == sourceYear && roster.rosterId.team.lowercase() == sourceTeam.lowercase()
         }
-        val playerSeasonsInitialYear = teamRosterInitialYear.players.map { career ->
+        val sourcePlayersSourceYear = sourceRosterSourceYear.players.map { career ->
             career.seasons().first { it.season == sourceYear }
         }
 
-        val playerSeasonsInitialYearSortedByWar = playerSeasonsInitialYear.sortedByDescending { it.war }
+        val sourcePlayersSortedByWar = sourcePlayersSourceYear.sortedByDescending { it.war }
 
-        val teamRosterTargetYear = brWarDaily.rosters.first { roster ->
+        val sourceRosterTargetYear = brWarDaily.rosters.first { roster ->
             roster.rosterId.season == targetYear && roster.rosterId.team.lowercase() == sourceTeam.lowercase()
         }
-        val playersOnBothTeams = teamRosterInitialYear.players.filter { player ->
-            teamRosterTargetYear.players.any { it.playerId == player.playerId }
+        val playersOnBothTeams = sourceRosterSourceYear.players.filter { player ->
+            sourceRosterTargetYear.players.any { it.playerId == player.playerId }
         }
 
-        val warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster = playersOnBothTeams.map { player ->
-            playerSeasonsInitialYearSortedByWar.indexOfFirst { it.playerId == player.playerId } to player
-        }.toMap()
+        val warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster = playersOnBothTeams.associateBy { player ->
+            sourcePlayersSortedByWar.indexOfFirst { it.playerId == player.playerId }
+        }
+
+        println(warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster.toSortedMap().map { "${it.key}:${it.value.playerName}" }.joinToString("\n"))
 
         val warIndexes = warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster.keys
 
-        val targetRoster = brWarDaily.rosters.first() { roster ->
-            roster.rosterId.season == targetYear && roster.rosterId.team == targetTeam
+        // target team computation
+        val targetRosterSourceYear = brWarDaily.rosters.first() { roster ->
+            roster.rosterId.season == sourceYear && roster.rosterId.team == targetTeam
         }
 
-        val targetPlayers = targetRoster.players
-        val playersByWar = targetPlayers.sortedByDescending { it.war() }
-        val playersMatchingWarIndex = warIndexes.map { warIndex ->
-            playersByWar[warIndex]
+        val targetPlayersSourceYear = targetRosterSourceYear.players.map { career ->
+            career.seasons().first { it.season == sourceYear }
         }
+        val targetPlayersSortedByWar = targetPlayersSourceYear.sortedByDescending { it.war }
+
+        val targetPlayerIdsMatchingWarIndex = warIndexes.map { warIndex ->
+            targetPlayersSortedByWar[warIndex]
+        }.map { it.playerId }.toSet()
+
+        val targetPlayersMatchingWarIndex= targetPlayersSortedByWar.filter { targetPlayerIdsMatchingWarIndex.contains(it.playerId) }
+
+        val targetPlayersMatchingWarIndexSortedByWar = targetPlayersMatchingWarIndex.sortedByDescending { it.war }
 
         return buildReport(
             listOf(sourceTeam, sourceYear, targetTeam, targetYear),
-            getCareerFormatter(includeWar = false, verbosity = CONCISE)) {
-            playersMatchingWarIndex
+            getSeasonFormatter()
+        ) {
+            targetPlayersMatchingWarIndexSortedByWar
         }
     }
 
@@ -360,6 +378,13 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     private fun roster(rosterId: RosterId, verbosity: Verbosity = VERBOSE) =
         buildReport(listOf(rosterId.season, rosterId.team, verbosity), getCareerFormatter(verbosity)) {
             brWarDaily.rosters.first { it.rosterId == rosterId }.players.sortedByDescending { it.war() }
+        }
+
+    private fun season(rosterId: RosterId, verbosity: Verbosity = VERBOSE) =
+        buildReport(listOf(rosterId.season, rosterId.team, verbosity), getSeasonFormatter()) {
+            brWarDaily.rosters.first { roster -> roster.rosterId == rosterId }.players
+                .map { player -> player.seasons().first { season -> season.season == rosterId.season }}
+                .sortedByDescending { it.war }
         }
 
     private fun <T> writeReport(report: Report<T>) {

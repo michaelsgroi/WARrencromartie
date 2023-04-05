@@ -1,15 +1,15 @@
 Relative roster retention oak 2019 bos 2022
 11 rows
 
-# name war
-#1: Kaleb Ort 0
-#2: Yu Chang 0
-#3: Matt Strahm 5
-#4: Jackie Bradley Jr. 17
-#5: Tommy Pham 16
-#6: Tanner Houck 4
-#7: Christian Arroyo 2
-#8: Travis Shaw 8
-#9: Nick Pivetta 6
-#10: Jaylin Davis -1
-#11: Hirokazu Sawamura 1
+    # name                                  war year teams
+  #1: Brandon Workman                      3.07 2019 BOS
+  #2: Chris Sale                           2.13 2019 BOS
+  #3: Mitch Moreland                       1.33 2019 BOS
+  #4: Michael Chavis                       0.91 2019 BOS
+  #5: Rick Porcello                        0.75 2019 BOS
+  #6: Heath Hembree                        0.38 2019 BOS
+  #7: Juan Centeno                        -0.08 2019 BOS
+  #8: Erasmo Ramírez                      -0.09 2019 BOS
+  #9: Brian Johnson                       -0.29 2019 BOS
+ #10: Chris Owings                        -1.15 2019 BOS,KCR
+ #11: Eduardo Núñez                       -1.42 2019 BOS

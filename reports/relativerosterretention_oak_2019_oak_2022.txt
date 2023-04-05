@@ -1,0 +1,15 @@
+Relative roster retention oak 2019 oak 2022
+11 rows
+
+    # name                                  war year teams
+  #1: Ramón Laureano                       3.48 2019 OAK
+  #2: Frankie Montas                       2.62 2019 OAK
+  #3: Chad Pinder                          1.59 2019 OAK
+  #4: Stephen Piscotty                     0.94 2019 OAK
+  #5: Seth Brown                           0.75 2019 OAK
+  #6: Sean Murphy                          0.61 2019 OAK
+  #7: Sheldon Neuse                        0.31 2019 OAK
+  #8: A.J. Puk                             0.22 2019 OAK
+  #9: Skye Bolt                            -0.1 2019 OAK
+ #10: Paul Blackburn                      -0.51 2019 OAK
+ #11: Lou Trivino                         -0.69 2019 OAK

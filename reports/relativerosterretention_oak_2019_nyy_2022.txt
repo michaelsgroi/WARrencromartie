@@ -1,15 +1,15 @@
 Relative roster retention oak 2019 nyy 2022
 11 rows
 
-# name war
-#1: Albert Abreu 0
-#2: Ron Marinaccio 1
-#3: Chad Green 8
-#4: DJ LeMahieu 30
-#5: Andrew Benintendi 16
-#6: Frankie Montas 7
-#7: Jose Trevino 3
-#8: Luis Severino 13
-#9: Isiah Kiner-Falefa 10
-#10: David McKay 0
-#11: Lucas Luetge 2
+    # name                                  war year teams
+  #1: Gary Sanchez                         3.13 2019 NYY
+  #2: Zack Britton                         2.47 2019 NYY
+  #3: Aroldis Chapman                      1.61 2019 NYY
+  #4: Luke Voit                            1.27 2019 NYY
+  #5: Tommy Kahnle                         0.82 2019 NYY
+  #6: David Hale                           0.81 2019 NYY
+  #7: CC Sabathia                           0.4 2019 NYY
+  #8: Thairo Estrada                        0.3 2019 NYY
+  #9: Kyle Higashioka                      0.04 2019 NYY
+ #10: Greg Bird                           -0.27 2019 NYY
+ #11: Tyler Lyons                          -0.3 2019 PIT,NYY

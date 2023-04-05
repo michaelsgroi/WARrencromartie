@@ -17,6 +17,8 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
 
     fun run() {
         val reports = listOf(
+            relativeRosterRetention("oak", 2019, "bos", 2022),
+            relativeRosterRetention("oak", 2019, "nyy", 2022),
             averageSeasonWar(50),
             bestCareerWar(50),
             consecutiveSeasonsWithWarOver(50, 5.0),
@@ -109,6 +111,46 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
                 .sortedByDescending { career ->
                     career.war()
                 }
+        }
+    }
+
+    private fun relativeRosterRetention(sourceTeam: String, sourceYear: Int, targetTeam: String, targetYear: Int): Report<Career> {
+        val teamRosterInitialYear = brWarDaily.rosters.first { roster ->
+            roster.rosterId.season == sourceYear && roster.rosterId.team.lowercase() == sourceTeam.lowercase()
+        }
+        val playerSeasonsInitialYear = teamRosterInitialYear.players.map { career ->
+            career.seasons().first { it.season == sourceYear }
+        }
+
+        val playerSeasonsInitialYearSortedByWar = playerSeasonsInitialYear.sortedByDescending { it.war }
+
+        val teamRosterTargetYear = brWarDaily.rosters.first { roster ->
+            roster.rosterId.season == targetYear && roster.rosterId.team.lowercase() == sourceTeam.lowercase()
+        }
+        val playersOnBothTeams = teamRosterInitialYear.players.filter { player ->
+            teamRosterTargetYear.players.any { it.playerId == player.playerId }
+        }
+
+        val warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster = playersOnBothTeams.map { player ->
+            playerSeasonsInitialYearSortedByWar.indexOfFirst { it.playerId == player.playerId } to player
+        }.toMap()
+
+        val warIndexes = warIndexesOfInitialYearPlayersWhoAreOnTargetYearRoster.keys
+
+        val targetRoster = brWarDaily.rosters.first() { roster ->
+            roster.rosterId.season == targetYear && roster.rosterId.team == targetTeam
+        }
+
+        val targetPlayers = targetRoster.players
+        val playersByWar = targetPlayers.sortedByDescending { it.war() }
+        val playersMatchingWarIndex = warIndexes.map { warIndex ->
+            playersByWar[warIndex]
+        }
+
+        return buildReport(
+            listOf(sourceTeam, sourceYear, targetTeam, targetYear),
+            getCareerFormatter(includeWar = false, verbosity = CONCISE)) {
+            playersMatchingWarIndex
         }
     }
 

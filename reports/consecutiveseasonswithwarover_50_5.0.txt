@@ -25,21 +25,21 @@ Consecutive seasons with war over 50 5.0
  #21: Rogers Hornsby             9 (1917-1925) STL
  #22: Johnny Mize                9 (1937-1948) STL,NYG
  #23: Babe Ruth                  9 (1916-1924) BOS,NYY
- #24: Lefty Grove                8 (1926-1933) PHA
- #25: Clayton Kershaw            8 (2010-2017) LAD
- #26: Max Scherzer               8 (2013-2021) DET,WSN,LAD
- #27: Mike Trout                 8 (2012-2019) LAA
- #28: Arky Vaughan               8 (1933-1940) PIT
- #29: Ted Williams               8 (1939-1949) BOS
- #30: Bobby Abreu                7 (1998-2004) PHI
- #31: Pete Alexander             7 (1911-1917) PHI
- #32: Wade Boggs                 7 (1983-1989) BOS
- #33: Ken Boyer                  7 (1958-1964) STL
- #34: Roger Clemens              7 (1986-1992) BOS
- #35: Roger Connor               7 (1885-1892) NYG,PHI
- #36: Ed Delahanty               7 (1893-1899) PHI
- #37: Joe DiMaggio               7 (1937-1946) NYY
- #38: Charlie Gehringer          7 (1932-1938) DET
+ #24: Charlie Gehringer          8 (1932-1939) DET
+ #25: Lefty Grove                8 (1926-1933) PHA
+ #26: Clayton Kershaw            8 (2010-2017) LAD
+ #27: Max Scherzer               8 (2013-2021) DET,WSN,LAD
+ #28: Mike Trout                 8 (2012-2019) LAA
+ #29: Arky Vaughan               8 (1933-1940) PIT
+ #30: Ted Williams               8 (1939-1949) BOS
+ #31: Bobby Abreu                7 (1998-2004) PHI
+ #32: Grover Alexander           7 (1911-1917) PHI
+ #33: Wade Boggs                 7 (1983-1989) BOS
+ #34: Ken Boyer                  7 (1958-1964) STL
+ #35: Roger Clemens              7 (1986-1992) BOS
+ #36: Roger Connor               7 (1885-1892) NYG,PHI
+ #37: Ed Delahanty               7 (1893-1899) PHI
+ #38: Joe DiMaggio               7 (1937-1946) NYY
  #39: Harry Heilmann             7 (1921-1927) DET
  #40: Rickey Henderson           7 (1980-1986) OAK,NYY
  #41: Greg Maddux                7 (1992-1998) CHC,ATL

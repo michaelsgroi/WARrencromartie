@@ -20,8 +20,8 @@ class BrWarDailyTests {
             "Pedro Martinez" to 83.9,
             "Curt Schilling" to 79.49,
             "Manny Ramirez" to 69.31,
-            "Johnny Damon" to 56.31,
-            "David Ortiz" to 55.31
+            "Johnny Damon" to 56.33,
+            "David Ortiz" to 55.30
         )
         assertEquals(expectedTop5PlayersByWar, topPlayersByWar) {
             "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
@@ -41,7 +41,7 @@ class BrWarDailyTests {
     fun testMidSeasonTraded() {
         val career = testee.careers.first { it.playerName == "Donnie Sadler" }
         val careerStr = """
-            { "war":-0.88, "pitchingWar":0.0, "battingWar":-0.88, "war/season":-0.11, "id":"sadledo01", "name":"Donnie Sadler", "seasons":8, "seasonsRange":"1998-2007"}
+            { "war":-0.89, "pitchingWar":0.0, "battingWar":-0.89, "war/season":-0.11, "id":"sadledo01", "name":"Donnie Sadler", "seasons":8, "seasonsRange":"1998-2007"}
         """.trimIndent()
         assertEquals(careerStr, career.toString()) { "Expected $careerStr, but was $career" }
     }
@@ -64,11 +64,11 @@ class BrWarDailyTests {
         val topPlayersByWar =
             playersByWarDescending.take(5).associate { it.playerName to it.war().roundToDecimalPlaces(2).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
-            "Babe Ruth" to 183.07,
-            "Walter Johnson" to 164.9,
-            "Cy Young" to 163.62,
-            "Barry Bonds" to 162.79,
-            "Willie Mays" to 156.14
+            "Babe Ruth" to 182.55,
+            "Walter Johnson" to 165.05,
+            "Cy Young" to 163.59,
+            "Barry Bonds" to 162.77,
+            "Willie Mays" to 156.17
         )
         assertEquals(expectedTop5PlayersByWar, topPlayersByWar) {
             "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
@@ -84,10 +84,10 @@ class BrWarDailyTests {
                 .associate { it.playerName to it.pitchingWar().roundToDecimalPlaces(1).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
             "Cy Young" to 165.59,
-            "Walter Johnson" to 152.25,
-            "Roger Clemens" to 138.67,
+            "Walter Johnson" to 152.36,
+            "Roger Clemens" to 138.68,
             "Kid Nichols" to 116.71,
-            "Pete Alexander" to 116.2
+            "Grover Alexander" to 116.24
         )
         assertEquals(expectedTop5PlayersByWar, topPlayersByWar) {
             "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"
@@ -103,11 +103,11 @@ class BrWarDailyTests {
             playersByWarDescending.take(5)
                 .associate { it.playerName to it.battingWar().roundToDecimalPlaces(1).toDouble() }
         val expectedTop5PlayersByWar = mapOf(
-            "Barry Bonds" to 162.79,
-            "Babe Ruth" to 162.71,
-            "Willie Mays" to 156.14,
-            "Ty Cobb" to 151.39,
-            "Henry Aaron" to 143.01
+            "Barry Bonds" to 162.77,
+            "Babe Ruth" to 162.2,
+            "Willie Mays" to 156.17,
+            "Ty Cobb" to 151.38,
+            "Henry Aaron" to 142.98
         )
         assertEquals(expectedTop5PlayersByWar, topPlayersByWar) {
             "Expected $expectedTop5PlayersByWar, but was $topPlayersByWar"

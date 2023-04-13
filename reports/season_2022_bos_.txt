@@ -14,21 +14,21 @@ Season 2022 bos
  #10: Nathan Eovaldi                       1.53 2022 BOS
  #11: Alex Verdugo                         1.12 2022 BOS
  #12: J.D. Martinez                        1.09 2022 BOS
- #13: Eric Hosmer                          1.05 2022 BOS,SDP
+ #13: Eric Hosmer                          1.05 2022 SDP,BOS
  #14: Enrique Hernández                    0.92 2022 BOS
- #15: Reese McGuire                         0.9 2022 BOS,CHW
+ #15: Reese McGuire                         0.9 2022 CHW,BOS
  #16: Rob Refsnyder                         0.9 2022 BOS
  #17: Rich Hill                            0.77 2022 BOS
  #18: Christian Arroyo                     0.67 2022 BOS
  #19: Hirokazu Sawamura                    0.66 2022 BOS
- #20: Tommy Pham                           0.38 2022 BOS,CIN
+ #20: Tommy Pham                           0.38 2022 CIN,BOS
  #21: Brayan Bello                         0.37 2022 BOS
  #22: Eduard Bazardo                       0.34 2022 BOS
  #23: Matt Strahm                          0.26 2022 BOS
  #24: Matt Barnes                          0.22 2022 BOS
  #25: Zack Kelly                           0.16 2022 BOS
- #26: Yu Chang                             0.15 2022 BOS,CLE,PIT,TBR
- #27: Jaylin Davis                         0.15 2022 BOS
+ #26: Jaylin Davis                         0.15 2022 BOS
+ #27: Yu Chang                             0.15 2022 CLE,PIT,TBR,BOS
  #28: Kutter Crawford                      0.14 2022 BOS
  #29: Triston Casas                        0.11 2022 BOS
  #30: Michael Feliz                        0.02 2022 BOS
@@ -44,7 +44,7 @@ Season 2022 bos
  #40: Josh Winckowski                     -0.35 2022 BOS
  #41: Kaleb Ort                           -0.41 2022 BOS
  #42: Austin Davis                        -0.48 2022 BOS,MIN
- #43: Jonathan Araúz                      -0.49 2022 BAL,BOS
+ #43: Jonathan Araúz                      -0.49 2022 BOS,BAL
  #44: Jackie Bradley Jr.                  -0.58 2022 BOS,TOR
  #45: Jeter Downs                         -0.62 2022 BOS
  #46: Yolmer Sanchez                      -0.65 2022 BOS,NYM
@@ -53,6 +53,6 @@ Season 2022 bos
  #49: Bobby Dalbec                        -0.73 2022 BOS
  #50: Hansel Robles                       -0.78 2022 BOS
  #51: Ryan Brasier                        -0.82 2022 BOS
- #52: Darwinzon Hernandez                 -0.87 2022 BOS
+ #52: Darwinzon Hernández                 -0.87 2022 BOS
  #53: Connor Seabold                       -1.0 2022 BOS
  #54: Kevin Plawecki                      -1.21 2022 BOS,TEX

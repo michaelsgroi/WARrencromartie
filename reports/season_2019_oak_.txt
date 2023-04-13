@@ -45,9 +45,9 @@ Season 2019 oak
  #41: Fernando Rodney                     -0.26 2019 OAK,WSN
  #42: Nick Hundley                        -0.34 2019 OAK
  #43: Marco Estrada                       -0.36 2019 OAK
- #44: Corban Joseph                       -0.41 2019 OAK,PIT,SFG
+ #44: Corban Joseph                       -0.41 2019 OAK,SFG,PIT
  #45: Franklin Barreto                    -0.51 2019 OAK
  #46: Paul Blackburn                      -0.51 2019 OAK
  #47: Lou Trivino                         -0.69 2019 OAK
- #48: Ryan Dull                           -0.82 2019 NYY,OAK,TOR
- #49: Kendrys Morales                      -0.9 2019 NYY,OAK
+ #48: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
+ #49: Kendrys Morales                      -0.9 2019 OAK,NYY

@@ -6,7 +6,7 @@ Lowest peak season war with career war over 20 80
   #2: George Davis              84.53  7.22 (1905)      20 (1890-1909) CLV,NYG,CHW
   #3: Chipper Jones             85.25   7.6 (2007)      19 (1993-2012) ATL
   #4: Nolan Ryan                81.28  7.84 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
-  #5: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+  #5: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,HOU,DET
   #6: Mike Mussina              82.81  8.22 (1992)      18 (1991-2008) BAL,NYY
   #7: Al Kaline                 92.78  8.42 (1961)      22 (1953-1974) DET
   #8: Frank Robinson           107.25  8.71 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE

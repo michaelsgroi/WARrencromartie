@@ -2,7 +2,7 @@ Lowest peak season war with career war over 20 40
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Joe Judge                 47.82  4.05 (1920)      20 (1915-1934) WSH,BOS,BRO
+  #1: Joe Judge                 47.82  4.05 (1920)      20 (1915-1934) WSH,BRO,BOS
   #2: Wally Schang              48.01  4.41 (1919)      19 (1913-1931) PHA,BOS,NYY,SLB,DET
   #3: Jake Beckley               57.2  4.56 (1893)      19 (1888-1907) PIT,NYG,CIN,STL
   #4: Sam Rice                   54.3  4.84 (1930)      20 (1915-1934) WSH,CLE
@@ -14,7 +14,7 @@ Lowest peak season war with career war over 20 40
  #10: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
  #11: Lave Cross                42.83   5.0 (1894)      16 (1892-1907) PHI,STL,CLV,BRO,PHA,WSH
  #12: Mark Grace                46.38  5.04 (1995)      16 (1988-2003) CHC,ARI
- #13: Nelson Cruz               42.49  5.06 (2015)      18 (2005-2022) MIL,TEX,BAL,SEA,MIN,TBR,WSN
+ #13: Nelson Cruz               42.74  5.06 (2015)      19 (2005-2023) MIL,TEX,BAL,SEA,MIN,TBR,WSN,SDP
  #14: Tony Fernandez            45.29  5.09 (1987)      17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
  #15: David Justice             40.58   5.1 (2000)      14 (1989-2002) ATL,CLE,NYY,OAK
  #16: Gabby Hartnett             55.4  5.13 (1930)      20 (1922-1941) CHC,NYG

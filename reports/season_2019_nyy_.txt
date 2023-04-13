@@ -9,7 +9,7 @@ Season 2019 nyy
   #5: Gio Urshela                          3.82 2019 NYY
   #6: Gary Sanchez                         3.13 2019 NYY
   #7: Gleyber Torres                       3.03 2019 NYY
-  #8: Edwin Encarnación                    2.72 2019 NYY,SEA
+  #8: Edwin Encarnación                    2.72 2019 SEA,NYY
   #9: Zack Britton                         2.47 2019 NYY
  #10: James Paxton                         2.32 2019 NYY
  #11: Adam Ottavino                        2.27 2019 NYY
@@ -23,7 +23,7 @@ Season 2019 nyy
  #19: Mike Ford                            0.85 2019 NYY
  #20: Tommy Kahnle                         0.82 2019 NYY
  #21: David Hale                           0.81 2019 NYY
- #22: Cory Gearrin                          0.8 2019 NYY,SEA
+ #22: Cory Gearrin                          0.8 2019 SEA,NYY
  #23: Austin Romine                        0.62 2019 NYY
  #24: Luis Severino                        0.62 2019 NYY
  #25: Luis Cessa                           0.47 2019 NYY
@@ -38,7 +38,7 @@ Season 2019 nyy
  #34: Breyvic Valera                       0.14 2019 NYY,TOR
  #35: Dellin Betances                      0.04 2019 NYY
  #36: Kyle Higashioka                      0.04 2019 NYY
- #37: Joe Harvey                           0.03 2019 COL,NYY
+ #37: Joe Harvey                           0.03 2019 NYY,COL
  #38: Michael King                         0.03 2019 NYY
  #39: Adonis Rosa                          0.01 2019 NYY
  #40: Troy Tulowitzki                     -0.03 2019 NYY
@@ -52,7 +52,7 @@ Season 2019 nyy
  #48: Nestor Cortes                       -0.35 2019 NYY
  #49: Stephen Tarpley                     -0.45 2019 NYY
  #50: Chance Adams                        -0.71 2019 NYY
- #51: Ryan Dull                           -0.82 2019 NYY,OAK,TOR
+ #51: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
  #52: Jonathan Holder                     -0.88 2019 NYY
- #53: Kendrys Morales                      -0.9 2019 NYY,OAK
- #54: Miguel Andújar                      -1.17 2019 NYY
+ #53: Kendrys Morales                      -0.9 2019 OAK,NYY
+ #54: Miguel Andujar                      -1.17 2019 NYY

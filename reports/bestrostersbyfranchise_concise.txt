@@ -38,9 +38,9 @@ Best rosters by franchise concise
 34: 1970 min 630
 35: 1982 mil 614
 36: 1894 clv 603
-37: 2015 wsn 584
+37: 2015 wsn 585
 38: 2007 sdp 581
-39: 2012 col 503
+39: 2012 col 504
 40: 2010 tbr 502
 41: 1899 lou 496
 42: 1902 bla 491

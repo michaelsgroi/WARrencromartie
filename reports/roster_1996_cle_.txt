@@ -5,9 +5,9 @@ Roster 1996 cle
   #1: Jim Thome                 73.05      22 (1991-2012) CLE,PHI,CHW,MIN,BAL
   #2: Manny Ramirez             69.31      19 (1993-2011) CLE,BOS,LAD,CHW,TBR
   #3: Eddie Murray              68.62      21 (1977-1997) BAL,LAD,NYM,CLE,ANA
-  #4: Kenny Lofton               68.4      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,CHC,PIT,NYY,PHI,LAD,TEX
+  #4: Kenny Lofton               68.4      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,PIT,CHC,NYY,PHI,LAD,TEX
   #5: Orel Hershiser            56.02      18 (1983-2000) LAD,CLE,SFG,NYM
-  #6: Jeff Kent                 55.45      17 (1992-2008) NYM,TOR,CLE,SFG,HOU,LAD
+  #6: Jeff Kent                 55.45      17 (1992-2008) TOR,NYM,CLE,SFG,HOU,LAD
   #7: Brian Giles               51.07      15 (1995-2009) CLE,PIT,SDP
   #8: Dennis Martinez           48.68      23 (1976-1998) BAL,MON,ATL,CLE,SEA
   #9: Omar Vizquel              45.58      24 (1989-2012) SEA,CLE,SFG,TEX,CHW,TOR
@@ -21,7 +21,7 @@ Roster 1996 cle
  #17: Jeromy Burnitz            19.88      14 (1993-2006) NYM,CLE,MIL,LAD,COL,CHC,PIT
  #18: Carlos Baerga             19.57      14 (1990-2005) CLE,NYM,SDP,BOS,ARI,WSN
  #19: Sandy Alomar              13.73      19 (1989-2007) SDP,CLE,CHW,COL,TEX,LAD,NYM
- #20: Eric Plunk                 13.5      14 (1986-1999) NYY,OAK,CLE,MIL
+ #20: Eric Plunk                 13.5      14 (1986-1999) OAK,NYY,CLE,MIL
  #21: Paul Assenmacher          13.04      14 (1986-1999) ATL,CHC,NYY,CLE,CHW
  #22: Kent Mercker              12.02      18 (1989-2008) ATL,CIN,STL,BOS,COL,CHC,BAL,CLE,ANA
  #23: Jose Mesa                 11.39      19 (1987-2007) BAL,CLE,SFG,SEA,PHI,PIT,COL,DET
@@ -33,7 +33,7 @@ Roster 1996 cle
  #29: Danny Graves               5.57      11 (1996-2006) CIN,CLE,NYM
  #30: Chad Ogea                  5.26       6 (1994-1999) CLE,PHI
  #31: Herbert Perry              5.13       9 (1994-2004) CLE,TBD,CHW,TEX
- #32: Julian Tavarez             4.62      17 (1993-2009) SFG,COL,CHC,FLA,PIT,STL,BOS,ATL,MIL,WSN,CLE
+ #32: Julian Tavarez             4.62      17 (1993-2009) SFG,COL,CHC,FLA,PIT,STL,BOS,MIL,ATL,WSN,CLE
  #33: Mark Carreon               4.61      10 (1987-1996) NYM,DET,SFG,CLE
  #34: Casey Candaele             3.98       9 (1986-1997) MON,HOU,CLE
  #35: Alvaro Espinoza             3.9      12 (1984-1997) MIN,NYY,CLE,NYM,SEA

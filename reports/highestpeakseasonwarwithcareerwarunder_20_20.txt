@@ -8,10 +8,10 @@ Highest peak season war with career war under 20 20
   #4: George Weidman            15.11  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
   #5: Mark Fidrych              11.33  9.57 (1976)       5 (1976-1980) DET
   #6: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
-  #7: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
+  #7: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,DTN,CLV
   #8: George McQuillan          17.94  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
   #9: Irv Young                  8.66  8.68 (1905)       6 (1905-1911) BSN,PIT,CHW
- #10: Cody Bellinger             17.7  8.63 (2019)       6 (2017-2022) LAD
+ #10: Cody Bellinger            17.77  8.63 (2019)       7 (2017-2023) LAD,CHC
  #11: Ben Sanders               19.63  8.47 (1888)       3 (1888-1892) PHI,LOU
  #12: Bill James                 8.73  8.38 (1914)       4 (1913-1919) BSN
  #13: Dontrelle Willis          19.74   8.3 (2005)       9 (2003-2011) FLA,DET,ARI,CIN

@@ -13,7 +13,7 @@ Roster 1928 pha
   #9: Mickey Cochrane           49.73      13 (1925-1937) PHA,DET
  #10: Howard Ehmke              41.17      14 (1916-1930) DET,BOS,PHA
  #11: Max Bishop                 38.2      12 (1924-1935) PHA,BOS
- #12: Bullet Joe Bush           37.11      17 (1912-1928) PHA,BOS,NYY,SLB,PIT,WSH,NYG
+ #12: Bullet Joe Bush           37.11      17 (1912-1928) PHA,BOS,NYY,SLB,WSH,PIT,NYG
  #13: Rube Walberg              36.77      15 (1923-1937) NYG,PHA,BOS
  #14: Jimmy Dykes               34.82      22 (1918-1939) PHA,CHW
  #15: Bing Miller                29.6      16 (1921-1936) WSH,PHA,SLB,BOS

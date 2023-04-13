@@ -1,0 +1,30 @@
+Average roster retention 2000..2022 3 3
+26 rows
+
+team average years
+nyy 2.05
+stl 2.05
+cin 1.95
+cle 1.8
+sea 1.8
+bos 1.7
+hou 1.7
+nym 1.7
+sfg 1.7
+lad 1.65
+chc 1.6
+col 1.6
+phi 1.6
+atl 1.55
+bal 1.5
+chw 1.5
+min 1.5
+pit 1.5
+kcr 1.45
+det 1.4
+mil 1.3
+ari 1.25
+oak 1.2
+tor 1.2
+tex 1.15
+sdp 0.95

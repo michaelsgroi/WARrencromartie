@@ -2,7 +2,7 @@ Lowest paid war seasons by war since 20 since 2000
 20 rows
 
     # name                                  war     salary year teams
-  #1: Eric Sogard                           3.1      50000 2019 TBR,TOR
+  #1: Eric Sogard                           3.1      50000 2019 TOR,TBR
   #2: Homer Bailey                         2.27      50000 2019 KCR,OAK
   #3: Ildemaro Vargas                      1.48      33333 2022 CHC,WSN
   #4: Albert Pujols                        6.59     200000 2001 STL
@@ -17,7 +17,7 @@ Lowest paid war seasons by war since 20 since 2000
  #13: Matt Moore                           2.39     100000 2022 TEX
  #14: Roy Oswalt                           6.88     300000 2002 HOU
  #15: Dontrelle Willis                      8.3     378500 2005 FLA
- #16: Jay Payton                           3.94     181250 2002 COL,NYM
+ #16: Jay Payton                           3.94     181250 2002 NYM,COL
  #17: Wade Miller                          5.22     241000 2001 HOU
  #18: Mike Trout                          10.54     492500 2012 LAA
  #19: Lance Berkman                        6.51     305000 2001 HOU

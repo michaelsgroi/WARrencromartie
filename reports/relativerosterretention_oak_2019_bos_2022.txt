@@ -11,5 +11,5 @@ Relative roster retention oak 2019 bos 2022
   #7: Juan Centeno                        -0.08 2019 BOS
   #8: Erasmo Ramírez                      -0.09 2019 BOS
   #9: Brian Johnson                       -0.29 2019 BOS
- #10: Chris Owings                        -1.15 2019 BOS,KCR
+ #10: Chris Owings                        -1.15 2019 KCR,BOS
  #11: Eduardo Núñez                       -1.42 2019 BOS

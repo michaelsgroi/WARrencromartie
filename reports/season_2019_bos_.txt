@@ -25,7 +25,7 @@ Season 2019 bos
  #21: Heath Hembree                        0.38 2019 BOS
  #22: Travis Lakins Sr.                    0.33 2019 BOS
  #23: Ryan Weber                           0.13 2019 BOS
- #24: Darwinzon Hernandez                  0.12 2019 BOS
+ #24: Darwinzon Hernández                  0.12 2019 BOS
  #25: Ryan Brasier                         0.03 2019 BOS
  #26: Tzu-Wei Lin                          0.01 2019 BOS
  #27: Juan Centeno                        -0.08 2019 BOS
@@ -43,9 +43,9 @@ Season 2019 bos
  #39: Dustin Pedroia                      -0.47 2019 BOS
  #40: Jhoulys Chacín                      -0.58 2019 MIL,BOS
  #41: Steve Pearce                        -0.59 2019 BOS
- #42: Sandy Leon                           -0.6 2019 BOS
+ #42: Sandy León                           -0.6 2019 BOS
  #43: Mike Shawaryn                        -0.6 2019 BOS
  #44: Sam Travis                          -0.74 2019 BOS
- #45: Blake Swihart                       -0.94 2019 ARI,BOS
- #46: Chris Owings                        -1.15 2019 BOS,KCR
+ #45: Blake Swihart                       -0.94 2019 BOS,ARI
+ #46: Chris Owings                        -1.15 2019 KCR,BOS
  #47: Eduardo Núñez                       -1.42 2019 BOS

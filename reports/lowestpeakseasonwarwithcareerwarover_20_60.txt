@@ -5,7 +5,7 @@ Lowest peak season war with career war over 20 60
   #1: Tommy John                61.58   5.9 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
   #2: Paul Molitor              75.69  6.22 (1982)      21 (1978-1998) MIL,TOR,MIN
   #3: Sam Crawford              75.34  6.26 (1914)      19 (1899-1917) CIN,DET
-  #4: Don Sutton                66.71   6.3 (1972)      23 (1966-1988) LAD,HOU,MIL,CAL,OAK
+  #4: Don Sutton                66.71   6.3 (1972)      23 (1966-1988) LAD,HOU,MIL,OAK,CAL
   #5: Harmon Killebrew          60.38  6.45 (1967)      22 (1954-1975) WSH,MIN,KCR
   #6: Ivan Rodriguez            68.71  6.54 (1997)      21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
   #7: Bobby Abreu               60.17  6.56 (2004)      18 (1996-2014) HOU,PHI,NYY,LAA,LAD,NYM

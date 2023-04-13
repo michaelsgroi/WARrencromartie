@@ -2,7 +2,7 @@ Lowest peak season war with career war over 20 90
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+  #1: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,HOU,DET
   #2: Al Kaline                 92.78  8.42 (1961)      22 (1953-1974) DET
   #3: Frank Robinson           107.25  8.71 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE
   #4: Mel Ott                  110.88  8.89 (1938)      21 (1926-1946) NYG

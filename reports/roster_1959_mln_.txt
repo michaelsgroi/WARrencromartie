@@ -4,7 +4,7 @@ Roster 1959 mln
     # name                        war seasons             teams
   #1: Henry Aaron              142.98      23 (1954-1976) MLN,ATL,MIL
   #2: Warren Spahn             100.04      21 (1942-1965) BSN,MLN,NYM,SFG
-  #3: Eddie Mathews             95.99      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+  #3: Eddie Mathews             95.99      17 (1952-1968) BSN,MLN,ATL,HOU,DET
   #4: Enos Slaughter             57.6      19 (1938-1959) STL,NYY,KCA,MLN
   #5: Red Schoendienst          44.78      18 (1945-1962) STL,NYG,MLN
   #6: Andy Pafko                36.75      17 (1943-1959) CHC,BRO,MLN
@@ -26,7 +26,7 @@ Roster 1959 mln
  #22: Wes Covington              9.13      11 (1956-1966) MLN,CHW,KCA,PHI,CHC,LAD
  #23: Felix Mantilla              6.5      11 (1956-1966) MLN,NYM,BOS,HOU
  #24: Carl Willey                6.46       8 (1958-1965) MLN,NYM
- #25: Del Rice                   4.69      17 (1945-1961) STL,MLN,BAL,CHC,LAA
+ #25: Del Rice                   4.69      17 (1945-1961) STL,MLN,CHC,BAL,LAA
  #26: Al Spangler                4.31      12 (1959-1970) MLN,HOU,CAL,CHC
  #27: Frank Torre                3.85       7 (1956-1963) MLN,PHI
  #28: Jim Pisoni                 0.32       5 (1953-1960) SLB,KCA,MLN,NYY
@@ -35,7 +35,7 @@ Roster 1959 mln
  #31: Bob Giggie                  0.0       3 (1959-1962) MLN,KCA
  #32: Chuck Cottier             -0.25       8 (1959-1969) MLN,DET,WSA,CAL
  #33: Bob Hartman               -0.38       2 (1959-1962) MLN,CLE
- #34: Joe Morgan                -0.71       3 (1959-1961) KCA,MLN,CLE,PHI
+ #34: Joe Morgan                -0.71       3 (1959-1961) MLN,KCA,PHI,CLE
  #35: John DeMerit               -1.2       5 (1957-1962) MLN,NYM
  #36: Mel Roach                 -1.53       8 (1953-1962) MLN,CHC,PHI
  #37: Casey Wise                -1.86       4 (1957-1960) CHC,MLN,DET

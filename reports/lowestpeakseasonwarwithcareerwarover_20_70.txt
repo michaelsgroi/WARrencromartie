@@ -21,4 +21,4 @@ Lowest peak season war with career war over 20 70
  #17: Nolan Ryan                81.28  7.84 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
  #18: Ted Lyons                 70.56  7.94 (1927)      21 (1923-1946) CHW
  #19: Derek Jeter               71.29   8.0 (1999)      20 (1995-2014) NYY
- #20: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
+ #20: Eddie Mathews             95.99  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,HOU,DET

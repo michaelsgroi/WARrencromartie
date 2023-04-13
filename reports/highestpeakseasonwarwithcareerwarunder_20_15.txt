@@ -14,11 +14,11 @@ Highest peak season war with career war under 20 15
  #10: James McJames             11.48  7.54 (1898)       6 (1895-1901) WHS,BLN,BRO
  #11: Herb Score                13.39  7.52 (1956)       8 (1955-1962) CLE,CHW
  #12: Scott Perry                12.8  7.48 (1918)       7 (1915-1921) SLB,CHC,CIN,PHA
- #13: Gus Weyhing               13.87  7.42 (1892)       9 (1892-1901) PHI,LOU,PIT,WHS,BRO,STL,CIN,CLE
- #14: Andrés Giménez             9.27  7.38 (2022)       3 (2020-2022) NYM,CLE
+ #13: Gus Weyhing               13.87  7.42 (1892)       9 (1892-1901) PHI,PIT,LOU,WHS,STL,BRO,CLE,CIN
+ #14: Andrés Giménez             9.94  7.38 (2022)       4 (2020-2023) NYM,CLE
  #15: Lee Richmond              12.48  7.29 (1880)       5 (1879-1883) BSN,WOR,PRO
  #16: Zoilo Versalles           12.59  7.17 (1965)      12 (1959-1971) WSH,MIN,LAD,CLE,WSA,ATL
- #17: Charlie Sweeney            5.84  7.14 (1884)       5 (1882-1886) PRO,SLM
- #18: Eddie Lake                12.33  7.13 (1945)      11 (1939-1950) STL,BOS,DET
- #19: Walker Buehler            13.65  7.12 (2021)       6 (2017-2022) LAD
- #20: Chris Davis               11.79  7.05 (2013)      13 (2008-2020) TEX,BAL
+ #17: Blake Snell               14.79  7.16 (2018)       8 (2016-2023) TBR,SDP
+ #18: Charlie Sweeney            5.84  7.14 (1884)       5 (1882-1886) PRO,SLM
+ #19: Eddie Lake                12.33  7.13 (1945)      11 (1939-1950) STL,BOS,DET
+ #20: Walker Buehler            13.65  7.12 (2021)       6 (2017-2022) LAD

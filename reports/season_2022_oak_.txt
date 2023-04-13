@@ -3,7 +3,7 @@ Season 2022 oak
 
     # name                                  war year teams
   #1: Sean Murphy                          3.47 2022 OAK
-  #2: Elvis Andrus                         3.04 2022 CHW,OAK
+  #2: Elvis Andrus                         3.04 2022 OAK,CHW
   #3: Cole Irvin                            2.1 2022 OAK
   #4: Seth Brown                           1.66 2022 OAK
   #5: Paul Blackburn                       1.34 2022 OAK
@@ -13,14 +13,14 @@ Season 2022 oak
   #9: Tony Kemp                            1.05 2022 OAK
  #10: Joel Payamps                         1.05 2022 KCR,OAK
  #11: Christian Bethancourt                 1.02 2022 OAK,TBR
- #12: Frankie Montas                       1.02 2022 NYY,OAK
+ #12: Frankie Montas                       1.02 2022 OAK,NYY
  #13: Nick Allen                           1.01 2022 OAK
  #14: Ramón Laureano                       0.94 2022 OAK
  #15: Zach Jackson                         0.94 2022 OAK
  #16: Sam Moll                             0.87 2022 OAK
  #17: JP Sears                              0.8 2022 NYY,OAK
  #18: Dany Jiménez                         0.37 2022 OAK
- #19: Dermis Garcia                        0.35 2022 OAK
+ #19: Dérmis Garcia                        0.35 2022 OAK
  #20: Kevin Smith                          0.32 2022 OAK
  #21: Tyler Cyr                            0.31 2022 OAK,PHI
  #22: Luis Barrera                         0.22 2022 OAK
@@ -30,7 +30,7 @@ Season 2022 oak
  #26: Parker Markel                        0.13 2022 OAK
  #27: Jonah Bride                          0.11 2022 OAK
  #28: Shea Langeliers                      0.11 2022 OAK
- #29: Conner Capel                         0.09 2022 OAK,STL
+ #29: Conner Capel                         0.09 2022 STL,OAK
  #30: Ryan Castellani                      0.05 2022 OAK
  #31: Adam Kolarek                         0.04 2022 OAK
  #32: Austin Allen                         0.02 2022 OAK
@@ -39,11 +39,11 @@ Season 2022 oak
  #35: Collin Wiles                        -0.01 2022 OAK
  #36: Sam Selman                          -0.02 2022 OAK
  #37: Mickey McDonald                     -0.04 2022 OAK
- #38: David McKay                         -0.06 2022 NYY,OAK,TBR
+ #38: David McKay                         -0.06 2022 NYY,TBR,OAK
  #39: Drew Jackson                        -0.08 2022 OAK
  #40: Jared Koenig                        -0.09 2022 OAK
  #41: Christian Lopes                      -0.2 2022 OAK
- #42: Lou Trivino                          -0.2 2022 NYY,OAK
+ #42: Lou Trivino                          -0.2 2022 OAK,NYY
  #43: Cody Thomas                         -0.24 2022 OAK
  #44: Daulton Jefferies                   -0.25 2022 OAK
  #45: Skye Bolt                           -0.27 2022 OAK

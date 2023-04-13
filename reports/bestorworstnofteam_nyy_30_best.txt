@@ -22,8 +22,8 @@ Best or worst n of team nyy 30 Best
  #18: Tim Raines                69.38      22 (1980-2002) MON,CHW,NYY,OAK,BAL,FLA
  #19: Ivan Rodriguez            68.71      21 (1991-2011) TEX,FLA,DET,NYY,HOU,WSN
  #20: Red Ruffing               68.67      22 (1924-1947) BOS,NYY,CHW
- #21: Kenny Lofton               68.4      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,CHC,PIT,NYY,PHI,LAD,TEX
- #22: Robinson Canó              68.1      17 (2005-2022) NYY,SEA,NYM,ATL,SDP
+ #21: Kenny Lofton               68.4      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,PIT,CHC,NYY,PHI,LAD,TEX
+ #22: Robinson Canó              68.1      17 (2005-2022) NYY,SEA,NYM,SDP,ATL
  #23: Graig Nettles             67.94      21 (1968-1988) MIN,CLE,NYY,SDP,ATL,MON
  #24: Kevin Brown               67.77      19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
  #25: Luis Tiant                66.07      19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL

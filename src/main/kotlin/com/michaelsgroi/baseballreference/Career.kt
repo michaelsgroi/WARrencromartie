@@ -82,7 +82,8 @@ data class Career(
             Field("name", leftAlign(20)) { _, career -> career.playerName },
             Field("seasons", rightAlign(7)) { _, career -> career.seasons().size.toString() },
             Field("", leftAlign(11)) { _, career ->
-                if (career.seasons().isEmpty()) "" else "(${career.seasonRange()})" },
+                if (career.seasons().isEmpty()) "" else "(${career.seasonRange()})"
+            },
             Field("teams", leftAlign(256)) { _, career -> career.teams().joinToString(",") },
         )
 
@@ -114,7 +115,10 @@ data class Career(
                 if (includeAverageWar) {
                     fieldsLinkedList.add(
                         2,
-                        Field("avg war", rightAlign(10)) { _, career -> (career.war() / career.seasons().size).roundToDecimalPlaces(1) }
+                        Field(
+                            "avg war",
+                            rightAlign(10)
+                        ) { _, career -> (career.war() / career.seasons().size).roundToDecimalPlaces(1) }
                     )
                 }
                 if (includeSalary) {
@@ -133,5 +137,22 @@ data class Career(
                 BrReportFormatter(fieldsLinkedList.toImmutableList())
             }
         }
+
+        fun getAverageRetentionFormatter(): BrReportFormatter<Pair<Double, Pair<String, Int>>> =
+            BrReportFormatter(
+                fields = listOf(
+                    Field("team", asIs(4)) { _, entry -> "${entry.second.first}" },
+                    Field("average years", asIs(10)) { _, entry -> "${entry.first}" },
+                )
+            )
+
+        fun getRosterRetentionByYearFormatter(): BrReportFormatter<Pair<Pair<Int, Int>, Int>> =
+            BrReportFormatter(
+                fields = listOf(
+                    Field("1", asIs(4)) { _, entry -> "${entry.first.first}" },
+                    Field("2", asIs(10)) { _, entry -> "${entry.first.second}" },
+                    Field("3", asIs(10)) { _, entry -> "${entry.second}" },
+                )
+            )
     }
 }

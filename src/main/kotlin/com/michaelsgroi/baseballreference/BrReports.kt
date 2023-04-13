@@ -1,6 +1,8 @@
 package com.michaelsgroi.baseballreference
 
+import com.michaelsgroi.baseballreference.Career.Companion.getAverageRetentionFormatter
 import com.michaelsgroi.baseballreference.Career.Companion.getCareerFormatter
+import com.michaelsgroi.baseballreference.Career.Companion.getRosterRetentionByYearFormatter
 import com.michaelsgroi.baseballreference.Roster.Companion.getRosterFormatter
 import com.michaelsgroi.baseballreference.Roster.RosterId
 import com.michaelsgroi.baseballreference.Season.Companion.getSeasonFormatter
@@ -15,7 +17,41 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     }
 
     fun run() {
+        averageRosterRetention(
+            team = "oak",
+            yearRange = 2000..2022,
+            yearsRetained = 3,
+            topN = 5
+        )
         val reports = listOf(
+            averageRosterRetention(
+                yearRange = 2000..2022,
+                yearsRetained = 3,
+                topN = 5
+            ),
+            averageRosterRetention(
+                yearRange = 2000..2022,
+                yearsRetained = 3,
+                topN = 3
+            ),
+            rosterRetention(
+                team = "oak",
+                yearRange = 2000..2022,
+                yearsRetained = 3,
+                topN = 5
+            ),
+            rosterRetention(
+                team = "bos",
+                yearRange = 2000..2022,
+                yearsRetained = 3,
+                topN = 5
+            ),
+            season(RosterId(2019, "oak")),
+            season(RosterId(2022, "oak")),
+            season(RosterId(2019, "bos")),
+            season(RosterId(2022, "bos")),
+            season(RosterId(2019, "nyy")),
+            season(RosterId(2022, "nyy")),
             relativeRosterRetention("oak", 2019, "oak", 2022),
             relativeRosterRetention("oak", 2019, "bos", 2022),
             relativeRosterRetention("oak", 2019, "nyy", 2022),
@@ -111,6 +147,84 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         println("wrote ${reports.size} reports to '$reportDir' directory")
     }
 
+    private fun rosterRetention(team: String, yearRange: IntRange, yearsRetained: Int, topN: Int): Report<Pair<Pair<Int, Int>, Int>> {
+        val retainedRosterByYear: List<Pair<Pair<Int, Int>, Int>> = retainedRosterByYear(yearRange, yearsRetained, team, topN).toList()
+        return buildReport(
+            listOf(team, yearRange, yearsRetained, topN),
+            getRosterRetentionByYearFormatter()
+        ) {
+            retainedRosterByYear
+        }
+    }
+
+    private fun averageRosterRetention(yearRange: IntRange, yearsRetained: Int, topN: Int): Report<Pair<Double, Pair<String, Int>>> {
+        val rosters = brWarDaily.rosters
+        val allTeams = rosters.groupBy { it.rosterId.team }
+        val allTeamsMinMaxSeasons = allTeams.map { entry ->
+            val min = entry.value.minOfOrNull { it.rosterId.season }
+            val max = entry.value.maxOfOrNull { it.rosterId.season }
+            entry.key.normalizeTeamName() to Pair(min, max)
+        }.toMap()
+        val teamsToCompute = allTeamsMinMaxSeasons.filter { entry ->
+            entry.value.first!! <= yearRange.first && entry.value.second!! >= yearRange.last
+        }.keys.sorted()
+        val teamRetention: List<Pair<Double, Pair<String, Int>>> = teamsToCompute.map { team ->
+            Pair(averageRosterRetention(team, yearRange, yearsRetained, topN), Pair(team, yearRange.last))
+        }.sortedByDescending { it.first }
+        return buildReport(
+            listOf(yearRange, yearsRetained, topN),
+            getAverageRetentionFormatter()
+        ) {
+            teamRetention
+        }
+    }
+
+    private fun String.normalizeTeamName(): String {
+        return when (lowercase()) {
+            "mon" -> "wsn"
+            "ana" -> "laa"
+            else -> lowercase()
+        }
+    }
+
+    private fun averageRosterRetention(team: String, yearRange: IntRange, yearsRetained: Int, topN: Int): Double {
+        val retentions = retainedRosterByYear(yearRange, yearsRetained, team, topN)
+        val averageRetention = retentions.values.average()
+        val retentionsStr = retentions.map { entry -> "$entry.key}:${entry.value}" }.joinToString("\n")
+//        println("averageRetention=$averageRetention")
+//        println(retentionsStr)
+        return averageRetention
+    }
+
+    private fun retainedRosterByYear(
+        yearRange: IntRange,
+        yearsRetained: Int,
+        team: String,
+        topN: Int
+    ): Map<Pair<Int, Int>, Int> {
+        val comparisonPairs =
+            (yearRange.first + yearsRetained..yearRange.last).map { year -> (year - yearsRetained) to year }
+        val rosters = brWarDaily.rosters
+        fun getPlayers(team: String, year: Int): List<Season> {
+            val playersForSeason =
+                rosters.find { it.rosterId.team.lowercase() == team.lowercase() && it.rosterId.season == year }
+            require(playersForSeason != null) { "no players for $team in $year" }
+            return playersForSeason.players
+                .map { career -> career.seasons().first { season -> season.season == year } }
+        }
+
+        val retentions = comparisonPairs.map { yearPair ->
+            val playersFirstYear = getPlayers(team, yearPair.first)
+            val playersFirstYearByWar = playersFirstYear.sortedByDescending { it.war }
+            val topNPlayersFirstYearByWar = playersFirstYearByWar.take(topN)
+            val topNPlayerIdsFirstYearByWar = topNPlayersFirstYearByWar.map { it.playerId }.toSet()
+            val playersLastYear = getPlayers(team, yearPair.second)
+            val playersRetained = playersLastYear.filter { topNPlayerIdsFirstYearByWar.contains(it.playerId) }
+            yearPair to playersRetained.size
+        }.toMap()
+        return retentions
+    }
+
     private fun bestCareerWar(topN: Int): Report<Career> {
         return buildReport(topN, getCareerFormatter(includeWar = true)) {
             brWarDaily.careers
@@ -120,7 +234,12 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
         }
     }
 
-    private fun relativeRosterRetention(sourceTeam: String, sourceYear: Int, targetTeam: String, targetYear: Int): Report<Season> {
+    private fun relativeRosterRetention(
+        sourceTeam: String,
+        sourceYear: Int,
+        targetTeam: String,
+        targetYear: Int
+    ): Report<Season> {
         // source team computation
         val sourceRosterSourceYear = brWarDaily.rosters.first { roster ->
             roster.rosterId.season == sourceYear && roster.rosterId.team.lowercase() == sourceTeam.lowercase()
@@ -160,7 +279,8 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             targetPlayersSortedByWar[warIndex]
         }.map { it.playerId }.toSet()
 
-        val targetPlayersMatchingWarIndex= targetPlayersSortedByWar.filter { targetPlayerIdsMatchingWarIndex.contains(it.playerId) }
+        val targetPlayersMatchingWarIndex =
+            targetPlayersSortedByWar.filter { targetPlayerIdsMatchingWarIndex.contains(it.playerId) }
 
         val targetPlayersMatchingWarIndexSortedByWar = targetPlayersMatchingWarIndex.sortedByDescending { it.war }
 
@@ -383,7 +503,7 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     private fun season(rosterId: RosterId, verbosity: Verbosity = VERBOSE) =
         buildReport(listOf(rosterId.season, rosterId.team, verbosity), getSeasonFormatter()) {
             brWarDaily.rosters.first { roster -> roster.rosterId == rosterId }.players
-                .map { player -> player.seasons().first { season -> season.season == rosterId.season }}
+                .map { player -> player.seasons().first { season -> season.season == rosterId.season } }
                 .sortedByDescending { it.war }
         }
 

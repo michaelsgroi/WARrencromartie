@@ -17,12 +17,6 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
     }
 
     fun run() {
-        averageRosterRetention(
-            team = "oak",
-            yearRange = 2000..2022,
-            yearsRetained = 3,
-            topN = 5
-        )
         val reports = listOf(
             averageRosterRetention(
                 yearRange = 2000..2022,
@@ -63,6 +57,8 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             season(RosterId(2022, "nyy")),
             averageSeasonWar(50),
             bestCareerWar(50),
+            bestCareerWar("bos", 50),
+            worstCareerWar("bos", 50),
             consecutiveSeasonsWithWarOver(50, 5.0),
             consecutiveSeasonsWithWarOver(50, 6.0),
             consecutiveSeasonsWithWarOver(50, 7.0),
@@ -223,6 +219,19 @@ class BrReports(private val brWarDaily: BrWarDaily, private val reportDir: Strin
             yearPair to playersRetained.size
         }.toMap()
         return retentions
+    }
+
+    private fun bestCareerWar(team: String, topN: Int): Report<Career> {
+        return buildReport(listOf(team, topN), getCareerFormatter(includeWar = true)) {
+            brWarDaily.careers
+                .filter { it.teams().contains(team.uppercase()) }.sortedByDescending { career -> career.war() }
+        }
+    }
+
+    private fun worstCareerWar(team: String, topN: Int): Report<Career> {
+        return buildReport(listOf(team, topN), getCareerFormatter(includeWar = true)) {
+            brWarDaily.careers.filter { it.teams().contains(team.uppercase()) }.sortedBy { career -> career.war() }
+        }
     }
 
     private fun bestCareerWar(topN: Int): Report<Career> {

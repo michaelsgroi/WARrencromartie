@@ -72,28 +72,33 @@ class AllStar2023AnalysisTest {
         val maxLengthTeam = allStarWarRankingsSorted.map { it.playerWar.team.length }.maxOrNull() ?: 0
         println("maxLengthName=$maxLengthName")
 
+        val playerWarFormatter = BrReportFormatter<AllStarWarRanking>(
+            fields = listOf(
+                Field("#", BrReportFormatter.rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
+                Field("name", BrReportFormatter.leftAlign(maxLengthName)) { _, allStar -> allStar.playerWar.name },
+                Field(
+                    "team",
+                    BrReportFormatter.leftAlign(max(maxLengthTeam, 4))
+                ) { _, allStar -> allStar.playerWar.team },
+                Field(
+                    "rank",
+                    BrReportFormatter.leftAlign(10)
+                ) { _, allStar -> "${allStar!!.rank} of ${allStar!!.rankOf}" },
+                Field("bwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.bwar.toString() },
+                Field("pwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.pwar.toString() },
+                Field("twar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.twar().toString() },
+            )
+        )
         val allstarsbywarrankingReport = Report(
             name = "allstarsbywarranking",
             filename = "allstarsbywarranking",
             run = { allStarWarRankingsSorted },
-            formatter = BrReportFormatter(
-                fields = listOf(
-                    Field("#", BrReportFormatter.rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
-                    Field("name", BrReportFormatter.leftAlign(maxLengthName)) { _, allStar -> allStar.playerWar.name },
-                    Field("team", BrReportFormatter.leftAlign(max(maxLengthTeam, 4))) { _, allStar -> allStar.playerWar.team },
-                    Field(
-                        "rank",
-                        BrReportFormatter.leftAlign(10)
-                    ) { _, allStar -> "${allStar!!.rank} of ${allStar!!.rankOf}" },
-                    Field("bwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.bwar.toString() },
-                    Field("pwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.pwar.toString() },
-                    Field("twar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.twar().toString() },
-                )
-            )
+            formatter = playerWarFormatter
         )
         writeReport(allstarsbywarrankingReport)
 
-        val allStarsByTeam = allStarWarRankings.groupBy { it.playerWar.team }.mapValues { it.value.size }.toList().sortedByDescending { it.second }
+        val allStarsByTeam = allStarWarRankings.groupBy { it.playerWar.team }.mapValues { it.value.size }.toList()
+            .sortedByDescending { it.second }
 
         val allStarsByTeamReport = Report(
             name = "allstarsbyteam",
@@ -108,6 +113,14 @@ class AllStar2023AnalysisTest {
             )
         )
         writeReport(allStarsByTeamReport)
+
+        val snubsReport = Report(
+            name = "allstarsnubs",
+            filename = "allstarsnubs",
+            run = { warRankings.filter { it.allStar == null }.sortedByDescending { it.playerWar.twar() }.take(50) },
+            formatter = playerWarFormatter
+        )
+        writeReport(snubsReport)
     }
 
     private fun <T> writeReport(report: Report<T>) {

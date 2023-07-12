@@ -71,7 +71,7 @@ class FanGraphsWar(private val filename: String) {
                     name = name,
                     team = team,
                     bwar = pwar,
-                    pwar = elements[8].stripQuotesDouble() - pwar
+                    pwar = (elements[8].stripQuotesDouble() - pwar).roundToSingleDigit()
                 )
             }
         } catch (e: IllegalArgumentException) {

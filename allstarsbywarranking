@@ -1,0 +1,82 @@
+allstarsbywarranking
+78 rows
+
+    # name                  team rank       bwar bwar twar
+  #1: Ronald Acuña Jr.      ATL  1 of 554   4.8  0.0  4.8
+  #2: Kevin Gausman         TOR  1 of 720   0.0  4.0  4.0
+  #3: Shohei Ohtani         LAA  2 of 554   4.3  1.7  6.0
+  #4: Zac Gallen            ARI  2 of 720   0.0  3.7  3.7
+  #5: Mookie Betts          LAD  3 of 554   4.2  0.0  4.2
+  #6: Framber Valdez        HOU  4 of 720   0.0  3.2  3.2
+  #7: Spencer Strider       ATL  5 of 720   0.0  3.0  3.0
+  #8: Sean Murphy           ATL  6 of 554   3.9  0.0  3.9
+  #9: Nathan Eovaldi        TEX  6 of 720   0.0  2.9  2.9
+ #10: Freddie Freeman       LAD  7 of 554   3.8  0.0  3.8
+ #11: Sonny Gray            MIN  7 of 720   0.0  2.8  2.8
+ #12: Wander Franco         TBR  8 of 554   3.8  0.0  3.8
+ #13: Corbin Carroll        ARI  9 of 554   3.8  0.0  3.8
+ #14: Pablo López           MIN  9 of 720   0.0  2.7  2.7
+ #15: Luis Robert Jr.       CHW  10 of 554  3.7  0.0  3.7
+ #16: Justin Steele         CHC  10 of 720  0.0  2.7  2.7
+ #17: Adolis García         TEX  11 of 554  3.4  0.0  3.4
+ #18: José Ramírez          CLE  12 of 554  3.4  0.0  3.4
+ #19: George Kirby          SEA  12 of 720  0.0  2.5  2.5
+ #20: Marcus Semien         TEX  14 of 554  3.3  0.0  3.3
+ #21: Gerrit Cole           NYY  14 of 720  0.0  2.4  2.4
+ #22: Corey Seager          TEX  15 of 554  3.3  0.0  3.3
+ #23: Mitch Keller          PIT  15 of 720  0.0  2.4  2.4
+ #24: Juan Soto             SDP  16 of 554  3.3  0.0  3.3
+ #25: Marcus Stroman        CHC  16 of 720  0.0  2.4  2.4
+ #26: Jonah Heim            TEX  17 of 554  3.3  0.0  3.3
+ #27: Mike Trout            LAA  18 of 554  3.1  0.0  3.1
+ #28: Clayton Kershaw       LAD  20 of 720  0.0  2.2  2.2
+ #29: Bo Bichette           TOR  21 of 554  3.0  0.0  3.0
+ #30: Alex Cobb             SFG  22 of 720  0.0  2.1  2.1
+ #31: Will Smith            LAD  23 of 554  2.9  0.0  2.9
+ #32: Dansby Swanson        CHC  24 of 554  2.9  0.0  2.9
+ #33: Félix Bautista        BAL  25 of 720  0.0  2.0  2.0
+ #34: Randy Arozarena       TBR  26 of 554  2.8  0.0  2.8
+ #35: Aaron Judge           NYY  28 of 554  2.8  0.0  2.8
+ #36: Luis Castillo         SEA  28 of 720  0.0  1.9  1.9
+ #37: Josh Jung             TEX  29 of 554  2.7  0.0  2.7
+ #38: Luis Arraez           MIA  30 of 554  2.7  0.0  2.7
+ #39: Yandy Díaz            TBR  32 of 554  2.6  0.0  2.6
+ #40: Alexis Díaz           CIN  32 of 720  0.0  1.8  1.8
+ #41: Julio Rodríguez       SEA  36 of 554  2.5  0.0  2.5
+ #42: Geraldo Perdomo       ARI  37 of 554  2.5  0.0  2.5
+ #43: Matt Olson            ATL  38 of 554  2.5  0.0  2.5
+ #44: Kyle Tucker           HOU  44 of 554  2.3  0.0  2.3
+ #45: David Bednar          PIT  45 of 720  0.0  1.6  1.6
+ #46: Yordan Alvarez        HOU  46 of 554  2.3  0.0  2.3
+ #47: Ozzie Albies          ATL  49 of 554  2.2  0.0  2.2
+ #48: Shane McClanahan      TBR  49 of 720  0.0  1.5  1.5
+ #49: Adley Rutschman       BAL  50 of 554  2.2  0.0  2.2
+ #50: Kodai Senga           NYM  50 of 720  0.0  1.5  1.5
+ #51: Austin Hays           BAL  55 of 554  2.0  0.0  2.0
+ #52: Yennier Cano          BAL  57 of 720  0.0  1.4  1.4
+ #53: Nolan Arenado         STL  59 of 554  2.0  0.0  2.0
+ #54: Bryce Elder           ATL  62 of 720  0.0  1.4  1.4
+ #55: Corbin Burnes         MIL  65 of 720  0.0  1.3  1.3
+ #56: Josh Hader            SDP  71 of 720  0.0  1.2  1.2
+ #57: Orlando Arcia         ATL  73 of 554  1.9  0.0  1.9
+ #58: Jorge Soler           MIA  74 of 554  1.9  0.0  1.9
+ #59: Josiah Gray           WSN  82 of 720  0.0  1.1  1.1
+ #60: Austin Riley          ATL  86 of 554  1.7  0.0  1.7
+ #61: Camilo Doval          SFG  86 of 720  0.0  1.1  1.1
+ #62: Jordan Romano         TOR  88 of 720  0.0  1.1  1.1
+ #63: Kenley Jansen         BOS  91 of 720  0.0  1.0  1.0
+ #64: Michael Lorenzen      DET  97 of 720  0.0  1.0  1.0
+ #65: Emmanuel Clase        CLE  102 of 720 0.0  1.0  1.0
+ #66: Whit Merrifield       TOR  105 of 554 1.5  0.0  1.5
+ #67: Pete Alonso           NYM  107 of 554 1.5  0.0  1.5
+ #68: Will Smith            TEX  114 of 720 0.0  0.9  0.9
+ #69: Lourdes Gurriel Jr.   ARI  118 of 554 1.5  0.0  1.5
+ #70: Nick Castellanos      PHI  121 of 554 1.4  0.0  1.4
+ #71: Craig Kimbrel         PHI  122 of 720 0.0  0.8  0.8
+ #72: Brent Rooker          OAK  124 of 554 1.4  0.0  1.4
+ #73: J.D. Martinez         LAD  145 of 554 1.2  0.0  1.2
+ #74: Carlos Estévez        LAA  161 of 720 0.0  0.6  0.6
+ #75: Devin Williams        MIL  190 of 720 0.0  0.5  0.5
+ #76: Elias Díaz            COL  265 of 554 0.5  0.0  0.5
+ #77: Vladimir Guerrero Jr. TOR  277 of 554 0.5  0.0  0.5
+ #78: Salvador Perez        KCR  341 of 554 0.2  0.0  0.2

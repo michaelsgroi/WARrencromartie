@@ -86,7 +86,7 @@ class AllStar2023AnalysisTest {
                         BrReportFormatter.leftAlign(10)
                     ) { _, allStar -> "${allStar!!.rank} of ${allStar!!.rankOf}" },
                     Field("bwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.bwar.toString() },
-                    Field("bwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.pwar.toString() },
+                    Field("pwar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.pwar.toString() },
                     Field("twar", BrReportFormatter.leftAlign(4)) { _, allStar -> allStar.playerWar.twar().toString() },
                 )
             )

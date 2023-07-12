@@ -1,0 +1,22 @@
+2023 MLB AllStar snubs per team where as snub is a player with a total WAR greater than the 44th ranked batter or the 34th ranked pitcher (sorry, I didn't have time to break it down by league)
+18 rows
+
+    # team count
+  #1: SDP  4
+  #2: TBR  3
+  #3: STL  3
+  #4: MIA  3
+  #5: PHI  2
+  #6: NYM  2
+  #7: MIL  2
+  #8: SFG  2
+  #9: WSN  2
+ #10: ARI  2
+ #11: MIN  2
+ #12: TOR  1
+ #13: CIN  1
+ #14: KCR  1
+ #15: PIT  1
+ #16: SEA  1
+ #17: HOU  1
+ #18: CHW  1

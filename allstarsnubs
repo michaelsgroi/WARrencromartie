@@ -1,5 +1,5 @@
-allstarsnubs
-50 rows
+2023 MLB AllStar snubs where as snub is a players with a total WAR greater than the 44th ranked batter or the 34th ranked pitcher (sorry, I didn't have time to break it down by league)
+34 rows
 
     # name                  team rank       bwar pwar twar
   #1: Zack Wheeler          PHI  3 of 720   0.0  3.5  3.5
@@ -27,28 +27,12 @@ allstarsnubs
  #23: Ketel Marte           ARI  45 of 554  2.3  0.0  2.3
  #24: Joe Ryan              MIN  19 of 720  0.0  2.3  2.3
  #25: Hunter Brown          HOU  21 of 720  0.0  2.2  2.2
- #26: Jarren Duran          BOS  48 of 554  2.2  0.0  2.2
- #27: Nico Hoerner          CHC  52 of 554  2.1  0.0  2.1
- #28: Alex Verdugo          BOS  53 of 554  2.1  0.0  2.1
- #29: Matt McLain           CIN  56 of 554  2.0  0.0  2.0
- #30: Miles Mikolas         STL  23 of 720  0.0  2.0  2.0
- #31: Blake Snell           SDP  24 of 720  0.0  2.0  2.0
- #32: Leody Taveras         TEX  57 of 554  2.0  0.0  2.0
- #33: Cody Bellinger        CHC  58 of 554  2.0  0.0  2.0
- #34: Dylan Cease           CHW  26 of 720  0.0  2.0  2.0
- #35: Lane Thomas           WSN  103 of 720 1.0  0.9  1.9
- #36: J.D. Davis            SFG  68 of 554  1.9  0.0  1.9
- #37: Patrick Bailey        SFG  69 of 554  1.9  0.0  1.9
- #38: Bryson Stott          PHI  70 of 554  1.9  0.0  1.9
- #39: Xander Bogaerts       SDP  71 of 554  1.9  0.0  1.9
- #40: Bailey Ober           MIN  27 of 720  0.0  1.9  1.9
- #41: Gunnar Henderson      BAL  72 of 554  1.9  0.0  1.9
- #42: Sandy Alcantara       MIA  29 of 720  0.0  1.9  1.9
- #43: Aaron Nola            PHI  30 of 720  0.0  1.9  1.9
- #44: Michael Wacha         SDP  31 of 720  0.0  1.9  1.9
- #45: LaMonte Wade Jr.      SFG  75 of 554  1.9  0.0  1.9
- #46: Francisco Alvarez     NYM  76 of 554  1.9  0.0  1.9
- #47: Kevin Kiermaier       TOR  77 of 554  1.8  0.0  1.8
- #48: Nathaniel Lowe        TEX  78 of 554  1.8  0.0  1.8
- #49: Brendan Donovan       STL  79 of 554  1.8  0.0  1.8
- #50: Manny Machado         SDP  80 of 554  1.8  0.0  1.8
+ #26: Miles Mikolas         STL  23 of 720  0.0  2.0  2.0
+ #27: Blake Snell           SDP  24 of 720  0.0  2.0  2.0
+ #28: Dylan Cease           CHW  26 of 720  0.0  2.0  2.0
+ #29: Lane Thomas           WSN  103 of 720 1.0  0.9  1.9
+ #30: Bailey Ober           MIN  27 of 720  0.0  1.9  1.9
+ #31: Sandy Alcantara       MIA  29 of 720  0.0  1.9  1.9
+ #32: Aaron Nola            PHI  30 of 720  0.0  1.9  1.9
+ #33: Michael Wacha         SDP  31 of 720  0.0  1.9  1.9
+ #34: Braxton Garrett       MIA  33 of 720  0.0  1.8  1.8

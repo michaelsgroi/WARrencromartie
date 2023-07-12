@@ -27,7 +27,7 @@ class AllStar2023AnalysisTest {
     @Test
     fun testLoadFanGraphsWar() {
         assertEquals(
-            PlayerWar("Shohei Ohtani", "LAA",4.3, 1.7),
+            PlayerWar("Shohei Ohtani", "LAA", 4.3, 1.7),
             FanGraphsWar("fangraphs_war_11-JUL-2023.csv").getPlayerWars().sortedByDescending { it.twar() }.first()
         )
     }
@@ -97,13 +97,13 @@ class AllStar2023AnalysisTest {
         )
         writeReport(allstarsbywarrankingReport)
 
-        val allStarsByTeam = allStarWarRankings.groupBy { it.playerWar.team }.mapValues { it.value.size }.toList()
-            .sortedByDescending { it.second }
-
         val allStarsByTeamReport = Report(
             name = "allstarsbyteam",
             filename = "allstarsbyteam",
-            run = { allStarsByTeam },
+            run = {
+                allStarWarRankings.groupBy { it.playerWar.team }.mapValues { it.value.size }.toList()
+                    .sortedByDescending { it.second }
+            },
             formatter = BrReportFormatter(
                 fields = listOf(
                     Field("#", BrReportFormatter.rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
@@ -114,13 +114,44 @@ class AllStar2023AnalysisTest {
         )
         writeReport(allStarsByTeamReport)
 
+        val allstarBatterCount = allStarWarRankings.count { it.type == Batter }
+        val allstarPitcherCount = allStarWarRankings.count { it.type == Pitcher }
+        println("allstarPitcherCount=$allstarPitcherCount, allstarBatterCount=$allstarBatterCount")
+        val nthRankedBatterWarCutoff = warRankings.filter { it.type == Batter }[allstarBatterCount - 1].playerWar.twar()
+        val nthRankedPitcherWarCutoff =
+            warRankings.filter { it.type == Pitcher }[allstarPitcherCount - 1].playerWar.twar()
+        println("nthRankedBatterWarCutoff=$nthRankedBatterWarCutoff, nthRankedPitcherWarCutoff=$nthRankedPitcherWarCutoff")
+
+        val snubs = warRankings.filter {
+            it.allStar == null
+        }.filter {
+            (it.type == Batter && it.playerWar.twar() >= nthRankedBatterWarCutoff) ||
+                    (it.type == Pitcher && it.playerWar.twar() >= nthRankedPitcherWarCutoff)
+        }.sortedByDescending { it.playerWar.twar() }
+
         val snubsReport = Report(
-            name = "allstarsnubs",
+            name = "2023 MLB AllStar snubs where as snub is a players with a total WAR greater than the ${allstarBatterCount}th ranked batter or the ${allstarPitcherCount}th ranked pitcher (sorry, I didn't have time to break it down by league)",
             filename = "allstarsnubs",
-            run = { warRankings.filter { it.allStar == null }.sortedByDescending { it.playerWar.twar() }.take(50) },
+            run = { snubs },
             formatter = playerWarFormatter
         )
         writeReport(snubsReport)
+
+        val snubsByTeam = Report(
+            name = "2023 MLB AllStar snubs per team where as snub is a player with a total WAR greater than the ${allstarBatterCount}th ranked batter or the ${allstarPitcherCount}th ranked pitcher (sorry, I didn't have time to break it down by league)",
+            filename = "allstarsnubsbyteam",
+            run = {
+                snubs.groupBy { it.playerWar.team }.mapValues { it.value.size }.toList().sortedByDescending { it.second }
+            },
+            formatter = BrReportFormatter(
+                fields = listOf(
+                    Field("#", BrReportFormatter.rightAlign(5)) { index, _ -> "#${(index + 1)}:" },
+                    Field("team", BrReportFormatter.leftAlign(max(maxLengthTeam, 4))) { _, entry -> entry.first },
+                    Field("count", BrReportFormatter.leftAlign(maxLengthTeam)) { _, entry -> entry.second.toString() },
+                )
+            )
+        )
+        writeReport(snubsByTeam)
     }
 
     private fun <T> writeReport(report: Report<T>) {

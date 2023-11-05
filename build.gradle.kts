@@ -1,7 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.9.10"
-    id("com.github.ben-manes.versions") version "0.48.0"
-    id("com.diffplug.spotless") version "6.21.0"
+    kotlin("jvm") version "1.9.20"
+    id("com.github.ben-manes.versions") version "0.49.0"
+    id("com.diffplug.spotless") version "6.22.0"
     application
 }
 
@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     testImplementation(kotlin("test"))
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.1")
 }
 
 tasks.test {

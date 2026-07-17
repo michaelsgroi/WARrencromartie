@@ -54,8 +54,13 @@ class BrWarDailyLines(
             val zipUrl = latestArchiveUrl(client)
             println("downloading $zipUrl ...")
             client
-                .newCall(Request.Builder().url(zipUrl).get().build())
-                .execute()
+                .newCall(
+                    Request
+                        .Builder()
+                        .url(zipUrl)
+                        .get()
+                        .build(),
+                ).execute()
                 .use { response ->
                     if (!response.isSuccessful) throw IOException("Unexpected code $response")
                     response.body.byteStream().use { bodyStream ->
@@ -73,8 +78,13 @@ class BrWarDailyLines(
         val indexUrl = "https://www.baseball-reference.com/data/"
         val html =
             client
-                .newCall(Request.Builder().url(indexUrl).get().build())
-                .execute()
+                .newCall(
+                    Request
+                        .Builder()
+                        .url(indexUrl)
+                        .get()
+                        .build(),
+                ).execute()
                 .use { response ->
                     if (!response.isSuccessful) throw IOException("Unexpected code $response")
                     response.body.string()

@@ -2,23 +2,23 @@ Highest paid careers by war of players who are currently active 20
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Yusei Kikuchi              0.73   69000000       5 (2019-2023) SEA,TOR
-  #2: Jordan Lyles              -1.35   39439500      13 (2011-2023) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
-  #3: Charlie Morton            12.91  124308500      16 (2008-2023) ATL,PIT,PHI,HOU,TBR
-  #4: Patrick Corbin            14.65  119576333      11 (2012-2023) ARI,WSN
-  #5: Stephen Strasburg         32.27  215050000      13 (2010-2022) WSN
-  #6: Miguel Cabrera            67.61  400410623      21 (2003-2023) FLA,DET
-  #7: Jorge Soler                4.33   57658335      10 (2014-2023) CHC,KCR,ATL,MIA
-  #8: Kenley Jansen             19.95  135260767      14 (2010-2023) LAD,ATL,BOS
-  #9: Aroldis Chapman           19.39  130898272      14 (2010-2023) CIN,NYY,CHC,KCR
- #10: Eric Hosmer                19.3  126000750      13 (2011-2023) KCR,SDP,BOS,CHC
- #11: David Price               40.25  223990175      14 (2008-2022) TBR,DET,TOR,BOS,LAD
- #12: Charlie Blackmon          19.53  125298500      13 (2011-2023) COL
- #13: Miles Mikolas              7.87   68250000       8 (2012-2023) SDP,TEX,STL
- #14: Wil Myers                 13.19   89547900      11 (2013-2023) TBR,SDP,CIN
- #15: Anthony Rendon            33.11  175085714      11 (2013-2023) WSN,LAA
- #16: Nick Castellanos          13.14   85586500      11 (2013-2023) DET,CHC,CIN,PHI
- #17: Nathan Eovaldi            15.57   94919000      12 (2011-2023) LAD,MIA,NYY,TBR,BOS,TEX
- #18: Justin Upton               32.3  162409166      16 (2007-2022) ARI,ATL,SDP,DET,LAA,SEA
- #19: Hyun Jin Ryu              19.67  109065000       9 (2013-2022) LAD,TOR
- #20: Gerrit Cole                34.7  169584500      11 (2013-2023) PIT,HOU,NYY
+  #1: Jordan Lyles              -2.41   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
+  #2: Yusei Kikuchi              7.14  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
+  #3: Patrick Corbin            14.93  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
+  #4: Masataka Yoshida           3.51   71400000       4 (2023-2026) BOS
+  #5: Nick Castellanos          11.94  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
+  #6: Charlie Morton            16.18  149308500      18 (2008-2025) ATL,PIT,PHI,HOU,TBR,BAL,DET
+  #7: Miles Mikolas              9.91  107500000      11 (2012-2026) SDP,TEX,STL,WSN
+  #8: Giancarlo Stanton          47.0  297933000      17 (2010-2026) FLA,MIA,NYY
+  #9: Kenley Jansen              24.1  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
+ #10: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
+ #11: Miguel Cabrera            67.23  400410623      21 (2003-2023) FLA,DET
+ #12: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
+ #13: Yu Darvish                33.15  208666667      13 (2012-2025) TEX,LAD,CHC,SDP
+ #14: Anthony Rendon            34.16  211657143      12 (2013-2024) WSN,LAA
+ #15: Aroldis Chapman           24.87  163898272      17 (2010-2026) CIN,CHC,NYY,KCR,TEX,BOS,PIT
+ #16: Tyler Glasnow             12.53  100478700      11 (2016-2026) PIT,TBR,LAD
+ #17: Nathan Eovaldi             25.7  161919000      15 (2011-2026) LAD,MIA,NYY,BOS,TBR,TEX
+ #18: Rafael Montero            -0.51   32520733      11 (2014-2025) NYM,TEX,HOU,SEA,DET,ATL
+ #19: Jung Hoo Lee               2.59   47500000       3 (2024-2026) SFG
+ #20: Charlie Blackmon          21.54  138298500      14 (2011-2024) COL

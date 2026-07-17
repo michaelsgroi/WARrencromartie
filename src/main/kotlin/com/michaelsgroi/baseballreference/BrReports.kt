@@ -201,6 +201,7 @@ class BrReports(
         when (lowercase()) {
             "mon" -> "wsn"
             "ana" -> "laa"
+            "ath" -> "oak"
             else -> lowercase()
         }
 

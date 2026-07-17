@@ -2,23 +2,23 @@ Highest paid careers by war 20
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Yusei Kikuchi              0.73   69000000       5 (2019-2023) SEA,TOR
-  #2: Ryan Howard               14.66  180255000      13 (2004-2016) PHI
-  #3: Yasmany Tomás             -2.48   38000000       4 (2015-2019) ARI
-  #4: Chris Davis               11.79  141958740      13 (2008-2020) TEX,BAL
-  #5: Homer Bailey               6.21   93084500      14 (2007-2020) CIN,KCR,OAK,MIN
-  #6: Jordan Lyles              -1.35   39439500      13 (2011-2023) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
-  #7: Masahiro Tanaka           17.34  155000000       7 (2014-2020) NYY
-  #8: Charlie Morton            12.91  124308500      16 (2008-2023) ATL,PIT,PHI,HOU,TBR
-  #9: Patrick Corbin            14.65  119576333      11 (2012-2023) ARI,WSN
- #10: Stephen Strasburg         32.27  215050000      13 (2010-2022) WSN
- #11: Miguel Cabrera            67.61  400410623      21 (2003-2023) FLA,DET
- #12: Jeff Samardzija           14.96  117161667      13 (2008-2020) CHC,OAK,CHW,SFG
- #13: Andrew Miller              7.75   75930219      16 (2006-2021) DET,FLA,BOS,BAL,NYY,CLE,STL
- #14: Wade Davis                10.26   87589000      13 (2009-2021) TBR,KCR,CHC,COL
- #15: Jorge Soler                4.33   57658335      10 (2014-2023) CHC,KCR,ATL,MIA
- #16: Kenley Jansen             19.95  135260767      14 (2010-2023) LAD,ATL,BOS
- #17: Prince Fielder            23.83  152914500      12 (2005-2016) MIL,DET,TEX
- #18: Aroldis Chapman           19.39  130898272      14 (2010-2023) CIN,NYY,CHC,KCR
- #19: Rick Porcello             18.84  127251000      12 (2009-2020) DET,BOS,NYM
- #20: Jordan Zimmermann         22.12  142566000      13 (2009-2021) WSN,DET,MIL
+  #1: Jim Levey                 -7.21      13100       4 (1930-1933) SLB
+  #2: Jordan Lyles              -2.41   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
+  #3: Ryan Howard               14.48  180255000      13 (2004-2016) PHI
+  #4: Yusei Kikuchi              7.14  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
+  #5: Yasmany Tomás             -2.39   38000000       4 (2015-2019) ARI
+  #6: Chris Davis               11.66  141958740      13 (2008-2020) TEX,BAL
+  #7: Patrick Corbin            14.93  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
+  #8: Homer Bailey               6.17   93084500      14 (2007-2020) CIN,KCR,OAK,MIN
+  #9: Masataka Yoshida           3.51   71400000       4 (2023-2026) BOS
+ #10: Nick Castellanos          11.94  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
+ #11: Charlie Morton            16.18  149308500      18 (2008-2025) ATL,PIT,PHI,HOU,TBR,BAL,DET
+ #12: Masahiro Tanaka           17.25  155000000       7 (2014-2020) NYY
+ #13: Miles Mikolas              9.91  107500000      11 (2012-2026) SDP,TEX,STL,WSN
+ #14: Giancarlo Stanton          47.0  297933000      17 (2010-2026) FLA,MIA,NYY
+ #15: Kenley Jansen              24.1  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
+ #16: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
+ #17: Miguel Cabrera            67.23  400410623      21 (2003-2023) FLA,DET
+ #18: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
+ #19: Jeff Samardzija           14.79  117161667      13 (2008-2020) CHC,OAK,CHW,SFG
+ #20: Yu Darvish                33.15  208666667      13 (2012-2025) TEX,LAD,CHC,SDP

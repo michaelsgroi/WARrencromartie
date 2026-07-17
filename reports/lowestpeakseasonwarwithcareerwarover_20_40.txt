@@ -2,23 +2,23 @@ Lowest peak season war with career war over 20 40
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Joe Judge                 47.82  4.05 (1920)      20 (1915-1934) WSH,BRO,BOS
-  #2: Wally Schang              48.01  4.41 (1919)      19 (1913-1931) PHA,BOS,NYY,SLB,DET
-  #3: Jake Beckley               57.2  4.56 (1893)      19 (1888-1907) PIT,NYG,CIN,STL
-  #4: Sam Rice                   54.3  4.84 (1930)      20 (1915-1934) WSH,CLE
+  #1: Joe Judge                 48.38  4.11 (1920)      20 (1915-1934) WSH,BOS,BRO
+  #2: Jake Beckley              57.39  4.66 (1900)      19 (1888-1907) PIT,NYG,CIN,STL
+  #3: Wally Schang              48.32   4.7 (1919)      19 (1913-1931) PHA,BOS,NYY,SLB,DET
+  #4: Sam Rice                   54.7  4.85 (1930)      20 (1915-1934) WSH,CLE
   #5: Jim O'Rourke              42.16  4.87 (1884)      18 (1876-1904) BSN,PRO,BUF,NYG,WHS
-  #6: Jack Quinn                50.26  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
-  #7: Curt Simmons              43.31  4.88 (1963)      20 (1947-1967) PHI,STL,CHC,CAL
-  #8: Fielder Jones             43.51  4.91 (1905)      13 (1896-1908) BRO,CHW
+  #6: Jack Quinn                49.86  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
+  #7: Curt Simmons              43.24  4.88 (1963)      20 (1947-1967) PHI,STL,CHC,CAL
+  #8: Fielder Jones             42.88  4.91 (1905)      13 (1896-1908) BRO,CHW
   #9: Buck Ewing                43.89  4.93 (1884)      17 (1880-1897) TRO,NYG,CLV,CIN
  #10: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
- #11: Lave Cross                42.83   5.0 (1894)      16 (1892-1907) PHI,STL,CLV,BRO,PHA,WSH
- #12: Mark Grace                46.38  5.04 (1995)      16 (1988-2003) CHC,ARI
- #13: Nelson Cruz               42.74  5.06 (2015)      19 (2005-2023) MIL,TEX,BAL,SEA,MIN,TBR,WSN,SDP
- #14: Tony Fernandez            45.29  5.09 (1987)      17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
- #15: David Justice             40.58   5.1 (2000)      14 (1989-2002) ATL,CLE,NYY,OAK
- #16: Gabby Hartnett             55.4  5.13 (1930)      20 (1922-1941) CHC,NYG
- #17: Jimmy Ryan                41.05  5.14 (1888)      17 (1885-1903) CHC,WSH
- #18: Carney Lansford           40.43  5.17 (1987)      15 (1978-1992) CAL,BOS,OAK
- #19: Ed Konetchy               41.74  5.19 (1911)      14 (1907-1921) STL,PIT,BSN,BRO,PHI
- #20: Larry French              45.38   5.2 (1936)      14 (1929-1942) PIT,CHC,BRO
+ #11: Lave Cross                42.25   5.0 (1894)      16 (1892-1907) PHI,STL,CLV,BRO,PHA,WSH
+ #12: Larry Doyle               44.65  5.04 (1911)      14 (1907-1920) NYG,CHC
+ #13: Mark Grace                46.43  5.04 (1995)      16 (1988-2003) CHC,ARI
+ #14: Nelson Cruz                42.0  5.05 (2015)      19 (2005-2023) MIL,TEX,BAL,SEA,MIN,TBR,WSN,SDP
+ #15: Rabbit Maranville         44.19  5.08 (1914)      23 (1912-1935) BSN,PIT,CHC,BRO,STL
+ #16: Tony Fernández             45.3  5.09 (1987)      17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
+ #17: David Justice             40.59   5.1 (2000)      14 (1989-2002) ATL,CLE,NYY,OAK
+ #18: Clyde Milan               40.79  5.14 (1911)      16 (1907-1922) WSH
+ #19: Jimmy Ryan                41.72  5.14 (1888)      17 (1885-1903) CHC,WSH
+ #20: Gabby Hartnett            55.28  5.15 (1930)      20 (1922-1941) CHC,NYG

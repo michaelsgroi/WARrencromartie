@@ -2,8 +2,8 @@ Roster 1928 pha concise
 29 rows
 
 # name war
-#1: Ty Cobb 151
-#2: Tris Speaker 135
+#1: Ty Cobb 150
+#2: Tris Speaker 136
 #3: Eddie Collins 124
 #4: Lefty Grove 107
 #5: Jimmie Foxx 93
@@ -29,5 +29,5 @@ Roster 1928 pha concise
 #25: Ossie Orwoll 1
 #26: Carroll Yerkes 1
 #27: Ike Powers 0
-#28: Art Daney 0
+#28: Lee Daney 0
 #29: Joe Hassler 0

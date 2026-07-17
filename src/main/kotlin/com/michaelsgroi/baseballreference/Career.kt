@@ -8,7 +8,6 @@ import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.BATTING
 import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType.PITCHING
 import com.michaelsgroi.baseballreference.Verbosity.CONCISE
 import com.michaelsgroi.baseballreference.Verbosity.VERBOSE
-import okhttp3.internal.toImmutableList
 import java.util.LinkedList
 import kotlin.math.roundToLong
 
@@ -134,7 +133,7 @@ data class Career(
                             "${peakSeason.war.roundToDecimalPlaces(2)} (${peakSeason.season})"
                         })
                 }
-                BrReportFormatter(fieldsLinkedList.toImmutableList())
+                BrReportFormatter(fieldsLinkedList.toList())
             }
         }
 

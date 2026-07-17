@@ -1,5 +1,7 @@
+.PHONY: run test
+
 run:
-	@./gradlew clean run
+	@mvn -q package -DskipTests && java -jar target/warrencromartie.jar
 
 test:
-	@./gradlew clean build test
+	@mvn test

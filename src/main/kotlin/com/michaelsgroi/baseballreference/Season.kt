@@ -4,7 +4,6 @@ import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.leftAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Companion.rightAlign
 import com.michaelsgroi.baseballreference.BrReportFormatter.Field
 import com.michaelsgroi.baseballreference.BrWarDaily.SeasonType
-import okhttp3.internal.toImmutableList
 import java.util.LinkedList
 
 data class Season(
@@ -35,7 +34,7 @@ data class Season(
                     3,
                     Field("salary", rightAlign(10)) { _, career -> career.salary.toString() })
             }
-            return  BrReportFormatter(fieldsLinkedList.toImmutableList())
+            return  BrReportFormatter(fieldsLinkedList.toList())
         }
     }
 }

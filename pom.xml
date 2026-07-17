@@ -45,6 +45,12 @@
             <artifactId>annotations</artifactId>
             <version>26.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.duckdb</groupId>
+            <artifactId>duckdb_jdbc</artifactId>
+            <version>1.5.4.0</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -106,6 +112,12 @@
                         </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <!-- loaded at runtime via Class.forName — no compile-time reference -->
+                    <usedDependencies>
+                        <usedDependency>org.duckdb:duckdb_jdbc</usedDependency>
+                    </usedDependencies>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

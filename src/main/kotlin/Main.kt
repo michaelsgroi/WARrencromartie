@@ -1,6 +1,14 @@
 import com.michaelsgroi.baseballreference.BrReports
 import com.michaelsgroi.baseballreference.BrWarDaily
+import com.michaelsgroi.baseballreference.WarParquet
 
-fun main() {
-    BrReports(BrWarDaily()).run()
+fun main(args: Array<String>) {
+    when (args.getOrNull(0)) {
+        "parquet" -> {
+            BrWarDaily(expiration = java.time.Duration.ofHours(24)).seasons // force CSV download
+            WarParquet.generate()
+        }
+        else -> BrReports(BrWarDaily()).run()
+    }
 }
+

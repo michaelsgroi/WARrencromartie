@@ -5,6 +5,7 @@ import com.michaelsgroi.baseballreference.BrWarDaily.Companion.MAJOR_LEAGUES
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import java.io.File
 import java.io.IOException
 import java.time.Duration
 import java.util.zip.ZipInputStream
@@ -52,26 +53,30 @@ class BrWarDailyLines(
         BrWarDaily.loadFromCache(filename, expiration) {
             val client = OkHttpClient()
             val zipUrl = latestArchiveUrl(client)
+            val zipFilename = zipUrl.substringAfterLast("/")
             println("downloading $zipUrl ...")
-            client
-                .newCall(
-                    Request
-                        .Builder()
-                        .url(zipUrl)
-                        .get()
-                        .build(),
-                ).execute()
-                .use { response ->
-                    if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                    response.body.byteStream().use { bodyStream ->
-                        ZipInputStream(bodyStream).use { zip ->
-                            generateSequence { zip.nextEntry }
-                                .firstOrNull { it.name == seasonType.brFilename }
-                                ?: throw IOException("${seasonType.brFilename} not found in $zipUrl")
-                            zip.bufferedReader().readText()
-                        }
+            val zipBytes =
+                client
+                    .newCall(
+                        Request
+                            .Builder()
+                            .url(zipUrl)
+                            .get()
+                            .build(),
+                    ).execute()
+                    .use { response ->
+                        if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                        response.body.bytes()
                     }
-                }
+            // save ZIP to disk and touch it so mtime reflects download time, not file creation time
+            File(zipFilename).writeBytes(zipBytes)
+            File(zipFilename).setLastModified(System.currentTimeMillis())
+            ZipInputStream(zipBytes.inputStream()).use { zip ->
+                generateSequence { zip.nextEntry }
+                    .firstOrNull { it.name == seasonType.brFilename }
+                    ?: throw IOException("${seasonType.brFilename} not found in $zipUrl")
+                zip.bufferedReader().readText()
+            }
         }
 
     private fun latestArchiveUrl(client: OkHttpClient): String {

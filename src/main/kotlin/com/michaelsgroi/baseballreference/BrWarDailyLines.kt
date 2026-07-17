@@ -1,7 +1,7 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.FILE_EXPIRATION
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.MAJOR_LEAGUES
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
@@ -12,17 +12,17 @@ import java.time.Duration
 class BrWarDailyLines(
     private val filename: String,
     private val seasonType: BrWarDaily.SeasonType,
-    private val expiration: Duration = fileExpiration
+    private val expiration: Duration = FILE_EXPIRATION,
 ) {
-
     fun getSeasons(): List<SeasonLine> {
         // get seasons
         val seasons = deserializeToSeasons(getWarDailyFile())
 
         // filter for seasons for position players with war values
-        val filteredSeasons = seasons.filter {
-            it.fieldValueOrNull(WAR) != null && it.league() in majorLeagues
-        }
+        val filteredSeasons =
+            seasons.filter {
+                it.fieldValueOrNull(WAR) != null && it.league() in MAJOR_LEAGUES
+            }
 
         return filteredSeasons
     }
@@ -46,8 +46,10 @@ class BrWarDailyLines(
         return seasonLines.map {
             val fieldValues = it.split(",")
             val fieldsMap =
-                ((fields zip fieldValues) +
-                    (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())).toMap()
+                (
+                    (fields zip fieldValues) +
+                        (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())
+                ).toMap()
             SeasonLine(fieldsMap)
         }
     }
@@ -62,29 +64,33 @@ class BrWarDailyLines(
                 Career(
                     playerId = playerId,
                     playerName = seasonList.first().playerName(),
-                    seasonLines = seasonList
+                    seasonLines = seasonList,
                 )
             }
     }
 
-    private val warDailyUrl = HttpUrl.Builder()
-        .scheme("https")
-        .host("www.baseball-reference.com")
-        .addPathSegment("data")
-        .addPathSegment(seasonType.brFilename)
-        .build()
+    private val warDailyUrl =
+        HttpUrl
+            .Builder()
+            .scheme("https")
+            .host("www.baseball-reference.com")
+            .addPathSegment("data")
+            .addPathSegment(seasonType.brFilename)
+            .build()
 
-    private fun getWarDailyFile(): List<String> {
-        return BrWarDaily.loadFromCache(filename, expiration) {
-            OkHttpClient().newCall(
-                Request.Builder()
-                    .url(warDailyUrl)
-                    .get()
-                    .build()
-            ).execute().use { response ->
-                if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                response.body!!.use { it.string() }
-            }
+    private fun getWarDailyFile(): List<String> =
+        BrWarDaily.loadFromCache(filename, expiration) {
+            OkHttpClient()
+                .newCall(
+                    Request
+                        .Builder()
+                        .url(warDailyUrl)
+                        .get()
+                        .build(),
+                ).execute()
+                .use { response ->
+                    if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                    response.body.use { it.string() }
+                }
         }
-    }
 }

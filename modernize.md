@@ -62,9 +62,6 @@ See `WEB_BRIEFING.md` for full spec (natural-language → DuckDB SQL, Ktor serve
 
 ## Done
 
-- [x] Kotlin 1.9.10 → 2.2.0 (MCU in Stage 3 will take to 2.4.10)
-- [x] Gradle 8.3 → 8.14.2
-- [x] OkHttp 4.11.0 → 4.12.0
-- [x] JUnit Jupiter params 5.10.0 → 5.12.2
-- [x] spotless 6.21.0 → 7.0.4
-- [x] ben-manes versions 0.48.0 → 0.51.0
+- [x] Stage 2 — Converted Gradle → Maven (`pom.xml`); deleted all Gradle files
+- [x] Stage 3 — MCU applied: Kotlin 2.4.10, OkHttp 5.4.0 (`okhttp-jvm`), JUnit 6.1.2, annotations 26.1.0; JVM target 25
+- [x] Fixed OkHttp 5 breaking changes (`okhttp3.internal.toImmutableList` → `toList()`)

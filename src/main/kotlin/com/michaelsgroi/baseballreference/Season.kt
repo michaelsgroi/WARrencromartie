@@ -16,7 +16,7 @@ data class Season(
     val war: Double,
     val salary: Long,
     val battingWar: Double,
-    val pitchingWar: Double
+    val pitchingWar: Double,
 ) {
     companion object {
         private val seasonFormatterDefaultFields =
@@ -27,14 +27,16 @@ data class Season(
                 Field("year", rightAlign(4)) { _, season -> season.season.toString() },
                 Field("teams", leftAlign(256)) { _, season -> season.teams.joinToString(",") },
             )
+
         fun getSeasonFormatter(includeSalary: Boolean = false): BrReportFormatter<Season> {
             val fieldsLinkedList = LinkedList(seasonFormatterDefaultFields)
             if (includeSalary) {
                 fieldsLinkedList.add(
                     3,
-                    Field("salary", rightAlign(10)) { _, career -> career.salary.toString() })
+                    Field("salary", rightAlign(10)) { _, career -> career.salary.toString() },
+                )
             }
-            return  BrReportFormatter(fieldsLinkedList.toList())
+            return BrReportFormatter(fieldsLinkedList.toList())
         }
     }
 }

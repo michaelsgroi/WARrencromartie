@@ -1,0 +1,14 @@
+Top career war 10
+10 rows
+
+    # name                        war seasons             teams
+  #1: Babe Ruth                182.62      22 (1914-1935) BOS,NYY,BSN
+  #2: Walter Johnson           168.35      21 (1907-1927) WSH
+  #3: Cy Young                 163.62      22 (1890-1911) CLV,STL,BOS,CLE,BSN
+  #4: Barry Bonds              162.78      22 (1986-2007) PIT,SFG
+  #5: Willie Mays              156.24      22 (1951-1973) NYG,SFG,NYM
+  #6: Ty Cobb                  149.84      24 (1905-1928) DET,PHA
+  #7: Henry Aaron              143.22      23 (1954-1976) MLN,ATL,MIL
+  #8: Roger Clemens            139.22      24 (1984-2007) BOS,TOR,NYY,HOU
+  #9: Tris Speaker             136.07      22 (1907-1928) BOS,CLE,WSH,PHA
+ #10: Honus Wagner             132.75      21 (1897-1917) PIT,LOU

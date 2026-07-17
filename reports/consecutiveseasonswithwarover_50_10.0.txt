@@ -34,7 +34,7 @@ Consecutive seasons with war over 50 10.0
  #30: Eddie Cicotte              1 (1917-1917) CHW
  #31: John Clarkson              1 (1889-1889) BSN
  #32: Roger Clemens              1 (1997-1997) TOR
- #33: Eddie Collins              1 (1910-1910) PHA
+ #33: Jack Coombs                1 (1910-1910) PHA
  #34: George Cuppy               1 (1896-1896) CLV
  #35: Red Faber                  1 (1921-1921) CHW
  #36: Charlie Ferguson           1 (1886-1886) PHI
@@ -51,4 +51,4 @@ Consecutive seasons with war over 50 10.0
  #47: Carl Hubbell               1 (1936-1936) NYG
  #48: Fergie Jenkins             1 (1971-1971) CHC
  #49: Randy Johnson              1 (2002-2002) ARI
- #50: Aaron Judge                1 (2022-2022) NYY
+ #50: Aaron Judge                1 (2024-2024) NYY

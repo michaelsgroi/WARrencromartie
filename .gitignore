@@ -1,6 +1,6 @@
 .gradle
 /build/
-!gradle/wrapper/gradle-wrapper.jar
+/target/
 
 ### IntelliJ IDEA ###
 .idea
@@ -10,3 +10,9 @@
 /out/
 
 .env*
+/*.md
+!README.md
+war_daily_bat.txt
+war_daily_pitch.txt
+war_archive-*.zip
+data/

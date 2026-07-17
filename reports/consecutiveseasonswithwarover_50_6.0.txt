@@ -8,9 +8,9 @@ Consecutive seasons with war over 50 6.0
   #4: Lou Gehrig                12 (1926-1937) NYY
   #5: Barry Bonds               11 (1988-1998) PIT,SFG
   #6: Mike Schmidt              11 (1974-1984) PHI
-  #7: Walter Johnson            10 (1910-1919) WSH
-  #8: Kid Nichols               10 (1890-1899) BSN
-  #9: Honus Wagner              10 (1900-1909) PIT
+  #7: Honus Wagner              11 (1899-1909) LOU,PIT
+  #8: Walter Johnson            10 (1910-1919) WSH
+  #9: Kid Nichols               10 (1890-1899) BSN
  #10: Babe Ruth                  9 (1916-1924) BOS,NYY
  #11: Tris Speaker               9 (1909-1917) BOS,CLE
  #12: Eddie Collins              8 (1909-1916) PHA,CHW
@@ -27,10 +27,10 @@ Consecutive seasons with war over 50 6.0
  #23: Amos Rusie                 7 (1890-1897) NYG
  #24: Roberto Clemente           6 (1964-1969) PIT
  #25: Lefty Grove                6 (1928-1933) PHA
- #26: Noodles Hahn               6 (1899-1904) CIN
- #27: Clayton Kershaw            6 (2011-2016) LAD
- #28: Jim McCormick              6 (1879-1884) CLV
- #29: Phil Niekro                6 (1974-1979) ATL
+ #26: Clayton Kershaw            6 (2011-2016) LAD
+ #27: Jim McCormick              6 (1879-1884) CLV
+ #28: Phil Niekro                6 (1974-1979) ATL
+ #29: Shohei Ohtani              6 (2021-2026) LAA,LAD
  #30: Alex Rodriguez             6 (2000-2005) SEA,TEX,NYY
  #31: Ron Santo                  6 (1963-1968) CHC
  #32: Ed Walsh                   6 (1907-1912) CHW
@@ -41,7 +41,7 @@ Consecutive seasons with war over 50 6.0
  #37: Todd Helton                5 (2000-2004) COL
  #38: Nap Lajoie                 5 (1906-1910) CLE
  #39: Greg Maddux                5 (1994-1998) ATL
- #40: Pedro Martinez             5 (1997-2003) MON,BOS
+ #40: Pedro Martínez             5 (1997-2003) MON,BOS
  #41: Eddie Mathews              5 (1957-1961) MLN
  #42: Joe Morgan                 5 (1972-1976) CIN
  #43: Hal Newhouser              5 (1944-1948) DET

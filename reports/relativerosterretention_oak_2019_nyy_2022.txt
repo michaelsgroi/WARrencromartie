@@ -2,14 +2,14 @@ Relative roster retention oak 2019 nyy 2022
 11 rows
 
     # name                                  war year teams
-  #1: Gary Sanchez                         3.13 2019 NYY
-  #2: Zack Britton                         2.47 2019 NYY
+  #1: Gary Sánchez                          3.1 2019 NYY
+  #2: Zack Britton                         2.46 2019 NYY
   #3: Aroldis Chapman                      1.61 2019 NYY
-  #4: Luke Voit                            1.27 2019 NYY
+  #4: Aaron Hicks                          1.25 2019 NYY
   #5: Tommy Kahnle                         0.82 2019 NYY
   #6: David Hale                           0.81 2019 NYY
   #7: CC Sabathia                           0.4 2019 NYY
-  #8: Thairo Estrada                        0.3 2019 NYY
-  #9: Kyle Higashioka                      0.04 2019 NYY
- #10: Greg Bird                           -0.27 2019 NYY
+  #8: Didi Gregorius                       0.35 2019 NYY
+  #9: Troy Tulowitzki                      0.06 2019 NYY
+ #10: Brady Lail                          -0.18 2019 NYY
  #11: Tyler Lyons                          -0.3 2019 PIT,NYY

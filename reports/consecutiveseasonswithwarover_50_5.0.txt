@@ -2,7 +2,7 @@ Consecutive seasons with war over 50 5.0
 50 rows
 
     # name                 seasons             teams
-  #1: Henry Aaron               15 (1955-1969) MLN,ATL
+  #1: Henry Aaron               17 (1955-1971) MLN,ATL
   #2: Stan Musial               15 (1942-1957) STL
   #3: Tris Speaker              15 (1909-1923) BOS,CLE
   #4: Cy Young                  15 (1891-1905) CLV,STL,BOS
@@ -10,15 +10,15 @@ Consecutive seasons with war over 50 5.0
   #6: Honus Wagner              14 (1899-1912) LOU,PIT
   #7: Ty Cobb                   13 (1907-1919) DET
   #8: Willie Mays               13 (1954-1966) NYG,SFG
-  #9: Barry Bonds               12 (1987-1998) PIT,SFG
- #10: Lou Gehrig                12 (1926-1937) NYY
- #11: Mel Ott                   12 (1929-1940) NYG
- #12: Mickey Mantle             11 (1952-1962) NYY
- #13: Eddie Mathews             11 (1953-1963) MLN
- #14: Albert Pujols             11 (2001-2011) STL
- #15: Tom Seaver                11 (1967-1977) NYM,CIN
- #16: Walter Johnson            10 (1910-1919) WSH
- #17: Kid Nichols               10 (1890-1899) BSN
+  #9: Kid Nichols               13 (1890-1904) BSN,STL
+ #10: Barry Bonds               12 (1987-1998) PIT,SFG
+ #11: Lou Gehrig                12 (1926-1937) NYY
+ #12: Mel Ott                   12 (1929-1940) NYG
+ #13: Mickey Mantle             11 (1952-1962) NYY
+ #14: Eddie Mathews             11 (1953-1963) MLN
+ #15: Albert Pujols             11 (2001-2011) STL
+ #16: Tom Seaver                11 (1967-1977) NYM,CIN
+ #17: Walter Johnson            10 (1910-1919) WSH
  #18: Dan Brouthers              9 (1882-1892) BUF,DTN,BSN,BRO
  #19: Roberto Clemente           9 (1963-1971) PIT
  #20: Eddie Collins              9 (1909-1917) PHA,CHW
@@ -43,7 +43,7 @@ Consecutive seasons with war over 50 5.0
  #39: Harry Heilmann             7 (1921-1927) DET
  #40: Rickey Henderson           7 (1980-1986) OAK,NYY
  #41: Greg Maddux                7 (1992-1998) CHC,ATL
- #42: Pedro Martinez             7 (1997-2005) MON,BOS,NYM
+ #42: Pedro Martínez             7 (1997-2005) MON,BOS,NYM
  #43: Christy Mathewson          7 (1907-1913) NYG
  #44: Joe Morgan                 7 (1971-1977) HOU,CIN
  #45: Amos Rusie                 7 (1890-1897) NYG

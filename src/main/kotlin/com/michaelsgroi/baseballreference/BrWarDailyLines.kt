@@ -1,90 +1,105 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.fileExpiration
-import com.michaelsgroi.baseballreference.BrWarDaily.Companion.majorLeagues
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.FILE_EXPIRATION
+import com.michaelsgroi.baseballreference.BrWarDaily.Companion.MAJOR_LEAGUES
 import com.michaelsgroi.baseballreference.BrWarDaily.Fields.WAR
-import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import java.io.File
 import java.io.IOException
 import java.time.Duration
+import java.util.zip.ZipInputStream
 
 class BrWarDailyLines(
     private val filename: String,
     private val seasonType: BrWarDaily.SeasonType,
-    private val expiration: Duration = fileExpiration
+    private val expiration: Duration = FILE_EXPIRATION,
 ) {
-
     fun getSeasons(): List<SeasonLine> {
-        // get seasons
         val seasons = deserializeToSeasons(getWarDailyFile())
-
-        // filter for seasons for position players with war values
-        val filteredSeasons = seasons.filter {
-            it.fieldValueOrNull(WAR) != null && it.league() in majorLeagues
+        return seasons.filter {
+            it.fieldValueOrNull(WAR) != null && it.league() in MAJOR_LEAGUES
         }
-
-        return filteredSeasons
     }
 
-    fun getCareers(): List<Career> {
-        // get seasons
-        val seasons = getSeasons()
-
-        // get player careers
-        return getCareersInternal(seasons)
-    }
+    fun getCareers(): List<Career> = getCareersInternal(getSeasons())
 
     private fun deserializeToSeasons(warDailyLines: List<String>): List<SeasonLine> {
-        // get header
         val fields = warDailyLines[0].lowercase().split(",")
-
-        // get season lines
         val seasonLines = warDailyLines.subList(1, warDailyLines.size)
-
-        // map to season objects
         return seasonLines.map {
             val fieldValues = it.split(",")
             val fieldsMap =
-                ((fields zip fieldValues) +
-                    (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())).toMap()
+                (
+                    (fields zip fieldValues) +
+                        (BrWarDaily.Fields.SEASON_TYPE.fileField to seasonType.name.lowercase())
+                ).toMap()
             SeasonLine(fieldsMap)
         }
     }
 
-    private fun getCareersInternal(seasonLines: List<SeasonLine>): List<Career> {
-        // group player's season
-        val seasonByPlayer = seasonLines.groupBy { it.playerId() }
-
-        // summarize player careers
-        return seasonByPlayer
+    private fun getCareersInternal(seasonLines: List<SeasonLine>): List<Career> =
+        seasonLines
+            .groupBy { it.playerId() }
             .map { (playerId, seasonList) ->
                 Career(
                     playerId = playerId,
                     playerName = seasonList.first().playerName(),
-                    seasonLines = seasonList
+                    seasonLines = seasonList,
                 )
             }
-    }
 
-    private val warDailyUrl = HttpUrl.Builder()
-        .scheme("https")
-        .host("www.baseball-reference.com")
-        .addPathSegment("data")
-        .addPathSegment(seasonType.brFilename)
-        .build()
-
-    private fun getWarDailyFile(): List<String> {
-        return BrWarDaily.loadFromCache(filename, expiration) {
-            OkHttpClient().newCall(
-                Request.Builder()
-                    .url(warDailyUrl)
-                    .get()
-                    .build()
-            ).execute().use { response ->
-                if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                response.body!!.use { it.string() }
+    private fun getWarDailyFile(): List<String> =
+        BrWarDaily.loadFromCache(filename, expiration) {
+            val client = OkHttpClient()
+            val zipUrl = latestArchiveUrl(client)
+            val zipFilename = zipUrl.substringAfterLast("/")
+            println("downloading $zipUrl ...")
+            val zipBytes =
+                client
+                    .newCall(
+                        Request
+                            .Builder()
+                            .url(zipUrl)
+                            .get()
+                            .build(),
+                    ).execute()
+                    .use { response ->
+                        if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                        response.body.bytes()
+                    }
+            // save ZIP to disk and touch it so mtime reflects download time, not file creation time
+            File(zipFilename).writeBytes(zipBytes)
+            File(zipFilename).setLastModified(System.currentTimeMillis())
+            ZipInputStream(zipBytes.inputStream()).use { zip ->
+                generateSequence { zip.nextEntry }
+                    .firstOrNull { it.name == seasonType.brFilename }
+                    ?: throw IOException("${seasonType.brFilename} not found in $zipUrl")
+                zip.bufferedReader().readText()
             }
         }
+
+    private fun latestArchiveUrl(client: OkHttpClient): String {
+        val indexUrl = "https://www.baseball-reference.com/data/"
+        val html =
+            client
+                .newCall(
+                    Request
+                        .Builder()
+                        .url(indexUrl)
+                        .get()
+                        .build(),
+                ).execute()
+                .use { response ->
+                    if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                    response.body.string()
+                }
+        val archiveName =
+            Regex("""war_archive-\d{4}-\d{2}-\d{2}\.zip""")
+                .findAll(html)
+                .map { it.value }
+                .maxOrNull()
+                ?: throw IOException("No war_archive-*.zip found at $indexUrl")
+        return "$indexUrl$archiveName"
     }
 }

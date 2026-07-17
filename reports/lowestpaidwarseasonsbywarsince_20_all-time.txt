@@ -15,10 +15,10 @@ Lowest paid war seasons by war since 20 all-time
  #11: Old Hoss Radbourn                   19.41       3000 1884 PRO
  #12: Doc White                            7.76       1200 1902 PHI
  #13: Pud Galvin                           7.49       1200 1881 BUF
- #14: Christy Mathewson                    8.75       1500 1901 NYG
+ #14: Christy Mathewson                    8.69       1500 1901 NYG
  #15: Pud Galvin                           9.82       1700 1883 BUF
- #16: Jimmy Lavender                       1.87        344 1912 CHC
- #17: George Derby                         7.54       1400 1881 DTN
+ #16: George Derby                         7.54       1400 1881 DTN
+ #17: Grover Alexander                      7.9       1500 1911 PHI
  #18: Mark Baldwin                         5.26       1000 1887 CHC
  #19: Lady Baldwin                        10.47       2000 1886 DTN
- #20: Grover Alexander                      7.7       1500 1911 PHI
+ #20: Jimmy Lavender                       1.76        344 1912 CHC

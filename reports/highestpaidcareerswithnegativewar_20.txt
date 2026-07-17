@@ -2,23 +2,23 @@ Highest paid careers with negative war 20
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Jordan Lyles              -1.35   39439500      13 (2011-2023) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
-  #2: Yasmany Tomás             -2.48   38000000       4 (2015-2019) ARI
-  #3: Mike Matheny              -0.49   18729000      13 (1994-2006) MIL,TOR,STL,SFG
-  #4: Ricky Gutierrez           -1.41   18290668      12 (1993-2004) SDP,HOU,CHC,CLE,NYM,BOS
-  #5: Austin Hedges             -0.11   16930200       9 (2015-2023) SDP,CLE,PIT
-  #6: Henry Blanco              -0.06   16450000      16 (1997-2013) LAD,COL,MIL,ATL,MIN,CHC,SDP,NYM,ARI,TOR,SEA
-  #7: Masataka Yoshida          -0.05   15600000       1 (2023-2023) BOS
-  #8: Hunter Dozier             -2.68   15317225       7 (2016-2023) KCR
-  #9: Yuniesky Betancourt       -2.35   14605000       9 (2005-2013) SEA,KCR,MIL
- #10: Chris Gomez               -1.41   14276500      16 (1993-2008) DET,SDP,TBD,MIN,TOR,BAL,CLE,PIT
- #11: Wes Helms                 -1.71   11535000      13 (1998-2011) ATL,MIL,FLA,PHI
- #12: Danny Bautista            -0.44   11157500      12 (1993-2004) DET,ATL,FLA,ARI
- #13: Austin Romine             -1.28   10973233      11 (2011-2022) NYY,DET,CHC,LAA,STL,CIN
- #14: Alex Guerrero             -0.42   10500000       2 (2014-2015) LAD
- #15: Kyuji Fujikawa            -0.35   10100000       3 (2013-2015) CHC,TEX
- #16: Kazuhisa Ishii            -0.35   10025000       4 (2002-2005) LAD,NYM
- #17: Rico Brogna               -1.08    9534000       9 (1992-2001) DET,NYM,PHI,BOS,ATL
- #18: Manny Parra                -2.2    8958000       8 (2007-2015) MIL,CIN
- #19: Jorge Cantu               -0.07    8522700       8 (2004-2011) TBD,CIN,FLA,TEX,SDP
- #20: Chad Durbin               -0.79    8428000      14 (1999-2013) KCR,ARI,CLE,DET,PHI,ATL
+  #1: Jordan Lyles              -2.41   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
+  #2: Yasmany Tomás             -2.39   38000000       4 (2015-2019) ARI
+  #3: Rafael Montero            -0.51   32520733      11 (2014-2025) NYM,TEX,HOU,SEA,DET,ATL
+  #4: Austin Hedges              -1.2   25596867      12 (2015-2026) SDP,CLE,PIT,TEX
+  #5: Mike Matheny              -0.48   18729000      13 (1994-2006) MIL,TOR,STL,SFG
+  #6: Ricky Gutiérrez           -1.41   18290668      12 (1993-2004) SDP,HOU,CHC,CLE,BOS,NYM
+  #7: Henry Blanco              -0.06   16450000      16 (1997-2013) LAD,COL,MIL,ATL,MIN,CHC,SDP,NYM,ARI,SEA,TOR
+  #8: Scott Kingery             -0.39   15520000       7 (2018-2026) PHI,LAA,CHC
+  #9: Hunter Dozier             -2.88   15317225       7 (2016-2023) KCR
+ #10: Yuniesky Betancourt       -2.34   14605000       9 (2005-2013) SEA,KCR,MIL
+ #11: Chris Gomez               -1.41   14276500      16 (1993-2008) DET,SDP,TBD,MIN,TOR,BAL,CLE,PIT
+ #12: Wes Helms                 -1.68   11535000      13 (1998-2011) ATL,MIL,FLA,PHI
+ #13: Danny Bautista            -0.43   11157500      12 (1993-2004) DET,ATL,FLA,ARI
+ #14: Austin Romine             -1.34   10973233      11 (2011-2022) NYY,DET,CHC,CIN,LAA,STL
+ #15: Alex Guerrero             -0.35   10500000       2 (2014-2015) LAD
+ #16: Kyuji Fujikawa            -0.35   10100000       3 (2013-2015) CHC,TEX
+ #17: Sandy León                -0.41   10086400      14 (2012-2026) WSN,BOS,CLE,MIA,MIN,TEX,ATL
+ #18: Kazuhisa Ishii            -0.34   10025000       4 (2002-2005) LAD,NYM
+ #19: Rico Brogna               -1.08    9534000       9 (1992-2001) DET,NYM,PHI,BOS,ATL
+ #20: Manny Parra               -2.19    8958000       8 (2007-2015) MIL,CIN

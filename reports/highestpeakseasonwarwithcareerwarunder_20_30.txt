@@ -2,23 +2,23 @@ Highest peak season war with career war under 20 30
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Russ Ford                 28.45 11.94 (1910)       5 (1909-1913) NYY
-  #2: Jouett Meekin              26.6 11.13 (1894)       9 (1892-1900) LOU,WHS,NYG,BSN,PIT
-  #3: Billy Rhines              25.93 10.52 (1890)       9 (1890-1899) CIN,LOU,PIT
+  #1: Russ Ford                 28.58 11.74 (1910)       5 (1909-1913) NYY
+  #2: Jouett Meekin             26.34 11.13 (1894)       9 (1892-1900) LOU,WHS,NYG,BSN,PIT
+  #3: Billy Rhines              25.54 10.52 (1890)       9 (1890-1899) CIN,LOU,PIT
   #4: Lady Baldwin              15.47 10.47 (1886)       5 (1885-1890) DTN,BRO
-  #5: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
-  #6: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
-  #7: Dick Ellsworth            20.08  9.94 (1963)      13 (1958-1971) CHC,PHI,BOS,CLE,MIL
-  #8: Jack Coombs               26.73   9.9 (1910)      14 (1906-1920) PHA,BRO,DET
+  #5: Jack Coombs               27.27 10.29 (1910)      14 (1906-1920) PHA,BRO,DET
+  #6: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
+  #7: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
+  #8: Dick Ellsworth            20.08  9.93 (1963)      13 (1958-1971) CHC,PHI,BOS,CLE,MIL
   #9: George Weidman            15.11  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
- #10: Shohei Ohtani             26.26  9.59 (2022)       6 (2018-2023) LAA
- #11: Mark Fidrych              11.33  9.57 (1976)       5 (1976-1980) DET
- #12: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
- #13: Aaron Nola                 29.3  9.19 (2018)       9 (2015-2023) PHI
- #14: Reb Russell               27.67  9.17 (1913)       9 (1913-1923) CHW,PIT
- #15: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,DTN,CLV
- #16: Shohei Ohtani             26.26  9.59 (2022)       6 (2018-2023) LAA
- #17: George McQuillan          17.94  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
+ #10: Bobby Witt Jr.             26.8  9.62 (2024)       5 (2022-2026) KCR
+ #11: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
+ #12: Reb Russell               27.89  9.56 (1913)       9 (1913-1923) CHW,PIT
+ #13: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
+ #14: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
+ #15: Jarren Duran              15.85  8.99 (2024)       6 (2021-2026) BOS
+ #16: George McQuillan          17.71  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
+ #17: Snuffy Stirnweiss         27.45  8.83 (1945)      10 (1943-1952) NYY,SLB,CLE
  #18: Bret Boone                22.82  8.82 (2001)      14 (1992-2005) SEA,CIN,ATL,SDP,MIN
- #19: Snuffy Stirnweiss         27.41  8.82 (1945)      10 (1943-1952) NYY,SLB,CLE
- #20: George Stone              26.18  8.75 (1906)       6 (1905-1910) SLB
+ #19: Gunnar Henderson          22.41  8.79 (2024)       5 (2022-2026) BAL
+ #20: George Stone              25.83  8.75 (1906)       7 (1903-1910) BOS,SLB

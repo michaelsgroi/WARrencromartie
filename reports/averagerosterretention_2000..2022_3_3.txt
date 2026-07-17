@@ -6,7 +6,7 @@ nyy 2.05
 stl 2.05
 cin 1.95
 cle 1.8
-sea 1.8
+sea 1.75
 bos 1.7
 hou 1.7
 nym 1.7
@@ -15,11 +15,11 @@ lad 1.65
 chc 1.6
 col 1.6
 phi 1.6
-atl 1.55
+pit 1.55
+atl 1.5
 bal 1.5
-chw 1.5
 min 1.5
-pit 1.5
+chw 1.45
 kcr 1.45
 det 1.4
 mil 1.3

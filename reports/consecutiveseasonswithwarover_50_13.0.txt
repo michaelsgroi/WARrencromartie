@@ -2,9 +2,9 @@ Consecutive seasons with war over 50 13.0
 50 rows
 
     # name                 seasons             teams
-  #1: Tommy Bond                 2 (1878-1879) BSN
-  #2: Jim Devlin                 2 (1876-1877) LOU
-  #3: Walter Johnson             2 (1912-1913) WSH
+  #1: Walter Johnson             3 (1912-1914) WSH
+  #2: Tommy Bond                 2 (1878-1879) BSN
+  #3: Jim Devlin                 2 (1876-1877) LOU
   #4: Old Hoss Radbourn          2 (1883-1884) PRO
   #5: Charlie Buffinton          1 (1884-1884) BSN
   #6: John Clarkson              1 (1889-1889) BSN
@@ -35,7 +35,7 @@ Consecutive seasons with war over 50 13.0
  #31: Reggie Abercrombie         0
  #32: Bill Abernathie            0
  #33: Brent Abernathy            0
- #34: Ted Abernathy              0
+ #34: Tal Abernathy              0
  #35: Ted Abernathy              0
  #36: Woody Abernathy            0
  #37: Cliff Aberson              0

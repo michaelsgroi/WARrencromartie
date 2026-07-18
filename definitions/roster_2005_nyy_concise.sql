@@ -14,7 +14,7 @@ roster_players AS (
 ),
 careers AS (
     SELECT player_id,
-        FIRST(name_common ORDER BY year_id) AS name,
+        FIRST(name_common ORDER BY year_id, player_id) AS name,
         SUM(war) AS career_war
     FROM all_seasons
     GROUP BY player_id

@@ -1,15 +1,48 @@
 {
-  "name": "Lowest peak season war with career war over 20 120",
+  "name": "Top 20 Lowest Peak Season WAR \u2014 Career WAR Over 120",
   "filename": "lowestpeakseasonwarwithcareerwarover_20_120.txt",
   "columns": [
-    { "header": "#", "width": 5, "align": "right", "autoRank": true },
-    { "header": "name", "width": 20, "align": "left", "field": "name" },
-    { "header": "war", "width": 10, "align": "right", "field": "career_war" },
-    { "header": "peakwar", "width": 12, "align": "right", "field": "peak_war" },
-    { "header": "seasons", "width": 7, "align": "right", "field": "season_count" },
-    { "header": "", "width": 11, "align": "left", "field": "year_range" },
-    { "header": "teams", "width": 256, "align": "left", "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "peakwar",
+      "width": 12,
+      "align": "right",
+      "field": "peak_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }
-
-

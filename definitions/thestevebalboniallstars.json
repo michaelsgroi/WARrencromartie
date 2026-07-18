@@ -1,12 +1,42 @@
 {
-  "name": "The steve balboni all stars",
+  "name": "The Steve Balboni All-Stars, players with 10+ seasons and average season WAR under 0.5",
   "filename": "thestevebalboniallstars.txt",
   "columns": [
-    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",     "width": 10,  "align": "right", "field": "career_war" },
-    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
-    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
-    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

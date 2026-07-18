@@ -1,12 +1,42 @@
 {
-  "name": "Best top n seasons 3 50 all-time",
+  "name": "Best Top-3 Seasons Combined WAR, All-Time, minimum 50 career WAR",
   "filename": "besttopnseasons_3_50_all-time.txt",
   "columns": [
-    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",     "width": 10,  "align": "right", "field": "career_war" },
-    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
-    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
-    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

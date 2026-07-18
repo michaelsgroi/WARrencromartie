@@ -1,11 +1,36 @@
 {
-  "name": "Season 2022 bos",
+  "name": "2022 Boston Red Sox Roster",
   "filename": "season_2022_bos_.txt",
   "columns": [
-    { "header": "#",     "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",  "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",   "width": 20,  "align": "right", "field": "season_war" },
-    { "header": "year",  "width": 4,   "align": "right", "field": "year_id" },
-    { "header": "teams", "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 20,
+      "align": "right",
+      "field": "season_war"
+    },
+    {
+      "header": "year",
+      "width": 4,
+      "align": "right",
+      "field": "year_id"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

@@ -1,9 +1,24 @@
 {
-  "name": "Roster retention oak 2000..2022 3 5",
+  "name": "Oakland A's Roster Retention 2000-2022, top 5, 3-year window",
   "filename": "rosterretention_oak_2000..2022_3_5.txt",
   "columns": [
-    { "header": "1", "width": 0, "align": "left", "field": "1" },
-    { "header": "2", "width": 0, "align": "left", "field": "2" },
-    { "header": "3", "width": 0, "align": "left", "field": "3" }
+    {
+      "header": "1",
+      "width": 0,
+      "align": "left",
+      "field": "1"
+    },
+    {
+      "header": "2",
+      "width": 0,
+      "align": "left",
+      "field": "2"
+    },
+    {
+      "header": "3",
+      "width": 0,
+      "align": "left",
+      "field": "3"
+    }
   ]
 }

@@ -1,4 +1,4 @@
-.PHONY: run test checks parquet parquet2s3
+.PHONY: run test checks parquet parquet2s3 parqlo
 
 S3_BUCKET   := s3://parqlo
 AWS_PROFILE := personal
@@ -16,6 +16,9 @@ checks:
 
 parquet: ## Download latest WAR data (if >24h old) and convert to Parquet
 	@mvn -q package -DskipTests && java --enable-native-access=ALL-UNNAMED -jar target/warrencromartie.jar parquet
+
+parqlo: ## Generate war.json samples from definitions/ and push to parqlo
+	@mvn -q package -DskipTests && java -jar target/warrencromartie.jar parqlo
 
 parquet2s3: parquet ## Download CSVs, convert to Parquet, upload to S3
 	@aws sts get-caller-identity --profile $(AWS_PROFILE) > /dev/null || \

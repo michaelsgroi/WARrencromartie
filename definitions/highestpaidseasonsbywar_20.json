@@ -1,1 +1,42 @@
-{"name":"Highest paid seasons by war 20","filename":"highestpaidseasonsbywar_20.txt","columns":[{"header":"#","width":5,"align":"right","autoRank":true},{"header":"name","width":20,"align":"left","field":"name"},{"header":"war","width":20,"align":"right","field":"war"},{"header":"salary","width":10,"align":"right","field":"salary"},{"header":"year","width":4,"align":"right","field":"year"},{"header":"teams","width":256,"align":"left","field":"teams"}]}
+{
+  "name": "Top 20 Highest-Paid Seasons by WAR",
+  "filename": "highestpaidseasonsbywar_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 20,
+      "align": "right",
+      "field": "war"
+    },
+    {
+      "header": "salary",
+      "width": 10,
+      "align": "right",
+      "field": "salary"
+    },
+    {
+      "header": "year",
+      "width": 4,
+      "align": "right",
+      "field": "year"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
+  ]
+}

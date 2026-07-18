@@ -1,10 +1,30 @@
 {
-  "name": "Best rosters by franchise concise",
+  "name": "Best Single-Season Roster by Franchise, Concise",
   "filename": "bestrostersbyfranchise_concise.txt",
   "columns": [
-    { "header": "#",    "width": 0, "align": "left", "field": "rank_label" },
-    { "header": "year", "width": 0, "align": "left", "field": "year_id" },
-    { "header": "team", "width": 0, "align": "left", "field": "team_id" },
-    { "header": "war",  "width": 0, "align": "left", "field": "displayed_war" }
+    {
+      "header": "#",
+      "width": 0,
+      "align": "left",
+      "field": "rank_label"
+    },
+    {
+      "header": "year",
+      "width": 0,
+      "align": "left",
+      "field": "year_id"
+    },
+    {
+      "header": "team",
+      "width": 0,
+      "align": "left",
+      "field": "team_id"
+    },
+    {
+      "header": "war",
+      "width": 0,
+      "align": "left",
+      "field": "displayed_war"
+    }
   ]
 }

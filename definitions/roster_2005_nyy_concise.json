@@ -1,9 +1,24 @@
 {
-  "name": "Roster 2005 nyy concise",
+  "name": "2005 New York Yankees Roster, Concise",
   "filename": "roster_2005_nyy_concise.txt",
   "columns": [
-    { "header": "#",    "width": 0, "align": "left", "autoRank": true },
-    { "header": "name", "width": 0, "align": "left", "field": "name" },
-    { "header": "war",  "width": 0, "align": "left", "field": "war" }
+    {
+      "header": "#",
+      "width": 0,
+      "align": "left",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 0,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 0,
+      "align": "left",
+      "field": "war"
+    }
   ]
 }

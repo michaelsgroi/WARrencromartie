@@ -1,12 +1,42 @@
 {
-  "name": "Best top n seasons 5 50 modern era",
+  "name": "Best Top-5 Seasons Combined WAR, Since 1947, minimum 50 career WAR",
   "filename": "besttopnseasons_5_50_modern era.txt",
   "columns": [
-    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",     "width": 10,  "align": "right", "field": "career_war" },
-    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
-    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
-    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

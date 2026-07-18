@@ -2,6 +2,7 @@ topcareerwar_10
 topseasonwars_10
 averageseasonwar_50
 bestcareerwar_bos_50
+bestorworstnofteam_bos_30_best
 bestorworstnofteam_bos_30_worst
 bestrosters_1000_
 bestrostersbyfranchise_
@@ -18,3 +19,4 @@ lowestpeakseasonwarwithcareerwarover_20_60
 highestpaidcareersbywarofplayerswhoarecurrentlyactive_20
 thestevebalboniallstars
 therowlandofficeallstars
+playerswhosenamestartswith_cecil

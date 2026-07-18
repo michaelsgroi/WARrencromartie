@@ -1,12 +1,42 @@
 {
-  "name": "The rowland office all stars",
+  "name": "The Rowland Office All-Stars, players with 10+ seasons and negative career WAR",
   "filename": "therowlandofficeallstars.txt",
   "columns": [
-    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",     "width": 10,  "align": "right", "field": "career_war" },
-    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
-    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
-    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

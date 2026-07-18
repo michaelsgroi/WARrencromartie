@@ -1,1 +1,48 @@
-{"name":"Highest paid careers by war 20","filename":"highestpaidcareersbywar_20.txt","columns":[{"header":"#","width":5,"align":"right","autoRank":true},{"header":"name","width":20,"align":"left","field":"name"},{"header":"war","width":10,"align":"right","field":"career_war"},{"header":"salary","width":10,"align":"right","field":"salary"},{"header":"seasons","width":7,"align":"right","field":"season_count"},{"header":"","width":11,"align":"left","field":"year_range"},{"header":"teams","width":256,"align":"left","field":"teams"}]}
+{
+  "name": "Top 20 Highest-Paid Careers by WAR",
+  "filename": "highestpaidcareersbywar_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "salary",
+      "width": 10,
+      "align": "right",
+      "field": "salary"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
+  ]
+}

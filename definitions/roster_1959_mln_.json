@@ -1,12 +1,42 @@
 {
-  "name": "Roster 1959 mln",
+  "name": "1959 Milwaukee Braves Roster",
   "filename": "roster_1959_mln_.txt",
   "columns": [
-    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
-    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
-    { "header": "war",     "width": 10,  "align": "right", "field": "career_war" },
-    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
-    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
-    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+    {
+      "header": "#",
+      "width": 5,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "name",
+      "width": 20,
+      "align": "left",
+      "field": "name"
+    },
+    {
+      "header": "war",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "season_count"
+    },
+    {
+      "header": "",
+      "width": 11,
+      "align": "left",
+      "field": "year_range"
+    },
+    {
+      "header": "teams",
+      "width": 256,
+      "align": "left",
+      "field": "teams"
+    }
   ]
 }

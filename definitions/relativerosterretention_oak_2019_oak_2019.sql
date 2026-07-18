@@ -34,4 +34,4 @@ retained_ranks AS (
 SELECT name, war, year_id AS year, teams
 FROM source_ranked
 WHERE war_rank IN (SELECT war_rank FROM retained_ranks)
-ORDER BY war DESC
+ORDER BY war DESC, name

@@ -38,4 +38,4 @@ WHERE c.player_id IN (
     SELECT player_id FROM all_seasons
     WHERE year_id = 1959 AND team_id = 'MLN'
 )
-ORDER BY c.career_war DESC
+ORDER BY c.career_war DESC, c.name

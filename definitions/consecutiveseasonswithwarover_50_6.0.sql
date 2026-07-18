@@ -44,7 +44,7 @@ streaks AS (
 best_streaks AS (
     SELECT *, ROW_NUMBER() OVER (
         PARTITION BY player_id
-        ORDER BY season_count DESC, streak_war DESC
+        ORDER BY season_count DESC, streak_war DESC, streak_order
     ) AS streak_rank
     FROM streaks
 ),

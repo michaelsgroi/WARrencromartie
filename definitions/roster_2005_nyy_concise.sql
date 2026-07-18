@@ -22,4 +22,4 @@ careers AS (
 SELECT c.name, CAST(ROUND(c.career_war) AS BIGINT) AS war
 FROM roster_players r
 JOIN careers c USING (player_id)
-ORDER BY c.career_war DESC
+ORDER BY c.career_war DESC, c.name

@@ -13,8 +13,8 @@ Roster 1928 pha concise
 #9: Mickey Cochrane 50
 #10: Howard Ehmke 41
 #11: Max Bishop 38
-#12: Bullet Joe Bush 37
-#13: Rube Walberg 37
+#12: Rube Walberg 37
+#13: Bullet Joe Bush 37
 #14: Jimmy Dykes 35
 #15: Bing Miller 30
 #16: George Earnshaw 22

@@ -1,31 +1,8 @@
 package com.michaelsgroi.baseballreference
 
-import com.michaelsgroi.baseballreference.BrReports.Report
-
 class BrReportFormatter<T>(
     private val fields: List<Field<T>>,
 ) {
-    fun format(report: Report<T>): String {
-        val rows = report.run()
-        return (
-            listOf(
-                report.name, // report name
-                "${rows.size} rows", // row count
-                "", // blank row
-            ) +
-                fields.joinToString(" ") { field ->
-                    // header row
-                    field.getHeader()
-                } +
-                rows.mapIndexed { index, row ->
-                    // data rows
-                    fields.joinToString(" ") { field ->
-                        field.getField(index, row)
-                    }
-                }
-        ).joinToString("\n") { it.trimEnd() }
-    }
-
     data class Field<T>(
         private val header: String, // TODO allow for header that overflows into next field
         private val fieldPadder: Padder,

@@ -9,9 +9,9 @@ Best or worst n of team nyy 30 Best
   #5: Rickey Henderson         111.18      25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
   #6: Mickey Mantle            110.26      18 (1951-1968) NYY
   #7: Randy Johnson            101.06      22 (1988-2009) MON,SEA,HOU,ARI,NYY,SFG
-  #8: Phil Niekro                95.9      24 (1964-1987) MLN,ATL,CLE,TOR,NYY
+  #8: Phil Niekro                95.9      24 (1964-1987) MLN,ATL,NYY,CLE,TOR
   #9: Wade Boggs                91.44      18 (1982-1999) BOS,NYY,TBD
- #10: Gaylord Perry             90.04      22 (1962-1983) SFG,CLE,TEX,SDP,ATL,SEA,KCR,NYY
+ #10: Gaylord Perry             90.04      22 (1962-1983) SFG,CLE,TEX,SDP,NYY,ATL,SEA,KCR
  #11: Mike Mussina              82.81      18 (1991-2008) BAL,NYY
  #12: Joe DiMaggio              78.92      13 (1936-1951) NYY
  #13: Paul Waner                74.55      20 (1926-1945) PIT,BRO,BSN,NYY
@@ -27,7 +27,7 @@ Best or worst n of team nyy 30 Best
  #23: Kenny Lofton              68.39      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,CHC,PIT,NYY,PHI,LAD,TEX
  #24: Graig Nettles             67.97      22 (1967-1988) MIN,CLE,NYY,SDP,ATL,MON
  #25: Kevin Brown               67.77      19 (1986-2005) TEX,FLA,SDP,LAD,NYY,BAL
- #26: Luis Tiant                66.06      19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL
+ #26: Luis Tiant                66.06      19 (1964-1982) CLE,MIN,BOS,NYY,PIT,CAL
  #27: Willie Randolph           65.94      18 (1975-1992) PIT,NYY,LAD,OAK,MIL,NYM
  #28: Paul Goldschmidt          65.34      16 (2011-2026) ARI,STL,NYY
  #29: Aaron Judge               64.34      11 (2016-2026) NYY

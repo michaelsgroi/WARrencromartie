@@ -1,0 +1,13 @@
+{
+  "name": "Lowest paid careers by war since2000 20",
+  "filename": "lowestpaidcareersbywarsince2000_20.txt",
+  "columns": [
+    { "header": "#", "width": 5, "align": "right", "autoRank": true },
+    { "header": "name", "width": 20, "align": "left", "field": "name" },
+    { "header": "war", "width": 10, "align": "right", "field": "career_war" },
+    { "header": "salary", "width": 10, "align": "right", "field": "career_salary" },
+    { "header": "seasons", "width": 7, "align": "right", "field": "season_count" },
+    { "header": "", "width": 11, "align": "left", "field": "year_range" },
+    { "header": "teams", "width": 256, "align": "left", "field": "teams" }
+  ]
+}

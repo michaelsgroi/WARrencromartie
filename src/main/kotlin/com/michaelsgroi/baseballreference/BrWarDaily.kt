@@ -7,7 +7,9 @@ import java.time.Duration
 import java.time.Instant
 import kotlin.math.roundToInt
 
-class BrWarDaily(expiration: Duration = FILE_EXPIRATION) {
+class BrWarDaily(
+    expiration: Duration = FILE_EXPIRATION,
+) {
     private val batting = BrWarDailyLines(WAR_DAILY_BAT_FILE, SeasonType.BATTING, expiration)
     private val pitching = BrWarDailyLines(WAR_DAILY_PITCH_FILE, SeasonType.PITCHING, expiration)
 

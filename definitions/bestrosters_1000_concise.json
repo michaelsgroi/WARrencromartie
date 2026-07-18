@@ -1,0 +1,10 @@
+{
+  "name": "Best rosters 1000 concise",
+  "filename": "bestrosters_1000_concise.txt",
+  "columns": [
+    { "header": "#",    "width": 0, "align": "left", "field": "rank_label" },
+    { "header": "year", "width": 0, "align": "left", "field": "year_id" },
+    { "header": "team", "width": 0, "align": "left", "field": "team_id" },
+    { "header": "war",  "width": 0, "align": "left", "field": "roster_war" }
+  ]
+}

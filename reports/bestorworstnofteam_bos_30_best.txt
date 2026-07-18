@@ -12,11 +12,11 @@ Best or worst n of team bos 30 Best
   #8: Lefty Grove              106.76      17 (1925-1941) PHA,BOS
   #9: Carl Yastrzemski          96.41      23 (1961-1983) BOS
  #10: Adrian Beltré             93.72      21 (1998-2018) LAD,SEA,BOS,TEX
- #11: Jimmie Foxx               92.72      20 (1925-1945) PHA,BOS,CHC,PHI
+ #11: Jimmie Foxx               92.72      20 (1925-1945) BOS,PHI,PHA,CHC
  #12: Wade Boggs                91.44      18 (1982-1999) BOS,NYY,TBD
  #13: Fergie Jenkins            84.14      19 (1965-1983) PHI,CHC,TEX,BOS
  #14: Pedro Martínez             83.9      18 (1992-2009) LAD,MON,BOS,NYM,PHI
- #15: Curt Schilling            79.51      20 (1988-2007) HOU,PHI,ARI,BOS,BAL
+ #15: Curt Schilling            79.51      20 (1988-2007) BAL,HOU,PHI,ARI,BOS
  #16: Mookie Betts              76.65      13 (2014-2026) BOS,LAD
  #17: Manny Ramirez             69.33      19 (1993-2011) CLE,BOS,LAD,CHW,TBR
  #18: John Smoltz               68.96      21 (1988-2009) ATL,BOS,STL
@@ -24,11 +24,11 @@ Best or worst n of team bos 30 Best
  #20: Carlton Fisk              68.45      24 (1969-1993) BOS,CHW
  #21: Al Simmons                68.24      20 (1924-1944) PHA,CHW,DET,WSH,BSN,CIN,BOS
  #22: Dwight Evans              67.16      20 (1972-1991) BOS,BAL
- #23: Luis Tiant                66.06      19 (1964-1982) CLE,MIN,BOS,PIT,NYY,CAL
+ #23: Luis Tiant                66.06      19 (1964-1982) CLE,MIN,BOS,NYY,PIT,CAL
  #24: Andre Dawson              64.82      21 (1976-1996) MON,CHC,BOS,FLA
  #25: Joe Cronin                64.64      20 (1926-1945) PIT,WSH,BOS
  #26: Reggie Smith              64.58      17 (1966-1982) BOS,STL,LAD,SFG
  #27: Lou Boudreau              63.01      15 (1938-1952) CLE,BOS
- #28: Juan Marichal             62.82      16 (1960-1975) SFG,LAD,BOS
- #29: David Cone                62.28      17 (1986-2003) NYM,TOR,NYY,BOS,KCR
- #30: Dennis Eckersley          62.07      24 (1975-1998) CLE,CHC,BOS,OAK,STL
+ #28: Juan Marichal             62.82      16 (1960-1975) SFG,BOS,LAD
+ #29: David Cone                62.28      17 (1986-2003) NYM,NYY,BOS,KCR,TOR
+ #30: Dennis Eckersley          62.07      24 (1975-1998) CLE,BOS,CHC,OAK,STL

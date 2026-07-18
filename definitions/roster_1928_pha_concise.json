@@ -1,0 +1,9 @@
+{
+  "name": "Roster 1928 pha concise",
+  "filename": "roster_1928_pha_concise.txt",
+  "columns": [
+    { "header": "#",    "width": 0, "align": "left", "autoRank": true },
+    { "header": "name", "width": 0, "align": "left", "field": "name" },
+    { "header": "war",  "width": 0, "align": "left", "field": "war" }
+  ]
+}

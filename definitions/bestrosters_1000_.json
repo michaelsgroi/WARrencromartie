@@ -1,0 +1,10 @@
+{
+  "name": "Best rosters 1000",
+  "filename": "bestrosters_1000_.txt",
+  "columns": [
+    { "header": "#",    "width": 5, "align": "right", "autoRank": true },
+    { "header": "year", "width": 4, "align": "left",  "field": "year_id" },
+    { "header": "team", "width": 4, "align": "right", "field": "team_id" },
+    { "header": "war",  "width": 4, "align": "right", "field": "roster_war" }
+  ]
+}

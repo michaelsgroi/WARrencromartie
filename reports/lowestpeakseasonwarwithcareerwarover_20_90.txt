@@ -21,4 +21,4 @@ Lowest peak season war with career war over 20 90
  #17: Nap Lajoie                108.7 10.31 (1910)      21 (1896-1916) PHI,PHA,CLE
  #18: Jimmie Foxx               92.72 10.34 (1932)      20 (1925-1945) PHA,BOS,CHC,PHI
  #19: Alex Rodriguez           117.41 10.36 (2000)      22 (1994-2016) SEA,TEX,NYY
- #20: Phil Niekro                95.9 10.39 (1978)      24 (1964-1987) MLN,ATL,CLE,TOR,NYY
+ #20: Phil Niekro                95.9 10.39 (1978)      24 (1964-1987) MLN,ATL,NYY,CLE,TOR

@@ -1,0 +1,8 @@
+{
+  "name": "Average roster retention 2000..2022 3 3",
+  "filename": "averagerosterretention_2000..2022_3_3.txt",
+  "columns": [
+    { "header": "team",         "width": 0, "align": "left", "field": "team" },
+    { "header": "average years","width": 0, "align": "left", "field": "average_years" }
+  ]
+}

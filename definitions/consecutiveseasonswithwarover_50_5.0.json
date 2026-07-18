@@ -1,0 +1,12 @@
+{
+  "name": "Consecutive seasons with war over 50 5.0",
+  "filename": "consecutiveseasonswithwarover_50_5.0.txt",
+  "columns": [
+    { "header": "#",       "width": 5,   "align": "right", "autoRank": true },
+    { "header": "name",    "width": 20,  "align": "left",  "field": "name" },
+    { "header": "seasons", "width": 7,   "align": "right", "field": "season_count" },
+    { "header": "",        "width": 11,  "align": "left",  "field": "year_range" },
+    { "header": "teams",   "width": 256, "align": "left",  "field": "teams" }
+  ]
+}
+

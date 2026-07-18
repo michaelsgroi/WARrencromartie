@@ -37,8 +37,8 @@ Roster 2005 nyy concise
 #33: Russ Johnson 3
 #34: Tony Womack 2
 #35: Alan Embree 2
-#36: John Flaherty 2
-#37: Aaron Small 2
+#36: Aaron Small 2
+#37: John Flaherty 2
 #38: Scott Proctor 1
 #39: Jorge De Paula 0
 #40: Andy Phillips 0

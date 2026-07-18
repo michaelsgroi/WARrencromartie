@@ -20,5 +20,5 @@ Highest paid careers by war 20
  #16: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
  #17: Miguel Cabrera            67.23  400410623      21 (2003-2023) FLA,DET
  #18: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
- #19: Jeff Samardzija           14.79  117161667      13 (2008-2020) CHC,OAK,CHW,SFG
+ #19: Jeff Samardzija           14.79  117161667      13 (2008-2020) CHC,CHW,SFG,OAK
  #20: Yu Darvish                33.15  208666667      13 (2012-2025) TEX,LAD,CHC,SDP

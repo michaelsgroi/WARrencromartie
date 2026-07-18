@@ -1,0 +1,11 @@
+{
+  "name": "Relative roster retention oak 2019 bos 2022",
+  "filename": "relativerosterretention_oak_2019_bos_2022.txt",
+  "columns": [
+    { "header": "#", "width": 5, "align": "right", "autoRank": true },
+    { "header": "name", "width": 20, "align": "left", "field": "name" },
+    { "header": "war", "width": 20, "align": "right", "field": "war" },
+    { "header": "year", "width": 4, "align": "right", "field": "year" },
+    { "header": "teams", "width": 256, "align": "left", "field": "teams" }
+  ]
+}

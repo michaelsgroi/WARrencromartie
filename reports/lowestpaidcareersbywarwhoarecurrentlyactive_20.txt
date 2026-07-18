@@ -20,5 +20,5 @@ Lowest paid careers by war who are currently active 20
  #16: Sal Frelick                6.19     746500       4 (2023-2026) MIL
  #17: Jonathan Aranda            6.12     742800       5 (2022-2026) TBR
  #18: Jared Triolo               6.11     745000       4 (2023-2026) PIT
- #19: Ryan Pepiot                 5.9     744900       4 (2022-2025) LAD,TBR
- #20: Evan Carter                5.86     745000       4 (2023-2026) TEX
+ #19: Evan Carter                5.86     745000       4 (2023-2026) TEX
+ #20: Zack Gelof                  5.8     740000       4 (2023-2026) OAK,ATH

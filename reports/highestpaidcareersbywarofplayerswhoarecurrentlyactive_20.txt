@@ -2,23 +2,23 @@ Highest paid careers by war of players who are currently active 20
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Jordan Lyles              -2.41   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
-  #2: Yusei Kikuchi              7.14  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
-  #3: Patrick Corbin            14.93  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
-  #4: Masataka Yoshida           3.51   71400000       4 (2023-2026) BOS
-  #5: Nick Castellanos          11.94  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
-  #6: Charlie Morton            16.18  149308500      18 (2008-2025) ATL,PIT,PHI,HOU,TBR,BAL,DET
-  #7: Miles Mikolas              9.91  107500000      11 (2012-2026) SDP,TEX,STL,WSN
-  #8: Giancarlo Stanton          47.0  297933000      17 (2010-2026) FLA,MIA,NYY
-  #9: Kenley Jansen              24.1  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
- #10: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
- #11: Miguel Cabrera            67.23  400410623      21 (2003-2023) FLA,DET
- #12: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
- #13: Yu Darvish                33.15  208666667      13 (2012-2025) TEX,LAD,CHC,SDP
- #14: Anthony Rendon            34.16  211657143      12 (2013-2024) WSN,LAA
- #15: Aroldis Chapman           24.87  163898272      17 (2010-2026) CIN,CHC,NYY,KCR,TEX,BOS,PIT
- #16: Tyler Glasnow             12.53  100478700      11 (2016-2026) PIT,TBR,LAD
- #17: Nathan Eovaldi             25.7  161919000      15 (2011-2026) LAD,MIA,NYY,BOS,TBR,TEX
- #18: Rafael Montero            -0.51   32520733      11 (2014-2025) NYM,TEX,HOU,SEA,DET,ATL
- #19: Jung Hoo Lee               2.59   47500000       3 (2024-2026) SFG
- #20: Charlie Blackmon          21.54  138298500      14 (2011-2024) COL
+  #1: Yusei Kikuchi              7.14  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
+  #2: Patrick Corbin            14.93  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
+  #3: Masataka Yoshida           3.51   71400000       4 (2023-2026) BOS
+  #4: Nick Castellanos          11.94  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
+  #5: Miles Mikolas              9.91  107500000      11 (2012-2026) SDP,TEX,STL,WSN
+  #6: Giancarlo Stanton          47.0  297933000      17 (2010-2026) FLA,MIA,NYY
+  #7: Kenley Jansen              24.1  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
+  #8: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
+  #9: Aroldis Chapman           24.87  163898272      17 (2010-2026) CIN,CHC,NYY,KCR,BOS,TEX,PIT
+ #10: Tyler Glasnow             12.53  100478700      11 (2016-2026) PIT,TBR,LAD
+ #11: Nathan Eovaldi             25.7  161919000      15 (2011-2026) LAD,MIA,NYY,BOS,TBR,TEX
+ #12: Jung Hoo Lee               2.59   47500000       3 (2024-2026) SFG
+ #13: Gerrit Cole               43.84  241584500      13 (2013-2026) PIT,HOU,NYY
+ #14: Carlos Rodón              23.08  142901333      12 (2015-2026) CHW,SFG,NYY
+ #15: Kodai Senga                5.57   60000000       4 (2023-2026) NYM
+ #16: Jacob deGrom              49.88  265613875      13 (2014-2026) NYM,TEX
+ #17: Jorge Soler                6.56   62658335      13 (2014-2026) CHC,KCR,ATL,MIA,SFG,LAA
+ #18: Nolan Arenado             59.51  295512500      14 (2013-2026) COL,STL,ARI
+ #19: Luis Severino             16.02  101427250      11 (2015-2026) NYY,NYM,ATH
+ #20: Blake Snell               25.07  139409552      11 (2016-2026) TBR,SDP,SFG,LAD

@@ -5,7 +5,7 @@ Best or worst n of team nyy 30 Worst
   #1: Tuck Stainback            -6.04      13 (1934-1946) CHC,BRO,PHI,STL,DET,NYY,PHA
   #2: Enrique Wilson            -5.22       9 (1997-2005) CLE,PIT,NYY,CHC
   #3: Mike Kekich               -5.06       9 (1965-1977) LAD,NYY,CLE,TEX,SEA
-  #4: Myril Hoag                -4.55      13 (1931-1945) NYY,SLB,CHW,CLE
+  #4: Myril Hoag                -4.55      13 (1931-1945) SLB,CLE,NYY,CHW
   #5: Don Heffner               -3.98      11 (1934-1944) NYY,SLB,PHA,DET
   #6: Joe DeMaestri             -3.62      11 (1951-1961) CHW,SLB,PHA,KCA,NYY
   #7: Chad Moeller              -3.57      11 (2000-2010) MIN,ARI,MIL,CIN,LAD,NYY,BAL
@@ -25,8 +25,8 @@ Best or worst n of team nyy 30 Worst
  #21: Chris Nelson              -2.62       5 (2010-2014) COL,LAA,NYY,SDP
  #22: Tommy McMillan             -2.6       4 (1908-1912) BRO,CIN,NYY
  #23: Robert Pérez              -2.58       6 (1994-2001) TOR,MON,SEA,MIL,NYY
- #24: Dave Eiland               -2.57      10 (1988-2000) SDP,TBD,NYY
- #25: Dave Madison              -2.54       3 (1950-1953) NYY,DET,SLB
+ #24: Dave Eiland               -2.57      10 (1988-2000) NYY,SDP,TBD
+ #25: Dave Madison              -2.54       3 (1950-1953) NYY,SLB,DET
  #26: Jeff Johnson              -2.53       3 (1991-1993) NYY
  #27: Rich McKinney              -2.5       7 (1970-1977) CHW,NYY,OAK
  #28: Chick Fewster             -2.43      11 (1917-1927) NYY,BOS,CLE,BRO

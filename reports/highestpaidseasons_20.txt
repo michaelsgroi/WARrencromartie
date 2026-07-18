@@ -12,12 +12,12 @@ Highest paid seasons 20
   #8: Zack Wheeler                         5.09   42000000 2025 PHI
   #9: Zack Wheeler                          4.7   42000000 2026 PHI
  #10: Vladimir Guerrero Jr.                 0.85   40214286 2026 TOR
- #11: Jacob deGrom                          0.4   40000000 2024 TEX
- #12: Jacob deGrom                         2.97   40000000 2025 TEX
- #13: Aaron Judge                          4.55   40000000 2023 NYY
- #14: Aaron Judge                          10.9   40000000 2024 NYY
- #15: Aaron Judge                          9.65   40000000 2025 NYY
- #16: Aaron Judge                          2.07   40000000 2026 NYY
+ #11: Aaron Judge                          4.55   40000000 2023 NYY
+ #12: Aaron Judge                          10.9   40000000 2024 NYY
+ #13: Aaron Judge                          9.65   40000000 2025 NYY
+ #14: Aaron Judge                          2.07   40000000 2026 NYY
+ #15: Jacob deGrom                          0.4   40000000 2024 TEX
+ #16: Jacob deGrom                         2.97   40000000 2025 TEX
  #17: Anthony Rendon                       0.11   38571428 2023 LAA
  #18: Stephen Strasburg                    5.94   38333333 2019 WSN
  #19: Jacob deGrom                         1.93   38000000 2026 TEX

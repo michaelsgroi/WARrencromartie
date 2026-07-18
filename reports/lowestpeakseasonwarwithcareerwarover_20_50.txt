@@ -6,7 +6,7 @@ Lowest peak season war with career war over 20 50
   #2: Sam Rice                   54.7  4.85 (1930)      20 (1915-1934) WSH,CLE
   #3: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
   #4: Gabby Hartnett            55.28  5.15 (1930)      20 (1922-1941) CHC,NYG
-  #5: David Wells               53.45  5.23 (1995)      21 (1987-2007) CIN,DET,NYY,TOR,CHW,SDP,BOS,LAD,BAL
+  #5: David Wells               53.45  5.23 (1995)      21 (1987-2007) CIN,NYY,TOR,CHW,SDP,BOS,LAD,DET,BAL
   #6: Harry Hooper              53.16  5.25 (1920)      17 (1909-1925) BOS,CHW
   #7: Torii Hunter              50.64  5.35 (2012)      19 (1997-2015) MIN,LAA,DET
   #8: Ted Simmons               50.37  5.51 (1978)      21 (1968-1988) STL,MIL,ATL

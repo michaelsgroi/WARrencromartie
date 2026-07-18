@@ -410,7 +410,7 @@ The steve balboni all stars
 #406: Bob Melvin                 2.48      10 (1985-1994) DET,SFG,BAL,KCR,BOS,CHW,NYY
 #407: Miguel Diloné              2.48      12 (1974-1985) PIT,OAK,CHC,CLE,CHW,MON,SDP
 #408: Hal Wagner                  2.5      12 (1937-1949) PHA,BOS,DET,PHI
-#409: Tony Fossas                 2.5      12 (1988-1999) MIL,STL,CHC,SEA,TEX,BOS,NYY
+#409: Tony Fossas                 2.5      12 (1988-1999) MIL,STL,CHC,TEX,SEA,BOS,NYY
 #410: Ernie Camacho              2.52      10 (1980-1990) PIT,HOU,SFG,STL,OAK,CLE
 #411: Orlando Palmeiro           2.56      13 (1995-2007) CAL,ANA,STL,HOU
 #412: Scott Elarton              2.56      10 (1998-2008) HOU,COL,CLE,KCR

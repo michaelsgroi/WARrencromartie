@@ -1,0 +1,11 @@
+{
+  "name": "Season 2019 oak",
+  "filename": "season_2019_oak_.txt",
+  "columns": [
+    { "header": "#",     "width": 5,   "align": "right", "autoRank": true },
+    { "header": "name",  "width": 20,  "align": "left",  "field": "name" },
+    { "header": "war",   "width": 20,  "align": "right", "field": "season_war" },
+    { "header": "year",  "width": 4,   "align": "right", "field": "year_id" },
+    { "header": "teams", "width": 256, "align": "left",  "field": "teams" }
+  ]
+}

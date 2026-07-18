@@ -1,0 +1,12 @@
+{
+  "name": "Lowest paid war seasons by war since 20 since 2000",
+  "filename": "lowestpaidwarseasonsbywarsince_20_since 2000.txt",
+  "columns": [
+    { "header": "#", "width": 5, "align": "right", "autoRank": true },
+    { "header": "name", "width": 20, "align": "left", "field": "name" },
+    { "header": "war", "width": 20, "align": "right", "field": "war" },
+    { "header": "salary", "width": 10, "align": "right", "field": "salary" },
+    { "header": "year", "width": 4, "align": "right", "field": "year" },
+    { "header": "teams", "width": 256, "align": "left", "field": "teams" }
+  ]
+}

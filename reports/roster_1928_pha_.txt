@@ -6,15 +6,15 @@ Roster 1928 pha
   #2: Tris Speaker             136.07      22 (1907-1928) BOS,CLE,WSH,PHA
   #3: Eddie Collins            123.71      25 (1906-1930) PHA,CHW
   #4: Lefty Grove              106.76      17 (1925-1941) PHA,BOS
-  #5: Jimmie Foxx               92.72      20 (1925-1945) PHA,BOS,CHC,PHI
+  #5: Jimmie Foxx               92.72      20 (1925-1945) BOS,PHI,PHA,CHC
   #6: Al Simmons                68.24      20 (1924-1944) PHA,CHW,DET,WSH,BSN,CIN,BOS
   #7: Jack Quinn                49.86      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
   #8: Eddie Rommel              49.77      13 (1920-1932) PHA
   #9: Mickey Cochrane           49.75      13 (1925-1937) PHA,DET
  #10: Howard Ehmke              41.25      14 (1916-1930) DET,BOS,PHA
  #11: Max Bishop                38.02      12 (1924-1935) PHA,BOS
- #12: Bullet Joe Bush           36.75      17 (1912-1928) PHA,BOS,NYY,SLB,PIT,WSH,NYG
- #13: Rube Walberg              36.75      15 (1923-1937) NYG,PHA,BOS
+ #12: Bullet Joe Bush           36.75      17 (1912-1928) PHA,BOS,NYY,SLB,WSH,PIT,NYG
+ #13: Rube Walberg              36.75      15 (1923-1937) PHA,NYG,BOS
  #14: Jimmy Dykes               34.71      22 (1918-1939) PHA,CHW
  #15: Bing Miller               29.64      16 (1921-1936) WSH,PHA,SLB,BOS
  #16: George Earnshaw            21.9       9 (1928-1936) PHA,CHW,BRO,STL

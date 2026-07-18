@@ -105,7 +105,7 @@ Players whose name contains war
 #101: Colin Ward                 0.02       1 (1985-1985) SFG
 #102: Dave Howard                 0.0       1 (1912-1912) WSH
 #103: Edwar Ramírez               0.0       4 (2007-2010) NYY,OAK
-#104: Bryan Ward                  0.0       3 (1998-2000) CHW,PHI,ANA
+#104: Bryan Ward                 -0.0       3 (1998-2000) CHW,PHI,ANA
 #105: Mark Stewart              -0.02       1 (1913-1913) CIN
 #106: Howard Groskloss          -0.03       3 (1930-1932) PIT
 #107: Edward Paredes            -0.03       2 (2017-2018) LAD

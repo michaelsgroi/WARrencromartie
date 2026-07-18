@@ -35,8 +35,8 @@ Best top n seasons 5 50 modern era
  #31: Ron Santo                  41.9       5 (1963-1967) CHC
  #32: Jackie Robinson           41.65       5 (1949-1953) BRO
  #33: Ken Griffey Jr.            41.6       5 (1991-1997) SEA
- #34: Phil Niekro               41.48       5 (1974-1979) ATL
- #35: George Brett              41.48       5 (1976-1985) KCR
+ #34: George Brett              41.48       5 (1976-1985) KCR
+ #35: Phil Niekro               41.48       5 (1974-1979) ATL
  #36: Gaylord Perry             40.76       5 (1969-1974) SFG,CLE
  #37: Arky Vaughan              40.65       5 (1934-1940) PIT
  #38: Sandy Koufax              40.16       5 (1961-1966) LAD

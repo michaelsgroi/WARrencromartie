@@ -27,4 +27,4 @@ SELECT c.name, c.career_war, c.season_count,
     '(' || c.min_year || '-' || c.max_year || ')' AS year_range, t.teams
 FROM careers c JOIN teams t USING (player_id)
 WHERE LOWER(c.name) LIKE 'babe %'
-ORDER BY c.career_war DESC, c.player_order
+ORDER BY ROUND(c.career_war, 2) DESC, c.player_order

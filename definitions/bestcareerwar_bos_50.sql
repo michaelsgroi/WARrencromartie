@@ -66,4 +66,4 @@ SELECT c.name,
 FROM careers c
 JOIN teams t USING (player_id)
 WHERE t.played_for_team
-ORDER BY c.career_war DESC, c.first_appearance
+ORDER BY ROUND(c.career_war, 2) DESC, c.first_appearance

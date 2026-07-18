@@ -70,5 +70,5 @@ SELECT c.name,
     t.teams
 FROM careers c
 JOIN teams t USING (player_id)
-ORDER BY c.career_war DESC, c.first_appearance
+ORDER BY ROUND(c.career_war, 2) DESC, c.first_appearance
 LIMIT 50

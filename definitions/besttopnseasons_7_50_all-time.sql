@@ -63,5 +63,5 @@ SELECT c.name, ROUND(c.career_war, 2) AS career_war, c.season_count,
     t.teams
 FROM peak_careers c
 JOIN teams t USING (player_id)
-ORDER BY c.career_war DESC, c.first_appearance
+ORDER BY ROUND(c.career_war, 2) DESC, c.first_appearance
 LIMIT 50

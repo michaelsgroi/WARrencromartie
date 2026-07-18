@@ -47,4 +47,4 @@ SELECT c.name, c.career_war, c.season_count,
 FROM roster_players r
 JOIN careers c USING (player_id)
 JOIN teams t USING (player_id)
-ORDER BY c.career_war DESC, c.name
+ORDER BY ROUND(c.career_war, 2) DESC, c.name

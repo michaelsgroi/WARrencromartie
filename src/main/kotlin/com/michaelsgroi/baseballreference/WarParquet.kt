@@ -66,7 +66,8 @@ object WarParquet {
                             LEFT JOIN (
                                 SELECT playerID, yearID, STRING_AGG(awardID, ',' ORDER BY awardID) AS awards
                                 FROM (
-                                    SELECT playerID, yearID, awardID
+                                    SELECT playerID, yearID,
+                                        CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID
                                     FROM read_csv_auto('$LAHMAN_AWARDS_CSV', header=true, nullstr='NULL')
                                     UNION ALL
                                     SELECT playerID, yearID, 'All-Star' AS awardID
@@ -199,12 +200,16 @@ object WarParquet {
                 stmt.execute("""
                     COPY (
                         WITH winners AS (
-                            SELECT playerID, yearID, awardID, lgID FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL')
+                            SELECT playerID, yearID,
+                                CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID,
+                                lgID FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL')
                             UNION ALL
                             SELECT playerID, yearID, 'All-Star' AS awardID, lgID FROM read_csv_auto('$allstarCsv', header=true, nullstr='NULL')
                         ),
                         share AS (
-                            SELECT playerID, yearID, awardID, lgID, pointsWon, pointsMax, votesFirst
+                            SELECT playerID, yearID,
+                                CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID,
+                                lgID, pointsWon, pointsMax, votesFirst
                             FROM read_csv_auto('$awardsShareCsv', header=true, nullstr='NULL')
                         )
                         SELECT sh.playerID AS player_ID, sh.yearID AS year_ID, sh.awardID AS award, sh.lgID AS lg_ID,

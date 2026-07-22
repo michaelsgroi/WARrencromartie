@@ -190,7 +190,7 @@
         {
           "name": "awards",
           "type": "VARCHAR",
-          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull."
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1911, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. NULL before these years does not mean the player did not deserve the award — it did not exist yet."
         }
       ],
       "notes": [
@@ -205,7 +205,8 @@
         "To filter by a single position X, use: position = 'X' OR position LIKE 'X,%' OR position LIKE '%,X,%' OR position LIKE '%,X'",
         "Position groups \u2014 outfielders (OF/LF/CF/RF): position IN ('LF','CF','RF','OF') OR position LIKE 'LF,%' OR ... (apply the single-position pattern for each of LF, CF, RF, OF). Lahman-derived rows use 'OF'; Retrosheet-derived rows use 'LF','CF','RF' \u2014 matching all four codes covers both sources. Infielders: 1B, 2B, 3B, SS. Middle infielders: 2B, SS. Corner infielders: 1B, 3B. Position players (non-pitchers/hitters): C, 1B, 2B, 3B, SS, LF, CF, RF, OF, DH. Pitchers: P.",
         "SP and RP are used in the pitching table only \u2014 not in the batting table",
-        "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player"
+        "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player",
+        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1911, Cy Young Award >= 1956, Gold Glove >= 1957. Without this filter, pre-inception seasons will incorrectly appear as snubs."
       ]
     },
     {
@@ -367,7 +368,7 @@
         {
           "name": "awards",
           "type": "VARCHAR",
-          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star,Cy Young Award', 'All-Star,Gold Glove'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull."
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star,Cy Young Award', 'All-Star,Gold Glove'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1911, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. NULL before these years does not mean the player did not deserve the award — it did not exist yet."
         }
       ],
       "notes": [
@@ -378,14 +379,15 @@
         "positions is NULL for seasons before 1871 or when Retrosheet data is unavailable \u2014 use WHERE positions IS NOT NULL when filtering by position",
         "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
         "lh_GS is the Lahman games-started column; GS is the Baseball Reference games-started column",
-        "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns"
+        "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns",
+        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1911, Cy Young Award >= 1956, Gold Glove >= 1957. Without this filter, pre-inception seasons will incorrectly appear as snubs."
       ]
     },
     {
       "name": "lahman_awards",
       "glob": "s3://parqlo/war/lahman_awards.parquet",
       "hivePartitioning": false,
-      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv.",
+      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv. Award inception years: MVP from 1911, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. Absence of a row before these years does not mean the player did not deserve the award — it did not exist yet.",
       "columns": [
         {
           "name": "player_ID",
@@ -439,7 +441,8 @@
         "All-Star selections are folded in with award = 'All-Star' and winner = TRUE",
         "Voting data (points_won, points_max, votes_first, vote_share) is NULL for awards that don't have voting data in Lahman (e.g., some older awards, All-Star)",
         "Source: AwardsSharePlayers.csv (voting data for all finishers) + AwardsPlayers.csv (winners without voting data) + AllstarFull.csv (All-Star selections)",
-        "Join to batting/pitching on player_ID (and year_ID for a specific season's awards)"
+        "Join to batting/pitching on player_ID and year_ID only — do NOT include lg_ID in the join condition; a player traded mid-season may appear under a different lg_ID in the WAR tables than in this awards table, causing the join to miss them",
+        "IMPORTANT: When querying for seasons WHERE a player did NOT win or was NOT selected for an award, always add a year_ID filter restricting to years on or after the award's inception: All-Star >= 1933, MVP >= 1911, Cy Young Award >= 1956, Gold Glove >= 1957. Without this filter, pre-inception seasons will incorrectly appear as snubs."
       ]
     },
     {

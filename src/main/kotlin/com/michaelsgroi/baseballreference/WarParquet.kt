@@ -81,11 +81,16 @@ object WarParquet {
                         statsJoin = """
                             LEFT JOIN (
                                 SELECT playerID, yearID,
-                                    SUM(W) AS W, SUM(L) AS L, SUM(GS) AS lh_GS, SUM(CG) AS CG,
-                                    SUM(SHO) AS SHO, SUM(SV) AS SV, SUM(IPouts) / 3.0 AS IP,
-                                    SUM(H) AS H, SUM(ER) AS ER, SUM(HR) AS HR, SUM(BB) AS BB, SUM(SO) AS SO,
-                                    CASE WHEN SUM(IPouts) > 0 THEN SUM(ER) * 9 / (SUM(IPouts) / 3.0) ELSE NULL END AS ERA,
-                                    SUM(WP) AS WP, SUM(HBP) AS HBP, SUM(BK) AS BK, SUM(BFP) AS BFP
+                                    SUM(TRY_CAST(W AS INTEGER)) AS W, SUM(TRY_CAST(L AS INTEGER)) AS L,
+                                    SUM(TRY_CAST(GS AS INTEGER)) AS lh_GS, SUM(TRY_CAST(CG AS INTEGER)) AS CG,
+                                    SUM(TRY_CAST(SHO AS INTEGER)) AS SHO, SUM(TRY_CAST(SV AS INTEGER)) AS SV,
+                                    SUM(TRY_CAST(IPouts AS INTEGER)) / 3.0 AS IP,
+                                    SUM(TRY_CAST(H AS INTEGER)) AS H, SUM(TRY_CAST(ER AS INTEGER)) AS ER,
+                                    SUM(TRY_CAST(HR AS INTEGER)) AS HR, SUM(TRY_CAST(BB AS INTEGER)) AS BB,
+                                    SUM(TRY_CAST(SO AS INTEGER)) AS SO,
+                                    CASE WHEN SUM(TRY_CAST(IPouts AS INTEGER)) > 0 THEN SUM(TRY_CAST(ER AS INTEGER)) * 9.0 / (SUM(TRY_CAST(IPouts AS INTEGER)) / 3.0) ELSE NULL END AS ERA,
+                                    SUM(TRY_CAST(WP AS INTEGER)) AS WP, SUM(TRY_CAST(HBP AS INTEGER)) AS HBP,
+                                    SUM(TRY_CAST(BK AS INTEGER)) AS BK, SUM(TRY_CAST(BFP AS INTEGER)) AS BFP
                                 FROM read_csv_auto('$LAHMAN_PITCHING_CSV', header=true, nullstr='NULL')
                                 GROUP BY playerID, yearID
                             ) lp ON LOWER(b.player_ID) = LOWER(lp.playerID) AND b.year_ID = lp.yearID AND b.stint_ID = 1$awardsJoin"""
@@ -103,10 +108,13 @@ object WarParquet {
                         statsJoin = """
                             LEFT JOIN (
                                 SELECT playerID, yearID,
-                                    SUM(AB) AS AB, SUM(R) AS R, SUM(H) AS H, SUM("2B") AS "2B",
-                                    SUM("3B") AS "3B", SUM(HR) AS HR, SUM(RBI) AS RBI, SUM(SB) AS SB,
-                                    SUM(CS) AS CS, SUM(BB) AS BB, SUM(SO) AS SO, SUM(HBP) AS HBP,
-                                    SUM(SF) AS SF, SUM(GIDP) AS GIDP
+                                    SUM(TRY_CAST(AB AS INTEGER)) AS AB, SUM(TRY_CAST(R AS INTEGER)) AS R,
+                                    SUM(TRY_CAST(H AS INTEGER)) AS H, SUM(TRY_CAST("2B" AS INTEGER)) AS "2B",
+                                    SUM(TRY_CAST("3B" AS INTEGER)) AS "3B", SUM(TRY_CAST(HR AS INTEGER)) AS HR,
+                                    SUM(TRY_CAST(RBI AS INTEGER)) AS RBI, SUM(TRY_CAST(SB AS INTEGER)) AS SB,
+                                    SUM(TRY_CAST(CS AS INTEGER)) AS CS, SUM(TRY_CAST(BB AS INTEGER)) AS BB,
+                                    SUM(TRY_CAST(SO AS INTEGER)) AS SO, SUM(TRY_CAST(HBP AS INTEGER)) AS HBP,
+                                    SUM(TRY_CAST(SF AS INTEGER)) AS SF, SUM(TRY_CAST(GIDP AS INTEGER)) AS GIDP
                                 FROM read_csv_auto('$LAHMAN_BATTING_CSV', header=true, nullstr='NULL')
                                 GROUP BY playerID, yearID
                             ) lb ON LOWER(b.player_ID) = LOWER(lb.playerID) AND b.year_ID = lb.yearID AND b.stint_ID = 1$awardsJoin"""
@@ -238,8 +246,8 @@ object WarParquet {
                 stmt.execute("""
                     COPY (
                         SELECT playerID AS player_id, yearID AS year_id, inducted,
-                            votes, ballots,
-                            CASE WHEN ballots > 0 THEN votes * 100.0 / ballots ELSE NULL END AS vote_pct,
+                            TRY_CAST(votes AS INTEGER) AS votes, TRY_CAST(ballots AS INTEGER) AS ballots,
+                            CASE WHEN TRY_CAST(ballots AS INTEGER) > 0 THEN TRY_CAST(votes AS INTEGER) * 100.0 / TRY_CAST(ballots AS INTEGER) ELSE NULL END AS vote_pct,
                             votedBy AS voted_by
                         FROM read_csv_auto('$hofCsv', header=true, nullstr='NULL')
                     ) TO '$parquet' (FORMAT PARQUET)

@@ -33,7 +33,7 @@ parquet: build download-br download-lahman download-retrosheet ## Refresh all da
 	@java --enable-native-access=ALL-UNNAMED -jar target/warrencromartie.jar parquet
 
 parqlo: build ## Generate war.json samples from definitions/ and push to parqlo/domains
-	@java -jar target/warrencromartie.jar parqlo $(PARQLO_LOCAL)/../domains/$(SLUG).json
+	@java -jar target/warrencromartie.jar parqlo src/main/resources/parqlo/$(SLUG).json
 
 parquet2s3: parquet ## Refresh all data, convert to Parquet, upload to S3
 	@aws sts get-caller-identity --profile $(AWS_PROFILE) > /dev/null || \

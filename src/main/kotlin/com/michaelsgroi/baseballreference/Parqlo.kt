@@ -6,7 +6,7 @@ object Parqlo {
     private const val WAR_JSON = "src/main/resources/parqlo/war.json"
     private const val SAMPLES_FILE = "src/main/resources/parqlo/sample_questions.txt"
     private const val DEFINITIONS_DIR = "definitions"
-    val DEFAULT_TARGET = "${System.getProperty("user.home")}/d/d/github/parqlo/domains/war.json"
+    val DEFAULT_TARGET = (System.getenv("PARQLO_LOCAL") ?: "${System.getProperty("user.home")}/Documents/d/github/parqlo/data") + "/war.json"
 
     fun generate(target: String = DEFAULT_TARGET) {
         val warJson = File(WAR_JSON).readText()

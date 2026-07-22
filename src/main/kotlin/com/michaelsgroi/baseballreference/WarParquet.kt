@@ -4,11 +4,11 @@ import java.io.File
 import java.sql.DriverManager
 
 object WarParquet {
-    private const val PARQUET_OUT = "data/derived"
-    private const val POSITIONS_PARQUET = "$PARQUET_OUT/retrosheet_positions.parquet"
-    private const val LOOKUP_PARQUET = "$PARQUET_OUT/chadwick_lookup.parquet"
+    private val PARQUET_OUT = (System.getenv("PARQLO_LOCAL") ?: "${System.getProperty("user.home")}/Documents/d/github/parqlo/data") + "/war"
+    private val POSITIONS_PARQUET = "$PARQUET_OUT/retrosheet_positions.parquet"
+    private val LOOKUP_PARQUET = "$PARQUET_OUT/chadwick_lookup.parquet"
     private const val LAHMAN_FIELDING_CSV = "data/lahman/Fielding.csv"
-    private const val LAHMAN_POSITIONS_PARQUET = "$PARQUET_OUT/lahman_positions.parquet"
+    private val LAHMAN_POSITIONS_PARQUET = "$PARQUET_OUT/lahman_positions.parquet"
 
     fun generate() {
         File(PARQUET_OUT).mkdirs()

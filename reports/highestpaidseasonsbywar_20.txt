@@ -1,14 +1,14 @@
-Highest paid seasons by war 20
+Top 20 Highest-Paid Seasons by WAR
 20 rows
 
     # name                                  war     salary year teams
   #1: Chris Davis                         -3.29   23000000 2018 BAL
   #2: Justin Verlander                    -0.25   43333333 2024 HOU
-  #3: Bo Bichette                          0.01   42000000 2026 NYM
-  #4: Patrick Corbin                      -0.79   35416667 2024 WSN
-  #5: Max Scherzer                         0.33   43333334 2024 TEX
-  #6: Miguel Cabrera                      -1.13   32000000 2022 DET
-  #7: Albert Pujols                       -1.97   26000000 2017 LAA
+  #3: Patrick Corbin                      -0.79   35416667 2024 WSN
+  #4: Max Scherzer                         0.33   43333334 2024 TEX
+  #5: Miguel Cabrera                      -1.13   32000000 2022 DET
+  #6: Albert Pujols                       -1.97   26000000 2017 LAA
+  #7: Bo Bichette                          0.28   42000000 2026 NYM
   #8: Patrick Corbin                      -2.29   23416666 2022 WSN
   #9: Anthony Rendon                       0.11   38571428 2023 LAA
  #10: Jacob deGrom                          0.4   40000000 2024 TEX
@@ -17,8 +17,8 @@ Highest paid seasons by war 20
  #13: Stephen Strasburg                   -0.23   35000000 2020 WSN
  #14: Ryan Howard                         -1.68   25000000 2015 PHI
  #15: Barry Zito                          -2.46   20000000 2013 SFG
- #16: Félix Hernández                     -1.34   26857000 2018 SEA
- #17: Vladimir Guerrero Jr.                 0.85   40214286 2026 TOR
- #18: Juan Soto                            2.92   51875000 2026 NYM
+ #16: Juan Soto                            2.59   51875000 2026 NYM
+ #17: Félix Hernández                     -1.34   26857000 2018 SEA
+ #18: Vladimir Guerrero Jr.                 0.79   40214286 2026 TOR
  #19: Stephen Strasburg                    0.15   35000000 2021 WSN
  #20: Kris Bryant                         -0.97   28000000 2023 COL

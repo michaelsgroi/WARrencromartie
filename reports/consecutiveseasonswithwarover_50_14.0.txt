@@ -1,4 +1,4 @@
-Consecutive seasons with war over 50 14.0
+Top 50 Consecutive Seasons with WAR > 14.0
 50 rows
 
     # name                 seasons             teams
@@ -10,45 +10,45 @@ Consecutive seasons with war over 50 14.0
   #6: Jim Devlin                 1 (1876-1876) LOU
   #7: Pud Galvin                 1 (1884-1884) BUF
   #8: Babe Ruth                  1 (1923-1923) NYY
-  #9: David Aardsma              0
- #10: Henry Aaron                0
- #11: Tommie Aaron               0
- #12: Don Aase                   0
- #13: Andy Abad                  0
- #14: Fernando Abad              0
- #15: Ed Abbaticchio             0
- #16: Bert Abbey                 0
- #17: Charlie Abbey              0
- #18: Cory Abbott                0
- #19: Fred Abbott                0
- #20: Glenn Abbott               0
- #21: Jeff Abbott                0
- #22: Jim Abbott                 0
- #23: Kurt Abbott                0
- #24: Kyle Abbott                0
- #25: Ody Abbott                 0
- #26: Paul Abbott                0
- #27: Al Aber                    0
- #28: Reggie Abercrombie         0
- #29: Bill Abernathie            0
- #30: Brent Abernathy            0
- #31: Tal Abernathy              0
- #32: Ted Abernathy              0
- #33: Woody Abernathy            0
- #34: Cliff Aberson              0
- #35: Harry Ables                0
- #36: Shawn Abner                0
- #37: Cal Abrams                 0
- #38: CJ Abrams                  0
- #39: George Abrams              0
- #40: Johnny Abrego              0
- #41: Albert Abreu               0
- #42: Bobby Abreu                0
- #43: Bryan Abreu                0
- #44: Joe Abreu                  0
- #45: José Abreu                 0
- #46: Juan Abreu                 0
- #47: Tony Abreu                 0
- #48: Winston Abreu              0
- #49: Wilyer Abreu               0
- #50: Bill Abstein               0
+  #9: Bud Tinning                0
+ #10: Dan Tipple                 0
+ #11: Jack Tising                0
+ #12: Jim Tobin                  0
+ #13: Carlos Tocci               0
+ #14: Frank Todd                 0
+ #15: Jackson Todd               0
+ #16: Jim Todd                   0
+ #17: Hal Toenes                 0
+ #18: Freddie Toliver            0
+ #19: Brian Tollberg             0
+ #20: Steven Tolleson            0
+ #21: Dick Tomanek               0
+ #22: Andy Tomberlin             0
+ #23: Ka'ai Tom                  0
+ #24: Brett Tomko                0
+ #25: Dave Tomlin                0
+ #26: Josh Tomlin                0
+ #27: Randy Tomlin               0
+ #28: Ron Tompkins               0
+ #29: Fred Toney                 0
+ #30: Red Torkelson              0
+ #31: Abraham Toro               0
+ #32: Carlos Torres              0
+ #33: Gil Torres                 0
+ #34: Héctor Torres              0
+ #35: Luis Torrens               0
+ #36: Mike Torrez                0
+ #37: Ronald Torreyes            0
+ #38: Salomón Torres             0
+ #39: Lou Tost                   0
+ #40: Paul Toth                  0
+ #41: Touki Toussaint            0
+ #42: César Tovar                0
+ #43: Josh Towers                0
+ #44: Happy Townsend             0
+ #45: Ira Townsend               0
+ #46: Leo Townsend               0
+ #47: Billy Traber               0
+ #48: Steve Trachsel             0
+ #49: Allan Travers              0
+ #50: Blake Treinen              0

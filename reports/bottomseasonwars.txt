@@ -1,14 +1,14 @@
-Bottom season wars
+Bottom 10 Single-Season WAR
 10 rows
 
     # name                                  war year teams
   #1: Billy Serad                         -5.61 1884 BUF
   #2: Mike Golden                         -4.39 1878 MLG
   #3: Jerry Royster                       -4.02 1977 ATL
-  #4: Jim Levey                           -3.93 1933 SLB
-  #5: Jim Lillie                          -3.87 1886 KCN
-  #6: Tom Fisher                          -3.76 1904 BSN
-  #7: George Wright                       -3.71 1985 TEX
-  #8: Ed Crane                            -3.67 1886 WHS
-  #9: Lon Knight                          -3.66 1876 ATH
- #10: Flint Rhem                          -3.64 1933 PHI
+  #4: Jack Bentley                        -3.93 1926 NYG,PHI
+  #5: Jim Levey                           -3.93 1933 SLB
+  #6: Jim Lillie                          -3.87 1886 KCN
+  #7: Tom Fisher                          -3.76 1904 BSN
+  #8: George Wright                       -3.71 1985 TEX
+  #9: George Schmees                       -3.7 1952 BOS,SLB
+ #10: Art Hagan                           -3.69 1883 BUF,PHI

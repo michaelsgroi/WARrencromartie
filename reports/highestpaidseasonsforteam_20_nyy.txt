@@ -1,8 +1,8 @@
-Highest paid seasons for team 20 nyy
+Top 20 Highest-Paid Seasons \u2014 New York Yankees
 20 rows
 
     # name                                  war     salary year teams
-  #1: Cody Bellinger                       3.56   42500000 2026 NYY
+  #1: Cody Bellinger                       3.55   42500000 2026 NYY
   #2: Aaron Judge                          4.55   40000000 2023 NYY
   #3: Aaron Judge                          10.9   40000000 2024 NYY
   #4: Aaron Judge                          9.65   40000000 2025 NYY
@@ -12,13 +12,13 @@ Highest paid seasons for team 20 nyy
   #8: Gerrit Cole                          2.58   36000000 2022 NYY
   #9: Gerrit Cole                          7.39   36000000 2023 NYY
  #10: Gerrit Cole                          1.85   36000000 2024 NYY
- #11: Gerrit Cole                          0.72   36000000 2026 NYY
+ #11: Gerrit Cole                          0.96   36000000 2026 NYY
  #12: Alex Rodriguez                       4.15   33000000 2009 NYY
  #13: Alex Rodriguez                       4.15   33000000 2010 NYY
  #14: Alex Rodriguez                       4.02   32000000 2011 NYY
  #15: Giancarlo Stanton                   -0.75   32000000 2023 NYY
- #16: Giancarlo Stanton                     0.8   32000000 2024 NYY
- #17: Giancarlo Stanton                    1.84   32000000 2025 NYY
+ #16: Giancarlo Stanton                    1.84   32000000 2025 NYY
+ #17: Giancarlo Stanton                     0.8   32000000 2024 NYY
  #18: Juan Soto                             8.0   31000000 2024 NYY
  #19: Alex Rodriguez                       2.23   29000000 2012 NYY
  #20: Giancarlo Stanton                     3.1   29000000 2021 NYY

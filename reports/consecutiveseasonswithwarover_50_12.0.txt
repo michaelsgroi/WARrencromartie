@@ -1,4 +1,4 @@
-Consecutive seasons with war over 50 12.0
+Top 50 Consecutive Seasons with WAR > 12.0
 50 rows
 
     # name                 seasons             teams
@@ -6,49 +6,49 @@ Consecutive seasons with war over 50 12.0
   #2: Tommy Bond                 2 (1878-1879) BSN
   #3: Jim Devlin                 2 (1876-1877) LOU
   #4: Old Hoss Radbourn          2 (1883-1884) PRO
-  #5: Grover Alexander           1 (1920-1920) CHC
-  #6: Charlie Buffinton          1 (1884-1884) BSN
-  #7: Steve Carlton              1 (1972-1972) PHI
-  #8: Eddie Cicotte              1 (1917-1917) CHW
-  #9: John Clarkson              1 (1889-1889) BSN
- #10: Roger Clemens              1 (1997-1997) TOR
- #11: Pud Galvin                 1 (1884-1884) BUF
- #12: Dwight Gooden              1 (1985-1985) NYM
- #13: Rogers Hornsby             1 (1924-1924) STL
- #14: Hal Newhouser              1 (1945-1945) DET
- #15: Kid Nichols                1 (1890-1890) BSN
- #16: Amos Rusie                 1 (1894-1894) NYG
- #17: Babe Ruth                  1 (1923-1923) NYY
- #18: Ed Walsh                   1 (1912-1912) CHW
- #19: Mickey Welch               1 (1884-1884) NYG
- #20: Jim Whitney                1 (1883-1883) BSN
- #21: Carl Yastrzemski           1 (1967-1967) BOS
- #22: Cy Young                   1 (1892-1892) CLV
- #23: David Aardsma              0
- #24: Henry Aaron                0
- #25: Tommie Aaron               0
- #26: Don Aase                   0
- #27: Andy Abad                  0
- #28: Fernando Abad              0
- #29: Ed Abbaticchio             0
- #30: Bert Abbey                 0
- #31: Charlie Abbey              0
- #32: Cory Abbott                0
- #33: Fred Abbott                0
- #34: Glenn Abbott               0
- #35: Jeff Abbott                0
- #36: Jim Abbott                 0
- #37: Kurt Abbott                0
- #38: Kyle Abbott                0
- #39: Ody Abbott                 0
- #40: Paul Abbott                0
- #41: Al Aber                    0
- #42: Reggie Abercrombie         0
- #43: Bill Abernathie            0
- #44: Brent Abernathy            0
- #45: Tal Abernathy              0
- #46: Ted Abernathy              0
- #47: Woody Abernathy            0
- #48: Cliff Aberson              0
- #49: Harry Ables                0
- #50: Shawn Abner                0
+  #5: Ed Walsh                   1 (1912-1912) CHW
+  #6: Mickey Welch               1 (1884-1884) NYG
+  #7: Jim Whitney                1 (1883-1883) BSN
+  #8: Cy Young                   1 (1892-1892) CLV
+  #9: Carl Yastrzemski           1 (1967-1967) BOS
+ #10: Grover Alexander           1 (1920-1920) CHC
+ #11: Charlie Buffinton          1 (1884-1884) BSN
+ #12: Steve Carlton              1 (1972-1972) PHI
+ #13: Eddie Cicotte              1 (1917-1917) CHW
+ #14: Roger Clemens              1 (1997-1997) TOR
+ #15: John Clarkson              1 (1889-1889) BSN
+ #16: Pud Galvin                 1 (1884-1884) BUF
+ #17: Dwight Gooden              1 (1985-1985) NYM
+ #18: Rogers Hornsby             1 (1924-1924) STL
+ #19: Hal Newhouser              1 (1945-1945) DET
+ #20: Kid Nichols                1 (1890-1890) BSN
+ #21: Amos Rusie                 1 (1894-1894) NYG
+ #22: Babe Ruth                  1 (1923-1923) NYY
+ #23: Bud Tinning                0
+ #24: Dan Tipple                 0
+ #25: Jack Tising                0
+ #26: Jim Tobin                  0
+ #27: Carlos Tocci               0
+ #28: Frank Todd                 0
+ #29: Jackson Todd               0
+ #30: Jim Todd                   0
+ #31: Hal Toenes                 0
+ #32: Freddie Toliver            0
+ #33: Brian Tollberg             0
+ #34: Steven Tolleson            0
+ #35: Dick Tomanek               0
+ #36: Andy Tomberlin             0
+ #37: Ka'ai Tom                  0
+ #38: Brett Tomko                0
+ #39: Dave Tomlin                0
+ #40: Josh Tomlin                0
+ #41: Randy Tomlin               0
+ #42: Ron Tompkins               0
+ #43: Fred Toney                 0
+ #44: Red Torkelson              0
+ #45: Abraham Toro               0
+ #46: Carlos Torres              0
+ #47: Gil Torres                 0
+ #48: Héctor Torres              0
+ #49: Luis Torrens               0
+ #50: Mike Torrez                0

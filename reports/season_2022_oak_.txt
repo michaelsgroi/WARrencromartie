@@ -1,14 +1,14 @@
-Season 2022 oak
+2022 Oakland A's Roster
 64 rows
 
     # name                                  war year teams
   #1: Sean Murphy                          3.65 2022 OAK
   #2: Elvis Andrus                         3.09 2022 CHW,OAK
-  #3: Cole Irvin                           1.95 2022 OAK
-  #4: Seth Brown                           1.94 2022 OAK
-  #5: Tony Kemp                            1.34 2022 OAK
-  #6: Paul Blackburn                       1.32 2022 OAK
-  #7: Christian Bethancourt                 1.17 2022 OAK,TBR
+  #3: Christian Bethancourt                 2.26 2022 OAK,TBR
+  #4: Cole Irvin                           1.95 2022 OAK
+  #5: Seth Brown                           1.94 2022 OAK
+  #6: Tony Kemp                            1.34 2022 OAK
+  #7: Paul Blackburn                       1.32 2022 OAK
   #8: Domingo Acevedo                      1.13 2022 OAK
   #9: Nick Allen                           1.11 2022 OAK
  #10: A.J. Puk                             1.09 2022 OAK
@@ -61,8 +61,8 @@ Season 2022 oak
  #57: Kirby Snead                         -0.73 2022 OAK
  #58: Adrián Martinez                     -0.78 2022 OAK
  #59: Billy McKinney                      -0.81 2022 OAK
- #60: Ernie Clement                       -0.83 2022 CLE,OAK
- #61: Cristian Pache                      -0.96 2022 OAK
- #62: Adam Oller                          -1.02 2022 OAK
- #63: Zach Logue                          -1.13 2022 OAK
- #64: Jed Lowrie                          -1.17 2022 OAK
+ #60: Cristian Pache                      -0.96 2022 OAK
+ #61: Adam Oller                          -1.02 2022 OAK
+ #62: Zach Logue                          -1.13 2022 OAK
+ #63: Jed Lowrie                          -1.17 2022 OAK
+ #64: Ernie Clement                       -1.52 2022 CLE,OAK

@@ -1,17 +1,17 @@
-Highest paid seasons 20
+Top 20 Highest-Paid Seasons
 20 rows
 
     # name                                  war     salary year teams
   #1: Juan Soto                            6.13   51875000 2025 NYM
-  #2: Juan Soto                            2.92   51875000 2026 NYM
+  #2: Juan Soto                            2.59   51875000 2026 NYM
   #3: Max Scherzer                         0.33   43333334 2024 TEX
   #4: Max Scherzer                         5.26   43333333 2022 NYM
   #5: Justin Verlander                    -0.25   43333333 2024 HOU
-  #6: Cody Bellinger                       3.56   42500000 2026 NYY
-  #7: Bo Bichette                          0.01   42000000 2026 NYM
+  #6: Cody Bellinger                       3.55   42500000 2026 NYY
+  #7: Bo Bichette                          0.28   42000000 2026 NYM
   #8: Zack Wheeler                         5.09   42000000 2025 PHI
-  #9: Zack Wheeler                          4.7   42000000 2026 PHI
- #10: Vladimir Guerrero Jr.                 0.85   40214286 2026 TOR
+  #9: Zack Wheeler                         5.05   42000000 2026 PHI
+ #10: Vladimir Guerrero Jr.                 0.79   40214286 2026 TOR
  #11: Aaron Judge                          4.55   40000000 2023 NYY
  #12: Aaron Judge                          10.9   40000000 2024 NYY
  #13: Aaron Judge                          9.65   40000000 2025 NYY
@@ -20,5 +20,5 @@ Highest paid seasons 20
  #16: Jacob deGrom                         2.97   40000000 2025 TEX
  #17: Anthony Rendon                       0.11   38571428 2023 LAA
  #18: Stephen Strasburg                    5.94   38333333 2019 WSN
- #19: Jacob deGrom                         1.93   38000000 2026 TEX
+ #19: Jacob deGrom                          1.7   38000000 2026 TEX
  #20: Mike Trout                           1.81   37666666 2020 LAA

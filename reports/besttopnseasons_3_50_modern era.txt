@@ -1,4 +1,4 @@
-Best top n seasons 3 50 modern era
+Best Top-3 Seasons Combined WAR, Since 1947, minimum 50 career WAR
 50 rows
 
     # name                        war seasons             teams
@@ -11,7 +11,7 @@ Best top n seasons 3 50 modern era
   #7: Ted Williams              31.38       3 (1941-1946) BOS
   #8: Aaron Judge               31.32       3 (2022-2025) NYY
   #9: Mike Trout                30.84       3 (2012-2018) LAA
- #10: Tom Seaver                30.27       3 (1971-1977) NYM,CIN
+ #10: Tom Seaver                30.77       3 (1971-1977) NYM,CIN
  #11: Pedro Martínez            30.22       3 (1997-2000) MON,BOS
  #12: Hal Newhouser             30.08       3 (1944-1946) DET
  #13: Stan Musial               30.06       3 (1943-1948) STL
@@ -37,13 +37,13 @@ Best top n seasons 3 50 modern era
  #33: Gaylord Perry             27.32       3 (1972-1974) CLE
  #34: Robin Roberts             27.26       3 (1951-1954) PHI
  #35: Henry Aaron               27.23       3 (1959-1963) MLN
- #36: Phil Niekro               26.86       3 (1974-1978) ATL
- #37: Fergie Jenkins            26.55       3 (1969-1974) CHC,TEX
- #38: Arky Vaughan              26.51       3 (1935-1938) PIT
- #39: Warren Spahn              26.42       3 (1947-1953) BSN,MLN
- #40: Lou Boudreau              26.38       3 (1943-1948) CLE
- #41: George Brett              26.33       3 (1979-1985) KCR
- #42: Zack Greinke              26.11       3 (2009-2019) KCR,LAD,ARI,HOU
+ #36: Zack Greinke              26.93       3 (2009-2019) KCR,LAD,ARI,HOU
+ #37: Phil Niekro               26.86       3 (1974-1978) ATL
+ #38: Fergie Jenkins            26.55       3 (1969-1974) CHC,TEX
+ #39: Arky Vaughan              26.51       3 (1935-1938) PIT
+ #40: Warren Spahn              26.42       3 (1947-1953) BSN,MLN
+ #41: Lou Boudreau              26.38       3 (1943-1948) CLE
+ #42: George Brett              26.33       3 (1979-1985) KCR
  #43: Joe DiMaggio              25.89       3 (1937-1941) NYY
  #44: Wade Boggs                25.83       3 (1985-1989) BOS
  #45: Duke Snider               25.81       3 (1953-1955) BRO

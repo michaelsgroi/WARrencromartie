@@ -41,6 +41,7 @@ parquet2s3: parquet ## Refresh all data, convert to Parquet, upload to S3
 	java -jar target/warrencromartie.jar parqlo $(PARQLO_LOCAL)/$(SLUG).json
 	aws s3 sync $(PARQLO_LOCAL)/$(SLUG)      $(PARQLO_S3)/$(SLUG)      --profile $(AWS_PROFILE)
 	aws s3 cp  $(PARQLO_LOCAL)/$(SLUG).json  $(PARQLO_S3)/$(SLUG).json --profile $(AWS_PROFILE)
+	curl -sf -X POST https://parqlo.fly.dev/smoke/refresh || echo "warning: cache refresh failed"
 
 parquet2local: parquet ## Refresh all data and write to local parqlo data root
 	java -jar target/warrencromartie.jar parqlo $(PARQLO_LOCAL)/$(SLUG).json

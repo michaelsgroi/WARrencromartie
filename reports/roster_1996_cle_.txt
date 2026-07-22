@@ -1,48 +1,48 @@
-Roster 1996 cle
+1996 Cleveland Indians Roster
 44 rows
 
     # name                        war seasons             teams
-  #1: Jim Thome                 72.94      22 (1991-2012) CLE,PHI,CHW,LAD,MIN,BAL
+  #1: Jim Thome                 72.94      22 (1991-2012) CLE,PHI,CHW,MIN,BAL,LAD
   #2: Manny Ramirez             69.33      19 (1993-2011) CLE,BOS,LAD,CHW,TBR
   #3: Eddie Murray              68.67      21 (1977-1997) BAL,LAD,NYM,CLE,ANA
   #4: Kenny Lofton              68.39      17 (1991-2007) HOU,CLE,ATL,CHW,SFG,CHC,PIT,NYY,PHI,LAD,TEX
   #5: Orel Hershiser            56.02      18 (1983-2000) LAD,CLE,SFG,NYM
   #6: Jeff Kent                 55.43      17 (1992-2008) NYM,TOR,CLE,SFG,HOU,LAD
   #7: Brian Giles               51.09      15 (1995-2009) CLE,PIT,SDP
-  #8: Dennis Martínez           48.69      23 (1976-1998) BAL,MON,CLE,SEA,ATL
+  #8: Dennis Martínez           48.71      23 (1976-1998) MON,CLE,ATL,SEA,BAL
   #9: Omar Vizquel              45.59      24 (1989-2012) SEA,CLE,SFG,TEX,CHW,TOR
- #10: Julio Franco              43.56      23 (1982-2007) PHI,CLE,TEX,CHW,MIL,TBD,ATL,NYM
+ #10: Julio Franco              43.56      23 (1982-2007) PHI,CLE,TEX,CHW,MIL,ATL,NYM,TBD
  #11: Albert Belle              40.06      12 (1989-2000) CLE,CHW,BAL
- #12: Greg Swindell             30.49      17 (1986-2002) CLE,CIN,HOU,MIN,BOS,ARI
- #13: Kevin Seitzer             28.87      12 (1986-1997) OAK,KCR,MIL,CLE
+ #12: Greg Swindell             30.54      17 (1986-2002) CLE,CIN,HOU,MIN,BOS,ARI
+ #13: Kevin Seitzer             30.24      12 (1986-1997) OAK,MIL,KCR,CLE
  #14: Jack McDowell             27.84      12 (1987-1999) CHW,NYY,CLE,ANA
  #15: Charles Nagy               24.8      14 (1990-2003) CLE,SDP
  #16: Tony Peña                 24.73      18 (1980-1997) PIT,STL,BOS,CLE,CHW,HOU
  #17: Jeromy Burnitz            19.87      14 (1993-2006) NYM,CLE,MIL,LAD,COL,CHC,PIT
  #18: Carlos Baerga             19.57      14 (1990-2005) CLE,NYM,SDP,BOS,ARI,WSN
  #19: Sandy Alomar              13.71      20 (1988-2007) SDP,CLE,CHW,COL,TEX,LAD,NYM
- #20: Eric Plunk                 13.5      14 (1986-1999) OAK,NYY,CLE,MIL
- #21: Paul Assenmacher          13.05      14 (1986-1999) ATL,CHC,CLE,NYY,CHW
- #22: Kent Mercker              12.02      18 (1989-2008) ATL,BAL,CLE,CIN,STL,BOS,ANA,COL,CHC
- #23: José Mesa                 11.39      19 (1987-2007) BAL,CLE,SFG,SEA,PHI,PIT,COL,DET
- #24: Brian Anderson             9.99      13 (1993-2005) ARI,CLE,KCR,CAL
+ #20: Eric Plunk                13.54      14 (1986-1999) OAK,NYY,CLE,MIL
+ #21: Paul Assenmacher          13.03      14 (1986-1999) CHC,ATL,NYY,CHW,CLE
+ #22: Kent Mercker              12.23      18 (1989-2008) ATL,BAL,CLE,CIN,STL,BOS,ANA,COL,CHC
+ #23: José Mesa                 11.45      19 (1987-2007) BAL,CLE,SFG,SEA,PHI,PIT,COL,DET
+ #24: Brian Anderson            10.02      13 (1993-2005) CAL,CLE,ARI,KCR
  #25: José Vizcaíno              7.01      18 (1989-2006) LAD,CHC,NYM,CLE,SFG,NYY,HOU,STL
- #26: Paul Shuey                 6.81      11 (1994-2007) CLE,LAD,BAL
+ #26: Paul Shuey                 6.85      11 (1994-2007) CLE,LAD,BAL
  #27: Damian Jackson             6.61      11 (1996-2006) CLE,CIN,SDP,DET,BOS,CHC,KCR,WSN
  #28: Geronimo Pena              6.34       7 (1990-1996) STL,CLE
- #29: Danny Graves               5.57      11 (1996-2006) CLE,CIN,NYM
+ #29: Danny Graves               5.56      11 (1996-2006) CLE,CIN,NYM
  #30: Chad Ogea                  5.26       6 (1994-1999) CLE,PHI
  #31: Herbert Perry              5.13       9 (1994-2004) CLE,TBD,CHW,TEX
  #32: Julián Tavárez             4.62      17 (1993-2009) CLE,SFG,COL,CHC,FLA,PIT,STL,BOS,MIL,ATL,WSN
  #33: Mark Carreon               4.61      10 (1987-1996) NYM,DET,SFG,CLE
  #34: Casey Candaele             3.98       9 (1986-1997) MON,HOU,CLE
- #35: Álvaro Espinoza             3.9      12 (1984-1997) MIN,NYY,CLE,NYM,SEA
- #36: Albie Lopez                3.57      11 (1993-2003) CLE,TBD,ARI,ATL,KCR
- #37: Ryan Thompson              3.47       9 (1992-2002) NYM,CLE,HOU,NYY,FLA,MIL
+ #35: Álvaro Espinoza             3.9      12 (1984-1997) NYY,MIN,CLE,NYM,SEA
+ #36: Ryan Thompson              3.47       9 (1992-2002) NYM,CLE,HOU,NYY,FLA,MIL
+ #37: Albie Lopez                 3.3      11 (1993-2003) CLE,TBD,ARI,ATL,KCR
  #38: Einar Díaz                 3.28      11 (1996-2006) CLE,TEX,MON,STL,LAD
  #39: Scott Leius                2.67       9 (1990-1999) MIN,CLE,KCR
- #40: Alan Embree                2.39      16 (1992-2009) ATL,ARI,SFG,SDP,BOS,OAK,COL,CLE,CHW,NYY
+ #40: Alan Embree                2.41      16 (1992-2009) CLE,ATL,ARI,SFG,CHW,BOS,SDP,NYY,OAK,COL
  #41: Wayne Kirby                1.79       8 (1991-1998) CLE,LAD,NYM
- #42: Jim Poole                  0.88      11 (1990-2000) LAD,TEX,BAL,CLE,SFG,PHI,DET,MON
- #43: Joe Roa                    0.17       6 (1995-2004) CLE,SFG,PHI,COL,SDP,MIN
- #44: Nigel Wilson              -0.44       3 (1993-1996) FLA,CIN,CLE
+ #42: Jim Poole                  0.92      11 (1990-2000) LAD,TEX,BAL,CLE,SFG,PHI,DET,MON
+ #43: Joe Roa                    0.27       6 (1995-2004) CLE,SFG,PHI,COL,SDP,MIN
+ #44: Nigel Wilson              -0.44       3 (1993-1996) FLA,CLE,CIN

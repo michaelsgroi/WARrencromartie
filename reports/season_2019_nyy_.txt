@@ -1,4 +1,4 @@
-Season 2019 nyy
+2019 New York Yankees Roster
 54 rows
 
     # name                                  war year teams
@@ -48,11 +48,11 @@ Season 2019 nyy
  #44: Jake Barrett                        -0.18 2019 NYY
  #45: Brady Lail                          -0.18 2019 NYY
  #46: Greg Bird                           -0.28 2019 NYY
- #47: Tyler Lyons                          -0.3 2019 PIT,NYY
+ #47: Tyler Lyons                         -0.31 2019 PIT,NYY
  #48: Nestor Cortes                       -0.35 2019 NYY
  #49: Stephen Tarpley                     -0.45 2019 NYY
  #50: Chance Adams                        -0.71 2019 NYY
- #51: Kendrys Morales                     -0.72 2019 NYY,OAK
- #52: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
- #53: Jonathan Holder                     -0.88 2019 NYY
- #54: Miguel Andujar                      -1.17 2019 NYY
+ #51: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
+ #52: Jonathan Holder                     -0.88 2019 NYY
+ #53: Miguel Andujar                      -1.17 2019 NYY
+ #54: Kendrys Morales                     -1.42 2019 NYY,OAK

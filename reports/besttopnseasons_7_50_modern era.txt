@@ -1,4 +1,4 @@
-Best top n seasons 7 50 modern era
+Best Top-7 Seasons Combined WAR, Since 1947, minimum 50 career WAR
 50 rows
 
     # name                        war seasons             teams
@@ -14,7 +14,7 @@ Best top n seasons 7 50 modern era
  #10: Randy Johnson             61.52       7 (1995-2004) ARI,SEA
  #11: Bob Gibson                61.23       7 (1962-1972) STL
  #12: Henry Aaron               60.32       7 (1959-1969) MLN,ATL
- #13: Tom Seaver                59.32       7 (1967-1977) NYM,CIN
+ #13: Tom Seaver                59.82       7 (1967-1977) NYM,CIN
  #14: Joe Morgan                59.31       7 (1971-1977) HOU,CIN
  #15: Mike Schmidt              58.75       7 (1974-1981) PHI
  #16: Pedro Martínez            58.24       7 (1997-2005) MON,BOS,NYM
@@ -25,7 +25,7 @@ Best top n seasons 7 50 modern era
  #21: Greg Maddux               56.28       7 (1992-2000) CHC,ATL
  #22: Mookie Betts              55.55       7 (2015-2023) BOS,LAD
  #23: Carl Yastrzemski          55.54       7 (1963-1973) BOS
- #24: Shohei Ohtani             55.36       7 (2018-2026) LAA,LAD
+ #24: Shohei Ohtani              55.1       7 (2018-2026) LAA,LAD
  #25: Robin Roberts             55.09       7 (1950-1958) PHI
  #26: Roberto Clemente          54.45       7 (1964-1971) PIT
  #27: Phil Niekro               54.32       7 (1969-1979) ATL

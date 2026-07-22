@@ -1,24 +1,24 @@
-Highest peak season war with career war under 20 30
+Top 20 Highest Peak Season WAR \u2014 Career WAR Under 30
 20 rows
 
     # name                        war      peakwar seasons             teams
   #1: Russ Ford                 28.58 11.74 (1910)       5 (1909-1913) NYY
-  #2: Jouett Meekin             26.34 11.13 (1894)       9 (1892-1900) LOU,WHS,NYG,BSN,PIT
-  #3: Billy Rhines              25.54 10.52 (1890)       9 (1890-1899) CIN,LOU,PIT
-  #4: Lady Baldwin              15.47 10.47 (1886)       5 (1885-1890) DTN,BRO
+  #2: Jouett Meekin             25.55 11.13 (1894)       9 (1892-1900) NYG,BSN,PIT,LOU,WHS
+  #3: Billy Rhines              25.54 10.52 (1890)       9 (1890-1899) PIT,CIN,LOU
+  #4: Lady Baldwin              15.45 10.47 (1886)       5 (1885-1890) DTN,BRO
   #5: Jack Coombs               27.27 10.29 (1910)      14 (1906-1920) PHA,BRO,DET
-  #6: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
-  #7: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
-  #8: Dick Ellsworth            20.08  9.93 (1963)      13 (1958-1971) CHC,PHI,BOS,CLE,MIL
-  #9: George Weidman            15.11  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
- #10: Bobby Witt Jr.             26.8  9.62 (2024)       5 (2022-2026) KCR
- #11: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
- #12: Reb Russell               27.89  9.56 (1913)       9 (1913-1923) CHW,PIT
- #13: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
- #14: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
- #15: Jarren Duran              15.85  8.99 (2024)       6 (2021-2026) BOS
- #16: George McQuillan          17.71  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
- #17: Snuffy Stirnweiss         27.45  8.83 (1945)      10 (1943-1952) NYY,SLB,CLE
- #18: Bret Boone                22.82  8.82 (2001)      14 (1992-2005) SEA,CIN,ATL,SDP,MIN
- #19: Gunnar Henderson          22.41  8.79 (2024)       5 (2022-2026) BAL
- #20: George Stone              25.83  8.75 (1906)       7 (1903-1910) BOS,SLB
+  #6: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
+  #7: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
+  #8: Dick Ellsworth            19.83  9.93 (1963)      13 (1958-1971) CHC,PHI,BOS,CLE,MIL
+  #9: Charlie Hickman            29.8  9.85 (1902)      12 (1897-1908) BSN,NYG,BOS,CLE,CHW,WSH,DET
+ #10: George Weidman            14.89  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
+ #11: Bobby Witt Jr.            26.87  9.62 (2024)       5 (2022-2026) KCR
+ #12: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
+ #13: Reb Russell               27.89  9.56 (1913)       9 (1913-1923) CHW,PIT
+ #14: Earl Wilson               29.66  9.53 (1966)      11 (1959-1970) BOS,DET,SDP
+ #15: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
+ #16: George Bradley            16.56  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
+ #17: Jarren Duran              15.78  8.99 (2024)       6 (2021-2026) BOS
+ #18: George McQuillan          17.05  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
+ #19: Snuffy Stirnweiss         27.45  8.83 (1945)      10 (1943-1952) NYY,SLB,CLE
+ #20: Bret Boone                22.82  8.82 (2001)      14 (1992-2005) SEA,CIN,ATL,SDP,MIN

@@ -1,4 +1,4 @@
-Top season wars 10
+Top 10 Single-Season WAR
 10 rows
 
     # name                                  war year teams

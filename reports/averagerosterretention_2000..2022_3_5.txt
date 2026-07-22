@@ -1,12 +1,12 @@
-Average roster retention 2000..2022 3 5
+Average Roster Retention 2000-2022, top 5, 3-year window
 26 rows
 
 team average years
 nyy 3.25
 bos 3.0
-lad 2.75
 sfg 2.75
 cin 2.7
+lad 2.7
 min 2.7
 nym 2.7
 phi 2.7
@@ -24,7 +24,7 @@ det 2.3
 oak 2.05
 ari 2.0
 pit 2.0
-mil 1.9
-tex 1.85
-tor 1.75
+mil 1.85
+tex 1.8
+tor 1.7
 sdp 1.55

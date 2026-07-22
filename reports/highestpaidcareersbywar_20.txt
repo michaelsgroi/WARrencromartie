@@ -1,24 +1,24 @@
-Highest paid careers by war 20
+Top 20 Highest-Paid Careers by WAR
 20 rows
 
     # name                        war     salary seasons             teams
   #1: Jim Levey                 -7.21      13100       4 (1930-1933) SLB
-  #2: Jordan Lyles              -2.41   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
+  #2: Jordan Lyles               -2.5   47939500      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
   #3: Ryan Howard               14.48  180255000      13 (2004-2016) PHI
-  #4: Yusei Kikuchi              7.14  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
+  #4: Yusei Kikuchi              7.15  116450000       8 (2019-2026) SEA,TOR,HOU,LAA
   #5: Yasmany Tomás             -2.39   38000000       4 (2015-2019) ARI
-  #6: Chris Davis               11.66  141958740      13 (2008-2020) TEX,BAL
-  #7: Patrick Corbin            14.93  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
-  #8: Homer Bailey               6.17   93084500      14 (2007-2020) CIN,KCR,OAK,MIN
-  #9: Masataka Yoshida           3.51   71400000       4 (2023-2026) BOS
- #10: Nick Castellanos          11.94  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
+  #6: Chris Davis               11.66  141958740      13 (2008-2020) BAL,TEX
+  #7: Patrick Corbin             14.5  157093000      14 (2012-2026) ARI,WSN,TEX,TOR
+  #8: Homer Bailey               6.25   93084500      14 (2007-2020) CIN,KCR,OAK,MIN
+  #9: Masataka Yoshida           3.61   71400000       4 (2023-2026) BOS
+ #10: Nick Castellanos          11.92  125586500      14 (2013-2026) DET,CHC,CIN,PHI,SDP
  #11: Charlie Morton            16.18  149308500      18 (2008-2025) ATL,PIT,PHI,HOU,TBR,BAL,DET
  #12: Masahiro Tanaka           17.25  155000000       7 (2014-2020) NYY
- #13: Miles Mikolas              9.91  107500000      11 (2012-2026) SDP,TEX,STL,WSN
+ #13: Miles Mikolas              9.89  107500000      11 (2012-2026) TEX,STL,SDP,WSN
  #14: Giancarlo Stanton          47.0  297933000      17 (2010-2026) FLA,MIA,NYY
- #15: Kenley Jansen              24.1  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
- #16: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
+ #15: Stephen Strasburg         32.34  215050000      13 (2010-2022) WSN
+ #16: Kenley Jansen             24.25  170260767      17 (2010-2026) LAD,BOS,LAA,DET,ATL
  #17: Miguel Cabrera            67.23  400410623      21 (2003-2023) FLA,DET
  #18: Taijuan Walker            12.23  103644100      14 (2013-2026) SEA,ARI,NYM,TOR,PHI
- #19: Jeff Samardzija           14.79  117161667      13 (2008-2020) CHC,CHW,SFG,OAK
- #20: Yu Darvish                33.15  208666667      13 (2012-2025) TEX,LAD,CHC,SDP
+ #19: Jeff Samardzija           14.86  116716250      13 (2008-2020) CHC,CHW,SFG,OAK
+ #20: Yu Darvish                33.03  207750000      13 (2012-2025) TEX,LAD,CHC,SDP

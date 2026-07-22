@@ -1,24 +1,24 @@
-Lowest paid careers by war since2000 20
+Top 20 Lowest-Paid Careers by WAR \u2014 Since 2000
 20 rows
 
     # name                        war     salary seasons             teams
   #1: Adrian Sampson             4.31     100000       5 (2016-2022) TEX,CHC,SEA
-  #2: Paul Skenes               15.91     740000       3 (2024-2026) PIT
-  #3: Andrew Abbott             13.14     742500       4 (2023-2026) CIN
-  #4: Elly De La Cruz           12.42     742500       4 (2023-2026) CIN
-  #5: Wyatt Langford            11.92     740000       3 (2024-2026) TEX
-  #6: Otto Lopez                11.45     740000       5 (2021-2026) TOR,MIA
-  #7: Wilyer Abreu               11.0     749500       4 (2023-2026) BOS
-  #8: Chuck Smith                3.16     240000       2 (2000-2001) FLA
-  #9: Jarrod Parker              6.45     495000       3 (2011-2013) ARI,OAK
- #10: Andy Pages                 9.39     740000       3 (2024-2026) LAD
- #11: Reid Cornelius             0.67      54500       3 (1995-2000) MON,NYM,FLA
- #12: Junior Caminero            8.81     740000       4 (2023-2026) TBR
- #13: Xavier Edwards             8.77     743000       4 (2023-2026) MIA
+  #2: Paul Skenes               16.14     740000       3 (2024-2026) PIT
+  #3: Andrew Abbott             13.46     742500       4 (2023-2026) CIN
+  #4: Elly De La Cruz           12.55     742500       4 (2023-2026) CIN
+  #5: Wyatt Langford             12.0     740000       3 (2024-2026) TEX
+  #6: Otto Lopez                11.64     740000       5 (2021-2026) TOR,MIA
+  #7: Cha-Seung Baek             1.52      98125       4 (2004-2008) SEA,SDP
+  #8: Wilyer Abreu              11.56     749500       4 (2023-2026) BOS
+  #9: Chuck Smith                3.16     240000       2 (2000-2001) FLA
+ #10: Jarrod Parker              6.45     495000       3 (2011-2013) ARI,OAK
+ #11: Andy Pages                  9.4     740000       3 (2024-2026) LAD
+ #12: Junior Caminero             9.2     740000       4 (2023-2026) TBR
+ #13: Michael Busch               8.9     741500       4 (2023-2026) LAD,CHC
  #14: Mike Darr                  2.51     215000       3 (1999-2001) SDP
- #15: Michael Busch              8.62     741500       4 (2023-2026) LAD,CHC
- #16: Masyn Winn                  8.4     742250       4 (2023-2026) STL
- #17: Joey Krehbiel              0.55      50000       4 (2018-2023) ARI,BAL,TBR
- #18: Bryan Woo                  8.19     749000       4 (2023-2026) SEA
- #19: Carlos Hernández           2.21     210000       3 (2001-2004) HOU
- #20: Jeff Zimmerman             7.53     757500       3 (1999-2001) TEX
+ #15: Masyn Winn                 8.47     742250       4 (2023-2026) STL
+ #16: Xavier Edwards              8.4     743000       4 (2023-2026) MIA
+ #17: Reid Cornelius             0.61      54500       3 (1995-2000) MON,NYM,FLA
+ #18: Bryan Woo                  8.25     749000       4 (2023-2026) SEA
+ #19: Joey Krehbiel              0.55      50000       4 (2018-2023) ARI,BAL,TBR
+ #20: Carlos Hernández           2.21     210000       3 (2001-2004) HOU

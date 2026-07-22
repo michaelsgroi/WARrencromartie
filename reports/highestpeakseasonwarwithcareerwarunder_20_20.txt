@@ -1,24 +1,24 @@
-Highest peak season war with career war under 20 20
+Top 20 Highest Peak Season WAR \u2014 Career WAR Under 20
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Lady Baldwin              15.47 10.47 (1886)       5 (1885-1890) DTN,BRO
-  #2: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
-  #3: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
-  #4: George Weidman            15.11  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
-  #5: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
-  #6: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
-  #7: George Bradley            16.58  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
-  #8: Jarren Duran              15.85  8.99 (2024)       6 (2021-2026) BOS
-  #9: George McQuillan          17.71  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
- #10: Irv Young                   8.6  8.68 (1905)       6 (1905-1911) BSN,PIT,CHW
- #11: Ben Sanders               19.63  8.47 (1888)       3 (1888-1892) PHI,LOU
- #12: Bill James                 8.69  8.41 (1914)       4 (1913-1919) BSN
- #13: Jay Hughes                 15.0  8.36 (1899)       4 (1898-1902) BLN,BRO
- #14: Dontrelle Willis          19.74   8.3 (2005)       9 (2003-2011) FLA,DET,ARI,CIN
- #15: Bill Hoffer                19.0  8.25 (1896)       6 (1895-1901) BLN,PIT,CLE
- #16: Mike Caldwell             18.41  8.21 (1978)      14 (1971-1984) SDP,SFG,CIN,MIL
- #17: Cristopher Sánchez        19.07  8.12 (2025)       6 (2021-2026) PHI
- #18: Paul Skenes               15.91  8.02 (2025)       3 (2024-2026) PIT
- #19: Tim Lincecum              19.53   8.0 (2008)      10 (2007-2016) SFG,LAA
- #20: Mark Prior                16.55  7.93 (2003)       5 (2002-2006) CHC
+  #1: Lady Baldwin              15.45 10.47 (1886)       5 (1885-1890) DTN,BRO
+  #2: Sam Weaver                10.16 10.16 (1878)       1 (1878-1878) MLG
+  #3: Al Spalding               10.27 10.16 (1876)       3 (1876-1878) CHC
+  #4: Dick Ellsworth            19.83  9.93 (1963)      13 (1958-1971) CHC,PHI,BOS,CLE,MIL
+  #5: George Weidman            14.89  9.79 (1882)       9 (1880-1888) BUF,DTN,KCN,NYG
+  #6: Mark Fidrych              11.34  9.57 (1976)       5 (1976-1980) DET
+  #7: Dan Casey                 19.64  9.27 (1887)       5 (1885-1889) DTN,PHI
+  #8: George Bradley            16.56  9.12 (1876)       7 (1876-1883) STL,CHC,TRO,PRO,CLV,DTN
+  #9: Jarren Duran              15.78  8.99 (2024)       6 (2021-2026) BOS
+ #10: George McQuillan          17.05  8.86 (1908)      10 (1907-1918) PHI,CIN,PIT,CLE
+ #11: Irv Young                  8.54  8.68 (1905)       6 (1905-1911) BSN,PIT,CHW
+ #12: Ben Sanders               19.63  8.47 (1888)       3 (1888-1892) PHI,LOU
+ #13: Bill James                 8.69  8.41 (1914)       4 (1913-1919) BSN
+ #14: Jay Hughes                 15.0  8.36 (1899)       4 (1898-1902) BLN,BRO
+ #15: Dontrelle Willis          19.79   8.3 (2005)       9 (2003-2011) FLA,DET,ARI,CIN
+ #16: Bill Hoffer               18.82  8.25 (1896)       6 (1895-1901) BLN,PIT,CLE
+ #17: Mike Caldwell             18.61  8.21 (1978)      14 (1971-1984) SDP,SFG,CIN,MIL
+ #18: Cristopher Sánchez        19.13  8.12 (2025)       6 (2021-2026) PHI
+ #19: Paul Skenes               16.14  8.02 (2025)       3 (2024-2026) PIT
+ #20: Tim Lincecum              19.53   8.0 (2008)      10 (2007-2016) SFG,LAA

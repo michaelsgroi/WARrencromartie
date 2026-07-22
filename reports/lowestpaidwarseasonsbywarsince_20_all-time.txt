@@ -1,4 +1,4 @@
-Lowest paid war seasons by war since 20 all-time
+Top 20 Lowest-Paid Seasons by WAR \u2014 All-Time
 20 rows
 
     # name                                  war     salary year teams

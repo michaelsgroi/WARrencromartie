@@ -1,11 +1,11 @@
-Players whose name starts with Babe
+Players Whose Name Starts With 'Babe'
 16 rows
 
     # name                        war seasons             teams
   #1: Babe Ruth                182.62      22 (1914-1935) BOS,NYY,BSN
   #2: Babe Adams                52.54      19 (1906-1926) STL,PIT
   #3: Babe Herman                39.5      13 (1926-1945) BRO,CIN,CHC,PIT,DET
-  #4: Babe Phelps               12.85      11 (1931-1942) WSH,CHC,BRO,PIT
+  #4: Babe Phelps               12.85      11 (1931-1942) CHC,BRO,PIT,WSH
   #5: Babe Young                10.97       8 (1936-1948) NYG,CIN,STL
   #6: Babe Pinelli               5.98       8 (1918-1927) CHW,DET,CIN
   #7: Babe Dahlgren              2.17      12 (1935-1946) BOS,NYY,BSN,CHC,BRO,SLB,PHI,PIT

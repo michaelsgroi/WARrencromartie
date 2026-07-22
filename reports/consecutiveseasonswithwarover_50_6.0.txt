@@ -1,39 +1,39 @@
-Consecutive seasons with war over 50 6.0
+Top 50 Consecutive Seasons with WAR > 6.0
 50 rows
 
     # name                 seasons             teams
   #1: Henry Aaron               15 (1955-1969) MLN,ATL
-  #2: Cy Young                  15 (1891-1905) CLV,STL,BOS
-  #3: Willie Mays               13 (1954-1966) NYG,SFG
-  #4: Lou Gehrig                12 (1926-1937) NYY
-  #5: Barry Bonds               11 (1988-1998) PIT,SFG
+  #2: Willie Mays               13 (1954-1966) NYG,SFG
+  #3: Lou Gehrig                12 (1926-1937) NYY
+  #4: Barry Bonds               11 (1988-1998) PIT,SFG
+  #5: Babe Ruth                 11 (1916-1933) BOS,NYY
   #6: Mike Schmidt              11 (1974-1984) PHI
-  #7: Honus Wagner              11 (1899-1909) LOU,PIT
-  #8: Walter Johnson            10 (1910-1919) WSH
-  #9: Kid Nichols               10 (1890-1899) BSN
- #10: Babe Ruth                  9 (1916-1924) BOS,NYY
- #11: Tris Speaker               9 (1909-1917) BOS,CLE
+  #7: Walter Johnson            10 (1910-1919) WSH
+  #8: Honus Wagner               9 (1899-1909) LOU,PIT
+  #9: Mike Trout                 8 (2012-2019) LAA
+ #10: Ted Williams               8 (1939-1949) BOS
+ #11: Cy Young                   8 (1898-1905) CLV,STL,BOS
  #12: Eddie Collins              8 (1909-1916) PHA,CHW
  #13: Mickey Mantle              8 (1954-1961) NYY
- #14: Stan Musial                8 (1948-1955) STL
+ #14: Kid Nichols                8 (1890-1897) BSN
  #15: Albert Pujols              8 (2003-2010) STL
- #16: Mike Trout                 8 (2012-2019) LAA
- #17: Ted Williams               8 (1939-1949) BOS
- #18: Wade Boggs                 7 (1983-1989) BOS
- #19: Ty Cobb                    7 (1907-1913) DET
- #20: Rickey Henderson           7 (1980-1986) OAK,NYY
- #21: Rogers Hornsby             7 (1919-1925) STL
- #22: Christy Mathewson          7 (1907-1913) NYG
+ #16: Tris Speaker               8 (1909-1917) BOS,CLE
+ #17: Wade Boggs                 7 (1983-1989) BOS
+ #18: Ty Cobb                    7 (1907-1913) DET
+ #19: Rickey Henderson           7 (1980-1986) OAK,NYY
+ #20: Rogers Hornsby             7 (1919-1925) STL
+ #21: Christy Mathewson          7 (1907-1913) NYG
+ #22: Stan Musial                7 (1948-1955) STL
  #23: Amos Rusie                 7 (1890-1897) NYG
- #24: Roberto Clemente           6 (1964-1969) PIT
- #25: Lefty Grove                6 (1928-1933) PHA
- #26: Clayton Kershaw            6 (2011-2016) LAD
- #27: Jim McCormick              6 (1879-1884) CLV
- #28: Phil Niekro                6 (1974-1979) ATL
- #29: Shohei Ohtani              6 (2021-2026) LAA,LAD
+ #24: Ed Walsh                   6 (1907-1912) CHW
+ #25: Roberto Clemente           6 (1964-1969) PIT
+ #26: Lefty Grove                6 (1928-1933) PHA
+ #27: Clayton Kershaw            6 (2011-2016) LAD
+ #28: Jim McCormick              6 (1879-1884) CLV
+ #29: Phil Niekro                6 (1974-1979) ATL
  #30: Alex Rodriguez             6 (2000-2005) SEA,TEX,NYY
  #31: Ron Santo                  6 (1963-1968) CHC
- #32: Ed Walsh                   6 (1907-1912) CHW
+ #32: Chase Utley                5 (2005-2009) PHI
  #33: Mookie Betts               5 (2015-2019) BOS
  #34: Rod Carew                  5 (1973-1977) MIN
  #35: Stan Coveleski             5 (1917-1921) CLE
@@ -49,6 +49,6 @@ Consecutive seasons with war over 50 6.0
  #45: Robin Roberts              5 (1950-1954) PHI
  #46: Jackie Robinson            5 (1949-1953) BRO
  #47: Tom Seaver                 5 (1967-1971) NYM
- #48: Chase Utley                5 (2005-2009) PHI
- #49: Grover Alexander           4 (1914-1917) PHI
- #50: Jeff Bagwell               4 (1996-1999) HOU
+ #48: Justin Verlander           4 (2016-2019) DET,HOU
+ #49: Rube Waddell               4 (1902-1905) PHA
+ #50: Arky Vaughan               4 (1933-1936) PIT

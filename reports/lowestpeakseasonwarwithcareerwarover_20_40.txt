@@ -1,24 +1,24 @@
-Lowest peak season war with career war over 20 40
+Top 20 Lowest Peak Season WAR \u2014 Career WAR Over 40
 20 rows
 
     # name                        war      peakwar seasons             teams
   #1: Joe Judge                 48.38  4.11 (1920)      20 (1915-1934) WSH,BOS,BRO
-  #2: Jake Beckley              57.39  4.66 (1900)      19 (1888-1907) PIT,NYG,CIN,STL
+  #2: Jake Beckley              57.39  4.66 (1900)      19 (1888-1907) CIN,STL,PIT,NYG
   #3: Wally Schang              48.32   4.7 (1919)      19 (1913-1931) PHA,BOS,NYY,SLB,DET
   #4: Sam Rice                   54.7  4.85 (1930)      20 (1915-1934) WSH,CLE
-  #5: Jim O'Rourke              42.16  4.87 (1884)      18 (1876-1904) BSN,PRO,BUF,NYG,WHS
-  #6: Jack Quinn                49.86  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
-  #7: Curt Simmons              43.24  4.88 (1963)      20 (1947-1967) PHI,STL,CHC,CAL
+  #5: Jim O'Rourke              42.16  4.87 (1884)      18 (1876-1904) NYG,BUF,BSN,PRO,WHS
+  #6: Jack Quinn                49.35  4.87 (1924)      21 (1909-1933) NYY,BSN,CHW,BOS,PHA,BRO,CIN
+  #7: Curt Simmons              43.55  4.88 (1963)      20 (1947-1967) PHI,STL,CHC,CAL
   #8: Fielder Jones             42.88  4.91 (1905)      13 (1896-1908) BRO,CHW
   #9: Buck Ewing                43.89  4.93 (1884)      17 (1880-1897) TRO,NYG,CLV,CIN
  #10: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
- #11: Lave Cross                42.25   5.0 (1894)      16 (1892-1907) PHI,STL,CLV,BRO,PHA,WSH
+ #11: Lave Cross                42.25   5.0 (1894)      16 (1892-1907) STL,CLV,BRO,PHA,WSH,PHI
  #12: Larry Doyle               44.65  5.04 (1911)      14 (1907-1920) NYG,CHC
- #13: Mark Grace                46.43  5.04 (1995)      16 (1988-2003) CHC,ARI
- #14: Nelson Cruz                42.0  5.05 (2015)      19 (2005-2023) MIL,TEX,BAL,SEA,MIN,TBR,WSN,SDP
+ #13: Mark Grace                46.43  5.04 (1995)      16 (1988-2003) ARI,CHC
+ #14: Nelson Cruz                42.0  5.05 (2015)      19 (2005-2023) MIL,TEX,BAL,SEA,MIN,TBR,SDP,WSN
  #15: Rabbit Maranville         44.19  5.08 (1914)      23 (1912-1935) BSN,PIT,CHC,BRO,STL
- #16: Tony Fernández             45.3  5.09 (1987)      17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
- #17: David Justice             40.59   5.1 (2000)      14 (1989-2002) ATL,CLE,NYY,OAK
- #18: Clyde Milan               40.79  5.14 (1911)      16 (1907-1922) WSH
- #19: Jimmy Ryan                41.72  5.14 (1888)      17 (1885-1903) CHC,WSH
- #20: Gabby Hartnett            55.28  5.15 (1930)      20 (1922-1941) CHC,NYG
+ #16: David Wells                53.2  5.08 (1995)      21 (1987-2007) CIN,NYY,TOR,CHW,SDP,BOS,LAD,DET,BAL
+ #17: Tony Fernández             45.3  5.09 (1987)      17 (1983-2001) TOR,SDP,NYM,CIN,NYY,CLE,MIL
+ #18: David Justice             40.59   5.1 (2000)      14 (1989-2002) ATL,CLE,NYY,OAK
+ #19: Clyde Milan               40.79  5.14 (1911)      16 (1907-1922) WSH
+ #20: Jimmy Ryan                41.72  5.14 (1888)      17 (1885-1903) CHC,WSH

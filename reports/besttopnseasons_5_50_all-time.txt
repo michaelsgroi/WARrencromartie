@@ -1,11 +1,11 @@
-Best top n seasons 5 50 all-time
+Best Top-5 Seasons Combined WAR, All-Time, minimum 50 career WAR
 50 rows
 
     # name                        war seasons             teams
   #1: Walter Johnson            69.72       5 (1912-1918) WSH
   #2: John Clarkson             62.73       5 (1885-1891) CHC,BSN
   #3: Babe Ruth                  62.5       5 (1920-1927) NYY
-  #4: Cy Young                  58.18       5 (1892-1901) CLV,BOS
+  #4: Cy Young                  58.18       5 (1892-1901) BOS,CLV
   #5: Kid Nichols               57.07       5 (1890-1898) BSN
   #6: Old Hoss Radbourn         54.88       5 (1882-1886) PRO,BSN
   #7: Grover Alexander          54.79       5 (1914-1920) PHI,CHC
@@ -31,11 +31,11 @@ Best top n seasons 5 50 all-time
  #27: Joe Morgan                47.79       5 (1972-1976) CIN
  #28: Alex Rodriguez            47.38       5 (1996-2007) SEA,TEX,NYY
  #29: Jim Whitney               47.23       5 (1881-1887) BSN,WHS
- #30: Jim McCormick             46.98       5 (1879-1886) CLV,CHC
+ #30: Jim McCormick             47.02       5 (1879-1884) CLV
  #31: Eddie Collins             46.87       5 (1909-1915) PHA,CHW
  #32: Tris Speaker              46.73       5 (1912-1923) BOS,CLE
- #33: Joe McGinnity             46.29       5 (1899-1904) BLN,BLA,NYG
- #34: Tom Seaver                45.62       5 (1969-1977) NYM,CIN
+ #33: Joe McGinnity             46.17       5 (1899-1904) BLN,BLA,NYG
+ #34: Tom Seaver                46.12       5 (1969-1977) NYM,CIN
  #35: Randy Johnson             45.41       5 (1995-2004) ARI,SEA
  #36: Aaron Judge               45.41       5 (2017-2025) NYY
  #37: Pedro Martínez            45.33       5 (1997-2003) MON,BOS

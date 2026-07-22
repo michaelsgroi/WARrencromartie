@@ -1,9 +1,9 @@
-Lowest peak season war with career war over 20 80
+Top 20 Lowest Peak Season WAR \u2014 Career WAR Over 80
 20 rows
 
     # name                        war      peakwar seasons             teams
   #1: Cap Anson                 84.77  6.95 (1886)      22 (1876-1897) CHC
-  #2: George Davis              84.35  7.22 (1905)      20 (1890-1909) CLV,NYG,CHW
+  #2: George Davis              84.35  7.22 (1905)      20 (1890-1909) NYG,CHW,CLV
   #3: Chipper Jones             85.26  7.59 (2007)      19 (1993-2012) ATL
   #4: Nolan Ryan                81.29  7.83 (1977)      27 (1966-1993) NYM,CAL,HOU,TEX
   #5: Eddie Mathews             96.01  8.15 (1959)      17 (1952-1968) BSN,MLN,ATL,DET,HOU
@@ -15,10 +15,10 @@ Lowest peak season war with career war over 20 80
  #11: Mel Ott                  110.71  8.84 (1938)      22 (1926-1947) NYG
  #12: Charlie Gehringer          84.6  8.87 (1934)      19 (1924-1942) DET
  #13: Roberto Clemente          94.96  8.94 (1967)      18 (1955-1972) PIT
- #14: Wade Boggs                91.44  9.07 (1985)      18 (1982-1999) BOS,NYY,TBD
+ #14: Wade Boggs                91.44  9.07 (1985)      18 (1982-1999) NYY,TBD,BOS
  #15: Tom Glavine               80.72  9.24 (1991)      22 (1987-2008) ATL,NYM
  #16: Eddie Plank               84.23  9.31 (1904)      16 (1901-1917) PHA,SLB
  #17: George Brett              88.61   9.4 (1980)      21 (1973-1993) KCR
- #18: Warren Spahn             100.16  9.42 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
+ #18: Warren Spahn             100.32  9.42 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
  #19: Henry Aaron              143.22  9.45 (1961)      23 (1954-1976) MLN,ATL,MIL
  #20: Adrian Beltré             93.72  9.55 (2004)      21 (1998-2018) LAD,SEA,BOS,TEX

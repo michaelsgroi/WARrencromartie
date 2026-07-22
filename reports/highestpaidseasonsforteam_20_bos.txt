@@ -1,9 +1,9 @@
-Highest paid seasons for team 20 bos
+Top 20 Highest-Paid Seasons \u2014 Boston Red Sox
 20 rows
 
     # name                                  war     salary year teams
   #1: Alex Bregman                         3.66   36666667 2025 BOS
-  #2: Sonny Gray                            2.5   35000000 2026 BOS
+  #2: Sonny Gray                           2.85   35000000 2026 BOS
   #3: David Price                          1.59   31000000 2019 BOS
   #4: David Price                          2.78   30000000 2016 BOS
   #5: David Price                           1.6   30000000 2017 BOS
@@ -12,9 +12,9 @@ Highest paid seasons for team 20 bos
   #8: Chris Sale                           0.02   30000000 2022 BOS
   #9: Rafael Devers                        3.92   29500000 2024 BOS
  #10: Chris Sale                           1.63   27500000 2023 BOS
- #11: Ranger Suarez                        1.56   26000000 2026 BOS
- #12: Trevor Story                        -0.03   25000000 2026 BOS
- #13: Garrett Crochet                      -0.6   24666667 2026 BOS
+ #11: Ranger Suarez                        1.68   26000000 2026 BOS
+ #12: Trevor Story                        -0.05   25000000 2026 BOS
+ #13: Garrett Crochet                     -0.57   24666667 2026 BOS
  #14: J.D. Martinez                        6.67   23750000 2018 BOS
  #15: J.D. Martinez                        3.47   23750000 2019 BOS
  #16: J.D. Martinez                       -0.72   23750000 2020 BOS

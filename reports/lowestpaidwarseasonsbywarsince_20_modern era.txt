@@ -1,10 +1,10 @@
-Lowest paid war seasons by war since 20 modern era
+Top 20 Lowest-Paid Seasons by WAR \u2014 Since 1947
 20 rows
 
     # name                                  war     salary year teams
   #1: Johnny Pesky                         4.54       2000 1947 BOS
-  #2: Al Brazle                            3.74       3000 1947 STL
-  #3: Nels Potter                          3.44       2833 1948 BSN,PHA,SLB
+  #2: Nels Potter                          4.32       2833 1948 BSN,PHA,SLB
+  #3: Al Brazle                            3.74       3000 1947 STL
   #4: Richie Ashburn                       4.62       3900 1948 PHI
   #5: Bobby Shantz                         2.31       2000 1949 PHA
   #6: Al Brazle                            3.39       3000 1949 STL
@@ -21,4 +21,4 @@ Lowest paid war seasons by war since 20 modern era
  #17: Tony Oliva                           6.79       7500 1964 MIN
  #18: Duke Snider                          5.44       6500 1949 BRO
  #19: Willie Mays                         10.45      12500 1954 NYG
- #20: Jim Bunning                          6.99       8500 1957 DET
+ #20: Bob Chakales                         1.99       2400 1954 BAL,CLE

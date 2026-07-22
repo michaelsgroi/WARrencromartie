@@ -4,8 +4,9 @@ import java.io.File
 import java.sql.DriverManager
 
 object BrReports {
-    private const val BAT = "data/derived/war_daily_bat.parquet"
-    private const val PITCH = "data/derived/war_daily_pitch.parquet"
+    private val PARQLO_DIR = (System.getenv("PARQLO_LOCAL") ?: "${System.getProperty("user.home")}/Documents/d/github/parqlo/data") + "/war"
+    private val BAT = "$PARQLO_DIR/war_daily_bat.parquet"
+    private val PITCH = "$PARQLO_DIR/war_daily_pitch.parquet"
     private const val REPORT_DIR = "reports"
     private const val SQL_DIR = "definitions"
 

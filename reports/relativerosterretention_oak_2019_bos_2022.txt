@@ -1,4 +1,4 @@
-Relative roster retention oak 2019 bos 2022
+Roster Retention: Oakland A's 2019 vs. Boston Red Sox 2022
 11 rows
 
     # name                                  war year teams
@@ -12,4 +12,4 @@ Relative roster retention oak 2019 bos 2022
   #8: Josh A. Smith                       -0.09 2019 BOS
   #9: Tyler Thornburg                     -0.21 2019 BOS
  #10: Blake Swihart                       -0.95 2019 ARI,BOS
- #11: Eduardo Núñez                       -1.53 2019 BOS
+ #11: Chris Owings                        -2.42 2019 BOS,KCR

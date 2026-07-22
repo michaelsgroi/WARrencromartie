@@ -1,4 +1,4 @@
-Season 2019 bos
+2019 Boston Red Sox Roster
 47 rows
 
     # name                                  war year teams
@@ -9,7 +9,7 @@ Season 2019 bos
   #5: J.D. Martinez                        3.47 2019 BOS
   #6: Brandon Workman                      3.06 2019 BOS
   #7: Christian Vázquez                    2.18 2019 BOS
-  #8: Andrew Cashner                       2.17 2019 BAL,BOS
+  #8: Andrew Cashner                       2.15 2019 BAL,BOS
   #9: Chris Sale                           2.12 2019 BOS
  #10: Jackie Bradley Jr.                    2.1 2019 BOS
  #11: Andrew Benintendi                    1.74 2019 BOS
@@ -42,10 +42,10 @@ Season 2019 bos
  #38: Gorkys Hernández                    -0.47 2019 BOS
  #39: Steve Pearce                         -0.5 2019 BOS
  #40: Sandy León                          -0.51 2019 BOS
- #41: Dustin Pedroia                      -0.56 2019 BOS
- #42: Jhoulys Chacín                      -0.59 2019 MIL,BOS
+ #41: Jhoulys Chacín                      -0.55 2019 MIL,BOS
+ #42: Dustin Pedroia                      -0.56 2019 BOS
  #43: Mike Shawaryn                        -0.6 2019 BOS
  #44: Sam Travis                          -0.75 2019 BOS
  #45: Blake Swihart                       -0.95 2019 ARI,BOS
- #46: Chris Owings                        -1.26 2019 BOS,KCR
- #47: Eduardo Núñez                       -1.53 2019 BOS
+ #46: Eduardo Núñez                       -1.53 2019 BOS
+ #47: Chris Owings                        -2.42 2019 BOS,KCR

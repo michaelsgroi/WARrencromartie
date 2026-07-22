@@ -1,24 +1,24 @@
-Lowest paid careers by war who are currently active 20
+Top 20 Lowest-Paid Careers by WAR \u2014 Active Players
 20 rows
 
     # name                        war     salary seasons             teams
-  #1: Paul Skenes               15.91     740000       3 (2024-2026) PIT
-  #2: Andrew Abbott             13.14     742500       4 (2023-2026) CIN
-  #3: Elly De La Cruz           12.42     742500       4 (2023-2026) CIN
-  #4: Wyatt Langford            11.92     740000       3 (2024-2026) TEX
-  #5: Otto Lopez                11.45     740000       5 (2021-2026) TOR,MIA
-  #6: Wilyer Abreu               11.0     749500       4 (2023-2026) BOS
-  #7: Andy Pages                 9.39     740000       3 (2024-2026) LAD
-  #8: Junior Caminero            8.81     740000       4 (2023-2026) TBR
-  #9: Xavier Edwards             8.77     743000       4 (2023-2026) MIA
- #10: Michael Busch              8.62     741500       4 (2023-2026) LAD,CHC
- #11: Masyn Winn                  8.4     742250       4 (2023-2026) STL
- #12: Bryan Woo                  8.19     749000       4 (2023-2026) SEA
- #13: Gavin Williams             7.14     742100       4 (2023-2026) CLE
- #14: Pete Crow-Armstrong       13.98    1634000       4 (2023-2026) CHC
- #15: Iván Herrera               6.18     743150       5 (2022-2026) STL
- #16: Sal Frelick                6.19     746500       4 (2023-2026) MIL
- #17: Jonathan Aranda            6.12     742800       5 (2022-2026) TBR
- #18: Jared Triolo               6.11     745000       4 (2023-2026) PIT
- #19: Evan Carter                5.86     745000       4 (2023-2026) TEX
- #20: Zack Gelof                  5.8     740000       4 (2023-2026) OAK,ATH
+  #1: Paul Skenes               16.14     740000       3 (2024-2026) PIT
+  #2: Andrew Abbott             13.46     742500       4 (2023-2026) CIN
+  #3: Elly De La Cruz           12.55     742500       4 (2023-2026) CIN
+  #4: Wyatt Langford             12.0     740000       3 (2024-2026) TEX
+  #5: Otto Lopez                11.64     740000       5 (2021-2026) TOR,MIA
+  #6: Wilyer Abreu              11.56     749500       4 (2023-2026) BOS
+  #7: Andy Pages                  9.4     740000       3 (2024-2026) LAD
+  #8: Junior Caminero             9.2     740000       4 (2023-2026) TBR
+  #9: Michael Busch               8.9     741500       4 (2023-2026) LAD,CHC
+ #10: Masyn Winn                 8.47     742250       4 (2023-2026) STL
+ #11: Xavier Edwards              8.4     743000       4 (2023-2026) MIA
+ #12: Bryan Woo                  8.25     749000       4 (2023-2026) SEA
+ #13: Gavin Williams             7.04     742100       4 (2023-2026) CLE
+ #14: Pete Crow-Armstrong       14.06    1634000       4 (2023-2026) CHC
+ #15: Jared Triolo                6.2     745000       4 (2023-2026) PIT
+ #16: Sal Frelick                6.04     746500       4 (2023-2026) MIL
+ #17: Jonathan Aranda            5.92     742800       5 (2022-2026) TBR
+ #18: Iván Herrera               5.88     743150       5 (2022-2026) STL
+ #19: Evan Carter                5.81     745000       4 (2023-2026) TEX
+ #20: Zack Gelof                 5.77     740000       4 (2023-2026) OAK,ATH

@@ -1,4 +1,4 @@
-Season 2019 oak
+2019 Oakland A's Roster
 49 rows
 
     # name                                  war year teams
@@ -11,9 +11,9 @@ Season 2019 oak
   #7: Mike Fiers                           3.36 2019 OAK
   #8: Brett Anderson                       3.06 2019 OAK
   #9: Frankie Montas                       2.61 2019 OAK
- #10: Tanner Roark                         2.51 2019 CIN,OAK
+ #10: Tanner Roark                         2.53 2019 CIN,OAK
  #11: Yusmeiro Petit                       2.42 2019 OAK
- #12: Homer Bailey                         2.26 2019 KCR,OAK
+ #12: Homer Bailey                         2.34 2019 KCR,OAK
  #13: Chris Bassitt                        2.07 2019 OAK
  #14: Chad Pinder                          1.67 2019 OAK
  #15: Sean Manaea                          1.51 2019 OAK
@@ -33,7 +33,7 @@ Season 2019 oak
  #29: Josh Phegley                         0.29 2019 OAK
  #30: A.J. Puk                             0.22 2019 OAK
  #31: Brian Schlitter                      0.12 2019 OAK
- #32: Aaron Brooks                          0.1 2019 BAL,OAK
+ #32: Aaron Brooks                         0.05 2019 BAL,OAK
  #33: Beau Taylor                          0.01 2019 OAK,TOR
  #34: Jurickson Profar                    -0.02 2019 OAK
  #35: Skye Bolt                            -0.1 2019 OAK
@@ -49,5 +49,5 @@ Season 2019 oak
  #45: Paul Blackburn                      -0.51 2019 OAK
  #46: Corban Joseph                       -0.62 2019 OAK,PIT,SFG
  #47: Lou Trivino                          -0.7 2019 OAK
- #48: Kendrys Morales                     -0.72 2019 NYY,OAK
- #49: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
+ #48: Ryan Dull                           -0.82 2019 OAK,NYY,TOR
+ #49: Kendrys Morales                     -1.42 2019 NYY,OAK

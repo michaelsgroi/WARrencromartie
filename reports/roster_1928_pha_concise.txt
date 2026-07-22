@@ -1,4 +1,4 @@
-Roster 1928 pha concise
+1928 Philadelphia Athletics Roster, Concise
 29 rows
 
 # name war
@@ -8,9 +8,9 @@ Roster 1928 pha concise
 #4: Lefty Grove 107
 #5: Jimmie Foxx 93
 #6: Al Simmons 68
-#7: Jack Quinn 50
-#8: Eddie Rommel 50
-#9: Mickey Cochrane 50
+#7: Eddie Rommel 50
+#8: Mickey Cochrane 50
+#9: Jack Quinn 49
 #10: Howard Ehmke 41
 #11: Max Bishop 38
 #12: Bullet Joe Bush 37

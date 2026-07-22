@@ -1,4 +1,4 @@
-The rowland office all stars
+The Rowland Office All-Stars, players with 10+ seasons and negative career WAR
 166 rows
 
     # name                        war seasons             teams
@@ -12,13 +12,13 @@ The rowland office all stars
   #8: Tommy Thevenow             -5.1      15 (1924-1938) STL,PHI,PIT,CIN,BSN
   #9: Luis López                 -4.9      11 (1993-2005) SDP,NYM,MIL,BAL,CIN
  #10: Moe Berg                  -4.69      15 (1923-1939) BRO,CHW,CLE,WSH,BOS
- #11: Myril Hoag                -4.55      13 (1931-1945) NYY,SLB,CHW,CLE
+ #11: Myril Hoag                -4.55      13 (1931-1945) SLB,CLE,NYY,CHW
  #12: Daryle Ward               -4.42      11 (1998-2008) HOU,LAD,PIT,ATL,WSN,CHC
- #13: Drew Butera               -4.41      12 (2010-2021) MIN,LAD,KCR,LAA,COL
- #14: Skeeter Webb              -4.38      12 (1932-1948) STL,CLE,CHW,DET,PHA
- #15: Frank LaCorte             -4.13      10 (1975-1984) ATL,HOU,CAL
- #16: Bill Plummer              -4.13      10 (1968-1978) CHC,CIN,SEA
- #17: Kevin Jarvis              -4.09      12 (1994-2006) CIN,DET,MIN,COL,SDP,SEA,STL,ARI,BOS,OAK
+ #13: Drew Butera               -4.41      12 (2010-2021) MIN,LAD,KCR,COL,LAA
+ #14: Skeeter Webb              -4.38      12 (1932-1948) CLE,CHW,DET,PHA,STL
+ #15: Frank LaCorte             -4.19      10 (1975-1984) ATL,HOU,CAL
+ #16: Bill Plummer              -4.13      10 (1968-1978) CIN,SEA,CHC
+ #17: Kevin Jarvis              -4.11      12 (1994-2006) CIN,COL,SDP,DET,MIN,SEA,STL,ARI,BOS,OAK
  #18: Don Heffner               -3.98      11 (1934-1944) NYY,SLB,PHA,DET
  #19: Kurt Bevacqua             -3.93      15 (1971-1985) CLE,KCR,PIT,MIL,TEX,SDP
  #20: Gary Sutherland           -3.91      13 (1966-1978) PHI,MON,HOU,DET,MIL,SDP,STL
@@ -30,141 +30,141 @@ The rowland office all stars
  #26: Chad Moeller              -3.57      11 (2000-2010) MIN,ARI,MIL,CIN,LAD,NYY,BAL
  #27: John Vukovich             -3.53      10 (1970-1981) PHI,MIL,CIN
  #28: Rowland Office            -3.51      11 (1972-1983) ATL,MON,NYY
- #29: John Moses                -3.48      11 (1982-1992) SEA,MIN,DET
- #30: Darrel Chaney             -3.38      11 (1969-1979) CIN,ATL
- #31: Matt Walbeck              -3.37      11 (1993-2003) CHC,MIN,DET,ANA,PHI
- #32: Karim García              -3.25      10 (1995-2004) LAD,ARI,DET,BAL,CLE,NYY,NYM
- #33: John Russell              -3.19      10 (1984-1993) PHI,ATL,TEX
- #34: Ken Reitz                 -3.15      11 (1972-1982) STL,SFG,CHC,PIT
- #35: Gary Bennett              -3.09      13 (1995-2008) PHI,COL,NYM,SDP,MIL,WSN,STL,LAD
- #36: Doc Powers                -3.08      11 (1898-1909) LOU,WHS,PHA,NYY
- #37: Eddie Miksis              -2.99      14 (1944-1958) BRO,CHC,BAL,STL,CIN
- #38: Terry Francona            -2.97      10 (1981-1990) MON,CHC,CIN,CLE,MIL
- #39: Tom Egan                  -2.92      10 (1965-1975) CAL,CHW
- #40: Todd Greene               -2.91      11 (1996-2006) CAL,ANA,TOR,NYY,TEX,COL,SFG
- #41: Lou Klimchock              -2.9      12 (1958-1970) KCA,MLN,WSA,NYM,CLE
- #42: Jack Ryan                 -2.85      10 (1894-1913) BSN,BRO,BLN,STL,WSH
- #43: John Kennedy              -2.84      12 (1962-1974) WSA,LAD,NYY,SEP,BOS,MIL
- #44: Mike Mordecai             -2.82      12 (1994-2005) ATL,MON,FLA
- #45: Bob Swift                 -2.64      14 (1940-1953) SLB,PHA,DET
- #46: Jerry Johnson             -2.61      10 (1968-1977) PHI,SFG,STL,HOU,SDP,CLE,TOR
- #47: Koyie Hill                 -2.6      11 (2003-2014) LAD,ARI,CHC,MIA,PHI
- #48: Bob Kennedy                -2.6      16 (1939-1957) CHW,CLE,BAL,DET,BRO
- #49: Mark Lewis                -2.58      11 (1991-2001) CLE,CIN,DET,SFG,PHI,BAL
- #50: Dave Eiland               -2.57      10 (1988-2000) SDP,TBD,NYY
- #51: Greg Norton               -2.55      13 (1996-2009) CHW,COL,DET,TBD,ATL,SEA
- #52: Chick Fewster             -2.43      11 (1917-1927) NYY,BOS,CLE,BRO
- #53: Manny Alexander           -2.42      11 (1992-2006) BAL,CHC,NYM,BOS,TEX,SDP
- #54: Johnny Berardino          -2.42      11 (1939-1952) SLB,CLE,PIT
- #55: Rube Walker               -2.42      11 (1948-1958) CHC,BRO,LAD
- #56: Jordan Lyles              -2.41      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
- #57: Mick Kelleher              -2.4      11 (1972-1982) STL,HOU,CHC,DET,CAL
- #58: Dale Sveum                -2.35      12 (1986-1999) MIL,CHW,PHI,OAK,SEA,PIT,NYY
- #59: John Mabry                -2.31      14 (1994-2007) STL,SEA,SDP,FLA,OAK,PHI,CHC,COL
+ #29: John Moses                -3.48      11 (1982-1992) MIN,SEA,DET
+ #30: John Mabry                -3.46      14 (1994-2007) SDP,SEA,FLA,STL,OAK,PHI,CHC,COL
+ #31: Darrel Chaney             -3.38      11 (1969-1979) CIN,ATL
+ #32: Matt Walbeck              -3.37      11 (1993-2003) CHC,MIN,DET,ANA,PHI
+ #33: Karim García              -3.25      10 (1995-2004) LAD,ARI,DET,BAL,CLE,NYY,NYM
+ #34: John Russell              -3.19      10 (1984-1993) ATL,PHI,TEX
+ #35: Ken Reitz                 -3.15      11 (1972-1982) STL,SFG,CHC,PIT
+ #36: Gary Bennett              -3.09      13 (1995-2008) PHI,COL,NYM,SDP,MIL,WSN,STL,LAD
+ #37: Doc Powers                -3.08      11 (1898-1909) LOU,WHS,PHA,NYY
+ #38: Eddie Miksis              -2.99      14 (1944-1958) BRO,CHC,BAL,STL,CIN
+ #39: Terry Francona            -2.97      10 (1981-1990) MIL,MON,CHC,CIN,CLE
+ #40: Tom Egan                  -2.92      10 (1965-1975) CAL,CHW
+ #41: Todd Greene               -2.91      11 (1996-2006) CAL,ANA,TOR,NYY,TEX,COL,SFG
+ #42: Lou Klimchock              -2.9      12 (1958-1970) KCA,MLN,WSA,CLE,NYM
+ #43: Jack Ryan                 -2.85      10 (1894-1913) BRO,BLN,STL,BSN,WSH
+ #44: John Kennedy              -2.84      12 (1962-1974) WSA,LAD,NYY,SEP,BOS,MIL
+ #45: Mike Mordecai             -2.82      12 (1994-2005) ATL,MON,FLA
+ #46: Jerry Johnson             -2.75      10 (1968-1977) PHI,SFG,STL,SDP,HOU,CLE,TOR
+ #47: Bob Swift                 -2.64      14 (1940-1953) SLB,PHA,DET
+ #48: Koyie Hill                 -2.6      11 (2003-2014) ARI,CHC,MIA,PHI,LAD
+ #49: Bob Kennedy                -2.6      16 (1939-1957) CHW,CLE,BAL,DET,BRO
+ #50: Mark Lewis                -2.58      11 (1991-2001) CLE,CIN,DET,SFG,PHI,BAL
+ #51: Dave Eiland               -2.57      10 (1988-2000) SDP,TBD,NYY
+ #52: Greg Norton               -2.55      13 (1996-2009) CHW,COL,DET,TBD,ATL,SEA
+ #53: Jordan Lyles               -2.5      14 (2011-2024) HOU,COL,SDP,MIL,PIT,TEX,BAL,KCR
+ #54: Chick Fewster             -2.43      11 (1917-1927) NYY,BOS,CLE,BRO
+ #55: Johnny Berardino          -2.42      11 (1939-1952) SLB,CLE,PIT
+ #56: Rube Walker               -2.42      11 (1948-1958) CHC,BRO,LAD
+ #57: Manny Alexander           -2.42      11 (1992-2006) BAL,CHC,NYM,BOS,TEX,SDP
+ #58: Mick Kelleher              -2.4      11 (1972-1982) STL,HOU,CHC,DET,CAL
+ #59: Dale Sveum                -2.35      12 (1986-1999) MIL,CHW,PHI,OAK,SEA,PIT,NYY
  #60: J.C. Martin               -2.25      14 (1959-1972) CHW,NYM,CHC
  #61: Chico Walker              -2.24      11 (1980-1993) BOS,CHC,CAL,NYM
  #62: John Stephenson           -2.22      10 (1964-1973) NYM,CHC,SFG,CAL
  #63: Wil Nieves                -2.19      12 (2002-2015) SDP,NYY,WSN,MIL,ARI,COL,PHI
  #64: Bobby Wine                -2.17      12 (1960-1972) PHI,MON
- #65: Randy Lerch               -2.15      11 (1975-1986) PHI,MON,MIL,SFG
+ #65: Mike Sullivan             -2.15      10 (1889-1899) BSN,WHS,CHC,NYG,CIN,CLV
  #66: Chick Galloway            -2.12      10 (1919-1928) PHA,DET
- #67: Dave McCarty              -2.09      11 (1993-2005) MIN,SFG,SEA,KCR,TBD,BOS,OAK
+ #67: Dave McCarty              -2.09      11 (1993-2005) BOS,MIN,SFG,SEA,KCR,TBD,OAK
  #68: Clyde Manion              -2.07      13 (1920-1934) DET,SLB,CIN
  #69: Hawk Taylor               -2.07      11 (1957-1970) MLN,NYM,CAL,KCR
- #70: Jerry Morales             -1.99      15 (1969-1983) SDP,CHC,STL,DET,NYM
- #71: Von Joshua                -1.97      10 (1969-1980) LAD,SFG,MIL,SDP
- #72: Tim Laker                 -1.96      11 (1992-2006) MON,BAL,PIT,TBD,CLE
- #73: Guillermo Quiroz          -1.87      10 (2004-2014) TOR,SEA,TEX,BAL,BOS,SFG
- #74: John Wehner               -1.84      11 (1991-2001) PIT,FLA
- #75: Domingo Ramos             -1.83      11 (1978-1990) NYY,TOR,SEA,CAL,CLE,CHC
- #76: Paul Popovich             -1.82      11 (1964-1975) CHC,LAD,PIT
- #77: Pete Suder                -1.77      13 (1941-1955) PHA,KCA
- #78: Roy Spencer               -1.77      12 (1925-1938) PIT,WSH,CLE,NYG,BRO
- #79: Lou Kretlow               -1.75      10 (1946-1956) DET,CHW,SLB,BAL,KCA
- #80: Blaine Boyer               -1.7      12 (2005-2018) ATL,ARI,STL,NYM,SDP,MIN,MIL,KCR,BOS
- #81: Wes Helms                 -1.68      13 (1998-2011) ATL,MIL,FLA,PHI
- #82: Josh Billings             -1.67      11 (1913-1923) CLE,SLB
- #83: Dana Eveland              -1.67      11 (2005-2016) MIL,ARI,OAK,PIT,TOR,LAD,BAL,NYM,ATL,TBR
- #84: Mike Sullivan             -1.65      10 (1889-1899) WHS,CHC,NYG,CIN,CLV,BSN
- #85: Wade Blasingame           -1.64      10 (1963-1972) MLN,ATL,HOU,NYY
- #86: Russ Nixon                -1.64      12 (1957-1968) CLE,BOS,MIN
- #87: Randy Knorr               -1.62      11 (1991-2001) TOR,HOU,FLA,TEX,MON
- #88: Craig Paquette            -1.62      11 (1993-2003) OAK,KCR,NYM,STL,DET
- #89: Ronny Cedeño              -1.57      10 (2005-2014) CHC,PIT,SEA,NYM,HOU,SDP,PHI
- #90: Jim Beauchamp             -1.55      10 (1963-1973) STL,HOU,MLN,ATL,CIN,NYM
- #91: Rob Brantly               -1.53      10 (2012-2025) MIA,CHW,PHI,SFG,NYY,TBR
- #92: Darnell Coles             -1.45      14 (1983-1997) SEA,DET,PIT,SFG,CIN,TOR,STL,COL
- #93: Chris Gwynn               -1.41      10 (1987-1996) LAD,KCR,SDP
- #94: Chris Gomez               -1.41      16 (1993-2008) DET,SDP,TBD,MIN,TOR,BAL,CLE,PIT
- #95: Ricky Gutiérrez           -1.41      12 (1993-2004) SDP,HOU,CHC,CLE,BOS,NYM
- #96: Mike Fischlin             -1.34      10 (1977-1987) HOU,CLE,NYY,ATL
- #97: Austin Romine             -1.34      11 (2011-2022) NYY,DET,CHC,CIN,LAA,STL
- #98: Frank O'Rourke            -1.31      14 (1912-1931) BSN,BRO,WSH,BOS,DET,SLB
+ #70: Randy Lerch               -2.02      11 (1975-1986) PHI,MON,MIL,SFG
+ #71: Jerry Morales             -1.99      15 (1969-1983) SDP,CHC,STL,DET,NYM
+ #72: Von Joshua                -1.97      10 (1969-1980) LAD,SFG,MIL,SDP
+ #73: Lou Kretlow               -1.97      10 (1946-1956) DET,CHW,SLB,BAL,KCA
+ #74: Tim Laker                 -1.96      11 (1992-2006) CLE,MON,BAL,PIT,TBD
+ #75: Guillermo Quiroz          -1.87      10 (2004-2014) TOR,SEA,TEX,BAL,SFG,BOS
+ #76: John Wehner               -1.84      11 (1991-2001) PIT,FLA
+ #77: Blaine Boyer              -1.84      12 (2005-2018) ATL,ARI,STL,NYM,SDP,MIN,MIL,KCR,BOS
+ #78: Domingo Ramos             -1.83      11 (1978-1990) TOR,SEA,CAL,CLE,CHC,NYY
+ #79: Paul Popovich             -1.82      11 (1964-1975) CHC,LAD,PIT
+ #80: Pete Suder                -1.77      13 (1941-1955) PHA,KCA
+ #81: Roy Spencer               -1.77      12 (1925-1938) PIT,WSH,CLE,NYG,BRO
+ #82: Dana Eveland              -1.69      11 (2005-2016) MIL,ARI,OAK,PIT,TOR,LAD,BAL,NYM,ATL,TBR
+ #83: Wes Helms                 -1.68      13 (1998-2011) ATL,MIL,FLA,PHI
+ #84: Josh Billings             -1.67      11 (1913-1923) CLE,SLB
+ #85: Russ Nixon                -1.64      12 (1957-1968) CLE,BOS,MIN
+ #86: Randy Knorr               -1.62      11 (1991-2001) TOR,HOU,FLA,TEX,MON
+ #87: Craig Paquette            -1.62      11 (1993-2003) OAK,KCR,NYM,STL,DET
+ #88: Ronny Cedeño              -1.57      10 (2005-2014) CHC,PIT,SEA,NYM,HOU,SDP,PHI
+ #89: Jim Beauchamp             -1.55      10 (1963-1973) HOU,MLN,CIN,STL,NYM,ATL
+ #90: Rob Brantly               -1.53      10 (2012-2025) CHW,MIA,SFG,NYY,TBR,PHI
+ #91: Darnell Coles             -1.45      14 (1983-1997) SEA,DET,PIT,SFG,CIN,TOR,STL,COL
+ #92: Chris Gwynn               -1.41      10 (1987-1996) LAD,KCR,SDP
+ #93: Chris Gomez               -1.41      16 (1993-2008) DET,SDP,TBD,MIN,TOR,BAL,CLE,PIT
+ #94: Ricky Gutiérrez           -1.41      12 (1993-2004) SDP,HOU,CHC,CLE,BOS,NYM
+ #95: Mike Fischlin             -1.34      10 (1977-1987) HOU,CLE,NYY,ATL
+ #96: Austin Romine             -1.34      11 (2011-2022) NYY,DET,CHC,CIN,LAA,STL
+ #97: Frank O'Rourke            -1.31      14 (1912-1931) BSN,BRO,WSH,BOS,DET,SLB
+ #98: Wade Blasingame           -1.28      10 (1963-1972) MLN,ATL,HOU,NYY
  #99: Paul Bako                 -1.27      12 (1998-2009) DET,HOU,ATL,FLA,MIL,CHC,LAD,KCR,BAL,CIN,PHI
-#100: Édgar González            -1.27      10 (2003-2013) ARI,OAK,COL,HOU,TOR
+#100: Édgar González            -1.27      10 (2003-2013) ARI,HOU,OAK,COL,TOR
 #101: Carmelo Castillo          -1.25      10 (1982-1991) CLE,MIN
 #102: Hal Janvrin               -1.25      10 (1911-1922) BOS,STL,WSH,BRO
-#103: Jimmy Stewart             -1.24      10 (1963-1973) CHC,CHW,CIN,HOU
-#104: Reno Bertoia              -1.21      10 (1953-1962) DET,WSH,KCA,MIN
-#105: Larry Biittner             -1.2      14 (1970-1983) WSA,TEX,MON,CHC,CIN
-#106: Austin Hedges              -1.2      12 (2015-2026) SDP,CLE,PIT,TEX
-#107: Craig Shipley             -1.19      11 (1986-1998) LAD,NYM,SDP,HOU,ANA
-#108: Eddie Williams            -1.14      10 (1986-1998) CLE,CHW,SDP,DET,LAD,PIT
-#109: Mike Ryan                 -1.13      11 (1964-1974) BOS,PHI,PIT
-#110: Mike Kahoe                -1.08      11 (1895-1909) CIN,CHC,SLB,PHI,WSH
-#111: Jacob Barnes              -1.08      10 (2016-2025) MIL,KCR,NYM,TOR,LAA,DET,NYY,STL,WSN
-#112: Ryan Lavarnway            -1.06      10 (2011-2021) BOS,ATL,BAL,OAK,PIT,CIN,MIA,CLE
-#113: John D'Acquisto           -1.04      10 (1973-1982) SFG,SDP,STL,MON,CAL,OAK
-#114: Keith Osik                -1.01      10 (1996-2005) PIT,MIL,BAL,WSN
-#115: Oscar Melillo              -1.0      12 (1926-1937) SLB,BOS
-#116: C.J. Nitkowski            -0.97      10 (1995-2005) CIN,DET,HOU,NYM,ATL,NYY,WSN,TEX
-#117: Dave Tomlin               -0.89      13 (1972-1986) CIN,SDP,MON,PIT
-#118: Hal Lanier                -0.88      10 (1964-1973) SFG,NYY
-#119: Rusty Peters              -0.85      10 (1936-1947) PHA,CLE,SLB
-#120: Ramón Martínez            -0.82      12 (1998-2009) SFG,CHC,DET,PHI,LAD,NYM
-#121: Cito Gaston               -0.79      11 (1967-1978) ATL,SDP,PIT
-#122: Chad Durbin               -0.79      14 (1999-2013) KCR,ARI,CLE,DET,PHI,ATL
-#123: Arndt Jorgens             -0.66      11 (1929-1939) NYY
-#124: Biff Pocoroba             -0.66      10 (1975-1984) ATL
-#125: Harry Chiti               -0.65      10 (1950-1962) CHC,KCA,DET,NYM
-#126: Denny Hocking             -0.63      13 (1993-2005) MIN,COL,KCR
-#127: Merv Shea                 -0.59      11 (1927-1944) DET,BOS,SLB,CHW,BRO,PHI
-#128: Tom Hutton                -0.55      12 (1966-1981) LAD,PHI,MON,TOR
-#129: Larry Milbourne           -0.54      11 (1974-1984) HOU,SEA,NYY,CLE,MIN,PHI
-#130: Harry Spilman             -0.54      12 (1978-1989) CIN,HOU,DET,SFG
-#131: Phil Gosselin             -0.54      10 (2013-2022) ATL,ARI,PIT,TEX,CIN,PHI,LAA
-#132: Hal Naragon               -0.53      10 (1951-1962) CLE,WSH,MIN
-#133: Rafael Montero            -0.51      11 (2014-2025) NYM,TEX,HOU,SEA,DET,ATL
-#134: Jimmy Outlaw              -0.51      10 (1937-1949) CIN,BSN,DET
-#135: Tom Satriano               -0.5      10 (1961-1970) LAA,CAL,BOS
-#136: Desi Relaford             -0.49      11 (1996-2007) PHI,SDP,NYM,SEA,KCR,COL,TEX
-#137: Mike Matheny              -0.48      13 (1994-2006) MIL,TOR,STL,SFG
-#138: Ed Farmer                 -0.44      11 (1971-1983) CLE,PHI,CHW,TEX,OAK,DET,BAL,MIL
-#139: Chris Widger              -0.43      10 (1995-2006) SEA,MON,NYY,STL,CHW,BAL
-#140: Danny Bautista            -0.43      12 (1993-2004) DET,ATL,FLA,ARI
-#141: Matt Sinatro              -0.42      10 (1981-1992) ATL,OAK,DET,SEA
-#142: Sandy León                -0.41      14 (2012-2026) WSN,BOS,CLE,MIA,MIN,TEX,ATL
-#143: John Boccabella           -0.34      12 (1963-1974) CHC,MON,SFG
-#144: Gene Desautels            -0.33      13 (1930-1946) DET,BOS,CLE,PHA
-#145: Junior Ortiz              -0.32      13 (1982-1994) PIT,NYM,MIN,CLE,TEX
-#146: Jake Powell               -0.31      11 (1930-1945) WSH,NYY,PHI
-#147: José Lobatón              -0.29      10 (2009-2021) SDP,TBR,WSN,NYM,CHC
-#148: Mike Tyson                -0.29      10 (1972-1981) STL,CHC
-#149: Todd Van Poppel           -0.26      11 (1991-2004) OAK,PIT,TEX,CHC,CIN,DET
-#150: Walter Holke              -0.24      11 (1914-1925) NYG,BSN,PHI,CIN
-#151: Ross Gload                -0.23      10 (2000-2011) CHC,COL,CHW,KCR,FLA,PHI
-#152: Tomás Pérez               -0.21      12 (1995-2008) TOR,PHI,TBD,HOU
+#103: Erik Kratz                -1.24      11 (2010-2020) HOU,PIT,MIL,NYY,PHI,KCR,TOR,SFG,TBR
+#104: Jimmy Stewart             -1.24      10 (1963-1973) CHC,CHW,CIN,HOU
+#105: Austin Hedges             -1.21      12 (2015-2026) PIT,TEX,CLE,SDP
+#106: Reno Bertoia              -1.21      10 (1953-1962) DET,WSH,KCA,MIN
+#107: Larry Biittner             -1.2      14 (1970-1983) CHC,WSA,TEX,MON,CIN
+#108: Craig Shipley             -1.19      11 (1986-1998) LAD,NYM,SDP,HOU,ANA
+#109: Eddie Williams            -1.14      10 (1986-1998) CLE,CHW,SDP,DET,LAD,PIT
+#110: Mike Ryan                 -1.13      11 (1964-1974) BOS,PHI,PIT
+#111: John D'Acquisto           -1.12      10 (1973-1982) SFG,SDP,STL,MON,CAL,OAK
+#112: Jacob Barnes              -1.08      10 (2016-2025) KCR,MIL,NYM,TOR,LAA,DET,NYY,STL,WSN
+#113: Mike Kahoe                -1.08      11 (1895-1909) CIN,CHC,SLB,PHI,WSH
+#114: Ryan Lavarnway            -1.06      10 (2011-2021) BOS,ATL,BAL,OAK,CIN,MIA,CLE,PIT
+#115: Keith Osik                -1.01      10 (1996-2005) PIT,MIL,BAL,WSN
+#116: Oscar Melillo              -1.0      12 (1926-1937) SLB,BOS
+#117: C.J. Nitkowski            -0.98      10 (1995-2005) CIN,DET,HOU,NYM,ATL,NYY,WSN,TEX
+#118: Sandy León                -0.93      14 (2012-2026) MIA,CLE,MIN,TEX,WSN,BOS,ATL
+#119: Dave Tomlin               -0.89      13 (1972-1986) SDP,CIN,MON,PIT
+#120: Hal Lanier                -0.88      10 (1964-1973) SFG,NYY
+#121: Rusty Peters              -0.85      10 (1936-1947) PHA,CLE,SLB
+#122: Ramón Martínez            -0.82      12 (1998-2009) SFG,CHC,DET,PHI,LAD,NYM
+#123: Chad Durbin               -0.81      14 (1999-2013) KCR,DET,ARI,CLE,PHI,ATL
+#124: Cito Gaston               -0.79      11 (1967-1978) ATL,SDP,PIT
+#125: Arndt Jorgens             -0.66      11 (1929-1939) NYY
+#126: Biff Pocoroba             -0.66      10 (1975-1984) ATL
+#127: Harry Chiti               -0.65      10 (1950-1962) CHC,KCA,DET,NYM
+#128: Denny Hocking             -0.63      13 (1993-2005) MIN,COL,KCR
+#129: Merv Shea                 -0.59      11 (1927-1944) DET,BOS,SLB,CHW,BRO,PHI
+#130: Tom Hutton                -0.55      12 (1966-1981) MON,LAD,PHI,TOR
+#131: Larry Milbourne           -0.54      11 (1974-1984) HOU,SEA,NYY,CLE,MIN,PHI
+#132: Harry Spilman             -0.54      12 (1978-1989) CIN,HOU,DET,SFG
+#133: Phil Gosselin             -0.54      10 (2013-2022) ATL,LAA,ARI,PIT,TEX,CIN,PHI
+#134: Hal Naragon               -0.53      10 (1951-1962) CLE,WSH,MIN
+#135: Rafael Montero            -0.51      11 (2014-2025) NYM,TEX,HOU,SEA,DET,ATL
+#136: Jimmy Outlaw              -0.51      10 (1937-1949) CIN,BSN,DET
+#137: Tom Satriano               -0.5      10 (1961-1970) LAA,CAL,BOS
+#138: Desi Relaford             -0.49      11 (1996-2007) NYM,PHI,SDP,SEA,KCR,COL,TEX
+#139: Mike Matheny              -0.48      13 (1994-2006) MIL,TOR,STL,SFG
+#140: Ed Farmer                 -0.45      11 (1971-1983) CLE,PHI,OAK,CHW,TEX,DET,BAL,MIL
+#141: Chris Widger              -0.43      10 (1995-2006) SEA,MON,NYY,STL,CHW,BAL
+#142: Danny Bautista            -0.43      12 (1993-2004) DET,ATL,FLA,ARI
+#143: Matt Sinatro              -0.42      10 (1981-1992) ATL,OAK,DET,SEA
+#144: John Boccabella           -0.34      12 (1963-1974) CHC,MON,SFG
+#145: Gene Desautels            -0.33      13 (1930-1946) DET,BOS,CLE,PHA
+#146: Junior Ortiz              -0.32      13 (1982-1994) PIT,NYM,MIN,CLE,TEX
+#147: Jake Powell               -0.31      11 (1930-1945) WSH,NYY,PHI
+#148: José Lobatón              -0.29      10 (2009-2021) SDP,TBR,WSN,NYM,CHC
+#149: Mike Tyson                -0.29      10 (1972-1981) STL,CHC
+#150: Walter Holke              -0.24      11 (1914-1925) PHI,NYG,BSN,CIN
+#151: Ross Gload                -0.23      10 (2000-2011) FLA,CHC,COL,CHW,KCR,PHI
+#152: Tomás Pérez               -0.21      12 (1995-2008) PHI,TOR,TBD,HOU
 #153: Terry Shumpert            -0.18      14 (1990-2003) KCR,BOS,CHC,SDP,COL,TBD
 #154: Gerald Perry              -0.15      13 (1983-1995) ATL,KCR,STL
-#155: Billy Consolo             -0.14      10 (1953-1962) BOS,WSH,MIN,KCA,LAA,PHI
-#156: Erik Kratz                -0.12      11 (2010-2020) PIT,PHI,KCR,TOR,HOU,NYY,MIL,SFG,TBR
+#155: Billy Consolo             -0.14      10 (1953-1962) BOS,WSH,KCA,LAA,PHI,MIN
+#156: Todd Van Poppel           -0.12      11 (1991-2004) PIT,TEX,CHC,CIN,OAK,DET
 #157: Grover Hartley            -0.11      12 (1911-1934) NYG,SLB,BOS,CLE
 #158: Rafael Belliard            -0.1      17 (1982-1998) PIT,ATL
-#159: Marty Perez               -0.08      10 (1969-1978) CAL,ATL,SFG,NYY,OAK
-#160: Dwayne Henry              -0.07      11 (1984-1995) ATL,HOU,CIN,SEA,TEX,DET
-#161: Henry Blanco              -0.06      16 (1997-2013) LAD,COL,MIL,ATL,MIN,CHC,SDP,NYM,ARI,SEA,TOR
-#162: Charlie Culberson         -0.05      11 (2012-2023) SFG,COL,LAD,ATL,TEX
-#163: Gene Michael              -0.03      10 (1966-1975) PIT,LAD,NYY,DET
+#159: Dwayne Henry              -0.09      11 (1984-1995) ATL,HOU,CIN,SEA,DET,TEX
+#160: Marty Perez               -0.08      10 (1969-1978) CAL,ATL,SFG,NYY,OAK
+#161: Henry Blanco              -0.06      16 (1997-2013) COL,MIL,ATL,MIN,CHC,SDP,NYM,ARI,SEA,TOR,LAD
+#162: Charlie Culberson         -0.05      11 (2012-2023) ATL,TEX,SFG,COL,LAD
+#163: Gene Michael              -0.03      10 (1966-1975) NYY,PIT,LAD,DET
 #164: Jeanmar Gómez             -0.02      10 (2010-2019) CLE,PIT,PHI,CHW,TEX
-#165: Corky Miller              -0.01      11 (2001-2013) CIN,MIN,BOS,ATL,CHW
-#166: Joe Ginsberg              -0.01      13 (1948-1962) DET,CLE,BAL,KCA,CHW,BOS,NYM
+#165: Joe Ginsberg              -0.01      13 (1948-1962) DET,CLE,BAL,KCA,CHW,BOS,NYM
+#166: Corky Miller              -0.01      11 (2001-2013) CIN,MIN,BOS,ATL,CHW

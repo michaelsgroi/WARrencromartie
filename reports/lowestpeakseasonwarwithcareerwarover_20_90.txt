@@ -1,4 +1,4 @@
-Lowest peak season war with career war over 20 90
+Top 20 Lowest Peak Season WAR \u2014 Career WAR Over 90
 20 rows
 
     # name                        war      peakwar seasons             teams
@@ -7,18 +7,18 @@ Lowest peak season war with career war over 20 90
   #3: Frank Robinson           107.24  8.72 (1962)      21 (1956-1976) CIN,BAL,LAD,CAL,CLE
   #4: Mel Ott                  110.71  8.84 (1938)      22 (1926-1947) NYG
   #5: Roberto Clemente          94.96  8.94 (1967)      18 (1955-1972) PIT
-  #6: Wade Boggs                91.44  9.07 (1985)      18 (1982-1999) BOS,NYY,TBD
-  #7: Warren Spahn             100.16  9.42 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
+  #6: Wade Boggs                91.44  9.07 (1985)      18 (1982-1999) NYY,TBD,BOS
+  #7: Warren Spahn             100.32  9.42 (1947)      21 (1942-1965) BSN,MLN,NYM,SFG
   #8: Henry Aaron              143.22  9.45 (1961)      23 (1954-1976) MLN,ATL,MIL
   #9: Adrian Beltré             93.72  9.55 (2004)      21 (1998-2018) LAD,SEA,BOS,TEX
- #10: Greg Maddux              106.57  9.61 (1995)      23 (1986-2008) CHC,ATL,LAD,SDP
+ #10: Greg Maddux              106.32  9.61 (1995)      23 (1986-2008) CHC,ATL,LAD,SDP
  #11: Albert Pujols            101.17  9.73 (2009)      22 (2001-2022) STL,LAA,LAD
- #12: Bert Blyleven             94.52  9.74 (1973)      22 (1970-1992) MIN,PIT,TEX,CLE,CAL
+ #12: Bert Blyleven             94.52  9.74 (1973)      22 (1970-1992) MIN,PIT,CAL,TEX,CLE
  #13: Mike Schmidt             106.88  9.74 (1974)      18 (1972-1989) PHI
  #14: Eddie Collins            123.71  9.75 (1910)      25 (1906-1930) PHA,CHW
  #15: Rickey Henderson         111.18  9.94 (1990)      25 (1979-2003) OAK,NYY,TOR,SDP,ANA,NYM,SEA,BOS,LAD
  #16: Tris Speaker             136.07 10.07 (1912)      22 (1907-1928) BOS,CLE,WSH,PHA
  #17: Nap Lajoie                108.7 10.31 (1910)      21 (1896-1916) PHI,PHA,CLE
- #18: Jimmie Foxx               92.72 10.34 (1932)      20 (1925-1945) PHA,BOS,CHC,PHI
+ #18: Jimmie Foxx               92.72 10.34 (1932)      20 (1925-1945) BOS,PHI,PHA,CHC
  #19: Alex Rodriguez           117.41 10.36 (2000)      22 (1994-2016) SEA,TEX,NYY
  #20: Phil Niekro                95.9 10.39 (1978)      24 (1964-1987) MLN,ATL,NYY,CLE,TOR

@@ -1,4 +1,4 @@
-Roster 2005 nyy concise
+2005 New York Yankees Roster, Concise
 51 rows
 
 # name war
@@ -30,10 +30,10 @@ Roster 2005 nyy concise
 #26: Félix Rodríguez 9
 #27: Mark Bellhorn 8
 #28: Buddy Groom 7
-#29: Shawn Chacón 7
+#29: Shawn Chacón 6
 #30: Darrell May 6
 #31: Tanyon Sturtze 5
-#32: Jaret Wright 4
+#32: Jaret Wright 5
 #33: Russ Johnson 3
 #34: Tony Womack 2
 #35: Alan Embree 2
@@ -42,9 +42,9 @@ Roster 2005 nyy concise
 #38: Scott Proctor 1
 #39: Jorge De Paula 0
 #40: Andy Phillips 0
-#41: Tim Redding 0
-#42: Mike Vento 0
-#43: Kevin Reese 0
+#41: Mike Vento 0
+#42: Kevin Reese 0
+#43: Tim Redding 0
 #44: Félix Escalona 0
 #45: Jason Anderson 0
 #46: Colter Bean 0

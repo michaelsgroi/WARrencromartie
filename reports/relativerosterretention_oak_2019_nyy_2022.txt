@@ -1,4 +1,4 @@
-Relative roster retention oak 2019 nyy 2022
+Roster Retention: Oakland A's 2019 vs. New York Yankees 2022
 11 rows
 
     # name                                  war year teams
@@ -12,4 +12,4 @@ Relative roster retention oak 2019 nyy 2022
   #8: Didi Gregorius                       0.35 2019 NYY
   #9: Troy Tulowitzki                      0.06 2019 NYY
  #10: Brady Lail                          -0.18 2019 NYY
- #11: Tyler Lyons                          -0.3 2019 PIT,NYY
+ #11: Tyler Lyons                         -0.31 2019 PIT,NYY

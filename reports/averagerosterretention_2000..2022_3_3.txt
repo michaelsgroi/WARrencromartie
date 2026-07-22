@@ -1,4 +1,4 @@
-Average roster retention 2000..2022 3 3
+Average Roster Retention 2000-2022, top 3, 3-year window
 26 rows
 
 team average years
@@ -15,10 +15,10 @@ lad 1.65
 chc 1.6
 col 1.6
 phi 1.6
-pit 1.55
 atl 1.5
 bal 1.5
 min 1.5
+pit 1.5
 chw 1.45
 kcr 1.45
 det 1.4

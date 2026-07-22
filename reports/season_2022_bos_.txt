@@ -1,4 +1,4 @@
-Season 2022 bos
+2022 Boston Red Sox Roster
 54 rows
 
     # name                                  war year teams
@@ -9,25 +9,25 @@ Season 2022 bos
   #5: Trevor Story                         2.52 2022 BOS
   #6: Nick Pivetta                         2.51 2022 BOS
   #7: Christian Vázquez                    2.12 2022 BOS,HOU
-  #8: Garrett Whitlock                     1.83 2022 BOS
-  #9: Tanner Houck                         1.63 2022 BOS
- #10: Nathan Eovaldi                       1.58 2022 BOS
- #11: Rob Refsnyder                        1.23 2022 BOS
- #12: J.D. Martinez                        1.12 2022 BOS
- #13: Eric Hosmer                          1.04 2022 BOS,SDP
- #14: Reese McGuire                        0.95 2022 BOS,CHW
+  #8: Reese McGuire                        1.86 2022 BOS,CHW
+  #9: Garrett Whitlock                     1.83 2022 BOS
+ #10: Tanner Houck                         1.63 2022 BOS
+ #11: Nathan Eovaldi                       1.58 2022 BOS
+ #12: Rob Refsnyder                        1.23 2022 BOS
+ #13: J.D. Martinez                        1.12 2022 BOS
+ #14: Eric Hosmer                          1.04 2022 BOS,SDP
  #15: Enrique Hernández                    0.93 2022 BOS
  #16: Alex Verdugo                         0.92 2022 BOS
  #17: Rich Hill                            0.78 2022 BOS
  #18: Christian Arroyo                     0.68 2022 BOS
  #19: Hirokazu Sawamura                    0.66 2022 BOS
- #20: Tommy Pham                           0.39 2022 BOS,CIN
- #21: Brayan Bello                         0.35 2022 BOS
- #22: Eduard Bazardo                       0.34 2022 BOS
- #23: Matt Strahm                          0.26 2022 BOS
- #24: Matt Barnes                          0.23 2022 BOS
- #25: Zack Kelly                           0.17 2022 BOS
- #26: Yu Chang                             0.15 2022 BOS,CLE,PIT,TBR
+ #20: Yu Chang                             0.65 2022 BOS,CLE,PIT,TBR
+ #21: Tommy Pham                           0.39 2022 BOS,CIN
+ #22: Brayan Bello                         0.35 2022 BOS
+ #23: Eduard Bazardo                       0.34 2022 BOS
+ #24: Matt Strahm                          0.26 2022 BOS
+ #25: Matt Barnes                          0.23 2022 BOS
+ #26: Zack Kelly                           0.17 2022 BOS
  #27: Kutter Crawford                      0.13 2022 BOS
  #28: Triston Casas                        0.12 2022 BOS
  #29: Jaylin Davis                         0.04 2022 BOS
@@ -50,9 +50,9 @@ Season 2022 bos
  #46: Travis Shaw                         -0.66 2022 BOS
  #47: Bobby Dalbec                        -0.72 2022 BOS
  #48: Jeurys Familia                      -0.73 2022 PHI,BOS
- #49: Jackie Bradley Jr.                  -0.77 2022 BOS,TOR
- #50: Hansel Robles                       -0.77 2022 BOS
- #51: Ryan Brasier                        -0.83 2022 BOS
- #52: Darwinzon Hernández                 -0.88 2022 BOS
- #53: Connor Seabold                       -1.0 2022 BOS
- #54: Kevin Plawecki                      -1.21 2022 BOS,TEX
+ #49: Hansel Robles                       -0.77 2022 BOS
+ #50: Ryan Brasier                        -0.83 2022 BOS
+ #51: Darwinzon Hernández                 -0.88 2022 BOS
+ #52: Connor Seabold                       -1.0 2022 BOS
+ #53: Jackie Bradley Jr.                  -1.53 2022 BOS,TOR
+ #54: Kevin Plawecki                      -2.45 2022 BOS,TEX

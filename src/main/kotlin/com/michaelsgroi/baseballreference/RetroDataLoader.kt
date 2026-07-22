@@ -12,7 +12,7 @@ object RetroDataLoader {
     private const val RETROSHEET_BASE = "https://www.retrosheet.org/gamelogs/"
     private const val CHADWICK_BASE = "https://raw.githubusercontent.com/chadwickbureau/register/master/data/"
     private const val CACHE_DIR = "data/retrosheet"
-    private const val PARQUET_OUT = "data/derived"
+    private val PARQLO_DIR = (System.getenv("PARQLO_LOCAL") ?: "${System.getProperty("user.home")}/Documents/d/github/parqlo/data") + "/war"
     private val EXPIRATION = Duration.ofDays(30)
 
     // Gamelog fields (0-indexed): starting players begin at field 105, 3 fields each (id, name, pos) x 9 batters x 2 teams
@@ -48,7 +48,7 @@ object RetroDataLoader {
     }
 
     fun writeParquets() {
-        File(PARQUET_OUT).mkdirs()
+        File(PARQLO_DIR).mkdirs()
         writePositionsParquet()
         writeChadwickParquet()
     }
@@ -174,7 +174,7 @@ object RetroDataLoader {
 
     private fun writePositionsParquet() {
         val csv = "$CACHE_DIR/positions.csv"
-        val parquet = "$PARQUET_OUT/retrosheet_positions.parquet"
+        val parquet = "$PARQLO_DIR/retrosheet_positions.parquet"
         println("writing $parquet ...")
         Class.forName("org.duckdb.DuckDBDriver")
         DriverManager.getConnection("jdbc:duckdb:").use { conn ->
@@ -224,7 +224,7 @@ object RetroDataLoader {
 
     private fun writeChadwickParquet() {
         val csv = "$CACHE_DIR/lookup.csv"
-        val parquet = "$PARQUET_OUT/chadwick_lookup.parquet"
+        val parquet = "$PARQLO_DIR/chadwick_lookup.parquet"
         println("writing $parquet ...")
         Class.forName("org.duckdb.DuckDBDriver")
         DriverManager.getConnection("jdbc:duckdb:").use { conn ->

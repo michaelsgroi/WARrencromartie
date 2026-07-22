@@ -1,12 +1,12 @@
-Lowest peak season war with career war over 20 50
+Top 20 Lowest Peak Season WAR \u2014 Career WAR Over 50
 20 rows
 
     # name                        war      peakwar seasons             teams
-  #1: Jake Beckley              57.39  4.66 (1900)      19 (1888-1907) PIT,NYG,CIN,STL
+  #1: Jake Beckley              57.39  4.66 (1900)      19 (1888-1907) CIN,STL,PIT,NYG
   #2: Sam Rice                   54.7  4.85 (1930)      20 (1915-1934) WSH,CLE
   #3: Mariano Rivera            56.26  4.96 (1996)      19 (1995-2013) NYY
-  #4: Gabby Hartnett            55.28  5.15 (1930)      20 (1922-1941) CHC,NYG
-  #5: David Wells               53.45  5.23 (1995)      21 (1987-2007) CIN,NYY,TOR,CHW,SDP,BOS,LAD,DET,BAL
+  #4: David Wells                53.2  5.08 (1995)      21 (1987-2007) CIN,NYY,TOR,CHW,SDP,BOS,LAD,DET,BAL
+  #5: Gabby Hartnett            55.28  5.15 (1930)      20 (1922-1941) CHC,NYG
   #6: Harry Hooper              53.16  5.25 (1920)      17 (1909-1925) BOS,CHW
   #7: Torii Hunter              50.64  5.35 (2012)      19 (1997-2015) MIN,LAA,DET
   #8: Ted Simmons               50.37  5.51 (1978)      21 (1968-1988) STL,MIL,ATL
@@ -17,7 +17,7 @@ Lowest peak season war with career war over 20 50
  #13: Tommy John                61.55  5.91 (1968)      26 (1963-1989) CLE,CHW,LAD,NYY,CAL,OAK
  #14: Jack Clark                53.08  5.94 (1978)      18 (1975-1992) SFG,STL,NYY,SDP,BOS
  #15: Mark Buehrle              59.03  6.02 (2007)      16 (2000-2015) CHW,MIA,TOR
- #16: Waite Hoyt                52.38  6.08 (1927)      21 (1918-1938) NYG,BOS,NYY,DET,PHA,BRO,PIT
+ #16: Waite Hoyt                51.27  6.08 (1927)      21 (1918-1938) BOS,NYY,DET,PHA,BRO,NYG,PIT
  #17: Sam Crawford              75.93  6.15 (1914)      19 (1899-1917) CIN,DET
  #18: Johnny Damon              56.33  6.15 (2000)      18 (1995-2012) KCR,OAK,BOS,NYY,DET,TBR,CLE
  #19: Yogi Berra                59.54  6.21 (1956)      19 (1946-1965) NYY,NYM

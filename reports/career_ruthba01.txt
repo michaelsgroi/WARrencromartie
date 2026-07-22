@@ -1,4 +1,4 @@
-Career ruthba01
+Babe Ruth Career
 22 rows
 
     # name                                  war year teams
@@ -10,17 +10,17 @@ Career ruthba01
   #6: Babe Ruth                            9.97 1919 BOS
   #7: Babe Ruth                            11.8 1920 NYY
   #8: Babe Ruth                           12.62 1921 NYY
-  #9: Babe Ruth                            6.37 1922 NYY
- #10: Babe Ruth                           14.12 1923 NYY
- #11: Babe Ruth                           11.34 1924 NYY
- #12: Babe Ruth                            3.51 1925 NYY
- #13: Babe Ruth                           11.41 1926 NYY
- #14: Babe Ruth                           12.55 1927 NYY
- #15: Babe Ruth                           10.17 1928 NYY
- #16: Babe Ruth                            8.06 1929 NYY
- #17: Babe Ruth                           10.49 1930 NYY
- #18: Babe Ruth                           10.55 1931 NYY
- #19: Babe Ruth                            8.49 1932 NYY
- #20: Babe Ruth                            6.22 1933 NYY
+  #9: Babe Ruth                           10.49 1930 NYY
+ #10: Babe Ruth                            6.22 1933 NYY
+ #11: Babe Ruth                            6.37 1922 NYY
+ #12: Babe Ruth                           14.12 1923 NYY
+ #13: Babe Ruth                           11.34 1924 NYY
+ #14: Babe Ruth                            3.51 1925 NYY
+ #15: Babe Ruth                           11.41 1926 NYY
+ #16: Babe Ruth                           12.55 1927 NYY
+ #17: Babe Ruth                           10.17 1928 NYY
+ #18: Babe Ruth                            8.06 1929 NYY
+ #19: Babe Ruth                           10.55 1931 NYY
+ #20: Babe Ruth                            8.49 1932 NYY
  #21: Babe Ruth                            4.97 1934 NYY
  #22: Babe Ruth                             0.1 1935 BSN

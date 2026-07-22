@@ -1,12 +1,12 @@
-Best top n seasons 7 50 all-time
+Best Top-7 Seasons Combined WAR, All-Time, minimum 50 career WAR
 50 rows
 
     # name                        war seasons             teams
   #1: Walter Johnson            91.95       7 (1910-1918) WSH
   #2: Babe Ruth                 84.39       7 (1920-1931) NYY
-  #3: Cy Young                  77.99       7 (1892-1908) CLV,BOS
+  #3: Cy Young                  77.99       7 (1892-1908) BOS,CLV
   #4: Kid Nichols               75.14       7 (1890-1898) BSN
-  #5: John Clarkson             74.65       7 (1885-1892) CHC,BSN,CLV
+  #5: John Clarkson             74.06       7 (1885-1892) CHC,BSN,CLV
   #6: Rogers Hornsby            74.03       7 (1917-1929) STL,NYG,CHC
   #7: Willie Mays               73.55       7 (1954-1965) NYG,SFG
   #8: Barry Bonds               72.71       7 (1990-2004) PIT,SFG
@@ -29,12 +29,12 @@ Best top n seasons 7 50 all-time
  #25: Tris Speaker              63.27       7 (1912-1923) BOS,CLE
  #26: Albert Pujols             61.72       7 (2003-2009) STL
  #27: Randy Johnson             61.52       7 (1995-2004) ARI,SEA
- #28: Bob Gibson                61.23       7 (1962-1972) STL
- #29: Jim McCormick             60.98       7 (1879-1886) CLV,CHC
+ #28: Jim McCormick             61.24       7 (1879-1886) CLV,CHC
+ #29: Bob Gibson                61.23       7 (1962-1972) STL
  #30: Pud Galvin                60.66       7 (1879-1888) BUF,PIT
  #31: Nap Lajoie                60.63       7 (1901-1910) PHA,CLE
  #32: Henry Aaron               60.32       7 (1959-1969) MLN,ATL
- #33: Tom Seaver                59.32       7 (1967-1977) NYM,CIN
+ #33: Tom Seaver                59.82       7 (1967-1977) NYM,CIN
  #34: Joe Morgan                59.31       7 (1971-1977) HOU,CIN
  #35: Mike Schmidt              58.75       7 (1974-1981) PHI
  #36: Pedro Martínez            58.24       7 (1997-2005) MON,BOS,NYM
@@ -46,9 +46,9 @@ Best top n seasons 7 50 all-time
  #42: Greg Maddux               56.28       7 (1992-2000) CHC,ATL
  #43: Mookie Betts              55.55       7 (2015-2023) BOS,LAD
  #44: Carl Yastrzemski          55.54       7 (1963-1973) BOS
- #45: Shohei Ohtani             55.36       7 (2018-2026) LAA,LAD
+ #45: Shohei Ohtani              55.1       7 (2018-2026) LAA,LAD
  #46: Robin Roberts             55.09       7 (1950-1958) PHI
  #47: Jim Whitney               54.69       7 (1881-1887) BSN,KCN,WHS
  #48: Roberto Clemente          54.45       7 (1964-1971) PIT
  #49: Wes Ferrell               54.36       7 (1929-1936) CLE,BOS
- #50: Joe McGinnity             54.35       7 (1899-1905) BLN,BRO,BLA,NYG
+ #50: Phil Niekro               54.32       7 (1969-1979) ATL

@@ -1,54 +1,54 @@
-Consecutive seasons with war over 50 10.0
+Top 50 Consecutive Seasons with WAR > 10.0
 50 rows
 
     # name                 seasons             teams
   #1: Walter Johnson             5 (1912-1916) WSH
   #2: Tommy Bond                 4 (1876-1879) HAR,BSN
   #3: Willie Mays                4 (1962-1965) SFG
-  #4: Bob Gibson                 3 (1968-1970) STL
-  #5: Babe Ruth                  3 (1926-1928) NYY
-  #6: Ted Williams               3 (1941-1946) BOS
-  #7: Grover Alexander           2 (1915-1916) PHI
-  #8: Barry Bonds                2 (2001-2002) SFG
-  #9: Charlie Buffinton          2 (1888-1889) PHI
- #10: Ty Cobb                    2 (1910-1911) DET
- #11: Jim Devlin                 2 (1876-1877) LOU
- #12: Lefty Grove                2 (1930-1931) PHA
- #13: Rogers Hornsby             2 (1924-1925) STL
- #14: Mickey Mantle              2 (1956-1957) NYY
- #15: Christy Mathewson          2 (1908-1909) NYG
- #16: Kid Nichols                2 (1897-1898) BSN
- #17: Old Hoss Radbourn          2 (1883-1884) PRO
- #18: Amos Rusie                 2 (1893-1894) NYG
- #19: Mickey Welch               2 (1884-1885) NYG
- #20: Wilbur Wood                2 (1971-1972) CHW
- #21: Carl Yastrzemski           2 (1967-1968) BOS
- #22: Cy Young                   2 (1892-1893) CLV
- #23: Lady Baldwin               1 (1886-1886) DTN
- #24: Ernie Banks                1 (1959-1959) CHC
- #25: Mookie Betts               1 (2018-2018) BOS
- #26: Lou Boudreau               1 (1948-1948) CLE
- #27: Theodore Breitenstein       1 (1893-1893) STL
- #28: Steve Carlton              1 (1972-1972) PHI
- #29: Jack Chesbro               1 (1904-1904) NYY
- #30: Eddie Cicotte              1 (1917-1917) CHW
- #31: John Clarkson              1 (1889-1889) BSN
- #32: Roger Clemens              1 (1997-1997) TOR
- #33: Jack Coombs                1 (1910-1910) PHA
- #34: George Cuppy               1 (1896-1896) CLV
- #35: Red Faber                  1 (1921-1921) CHW
- #36: Charlie Ferguson           1 (1886-1886) PHI
- #37: Wes Ferrell                1 (1935-1935) BOS
- #38: Russ Ford                  1 (1910-1910) NYY
- #39: Jimmie Foxx                1 (1932-1932) PHA
- #40: Pud Galvin                 1 (1884-1884) BUF
- #41: Lou Gehrig                 1 (1927-1927) NYY
- #42: Kid Gleason                1 (1890-1890) PHI
- #43: Dwight Gooden              1 (1985-1985) NYM
- #44: Zack Greinke               1 (2009-2009) KCR
- #45: Clark Griffith             1 (1898-1898) CHC
- #46: Pink Hawley                1 (1895-1895) PIT
- #47: Carl Hubbell               1 (1936-1936) NYG
- #48: Fergie Jenkins             1 (1971-1971) CHC
- #49: Randy Johnson              1 (2002-2002) ARI
- #50: Aaron Judge                1 (2024-2024) NYY
+  #4: Ted Williams               3 (1941-1946) BOS
+  #5: Bob Gibson                 3 (1968-1970) STL
+  #6: Babe Ruth                  3 (1920-1930) NYY
+  #7: Mickey Welch               2 (1884-1885) NYG
+  #8: Wilbur Wood                2 (1971-1972) CHW
+  #9: Cy Young                   2 (1892-1893) CLV
+ #10: Carl Yastrzemski           2 (1967-1968) BOS
+ #11: Grover Alexander           2 (1915-1916) PHI
+ #12: Barry Bonds                2 (2001-2002) SFG
+ #13: Charlie Buffinton          2 (1888-1889) PHI
+ #14: Ty Cobb                    2 (1910-1911) DET
+ #15: Jim Devlin                 2 (1876-1877) LOU
+ #16: Lefty Grove                2 (1930-1931) PHA
+ #17: Rogers Hornsby             2 (1924-1925) STL
+ #18: Mickey Mantle              2 (1956-1957) NYY
+ #19: Christy Mathewson          2 (1908-1909) NYG
+ #20: Old Hoss Radbourn          2 (1883-1884) PRO
+ #21: Amos Rusie                 2 (1893-1894) NYG
+ #22: Dizzy Trout                1 (1944-1944) DET
+ #23: Mike Trout                 1 (2012-2012) LAA
+ #24: Dazzy Vance                1 (1924-1924) BRO
+ #25: Rube Waddell               1 (1904-1904) PHA
+ #26: Honus Wagner               1 (1908-1908) PIT
+ #27: Ed Walsh                   1 (1912-1912) CHW
+ #28: Sam Weaver                 1 (1878-1878) MLG
+ #29: Jim Whitney                1 (1883-1883) BSN
+ #30: Vic Willis                 1 (1899-1899) BSN
+ #31: Smoky Joe Wood             1 (1912-1912) BOS
+ #32: Robin Yount                1 (1982-1982) MIL
+ #33: Ernie Banks                1 (1959-1959) CHC
+ #34: Lady Baldwin               1 (1886-1886) DTN
+ #35: Mookie Betts               1 (2018-2018) BOS
+ #36: Lou Boudreau               1 (1948-1948) CLE
+ #37: Theodore Breitenstein       1 (1893-1893) STL
+ #38: Steve Carlton              1 (1972-1972) PHI
+ #39: Jack Chesbro               1 (1904-1904) NYY
+ #40: Eddie Cicotte              1 (1917-1917) CHW
+ #41: Roger Clemens              1 (1997-1997) TOR
+ #42: John Clarkson              1 (1889-1889) BSN
+ #43: Jack Coombs                1 (1910-1910) PHA
+ #44: George Cuppy               1 (1896-1896) CLV
+ #45: Red Faber                  1 (1921-1921) CHW
+ #46: Wes Ferrell                1 (1935-1935) BOS
+ #47: Russ Ford                  1 (1910-1910) NYY
+ #48: Charlie Ferguson           1 (1886-1886) PHI
+ #49: Jimmie Foxx                1 (1932-1932) PHA
+ #50: Lou Gehrig                 1 (1927-1927) NYY

@@ -1,4 +1,4 @@
-Season 2022 nyy
+2022 New York Yankees Roster
 54 rows
 
     # name                                  war year teams
@@ -10,8 +10,8 @@ Season 2022 nyy
   #6: Andrew Benintendi                    2.85 2022 KCR,NYY
   #7: Gerrit Cole                          2.58 2022 NYY
   #8: Matt Carpenter                       2.35 2022 NYY
-  #9: Anthony Rizzo                        2.28 2022 NYY
- #10: Jose Trevino                         2.28 2022 NYY
+  #9: Jose Trevino                         2.28 2022 NYY
+ #10: Anthony Rizzo                        2.28 2022 NYY
  #11: Josh Donaldson                       2.22 2022 NYY
  #12: Michael King                         1.92 2022 NYY
  #13: Jordan Montgomery                    1.85 2022 NYY,STL

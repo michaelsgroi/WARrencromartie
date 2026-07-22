@@ -2,10 +2,14 @@ package com.michaelsgroi.baseballreference
 
 import com.michaelsgroi.baseballreference.Roster.RosterId
 import java.io.File
+import java.io.IOException
 import java.math.RoundingMode.HALF_UP
 import java.time.Duration
 import java.time.Instant
+import java.util.zip.ZipInputStream
 import kotlin.math.roundToInt
+import okhttp3.OkHttpClient
+import okhttp3.Request
 
 class BrWarDaily(
     expiration: Duration = FILE_EXPIRATION,
@@ -72,6 +76,35 @@ class BrWarDaily(
         const val WAR_DAILY_BAT_FILE = "war_daily_bat.txt"
         const val WAR_DAILY_PITCH_FILE = "war_daily_pitch.txt"
         val FILE_EXPIRATION: Duration = Duration.ofDays(7)
+
+        fun downloadAll(expiration: Duration = FILE_EXPIRATION) {
+            val files = listOf(WAR_DAILY_BAT_FILE, WAR_DAILY_PITCH_FILE)
+            if (files.all { it.fileExists() && !it.fileExpired(expiration) }) return
+
+            val client = OkHttpClient()
+            val indexUrl = "https://www.baseball-reference.com/data/"
+            val html = client.newCall(Request.Builder().url(indexUrl).get().build())
+                .execute().use { if (!it.isSuccessful) throw IOException("Unexpected code $it"); it.body.string() }
+            val zipUrl = indexUrl + (Regex("""war_archive-\d{4}-\d{2}-\d{2}\.zip""").findAll(html)
+                .map { it.value }.maxOrNull() ?: throw IOException("No war_archive-*.zip found at $indexUrl"))
+            println("downloading $zipUrl ...")
+            val zipBytes = client.newCall(Request.Builder().url(zipUrl).get().build())
+                .execute().use { if (!it.isSuccessful) throw IOException("Unexpected code $it"); it.body.bytes() }
+            val extracted = mutableMapOf<String, String>()
+            ZipInputStream(zipBytes.inputStream()).use { zip ->
+                generateSequence { zip.nextEntry }.forEach { entry ->
+                    if (SeasonType.entries.any { it.brFilename == entry.name }) {
+                        extracted[entry.name] = zip.bufferedReader().readText()
+                    }
+                }
+            }
+            for (seasonType in SeasonType.entries) {
+                val text = extracted[seasonType.brFilename]
+                    ?: throw IOException("${seasonType.brFilename} not found in $zipUrl")
+                seasonType.brFilename.writeFile(text)
+                println("wrote ${seasonType.brFilename}")
+            }
+        }
 
         fun loadFromCache(
             filename: String,

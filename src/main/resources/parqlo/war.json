@@ -86,6 +86,21 @@
           "name": "salary",
           "type": "DOUBLE",
           "description": "Salary in dollars (nullable)"
+        },
+        {
+          "name": "positions_retro",
+          "type": "VARCHAR",
+          "description": "Retrosheet-derived fielding positions for this season. Comma-separated abbreviations ordered by games played descending, filtered to positions played in \u22653% of games. Values: P, C, 1B, 2B, 3B, SS, LF, CF, RF, DH. Distinguishes LF/CF/RF individually. NULL if no Retrosheet starter data."
+        },
+        {
+          "name": "positions_lahman",
+          "type": "VARCHAR",
+          "description": "Lahman-derived fielding positions for this season. Comma-separated abbreviations ordered by games played descending, filtered to \u22653% of games. Values: P, C, 1B, 2B, 3B, SS, OF (outfield not split into LF/CF/RF). NULL if not in Lahman data."
+        },
+        {
+          "name": "position",
+          "type": "VARCHAR",
+          "description": "Best available fielding position(s) for this season. Uses positions_retro when available (granular: LF/CF/RF), falls back to positions_lahman (OF for all outfielders), then SP/RP from pitching stats. Use this column for most position queries. Outfielder queries must match LF, CF, RF, and OF (Lahman uses OF; Retrosheet uses LF/CF/RF) — apply the single-position filter pattern for each. Infielders: 1B, 2B, 3B, SS."
         }
       ],
       "notes": [
@@ -93,6 +108,10 @@
         "lg_ID for modern baseball is 'AL' and 'NL' \u2014 filter WHERE lg_ID IN ('AL', 'NL') unless historical data is needed",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
         "salary is often NULL \u2014 use WHERE salary IS NOT NULL when filtering by salary",
+        "position is NULL for some seasons \u2014 use WHERE position IS NOT NULL when filtering by position",
+        "To filter by a single position X, use: position = 'X' OR position LIKE 'X,%' OR position LIKE '%,X,%' OR position LIKE '%,X'",
+        "Position groups \u2014 outfielders (OF/LF/CF/RF): position IN ('LF','CF','RF','OF') OR position LIKE 'LF,%' OR ... (apply the single-position pattern for each of LF, CF, RF, OF). Lahman-derived rows use 'OF'; Retrosheet-derived rows use 'LF','CF','RF' \u2014 matching all four codes covers both sources. Infielders: 1B, 2B, 3B, SS. Middle infielders: 2B, SS. Corner infielders: 1B, 3B. Position players (non-pitchers/hitters): C, 1B, 2B, 3B, SS, LF, CF, RF, OF, DH. Pitchers: P.",
+        "SP and RP are used in the pitching table only \u2014 not in the batting table",
         "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player"
       ]
     },
@@ -161,13 +180,73 @@
           "name": "salary",
           "type": "DOUBLE",
           "description": "Salary in dollars (nullable)"
+        },
+        {
+          "name": "positions",
+          "type": "VARCHAR",
+          "description": "Pitcher role: always 'SP' (starter) or 'RP' (reliever). SP if GS > (G - GS), otherwise RP. Uses Retrosheet data when available, otherwise inferred from pitching stats. NULL if data unavailable."
         }
       ],
       "notes": [
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
+        "positions is NULL for seasons before 1871 or when Retrosheet data is unavailable \u2014 use WHERE positions IS NOT NULL when filtering by position",
         "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns"
       ]
+    }
+  ],
+  "lookups": [
+    {
+      "name": "team",
+      "description": "Maps team names and nicknames to the canonical team_id value stored in the data (uppercase)",
+      "values": {
+        "ANA": ["angels", "anaheim angels"],
+        "ARI": ["diamondbacks", "dbacks", "arizona diamondbacks", "arizona"],
+        "ATL": ["braves", "atlanta braves", "atlanta"],
+        "BAL": ["orioles", "baltimore orioles", "baltimore", "o's"],
+        "BOS": ["red sox", "boston red sox", "boston", "sox", "redsox"],
+        "BRO": ["dodgers", "brooklyn dodgers", "brooklyn"],
+        "BSN": ["boston braves", "boston nationals"],
+        "CAL": ["california angels"],
+        "CHC": ["cubs", "chicago cubs", "chicago nl", "north siders"],
+        "CHW": ["white sox", "chicago white sox", "chicago al", "southsiders"],
+        "CIN": ["reds", "cincinnati reds", "cincinnati", "redlegs"],
+        "CLE": ["indians", "cleveland indians", "cleveland", "guardians", "cleveland guardians"],
+        "CLV": ["spiders", "cleveland spiders"],
+        "COL": ["rockies", "colorado rockies", "colorado"],
+        "DET": ["tigers", "detroit tigers", "detroit"],
+        "FLA": ["florida marlins", "florida"],
+        "HOU": ["astros", "houston astros", "houston"],
+        "KCA": ["kansas city athletics"],
+        "KCR": ["royals", "kansas city royals", "kansas city", "kc royals", "kc"],
+        "LAA": ["los angeles angels", "la angels"],
+        "LAD": ["dodgers", "los angeles dodgers", "la dodgers", "la"],
+        "LOU": ["colonels", "louisville colonels", "louisville"],
+        "MIA": ["marlins", "miami marlins", "miami"],
+        "MIL": ["brewers", "milwaukee brewers", "milwaukee"],
+        "MIN": ["twins", "minnesota twins", "minnesota"],
+        "MLN": ["milwaukee braves"],
+        "MON": ["expos", "montreal expos", "montreal"],
+        "NYG": ["new york giants", "ny giants"],
+        "NYM": ["mets", "new york mets", "ny mets"],
+        "NYY": ["yankees", "new york yankees", "new york", "ny yankees", "bronx bombers", "pinstripes"],
+        "OAK": ["athletics", "oakland athletics", "oakland", "a's", "oakland a's"],
+        "PHA": ["philadelphia athletics", "philly a's"],
+        "PHI": ["phillies", "philadelphia phillies", "philadelphia", "philly"],
+        "PIT": ["pirates", "pittsburgh pirates", "pittsburgh", "bucs"],
+        "SDP": ["padres", "san diego padres", "san diego"],
+        "SEA": ["mariners", "seattle mariners", "seattle"],
+        "SFG": ["giants", "san francisco giants", "san francisco", "sf giants", "sf"],
+        "SLB": ["browns", "st. louis browns", "st louis browns"],
+        "STL": ["cardinals", "st. louis cardinals", "st louis cardinals", "st. louis", "st louis", "cards"],
+        "TBD": ["devil rays", "tampa bay devil rays"],
+        "TBR": ["rays", "tampa bay rays", "tampa bay", "tampa"],
+        "TEX": ["rangers", "texas rangers", "texas"],
+        "TOR": ["blue jays", "toronto blue jays", "toronto", "jays"],
+        "WAS": ["senators", "washington senators"],
+        "WSH": ["nationals", "washington nationals", "washington", "nats"],
+        "WSN": ["washington nationals"]
+      }
     }
   ],
   "samples": [

@@ -2,8 +2,8 @@ Top 50 Consecutive Seasons with WAR > 14.0
 50 rows
 
     # name                 seasons             teams
-  #1: Walter Johnson             2 (1912-1913) WSH
-  #2: Old Hoss Radbourn          2 (1883-1884) PRO
+  #1: Old Hoss Radbourn          2 (1883-1884) PRO
+  #2: Walter Johnson             2 (1912-1913) WSH
   #3: Tommy Bond                 1 (1879-1879) BSN
   #4: Charlie Buffinton          1 (1884-1884) BSN
   #5: John Clarkson              1 (1889-1889) BSN

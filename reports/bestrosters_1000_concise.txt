@@ -89,7 +89,7 @@ Top 1000 Best Single-Season Rosters, Concise
 85: 1926 nyy 789
 86: 1924 nyy 788
 87: 1955 cle 787
-88: 1951 nyy 787
+88: 1951 nyy 786
 89: 1939 nyy 786
 90: 1989 oak 785
 91: 2008 lad 784
@@ -194,7 +194,7 @@ Top 1000 Best Single-Season Rosters, Concise
 190: 1919 bos 717
 191: 1976 oak 717
 192: 2002 cle 716
-193: 1954 nyy 716
+193: 1954 nyy 715
 194: 1981 phi 714
 195: 1914 pha 713
 196: 1995 tor 713
@@ -542,8 +542,8 @@ Top 1000 Best Single-Season Rosters, Concise
 538: 1983 mil 604
 539: 1963 cin 604
 540: 1924 wsh 604
-541: 2003 chw 603
-542: 2016 tex 603
+541: 2016 tex 603
+542: 2003 chw 603
 543: 1943 stl 603
 544: 1993 bos 603
 545: 1999 tor 602
@@ -607,8 +607,8 @@ Top 1000 Best Single-Season Rosters, Concise
 603: 1956 cle 592
 604: 1974 oak 592
 605: 1930 nyg 592
-606: 1961 det 591
-607: 1921 det 591
+606: 1921 det 591
+607: 1961 det 591
 608: 1917 chw 591
 609: 1991 hou 591
 610: 1969 min 591
@@ -675,8 +675,8 @@ Top 1000 Best Single-Season Rosters, Concise
 671: 1976 cin 580
 672: 2007 sdp 580
 673: 1909 det 579
-674: 1988 sfg 578
-675: 1939 pit 578
+674: 1939 pit 578
+675: 1988 sfg 578
 676: 1985 lad 578
 677: 1994 det 578
 678: 2006 min 578
@@ -728,8 +728,8 @@ Top 1000 Best Single-Season Rosters, Concise
 724: 2015 bos 571
 725: 1967 cin 571
 726: 1994 nyy 571
-727: 1952 cle 571
-728: 1995 tex 571
+727: 1995 tex 571
+728: 1952 cle 571
 729: 1905 bos 571
 730: 2011 phi 571
 731: 1991 cal 571
@@ -817,8 +817,8 @@ Top 1000 Best Single-Season Rosters, Concise
 813: 1979 bal 555
 814: 1906 pha 554
 815: 1969 oak 554
-816: 1923 chw 554
-817: 1993 det 554
+816: 1993 det 554
+817: 1923 chw 554
 818: 1913 chc 554
 819: 1902 pit 553
 820: 1964 cle 553
@@ -888,8 +888,8 @@ Top 1000 Best Single-Season Rosters, Concise
 884: 1916 nyg 541
 885: 1955 stl 540
 886: 1997 sdp 540
-887: 1982 stl 540
-888: 1929 stl 540
+887: 1929 stl 540
+888: 1982 stl 540
 889: 1990 mon 540
 890: 1968 bal 540
 891: 1997 sfg 540
@@ -963,7 +963,7 @@ Top 1000 Best Single-Season Rosters, Concise
 959: 1910 bos 529
 960: 1918 wsh 529
 961: 2006 det 529
-962: 1976 nym 529
+962: 1976 nym 528
 963: 1969 det 528
 964: 1904 bos 528
 965: 1997 min 528

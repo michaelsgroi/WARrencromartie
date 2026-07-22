@@ -9,24 +9,24 @@ Top 50 Consecutive Seasons with WAR > 7.0
   #5: Cy Young                   8 (1898-1905) CLV,STL,BOS
   #6: Henry Aaron                8 (1956-1963) MLN
   #7: Albert Pujols              8 (2003-2010) STL
-  #8: Christy Mathewson          7 (1907-1913) NYG
-  #9: Babe Ruth                  7 (1916-1930) BOS,NYY
+  #8: Babe Ruth                  7 (1916-1930) BOS,NYY
+  #9: Christy Mathewson          7 (1907-1913) NYG
  #10: Ted Williams               6 (1941-1949) BOS
  #11: Roberto Clemente           6 (1964-1969) PIT
  #12: Lefty Grove                6 (1928-1933) PHA
- #13: Kid Nichols                6 (1890-1895) BSN
- #14: Alex Rodriguez             6 (2000-2005) SEA,TEX,NYY
+ #13: Alex Rodriguez             6 (2000-2005) SEA,TEX,NYY
+ #14: Kid Nichols                6 (1890-1895) BSN
  #15: Mike Trout                 5 (2012-2016) LAA
  #16: Chase Utley                5 (2005-2009) PHI
  #17: Wade Boggs                 5 (1985-1989) BOS
  #18: Barry Bonds                5 (2000-2004) SFG
  #19: Eddie Collins              5 (1912-1916) PHA,CHW
  #20: Charlie Gehringer          5 (1933-1937) DET
- #21: Greg Maddux                5 (1994-1998) ATL
- #22: Joe Morgan                 5 (1972-1976) CIN
- #23: Stan Musial                5 (1948-1953) STL
- #24: Amos Rusie                 5 (1890-1894) NYG
- #25: Tris Speaker               5 (1912-1917) BOS,CLE
+ #21: Amos Rusie                 5 (1890-1894) NYG
+ #22: Tris Speaker               5 (1912-1917) BOS,CLE
+ #23: Greg Maddux                5 (1994-1998) ATL
+ #24: Joe Morgan                 5 (1972-1976) CIN
+ #25: Stan Musial                5 (1948-1953) STL
  #26: Rube Waddell               4 (1902-1905) PHA
  #27: Jim Whitney                4 (1881-1884) BSN
  #28: Grover Alexander           4 (1914-1917) PHI
@@ -34,16 +34,16 @@ Top 50 Consecutive Seasons with WAR > 7.0
  #30: Ty Cobb                    4 (1909-1912) DET
  #31: Stan Coveleski             4 (1917-1920) CLE
  #32: Jimmie Foxx                4 (1932-1935) PHA
- #33: Randy Johnson              4 (1999-2002) ARI
- #34: Mickey Mantle              4 (1955-1958) NYY
- #35: Joe McGinnity              4 (1901-1904) BLA,NYG
- #36: Shohei Ohtani              4 (2021-2025) LAA,LAD
- #37: Old Hoss Radbourn          4 (1882-1885) PRO
- #38: Robin Roberts              4 (1951-1954) PHI
- #39: Jackie Robinson            4 (1949-1952) BRO
- #40: Ron Santo                  4 (1964-1967) CHC
- #41: Mike Schmidt               4 (1974-1977) PHI
- #42: Duke Snider                4 (1953-1956) BRO
+ #33: Old Hoss Radbourn          4 (1882-1885) PRO
+ #34: Robin Roberts              4 (1951-1954) PHI
+ #35: Jackie Robinson            4 (1949-1952) BRO
+ #36: Ron Santo                  4 (1964-1967) CHC
+ #37: Mike Schmidt               4 (1974-1977) PHI
+ #38: Duke Snider                4 (1953-1956) BRO
+ #39: Randy Johnson              4 (1999-2002) ARI
+ #40: Mickey Mantle              4 (1955-1958) NYY
+ #41: Joe McGinnity              4 (1901-1904) BLA,NYG
+ #42: Shohei Ohtani              4 (2021-2025) LAA,LAD
  #43: Arky Vaughan               3 (1934-1936) PIT
  #44: Ed Walsh                   3 (1910-1912) CHW
  #45: Home Run Baker             3 (1912-1914) PHA

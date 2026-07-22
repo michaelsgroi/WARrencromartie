@@ -8,8 +8,8 @@ Top 50 Consecutive Seasons with WAR > 9.0
   #4: Grover Alexander           4 (1914-1917) PHI
   #5: Barry Bonds                4 (2001-2004) SFG
   #6: Tommy Bond                 4 (1876-1879) HAR,BSN
-  #7: Willie Mays                4 (1962-1965) SFG
-  #8: Babe Ruth                  4 (1919-1930) BOS,NYY
+  #7: Babe Ruth                  4 (1919-1930) BOS,NYY
+  #8: Willie Mays                4 (1962-1965) SFG
   #9: Ed Walsh                   3 (1910-1912) CHW
  #10: Ty Cobb                    3 (1909-1911) DET
  #11: Bob Gibson                 3 (1968-1970) STL
@@ -37,18 +37,18 @@ Top 50 Consecutive Seasons with WAR > 9.0
  #33: Ken Griffey Jr.            2 (1996-1997) SEA
  #34: Bill Hutchison             2 (1891-1892) CHC
  #35: Joe Jackson                2 (1911-1912) CLE
- #36: Randy Johnson              2 (2001-2002) ARI
- #37: Aaron Judge                2 (2024-2025) NYY
- #38: Juan Marichal              2 (1965-1966) SFG
- #39: Jim McCormick              2 (1879-1880) CLV
- #40: Joe McGinnity              2 (1903-1904) NYG
- #41: Joe Morgan                 2 (1975-1976) CIN
- #42: Stan Musial                2 (1948-1949) STL
- #43: Hal Newhouser              2 (1945-1946) DET
- #44: Kid Nichols                2 (1890-1891) BSN
- #45: Shohei Ohtani              2 (2022-2023) LAA
- #46: Albert Pujols              2 (2008-2009) STL
- #47: Old Hoss Radbourn          2 (1883-1884) PRO
- #48: Amos Rusie                 2 (1893-1894) NYG
+ #36: Albert Pujols              2 (2008-2009) STL
+ #37: Old Hoss Radbourn          2 (1883-1884) PRO
+ #38: Amos Rusie                 2 (1893-1894) NYG
+ #39: Randy Johnson              2 (2001-2002) ARI
+ #40: Aaron Judge                2 (2024-2025) NYY
+ #41: Juan Marichal              2 (1965-1966) SFG
+ #42: Jim McCormick              2 (1879-1880) CLV
+ #43: Joe McGinnity              2 (1903-1904) NYG
+ #44: Joe Morgan                 2 (1975-1976) CIN
+ #45: Stan Musial                2 (1948-1949) STL
+ #46: Hal Newhouser              2 (1945-1946) DET
+ #47: Kid Nichols                2 (1890-1891) BSN
+ #48: Shohei Ohtani              2 (2022-2023) LAA
  #49: Dizzy Trout                1 (1944-1944) DET
  #50: George Uhle                1 (1926-1926) CLE

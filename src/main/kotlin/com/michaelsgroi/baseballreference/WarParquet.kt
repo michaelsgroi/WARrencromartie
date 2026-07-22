@@ -72,7 +72,7 @@ object WarParquet {
                                     SUM(WP) AS WP, SUM(HBP) AS HBP, SUM(BK) AS BK, SUM(BFP) AS BFP
                                 FROM read_csv_auto('$LAHMAN_PITCHING_CSV', header=true, nullstr='NULL')
                                 GROUP BY playerID, yearID
-                            ) lp ON LOWER(b.player_ID) = LOWER(lp.playerID) AND b.year_ID = lp.yearID"""
+                            ) lp ON LOWER(b.player_ID) = LOWER(lp.playerID) AND b.year_ID = lp.yearID AND b.stint_ID = 1"""
                     } else if (!isPitching && hasLahmanBatting) {
                         statsSelect = """,
                             lb.AB, lb.R, lb.H, lb."2B", lb."3B", lb.HR, lb.RBI, lb.SB, lb.CS,
@@ -93,7 +93,7 @@ object WarParquet {
                                     SUM(SF) AS SF, SUM(GIDP) AS GIDP
                                 FROM read_csv_auto('$LAHMAN_BATTING_CSV', header=true, nullstr='NULL')
                                 GROUP BY playerID, yearID
-                            ) lb ON LOWER(b.player_ID) = LOWER(lb.playerID) AND b.year_ID = lb.yearID"""
+                            ) lb ON LOWER(b.player_ID) = LOWER(lb.playerID) AND b.year_ID = lb.yearID AND b.stint_ID = 1"""
                     } else {
                         statsSelect = ""
                         statsJoin = ""

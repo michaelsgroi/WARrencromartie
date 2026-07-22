@@ -43,8 +43,8 @@
  #39: Drew Jackson                        -0.08 2022 OAK
  #40: Jared Koenig                        -0.11 2022 OAK
  #41: Lou Trivino                         -0.19 2022 OAK,NYY
- #42: Christian Lopes                      -0.2 2022 OAK
- #43: Cal Stevenson                        -0.2 2022 OAK
+ #42: Cal Stevenson                        -0.2 2022 OAK
+ #43: Christian Lopes                      -0.2 2022 OAK
  #44: Skye Bolt                           -0.23 2022 OAK
  #45: Cody Thomas                         -0.23 2022 OAK
  #46: Daulton Jefferies                   -0.28 2022 OAK

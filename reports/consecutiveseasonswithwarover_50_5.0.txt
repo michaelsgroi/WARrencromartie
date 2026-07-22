@@ -3,20 +3,20 @@ Top 50 Consecutive Seasons with WAR > 5.0
 
     # name                 seasons             teams
   #1: Henry Aaron               17 (1955-1971) MLN,ATL
-  #2: Stan Musial               14 (1942-1957) STL
-  #3: Mike Schmidt              14 (1974-1987) PHI
-  #4: Tris Speaker              14 (1909-1923) BOS,CLE
+  #2: Mike Schmidt              14 (1974-1987) PHI
+  #3: Tris Speaker              14 (1909-1923) BOS,CLE
+  #4: Stan Musial               14 (1942-1957) STL
   #5: Willie Mays               13 (1954-1966) NYG,SFG
   #6: Honus Wagner              12 (1899-1912) LOU,PIT
   #7: Barry Bonds               12 (1987-1998) PIT,SFG
   #8: Ty Cobb                   12 (1907-1919) DET
   #9: Lou Gehrig                12 (1926-1937) NYY
  #10: Mel Ott                   12 (1929-1940) NYG
- #11: Mickey Mantle             11 (1952-1962) NYY
- #12: Eddie Mathews             11 (1953-1963) MLN
- #13: Albert Pujols             11 (2001-2011) STL
- #14: Babe Ruth                 11 (1916-1933) BOS,NYY
- #15: Tom Seaver                11 (1967-1977) NYM,CIN
+ #11: Albert Pujols             11 (2001-2011) STL
+ #12: Babe Ruth                 11 (1916-1933) BOS,NYY
+ #13: Tom Seaver                11 (1967-1977) NYM,CIN
+ #14: Mickey Mantle             11 (1952-1962) NYY
+ #15: Eddie Mathews             11 (1953-1963) MLN
  #16: Walter Johnson            10 (1910-1919) WSH
  #17: Roberto Clemente           9 (1963-1971) PIT
  #18: Eddie Collins              9 (1909-1917) PHA,CHW
@@ -39,14 +39,14 @@ Top 50 Consecutive Seasons with WAR > 5.0
  #35: Joe DiMaggio               7 (1937-1946) NYY
  #36: Harry Heilmann             7 (1921-1927) DET
  #37: Rickey Henderson           7 (1980-1986) OAK,NYY
- #38: Greg Maddux                7 (1992-1998) CHC,ATL
- #39: Pedro Martínez             7 (1997-2005) MON,BOS,NYM
- #40: Christy Mathewson          7 (1907-1913) NYG
- #41: Joe Morgan                 7 (1971-1977) HOU,CIN
- #42: Amos Rusie                 7 (1890-1897) NYG
- #43: Max Scherzer               7 (2013-2019) DET,WSN
- #44: Ron Santo                  7 (1963-1969) CHC
- #45: Frank Thomas               7 (1991-1997) CHW
+ #38: Amos Rusie                 7 (1890-1897) NYG
+ #39: Max Scherzer               7 (2013-2019) DET,WSN
+ #40: Ron Santo                  7 (1963-1969) CHC
+ #41: Frank Thomas               7 (1991-1997) CHW
+ #42: Greg Maddux                7 (1992-1998) CHC,ATL
+ #43: Pedro Martínez             7 (1997-2005) MON,BOS,NYM
+ #44: Christy Mathewson          7 (1907-1913) NYG
+ #45: Joe Morgan                 7 (1971-1977) HOU,CIN
  #46: Chase Utley                6 (2005-2010) PHI
  #47: Ed Walsh                   6 (1907-1912) CHW
  #48: Richie Ashburn             6 (1953-1958) PHI

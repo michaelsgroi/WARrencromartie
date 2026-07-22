@@ -20,10 +20,10 @@ Top 50 Consecutive Seasons with WAR > 12.0
  #16: Pud Galvin                 1 (1884-1884) BUF
  #17: Dwight Gooden              1 (1985-1985) NYM
  #18: Rogers Hornsby             1 (1924-1924) STL
- #19: Hal Newhouser              1 (1945-1945) DET
- #20: Kid Nichols                1 (1890-1890) BSN
- #21: Amos Rusie                 1 (1894-1894) NYG
- #22: Babe Ruth                  1 (1923-1923) NYY
+ #19: Amos Rusie                 1 (1894-1894) NYG
+ #20: Babe Ruth                  1 (1923-1923) NYY
+ #21: Hal Newhouser              1 (1945-1945) DET
+ #22: Kid Nichols                1 (1890-1890) BSN
  #23: Bud Tinning                0
  #24: Dan Tipple                 0
  #25: Jack Tising                0

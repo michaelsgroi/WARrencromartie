@@ -3,13 +3,13 @@ Top 50 Consecutive Seasons with WAR > 8.0
 
     # name                 seasons             teams
   #1: Walter Johnson            10 (1910-1919) WSH
-  #2: Willie Mays                7 (1960-1966) SFG
-  #3: Albert Pujols              7 (2003-2009) STL
+  #2: Albert Pujols              7 (2003-2009) STL
+  #3: Willie Mays                7 (1960-1966) SFG
   #4: Honus Wagner               6 (1904-1909) PIT
   #5: Ted Williams               6 (1941-1949) BOS
-  #6: Christy Mathewson          6 (1907-1912) NYG
-  #7: Kid Nichols                6 (1890-1895) BSN
-  #8: Babe Ruth                  6 (1926-1932) NYY
+  #6: Babe Ruth                  6 (1926-1932) NYY
+  #7: Christy Mathewson          6 (1907-1912) NYG
+  #8: Kid Nichols                6 (1890-1895) BSN
   #9: Cy Young                   5 (1892-1896) CLV
  #10: Wade Boggs                 5 (1985-1989) BOS
  #11: Joe Morgan                 5 (1972-1976) CIN
@@ -20,10 +20,10 @@ Top 50 Consecutive Seasons with WAR > 8.0
  #16: Ty Cobb                    4 (1909-1912) DET
  #17: Eddie Collins              4 (1912-1915) PHA,CHW
  #18: Lou Gehrig                 4 (1934-1937) NYY
- #19: Randy Johnson              4 (1999-2002) ARI
- #20: Mickey Mantle              4 (1955-1958) NYY
- #21: Robin Roberts              4 (1951-1954) PHI
- #22: Alex Rodriguez             4 (2000-2003) SEA,TEX
+ #19: Robin Roberts              4 (1951-1954) PHI
+ #20: Alex Rodriguez             4 (2000-2003) SEA,TEX
+ #21: Randy Johnson              4 (1999-2002) ARI
+ #22: Mickey Mantle              4 (1955-1958) NYY
  #23: Ed Walsh                   3 (1910-1912) CHW
  #24: Henry Aaron                3 (1961-1963) MLN
  #25: Roberto Clemente           3 (1966-1968) PIT
@@ -35,12 +35,12 @@ Top 50 Consecutive Seasons with WAR > 8.0
  #31: Lefty Grove                3 (1930-1932) PHA
  #32: Rogers Hornsby             3 (1920-1922) STL
  #33: Bill Hutchison             3 (1890-1892) CHC
- #34: Joe McGinnity              3 (1902-1904) BLA,NYG
- #35: Stan Musial                3 (1943-1946) STL
- #36: Hal Newhouser              3 (1944-1946) DET
- #37: Shohei Ohtani              3 (2021-2023) LAA
- #38: Old Hoss Radbourn          3 (1883-1885) PRO
- #39: Duke Snider                3 (1953-1955) BRO
+ #34: Old Hoss Radbourn          3 (1883-1885) PRO
+ #35: Duke Snider                3 (1953-1955) BRO
+ #36: Joe McGinnity              3 (1902-1904) BLA,NYG
+ #37: Stan Musial                3 (1943-1946) STL
+ #38: Hal Newhouser              3 (1944-1946) DET
+ #39: Shohei Ohtani              3 (2021-2023) LAA
  #40: Mike Trout                 2 (2015-2016) LAA
  #41: Rube Waddell               2 (1904-1905) PHA
  #42: Chase Utley                2 (2008-2009) PHI

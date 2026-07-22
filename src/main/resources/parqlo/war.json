@@ -189,7 +189,8 @@
         }
       ],
       "notes": [
-        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP) and rates (AVG, OBP, SLG) are NULL when the season has no matching Lahman row — filter with IS NOT NULL when using them",
+        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP) and rates (AVG, OBP, SLG) are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals — do not SUM them when aggregating by player-year. Use MAX(AB), MAX(HR), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman counting stats and rates are NULL when the season has no matching Lahman row — filter with IS NOT NULL when using them",
         "2B and 3B column names are numeric — always quote them as \"2B\" and \"3B\" in SQL",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "lg_ID for modern baseball is 'AL' and 'NL' \u2014 filter WHERE lg_ID IN ('AL', 'NL') unless historical data is needed",
@@ -360,6 +361,8 @@
         }
       ],
       "notes": [
+        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals \u2014 do not SUM them when aggregating by player-year. Use MAX(W), MAX(IP), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman pitching stats are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
         "positions is NULL for seasons before 1871 or when Retrosheet data is unavailable \u2014 use WHERE positions IS NOT NULL when filtering by position",

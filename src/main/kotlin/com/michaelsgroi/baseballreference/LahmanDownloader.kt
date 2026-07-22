@@ -19,6 +19,7 @@ object LahmanDownloader {
         "Fielding.csv",
         "HallOfFame.csv",
         "AwardsPlayers.csv",
+        "AwardsSharePlayers.csv",
         "AllstarFull.csv",
     )
 

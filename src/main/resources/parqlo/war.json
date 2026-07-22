@@ -101,9 +101,96 @@
           "name": "position",
           "type": "VARCHAR",
           "description": "Best available fielding position(s) for this season. Uses positions_retro when available (granular: LF/CF/RF), falls back to positions_lahman (OF for all outfielders), then SP/RP from pitching stats. Use this column for most position queries. Outfielder queries must match LF, CF, RF, and OF (Lahman uses OF; Retrosheet uses LF/CF/RF) — apply the single-position filter pattern for each. Infielders: 1B, 2B, 3B, SS."
+        },
+        {
+          "name": "AB",
+          "type": "INTEGER",
+          "description": "At bats (Lahman, summed across stints; nullable)"
+        },
+        {
+          "name": "R",
+          "type": "INTEGER",
+          "description": "Runs scored (Lahman; nullable)"
+        },
+        {
+          "name": "H",
+          "type": "INTEGER",
+          "description": "Hits (Lahman; nullable)"
+        },
+        {
+          "name": "2B",
+          "type": "INTEGER",
+          "description": "Doubles (Lahman; nullable). Column name is numeric — quote it as \"2B\"."
+        },
+        {
+          "name": "3B",
+          "type": "INTEGER",
+          "description": "Triples (Lahman; nullable). Column name is numeric — quote it as \"3B\"."
+        },
+        {
+          "name": "HR",
+          "type": "INTEGER",
+          "description": "Home runs (Lahman; nullable)"
+        },
+        {
+          "name": "RBI",
+          "type": "INTEGER",
+          "description": "Runs batted in (Lahman; nullable)"
+        },
+        {
+          "name": "SB",
+          "type": "INTEGER",
+          "description": "Stolen bases (Lahman; nullable)"
+        },
+        {
+          "name": "CS",
+          "type": "INTEGER",
+          "description": "Caught stealing (Lahman; nullable)"
+        },
+        {
+          "name": "BB",
+          "type": "INTEGER",
+          "description": "Walks (Lahman; nullable)"
+        },
+        {
+          "name": "SO",
+          "type": "INTEGER",
+          "description": "Strikeouts (Lahman; nullable)"
+        },
+        {
+          "name": "HBP",
+          "type": "INTEGER",
+          "description": "Hit by pitch (Lahman; nullable)"
+        },
+        {
+          "name": "SF",
+          "type": "INTEGER",
+          "description": "Sacrifice flies (Lahman; nullable)"
+        },
+        {
+          "name": "GIDP",
+          "type": "INTEGER",
+          "description": "Grounded into double plays (Lahman; nullable)"
+        },
+        {
+          "name": "AVG",
+          "type": "DOUBLE",
+          "description": "Batting average, H/AB (computed from Lahman; nullable)"
+        },
+        {
+          "name": "OBP",
+          "type": "DOUBLE",
+          "description": "On-base percentage, (H+BB+HBP)/(AB+BB+HBP+SF) (computed from Lahman; nullable)"
+        },
+        {
+          "name": "SLG",
+          "type": "DOUBLE",
+          "description": "Slugging percentage, (H+2B+2*3B+3*HR)/AB (computed from Lahman; nullable)"
         }
       ],
       "notes": [
+        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP) and rates (AVG, OBP, SLG) are NULL when the season has no matching Lahman row — filter with IS NOT NULL when using them",
+        "2B and 3B column names are numeric — always quote them as \"2B\" and \"3B\" in SQL",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "lg_ID for modern baseball is 'AL' and 'NL' \u2014 filter WHERE lg_ID IN ('AL', 'NL') unless historical data is needed",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
@@ -185,13 +272,181 @@
           "name": "positions",
           "type": "VARCHAR",
           "description": "Pitcher role: always 'SP' (starter) or 'RP' (reliever). SP if GS > (G - GS), otherwise RP. Uses Retrosheet data when available, otherwise inferred from pitching stats. NULL if data unavailable."
+        },
+        {
+          "name": "W",
+          "type": "INTEGER",
+          "description": "Wins (Lahman, summed across stints; nullable)"
+        },
+        {
+          "name": "L",
+          "type": "INTEGER",
+          "description": "Losses (Lahman; nullable)"
+        },
+        {
+          "name": "lh_GS",
+          "type": "INTEGER",
+          "description": "Games started (Lahman; nullable). Named lh_GS to avoid collision with the BR GS column."
+        },
+        {
+          "name": "CG",
+          "type": "INTEGER",
+          "description": "Complete games (Lahman; nullable)"
+        },
+        {
+          "name": "SHO",
+          "type": "INTEGER",
+          "description": "Shutouts (Lahman; nullable)"
+        },
+        {
+          "name": "SV",
+          "type": "INTEGER",
+          "description": "Saves (Lahman; nullable)"
+        },
+        {
+          "name": "IP",
+          "type": "DOUBLE",
+          "description": "Innings pitched, SUM(IPouts)/3.0 (computed from Lahman; nullable)"
+        },
+        {
+          "name": "H",
+          "type": "INTEGER",
+          "description": "Hits allowed (Lahman; nullable)"
+        },
+        {
+          "name": "ER",
+          "type": "INTEGER",
+          "description": "Earned runs (Lahman; nullable)"
+        },
+        {
+          "name": "HR",
+          "type": "INTEGER",
+          "description": "Home runs allowed (Lahman; nullable)"
+        },
+        {
+          "name": "BB",
+          "type": "INTEGER",
+          "description": "Walks allowed (Lahman; nullable)"
+        },
+        {
+          "name": "SO",
+          "type": "INTEGER",
+          "description": "Strikeouts (Lahman; nullable)"
+        },
+        {
+          "name": "ERA",
+          "type": "DOUBLE",
+          "description": "Earned run average, SUM(ER)*9/(SUM(IPouts)/3.0) (computed from Lahman; nullable)"
+        },
+        {
+          "name": "WP",
+          "type": "INTEGER",
+          "description": "Wild pitches (Lahman; nullable)"
+        },
+        {
+          "name": "HBP",
+          "type": "INTEGER",
+          "description": "Hit batters (Lahman; nullable)"
+        },
+        {
+          "name": "BK",
+          "type": "INTEGER",
+          "description": "Balks (Lahman; nullable)"
+        },
+        {
+          "name": "BFP",
+          "type": "INTEGER",
+          "description": "Batters faced (Lahman; nullable)"
         }
       ],
       "notes": [
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
         "positions is NULL for seasons before 1871 or when Retrosheet data is unavailable \u2014 use WHERE positions IS NOT NULL when filtering by position",
+        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
+        "lh_GS is the Lahman games-started column; GS is the Baseball Reference games-started column",
         "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns"
+      ]
+    },
+    {
+      "name": "lahman_awards",
+      "glob": "s3://parqlo/war/lahman_awards.parquet",
+      "hivePartitioning": false,
+      "description": "Individual awards by player-year from Lahman. One row per player per award per year, including All-Star selections (award = 'All-Star').",
+      "columns": [
+        {
+          "name": "player_ID",
+          "type": "VARCHAR",
+          "description": "Baseball Reference player ID \u2014 join to batting.player_ID or pitching.player_ID"
+        },
+        {
+          "name": "year_ID",
+          "type": "INTEGER",
+          "description": "Year the award was given"
+        },
+        {
+          "name": "award",
+          "type": "VARCHAR",
+          "description": "Award name: MVP, Cy Young Award, Rookie of the Year, Gold Glove, Silver Slugger, All-Star, etc."
+        },
+        {
+          "name": "lg_ID",
+          "type": "VARCHAR",
+          "description": "League (AL, NL); may be NULL for some awards"
+        }
+      ],
+      "notes": [
+        "One row per player-year-award; a player can have multiple rows in a single year",
+        "All-Star selections are folded in with award = 'All-Star'",
+        "Join to batting/pitching on player_ID (and year_ID for a specific season's awards)"
+      ]
+    },
+    {
+      "name": "lahman_hof",
+      "glob": "s3://parqlo/war/lahman_hof.parquet",
+      "hivePartitioning": false,
+      "description": "Hall of Fame ballot data by player-year from Lahman. One row per player per ballot year (all ballot years, not just inductions).",
+      "columns": [
+        {
+          "name": "player_ID",
+          "type": "VARCHAR",
+          "description": "Baseball Reference player ID"
+        },
+        {
+          "name": "year_ID",
+          "type": "INTEGER",
+          "description": "Ballot year"
+        },
+        {
+          "name": "inducted",
+          "type": "VARCHAR",
+          "description": "'Y' if inducted that year, 'N' if not"
+        },
+        {
+          "name": "votes",
+          "type": "INTEGER",
+          "description": "Number of votes received (nullable)"
+        },
+        {
+          "name": "ballots",
+          "type": "INTEGER",
+          "description": "Total ballots cast (nullable)"
+        },
+        {
+          "name": "vote_pct",
+          "type": "DOUBLE",
+          "description": "Vote percentage, votes/ballots*100 (NULL when ballots is 0 or NULL)"
+        },
+        {
+          "name": "voted_by",
+          "type": "VARCHAR",
+          "description": "Voting body: BBWAA, Veterans, Negro League, etc."
+        }
+      ],
+      "notes": [
+        "One row per player per ballot year \u2014 a player appears once for every year they were on a ballot",
+        "Filter inducted = 'Y' for actual Hall of Fame inductions",
+        "vote_pct is NULL when ballots is 0 or NULL"
       ]
     }
   ],

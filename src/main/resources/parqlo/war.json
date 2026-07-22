@@ -186,10 +186,15 @@
           "name": "SLG",
           "type": "DOUBLE",
           "description": "Slugging percentage, (H+2B+2*3B+3*HR)/AB (computed from Lahman; nullable)"
+        },
+        {
+          "name": "awards",
+          "type": "VARCHAR",
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull."
         }
       ],
       "notes": [
-        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP) and rates (AVG, OBP, SLG) are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals — do not SUM them when aggregating by player-year. Use MAX(AB), MAX(HR), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP), rates (AVG, OBP, SLG), and awards are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals — do not SUM them when aggregating by player-year. Use MAX(AB), MAX(HR), etc. to pull the season total, or filter WHERE stint_ID = 1",
         "Lahman counting stats and rates are NULL when the season has no matching Lahman row — filter with IS NOT NULL when using them",
         "2B and 3B column names are numeric — always quote them as \"2B\" and \"3B\" in SQL",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
@@ -358,10 +363,15 @@
           "name": "BFP",
           "type": "INTEGER",
           "description": "Batters faced (Lahman; nullable)"
+        },
+        {
+          "name": "awards",
+          "type": "VARCHAR",
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star,Cy Young Award', 'All-Star,Gold Glove'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull."
         }
       ],
       "notes": [
-        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals \u2014 do not SUM them when aggregating by player-year. Use MAX(W), MAX(IP), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) and awards are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals \u2014 do not SUM them when aggregating by player-year. Use MAX(W), MAX(IP), etc. to pull the season total, or filter WHERE stint_ID = 1",
         "Lahman pitching stats are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
@@ -375,7 +385,7 @@
       "name": "lahman_awards",
       "glob": "s3://parqlo/war/lahman_awards.parquet",
       "hivePartitioning": false,
-      "description": "Individual awards by player-year from Lahman. One row per player per award per year, including All-Star selections (award = 'All-Star').",
+      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv.",
       "columns": [
         {
           "name": "player_ID",
@@ -396,11 +406,39 @@
           "name": "lg_ID",
           "type": "VARCHAR",
           "description": "League (AL, NL); may be NULL for some awards"
+        },
+        {
+          "name": "winner",
+          "type": "BOOLEAN",
+          "description": "TRUE if the player won this award, FALSE if they were a ballot finisher but did not win"
+        },
+        {
+          "name": "points_won",
+          "type": "DOUBLE",
+          "description": "Points won in voting (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "points_max",
+          "type": "DOUBLE",
+          "description": "Maximum possible points (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "votes_first",
+          "type": "DOUBLE",
+          "description": "Number of first-place votes received (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "vote_share",
+          "type": "DOUBLE",
+          "description": "Vote share, computed as points_won/points_max (nullable). NULL when points_max is 0, NULL, or for awards without voting data."
         }
       ],
       "notes": [
         "One row per player-year-award; a player can have multiple rows in a single year",
-        "All-Star selections are folded in with award = 'All-Star'",
+        "Includes ALL ballot finishers, not just winners \u2014 filter WHERE winner = TRUE to get only winners",
+        "All-Star selections are folded in with award = 'All-Star' and winner = TRUE",
+        "Voting data (points_won, points_max, votes_first, vote_share) is NULL for awards that don't have voting data in Lahman (e.g., some older awards, All-Star)",
+        "Source: AwardsSharePlayers.csv (voting data for all finishers) + AwardsPlayers.csv (winners without voting data) + AllstarFull.csv (All-Star selections)",
         "Join to batting/pitching on player_ID (and year_ID for a specific season's awards)"
       ]
     },

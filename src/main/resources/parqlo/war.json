@@ -402,7 +402,7 @@
         {
           "name": "award",
           "type": "VARCHAR",
-          "description": "Award name: MVP, Cy Young Award, Rookie of the Year, Gold Glove, Silver Slugger, All-Star, etc."
+          "description": "Award name — use EXACT strings: 'Most Valuable Player' (not 'MVP'), 'Cy Young Award', 'Rookie of the Year', 'Gold Glove', 'Silver Slugger', 'All-Star' (from AllstarFull). Common mistakes: do NOT use 'MVP' — it will not match."
         },
         {
           "name": "lg_ID",

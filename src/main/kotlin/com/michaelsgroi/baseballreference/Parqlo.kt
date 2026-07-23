@@ -37,6 +37,8 @@ object Parqlo {
             .trim()
             .replace("read_parquet('{{BAT}}')", "\${batting}")
             .replace("read_parquet('{{PITCH}}')", "\${pitching}")
+            .replace("read_parquet('{{AWARDS}}')", "\${lahman_awards}")
+            .replace("read_parquet('{{HOF}}')", "\${lahman_hof}")
             .replace("\\", "\\\\")
             .replace("\"", "\\\"")
         return """{"title": "$name", "sample": true, "sql": "$sql"}"""

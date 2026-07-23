@@ -1,58 +1,71 @@
-WITH all_lines AS (
-    SELECT player_id, name_common, year_id, UPPER(team_id) AS team_id, war,
-        ROW_NUMBER() OVER () AS source_order
+WITH player_seasons AS (
+    SELECT
+        player_ID,
+        name_common,
+        year_ID,
+        SUM(WAR) AS season_war,
+        SPLIT_PART(position, ',', 1) AS primary_pos
     FROM read_parquet('{{BAT}}')
-    WHERE war IS NOT NULL AND lg_id IN ('AL', 'NL')
-    UNION ALL
-    SELECT player_id, name_common, year_id, UPPER(team_id) AS team_id, war,
-        1000000000 + ROW_NUMBER() OVER () AS source_order
-    FROM read_parquet('{{PITCH}}')
-    WHERE war IS NOT NULL AND lg_id IN ('AL', 'NL')
+    WHERE WAR IS NOT NULL
+      AND position IS NOT NULL
+    GROUP BY player_ID, name_common, year_ID, SPLIT_PART(position, ',', 1)
 ),
-player_seasons AS (
-    SELECT player_id, year_id,
-        LIST_REDUCE(LIST(war ORDER BY source_order), (subtotal, value) -> subtotal + value) AS season_war,
-        MIN(source_order) AS season_order
-    FROM all_lines
-    GROUP BY player_id, year_id
-),
-career_totals AS (
-    SELECT player_id,
-        LIST_REDUCE(LIST(season_war ORDER BY season_order), (subtotal, value) -> subtotal + value) AS career_war,
-        COUNT(*) AS season_count,
-        MIN(year_id) AS min_year,
-        MAX(year_id) AS max_year
+player_primary_position AS (
+    SELECT
+        player_ID,
+        name_common,
+        primary_pos,
+        COUNT(*) AS seasons_at_pos
     FROM player_seasons
-    GROUP BY player_id
+    GROUP BY player_ID, name_common, primary_pos
 ),
-career_identity AS (
-    SELECT player_id, FIRST(name_common ORDER BY source_order) AS name,
-        MIN(source_order) AS career_order
-    FROM all_lines
-    GROUP BY player_id
+player_top_position AS (
+    SELECT DISTINCT ON (player_ID)
+        player_ID,
+        name_common,
+        primary_pos,
+        seasons_at_pos
+    FROM player_primary_position
+    ORDER BY player_ID, seasons_at_pos DESC
 ),
-careers AS (
-    SELECT * FROM career_totals JOIN career_identity USING (player_id)
+player_career_war AS (
+    SELECT
+        b.player_ID,
+        b.name_common,
+        p.primary_pos,
+        p.seasons_at_pos,
+        SUM(b.WAR) AS career_war,
+        COUNT(DISTINCT b.year_ID) AS total_seasons
+    FROM read_parquet('{{BAT}}') b
+    JOIN player_top_position p ON b.player_ID = p.player_ID
+    WHERE b.WAR IS NOT NULL
+    GROUP BY b.player_ID, b.name_common, p.primary_pos, p.seasons_at_pos
+    HAVING p.seasons_at_pos >= 10
 ),
-teams AS (
-    SELECT player_id,
-        STRING_AGG(team_id, ',' ORDER BY season_appearance, team_appearance) AS teams
-    FROM (
-        SELECT player_id, team_id,
-            MIN(season_appearance) AS season_appearance,
-            MIN(source_order) AS team_appearance
-        FROM (
-            SELECT player_id, year_id, team_id, source_order,
-                MIN(source_order) OVER (PARTITION BY player_id, year_id) AS season_appearance
-            FROM all_lines
-        ) season_lines
-        GROUP BY player_id, team_id
-    )
-    GROUP BY player_id
+ranked AS (
+    SELECT *,
+        RANK() OVER (PARTITION BY primary_pos ORDER BY career_war ASC) AS rnk
+    FROM player_career_war
 )
-SELECT c.name, ROUND(c.career_war, 2) AS career_war, c.season_count,
-    '(' || c.min_year || '-' || c.max_year || ')' AS year_range,
-    t.teams
-FROM careers c JOIN teams t USING (player_id)
-WHERE c.season_count >= 10 AND c.career_war < 0.0
-ORDER BY c.career_war, c.career_order
+SELECT
+    primary_pos AS position,
+    name_common AS player,
+    seasons_at_pos AS seasons_at_primary_position,
+    ROUND(career_war, 1) AS career_war
+FROM ranked
+WHERE rnk = 1
+ORDER BY
+    CASE primary_pos
+        WHEN 'C'  THEN 1
+        WHEN '1B' THEN 2
+        WHEN '2B' THEN 3
+        WHEN '3B' THEN 4
+        WHEN 'SS' THEN 5
+        WHEN 'LF' THEN 6
+        WHEN 'CF' THEN 7
+        WHEN 'RF' THEN 8
+        WHEN 'OF' THEN 9
+        WHEN 'DH' THEN 10
+        WHEN 'P'  THEN 11
+        ELSE 12
+    END

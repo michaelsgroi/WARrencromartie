@@ -1,0 +1,54 @@
+{
+  "name": "Top 20 Cy Young Snubs by WAR",
+  "filename": "cyyoungsnubs_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 4,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "season",
+      "width": 6,
+      "align": "right",
+      "field": "season"
+    },
+    {
+      "header": "lg",
+      "width": 4,
+      "align": "left",
+      "field": "league"
+    },
+    {
+      "header": "snubbed pitcher",
+      "width": 22,
+      "align": "left",
+      "field": "snubbed_pitcher"
+    },
+    {
+      "header": "war",
+      "width": 6,
+      "align": "right",
+      "field": "snubbed_war"
+    },
+    {
+      "header": "cy young winner",
+      "width": 22,
+      "align": "left",
+      "field": "cy_young_winner"
+    },
+    {
+      "header": "winner war",
+      "width": 10,
+      "align": "right",
+      "field": "winner_war"
+    },
+    {
+      "header": "war adv",
+      "width": 8,
+      "align": "right",
+      "field": "war_advantage"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "The Rowland Office All-Stars, lowest career WAR by primary position (min 10 seasons)",
-  "filename": "therowlandofficeallstars.txt",
+  "name": "Best Average dWAR Per Season By Position (min 10 seasons)",
+  "filename": "bestdwarbyposition_.txt",
   "columns": [
     {
       "header": "position",
@@ -18,13 +18,13 @@
       "header": "seasons",
       "width": 7,
       "align": "right",
-      "field": "seasons_at_primary_position"
+      "field": "seasons"
     },
     {
-      "header": "career WAR",
-      "width": 10,
+      "header": "avg dWAR",
+      "width": 9,
       "align": "right",
-      "field": "career_war"
+      "field": "avg_dwar_per_season"
     }
   ]
 }

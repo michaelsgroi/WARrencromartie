@@ -1,0 +1,42 @@
+{
+  "name": "Top 20 Best Average dWAR Per Season (min 5 seasons)",
+  "filename": "bestavergedwar_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 4,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "seasons"
+    },
+    {
+      "header": "avg dWAR",
+      "width": 9,
+      "align": "right",
+      "field": "avg_dwar_per_season"
+    },
+    {
+      "header": "career dWAR",
+      "width": 12,
+      "align": "right",
+      "field": "career_dwar"
+    },
+    {
+      "header": "positions",
+      "width": 20,
+      "align": "left",
+      "field": "positions_played"
+    }
+  ]
+}

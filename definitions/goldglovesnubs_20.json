@@ -1,0 +1,42 @@
+{
+  "name": "Top 20 Gold Glove Snubs by dWAR",
+  "filename": "goldglovesnubs_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 4,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "season",
+      "width": 6,
+      "align": "right",
+      "field": "season"
+    },
+    {
+      "header": "team",
+      "width": 6,
+      "align": "left",
+      "field": "team"
+    },
+    {
+      "header": "position",
+      "width": 10,
+      "align": "left",
+      "field": "position"
+    },
+    {
+      "header": "dWAR",
+      "width": 6,
+      "align": "right",
+      "field": "dWAR"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Top 20 MVP Snubs by WAR",
+  "filename": "mvpsnubs_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 4,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "season",
+      "width": 6,
+      "align": "right",
+      "field": "season"
+    },
+    {
+      "header": "lg",
+      "width": 4,
+      "align": "left",
+      "field": "league"
+    },
+    {
+      "header": "snubbed player",
+      "width": 22,
+      "align": "left",
+      "field": "player_name"
+    },
+    {
+      "header": "war",
+      "width": 6,
+      "align": "right",
+      "field": "player_war"
+    },
+    {
+      "header": "mvp winner",
+      "width": 22,
+      "align": "left",
+      "field": "mvp_name"
+    },
+    {
+      "header": "mvp war",
+      "width": 8,
+      "align": "right",
+      "field": "mvp_war"
+    },
+    {
+      "header": "war adv",
+      "width": 8,
+      "align": "right",
+      "field": "war_advantage"
+    }
+  ]
+}

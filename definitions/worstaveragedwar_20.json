@@ -1,0 +1,36 @@
+{
+  "name": "Top 20 Worst Average dWAR Per Season (min 5 seasons)",
+  "filename": "worstaveragedwar_20.txt",
+  "columns": [
+    {
+      "header": "#",
+      "width": 4,
+      "align": "right",
+      "autoRank": true
+    },
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "position",
+      "width": 10,
+      "align": "left",
+      "field": "position"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "seasons"
+    },
+    {
+      "header": "avg dWAR",
+      "width": 9,
+      "align": "right",
+      "field": "avg_dwar_per_season"
+    }
+  ]
+}

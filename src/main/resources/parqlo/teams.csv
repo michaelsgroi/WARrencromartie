@@ -1,0 +1,48 @@
+team_id,team_name,lg_id
+ANA,Anaheim Angels,AL
+ARI,Arizona Diamondbacks,NL
+ATL,Atlanta Braves,NL
+BAL,Baltimore Orioles,AL
+BOS,Boston Red Sox,AL
+BRO,Brooklyn Dodgers,NL
+CAL,California Angels,AL
+CHC,Chicago Cubs,NL
+CHW,Chicago White Sox,AL
+CIN,Cincinnati Reds,NL
+CLE,Cleveland Guardians,AL
+COL,Colorado Rockies,NL
+DET,Detroit Tigers,AL
+FLA,Florida Marlins,NL
+HOU,Houston Astros,AL
+KCA,Kansas City Athletics,AL
+KCR,Kansas City Royals,AL
+LAA,Los Angeles Angels,AL
+LAD,Los Angeles Dodgers,NL
+MIA,Miami Marlins,NL
+MIL,Milwaukee Brewers,NL
+MIN,Minnesota Twins,AL
+MLA,Milwaukee Braves,NL
+MLN,Milwaukee Braves,NL
+MON,Montreal Expos,NL
+NYG,New York Giants,NL
+NYM,New York Mets,NL
+NYY,New York Yankees,AL
+OAK,Oakland Athletics,AL
+PHA,Philadelphia Athletics,AL
+PHI,Philadelphia Phillies,NL
+PIT,Pittsburgh Pirates,NL
+SDP,San Diego Padres,NL
+SEA,Seattle Mariners,AL
+SEP,Seattle Pilots,AL
+SFG,San Francisco Giants,NL
+SLB,St. Louis Browns,AL
+STL,St. Louis Cardinals,NL
+TBA,Tampa Bay Rays,AL
+TBD,Tampa Bay Devil Rays,AL
+TBR,Tampa Bay Rays,AL
+TEX,Texas Rangers,AL
+TOR,Toronto Blue Jays,AL
+WAS,Washington Nationals,NL
+WSA,Washington Senators,AL
+WSH,Washington Senators,AL
+WSN,Washington Nationals,NL

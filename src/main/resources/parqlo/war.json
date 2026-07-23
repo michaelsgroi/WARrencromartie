@@ -499,6 +499,32 @@
         "Filter inducted = 'Y' for actual Hall of Fame inductions",
         "vote_pct is NULL when ballots is 0 or NULL"
       ]
+    },
+    {
+      "name": "lahman_teams",
+      "glob": "s3://parqlo/war/teams.parquet",
+      "hivePartitioning": false,
+      "description": "Team name lookup. One row per team_id. Join to batting/pitching on team_ID to get readable team names.",
+      "columns": [
+        {
+          "name": "team_id",
+          "type": "VARCHAR",
+          "description": "Team abbreviation matching team_ID in batting/pitching (e.g. 'NYY', 'BOS')"
+        },
+        {
+          "name": "team_name",
+          "type": "VARCHAR",
+          "description": "Full team name (e.g. 'New York Yankees')"
+        },
+        {
+          "name": "lg_id",
+          "type": "VARCHAR",
+          "description": "League: 'AL' or 'NL'"
+        }
+      ],
+      "notes": [
+        "Join to batting/pitching on UPPER(team_ID) = UPPER(t.team_id) to get team_name"
+      ]
     }
   ],
   "lookups": [

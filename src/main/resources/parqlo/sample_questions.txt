@@ -14,6 +14,8 @@ bestdwarbyposition_
 worstdwarbyposition_
 lowestcareerwaractive_10
 lowestavgwaractive_10
+topwarpervallstar_50
+franchisewarperallstar_
 averageseasonwar_50
 bestcareerwar_bos_50
 bestorworstnofteam_bos_30_best

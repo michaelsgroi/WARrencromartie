@@ -1,0 +1,24 @@
+{
+  "name": "Franchise Average WAR in All-Star Seasons (All-Star era only)",
+  "filename": "franchisewarperallstar_.txt",
+  "columns": [
+    {
+      "header": "team",
+      "width": 28,
+      "align": "left",
+      "field": "team"
+    },
+    {
+      "header": "all-stars",
+      "width": 9,
+      "align": "right",
+      "field": "allstar_appearances"
+    },
+    {
+      "header": "avg WAR (all-star seasons)",
+      "width": 26,
+      "align": "right",
+      "field": "avg_war_in_allstar_seasons"
+    }
+  ]
+}

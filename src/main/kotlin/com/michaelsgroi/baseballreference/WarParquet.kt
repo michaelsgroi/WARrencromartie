@@ -17,6 +17,8 @@ object WarParquet {
     private const val LAHMAN_HOF_CSV = "data/lahman/HallOfFame.csv"
     private val LAHMAN_AWARDS_PARQUET = "$PARQLO_DIR/lahman_awards.parquet"
     private val LAHMAN_HOF_PARQUET = "$PARQLO_DIR/lahman_hof.parquet"
+    private const val TEAMS_CSV = "src/main/resources/parqlo/teams.csv"
+    private val TEAMS_PARQUET = "$PARQLO_DIR/teams.parquet"
 
     fun generate() {
         File(PARQLO_DIR).mkdirs()
@@ -44,6 +46,7 @@ object WarParquet {
         } else {
             println("lahman HallOfFame.csv not found at $LAHMAN_HOF_CSV — generating without lahman hof")
         }
+        writeTeamsParquet()
         Class.forName("org.duckdb.DuckDBDriver")
         DriverManager.getConnection("jdbc:duckdb:").use { conn ->
             conn.createStatement().use { stmt ->
@@ -281,6 +284,25 @@ object WarParquet {
                             CASE WHEN TRY_CAST(ballots AS INTEGER) > 0 THEN TRY_CAST(votes AS INTEGER) * 100.0 / TRY_CAST(ballots AS INTEGER) ELSE NULL END AS vote_pct,
                             votedBy AS voted_by
                         FROM read_csv_auto('$hofCsv', header=true, nullstr='NULL')
+                    ) TO '$parquet' (FORMAT PARQUET)
+                """.trimIndent())
+            }
+        }
+        println("wrote $parquet")
+    }
+
+    internal fun writeTeamsParquet(
+        teamsCsv: String = TEAMS_CSV,
+        parquet: String = TEAMS_PARQUET,
+    ) {
+        println("writing $parquet from $teamsCsv ...")
+        Class.forName("org.duckdb.DuckDBDriver")
+        DriverManager.getConnection("jdbc:duckdb:").use { conn ->
+            conn.createStatement().use { stmt ->
+                stmt.execute("""
+                    COPY (
+                        SELECT team_id, team_name, lg_id
+                        FROM read_csv_auto('$teamsCsv', header=true)
                     ) TO '$parquet' (FORMAT PARQUET)
                 """.trimIndent())
             }

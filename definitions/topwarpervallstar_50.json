@@ -1,0 +1,30 @@
+{
+  "name": "Top 50 Highest Career WAR Per All-Star Appearance (All-Star era only)",
+  "filename": "topwarpervallstar_50.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "career WAR",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "all-stars",
+      "width": 9,
+      "align": "right",
+      "field": "allstar_appearances"
+    },
+    {
+      "header": "WAR/all-star",
+      "width": 12,
+      "align": "right",
+      "field": "war_per_allstar"
+    }
+  ]
+}

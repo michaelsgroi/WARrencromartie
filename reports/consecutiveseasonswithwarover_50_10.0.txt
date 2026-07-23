@@ -19,10 +19,10 @@ Top 50 Consecutive Seasons with WAR > 10.0
  #15: Jim Devlin                 2 (1876-1877) LOU
  #16: Lefty Grove                2 (1930-1931) PHA
  #17: Rogers Hornsby             2 (1924-1925) STL
- #18: Mickey Mantle              2 (1956-1957) NYY
- #19: Christy Mathewson          2 (1908-1909) NYG
- #20: Old Hoss Radbourn          2 (1883-1884) PRO
- #21: Amos Rusie                 2 (1893-1894) NYG
+ #18: Old Hoss Radbourn          2 (1883-1884) PRO
+ #19: Amos Rusie                 2 (1893-1894) NYG
+ #20: Mickey Mantle              2 (1956-1957) NYY
+ #21: Christy Mathewson          2 (1908-1909) NYG
  #22: Dizzy Trout                1 (1944-1944) DET
  #23: Mike Trout                 1 (2012-2012) LAA
  #24: Dazzy Vance                1 (1924-1924) BRO

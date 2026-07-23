@@ -103,7 +103,7 @@ Players Whose Name Contains 'War'
  #99: Sherman Edwards            0.04       1 (1934-1934) CIN
 #100: Colin Ward                 0.02       1 (1985-1985) SFG
 #101: Warming Bernabel           0.02       1 (2025-2025) COL
-#102: Bryan Ward                 -0.0       3 (1998-2000) CHW,PHI,ANA
+#102: Bryan Ward                  0.0       3 (1998-2000) CHW,PHI,ANA
 #103: Dave Howard                 0.0       1 (1912-1912) WSH
 #104: Edwar Ramírez               0.0       4 (2007-2010) NYY,OAK
 #105: Mark Stewart              -0.02       1 (1913-1913) CIN

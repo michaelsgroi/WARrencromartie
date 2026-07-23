@@ -9,6 +9,14 @@ object WarParquet {
     private val LOOKUP_PARQUET = "$PARQLO_DIR/chadwick_lookup.parquet"
     private const val LAHMAN_FIELDING_CSV = "data/lahman/Fielding.csv"
     private val LAHMAN_POSITIONS_PARQUET = "$PARQLO_DIR/lahman_positions.parquet"
+    private const val LAHMAN_BATTING_CSV = "data/lahman/Batting.csv"
+    private const val LAHMAN_PITCHING_CSV = "data/lahman/Pitching.csv"
+    private const val LAHMAN_AWARDS_CSV = "data/lahman/AwardsPlayers.csv"
+    private const val LAHMAN_AWARDS_SHARE_CSV = "data/lahman/AwardsSharePlayers.csv"
+    private const val LAHMAN_ALLSTAR_CSV = "data/lahman/AllstarFull.csv"
+    private const val LAHMAN_HOF_CSV = "data/lahman/HallOfFame.csv"
+    private val LAHMAN_AWARDS_PARQUET = "$PARQLO_DIR/lahman_awards.parquet"
+    private val LAHMAN_HOF_PARQUET = "$PARQLO_DIR/lahman_hof.parquet"
 
     fun generate() {
         File(PARQLO_DIR).mkdirs()
@@ -22,6 +30,20 @@ object WarParquet {
         } else {
             println("lahman Fielding.csv not found at $LAHMAN_FIELDING_CSV — generating without lahman positions")
         }
+        val hasLahmanBatting = File(LAHMAN_BATTING_CSV).exists()
+        val hasLahmanPitching = File(LAHMAN_PITCHING_CSV).exists()
+        if (!hasLahmanBatting) println("lahman Batting.csv not found at $LAHMAN_BATTING_CSV — generating without lahman batting stats")
+        if (!hasLahmanPitching) println("lahman Pitching.csv not found at $LAHMAN_PITCHING_CSV — generating without lahman pitching stats")
+        if (File(LAHMAN_AWARDS_SHARE_CSV).exists() && File(LAHMAN_AWARDS_CSV).exists() && File(LAHMAN_ALLSTAR_CSV).exists()) {
+            writeLahmanAwardsParquet()
+        } else {
+            println("lahman AwardsSharePlayers.csv/AwardsPlayers.csv/AllstarFull.csv not found — generating without lahman awards")
+        }
+        if (File(LAHMAN_HOF_CSV).exists()) {
+            writeLahmanHofParquet()
+        } else {
+            println("lahman HallOfFame.csv not found at $LAHMAN_HOF_CSV — generating without lahman hof")
+        }
         Class.forName("org.duckdb.DuckDBDriver")
         DriverManager.getConnection("jdbc:duckdb:").use { conn ->
             conn.createStatement().use { stmt ->
@@ -33,16 +55,84 @@ object WarParquet {
                     println("converting $csv -> $parquet ...")
                     val isPitching = csv == BrWarDaily.WAR_DAILY_PITCH_FILE
                     val pitchCsv = BrWarDaily.WAR_DAILY_PITCH_FILE
+                    // Aggregated Lahman counting stats joined in as extra columns (SUM stints, rates recomputed).
+                    // Lahman playerID matches bbref player_ID directly (same as writeLahmanPositionsParquet).
+                    val statsSelect: String
+                    val statsJoin: String
+                    // Awards column: comma-delimited list of awards WON (winners only, All-Star included)
+                    val hasAwardsFiles = File(LAHMAN_AWARDS_CSV).exists() && File(LAHMAN_ALLSTAR_CSV).exists()
+                    val awardsSelect = if (hasAwardsFiles) ", la.awards" else ""
+                    val awardsJoin = if (hasAwardsFiles) """
+                            LEFT JOIN (
+                                SELECT playerID, yearID, STRING_AGG(awardID, ',' ORDER BY awardID) AS awards
+                                FROM (
+                                    SELECT playerID, yearID,
+                                        CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID
+                                    FROM read_csv_auto('$LAHMAN_AWARDS_CSV', header=true, nullstr='NULL')
+                                    UNION ALL
+                                    SELECT playerID, yearID, 'All-Star' AS awardID
+                                    FROM read_csv_auto('$LAHMAN_ALLSTAR_CSV', header=true, nullstr='NULL')
+                                ) awards
+                                GROUP BY playerID, yearID
+                            ) la ON LOWER(b.player_ID) = LOWER(la.playerID) AND b.year_ID = la.yearID AND b.stint_ID = 1""" else ""
+                    if (isPitching && hasLahmanPitching) {
+                        statsSelect = """,
+                            lp.W, lp.L, lp.lh_GS, lp.CG, lp.SHO, lp.SV, lp.IP, lp.H, lp.ER, lp.HR,
+                            lp.BB, lp.SO, lp.ERA, lp.WP, lp.HBP, lp.BK, lp.BFP$awardsSelect"""
+                        statsJoin = """
+                            LEFT JOIN (
+                                SELECT playerID, yearID,
+                                    SUM(TRY_CAST(W AS INTEGER)) AS W, SUM(TRY_CAST(L AS INTEGER)) AS L,
+                                    SUM(TRY_CAST(GS AS INTEGER)) AS lh_GS, SUM(TRY_CAST(CG AS INTEGER)) AS CG,
+                                    SUM(TRY_CAST(SHO AS INTEGER)) AS SHO, SUM(TRY_CAST(SV AS INTEGER)) AS SV,
+                                    SUM(TRY_CAST(IPouts AS INTEGER)) / 3.0 AS IP,
+                                    SUM(TRY_CAST(H AS INTEGER)) AS H, SUM(TRY_CAST(ER AS INTEGER)) AS ER,
+                                    SUM(TRY_CAST(HR AS INTEGER)) AS HR, SUM(TRY_CAST(BB AS INTEGER)) AS BB,
+                                    SUM(TRY_CAST(SO AS INTEGER)) AS SO,
+                                    CASE WHEN SUM(TRY_CAST(IPouts AS INTEGER)) > 0 THEN SUM(TRY_CAST(ER AS INTEGER)) * 9.0 / (SUM(TRY_CAST(IPouts AS INTEGER)) / 3.0) ELSE NULL END AS ERA,
+                                    SUM(TRY_CAST(WP AS INTEGER)) AS WP, SUM(TRY_CAST(HBP AS INTEGER)) AS HBP,
+                                    SUM(TRY_CAST(BK AS INTEGER)) AS BK, SUM(TRY_CAST(BFP AS INTEGER)) AS BFP
+                                FROM read_csv_auto('$LAHMAN_PITCHING_CSV', header=true, nullstr='NULL')
+                                GROUP BY playerID, yearID
+                            ) lp ON LOWER(b.player_ID) = LOWER(lp.playerID) AND b.year_ID = lp.yearID AND b.stint_ID = 1$awardsJoin"""
+                    } else if (!isPitching && hasLahmanBatting) {
+                        statsSelect = """,
+                            lb.AB, lb.R, lb.H, lb."2B", lb."3B", lb.HR, lb.RBI, lb.SB, lb.CS,
+                            lb.BB, lb.SO, lb.HBP, lb.SF, lb.GIDP,
+                            CASE WHEN lb.AB > 0 THEN lb.H * 1.0 / lb.AB ELSE NULL END AS AVG,
+                            CASE WHEN (lb.AB + lb.BB + lb.HBP + lb.SF) > 0
+                                 THEN (lb.H + lb.BB + lb.HBP) * 1.0 / (lb.AB + lb.BB + lb.HBP + lb.SF)
+                                 ELSE NULL END AS OBP,
+                            CASE WHEN lb.AB > 0
+                                 THEN (lb.H + lb."2B" + 2 * lb."3B" + 3 * lb.HR) * 1.0 / lb.AB
+                                 ELSE NULL END AS SLG$awardsSelect"""
+                        statsJoin = """
+                            LEFT JOIN (
+                                SELECT playerID, yearID,
+                                    SUM(TRY_CAST(AB AS INTEGER)) AS AB, SUM(TRY_CAST(R AS INTEGER)) AS R,
+                                    SUM(TRY_CAST(H AS INTEGER)) AS H, SUM(TRY_CAST("2B" AS INTEGER)) AS "2B",
+                                    SUM(TRY_CAST("3B" AS INTEGER)) AS "3B", SUM(TRY_CAST(HR AS INTEGER)) AS HR,
+                                    SUM(TRY_CAST(RBI AS INTEGER)) AS RBI, SUM(TRY_CAST(SB AS INTEGER)) AS SB,
+                                    SUM(TRY_CAST(CS AS INTEGER)) AS CS, SUM(TRY_CAST(BB AS INTEGER)) AS BB,
+                                    SUM(TRY_CAST(SO AS INTEGER)) AS SO, SUM(TRY_CAST(HBP AS INTEGER)) AS HBP,
+                                    SUM(TRY_CAST(SF AS INTEGER)) AS SF, SUM(TRY_CAST(GIDP AS INTEGER)) AS GIDP
+                                FROM read_csv_auto('$LAHMAN_BATTING_CSV', header=true, nullstr='NULL')
+                                GROUP BY playerID, yearID
+                            ) lb ON LOWER(b.player_ID) = LOWER(lb.playerID) AND b.year_ID = lb.yearID AND b.stint_ID = 1$awardsJoin"""
+                    } else {
+                        statsSelect = awardsSelect
+                        statsJoin = awardsJoin
+                    }
                     val query = if (hasPositions) {
                         if (isPitching) {
                             """
-                            SELECT b.*, COALESCE(p.positions, CASE WHEN b.GS > (b.G - b.GS) THEN 'SP' ELSE 'RP' END) AS positions
+                            SELECT b.*, COALESCE(p.positions, CASE WHEN b.GS > (b.G - b.GS) THEN 'SP' ELSE 'RP' END) AS positions$statsSelect
                             FROM read_csv_auto('$csv', header=true, nullstr='NULL') b
                             LEFT JOIN (
                                 SELECT c.bbref_id, pos.year_id, pos.positions
                                 FROM read_parquet('$LOOKUP_PARQUET') c
                                 JOIN read_parquet('$POSITIONS_PARQUET') pos ON pos.retro_id = c.retro_id
-                            ) p ON LOWER(b.player_ID) = LOWER(p.bbref_id) AND b.year_ID = p.year_id
+                            ) p ON LOWER(b.player_ID) = LOWER(p.bbref_id) AND b.year_ID = p.year_id$statsJoin
                             """.trimIndent()
                         } else {
                             val pitcherInference = """
@@ -67,7 +157,7 @@ object WarParquet {
                                     p.positions,
                                     $lahmanCoalesce
                                     $pitcherInference
-                                ) AS position
+                                ) AS position$statsSelect
                             FROM read_csv_auto('$csv', header=true, nullstr='NULL') b
                             LEFT JOIN (
                                 SELECT c.bbref_id, pos.year_id, pos.positions
@@ -78,16 +168,98 @@ object WarParquet {
                             LEFT JOIN (
                                 SELECT player_ID, year_ID, G, GS
                                 FROM read_csv_auto('$pitchCsv', header=true, nullstr='NULL')
-                            ) pit ON LOWER(b.player_ID) = LOWER(pit.player_ID) AND b.year_ID = pit.year_ID
+                            ) pit ON LOWER(b.player_ID) = LOWER(pit.player_ID) AND b.year_ID = pit.year_ID$statsJoin
                             """.trimIndent()
                         }
-                    } else {
+                    } else if (statsSelect.isEmpty()) {
                         "SELECT * FROM read_csv_auto('$csv', header=true, nullstr='NULL')"
+                    } else {
+                        "SELECT b.*$statsSelect FROM read_csv_auto('$csv', header=true, nullstr='NULL') b$statsJoin"
                     }
                     stmt.execute("COPY ($query) TO '$parquet' (FORMAT PARQUET)")
                 }
             }
         }
+    }
+
+    internal fun writeLahmanAwardsParquet(
+        awardsCsv: String = LAHMAN_AWARDS_CSV,
+        awardsShareCsv: String = LAHMAN_AWARDS_SHARE_CSV,
+        allstarCsv: String = LAHMAN_ALLSTAR_CSV,
+        parquet: String = LAHMAN_AWARDS_PARQUET,
+    ) {
+        println("writing $parquet from $awardsShareCsv + $awardsCsv + $allstarCsv ...")
+        Class.forName("org.duckdb.DuckDBDriver")
+        DriverManager.getConnection("jdbc:duckdb:").use { conn ->
+            conn.createStatement().use { stmt ->
+                // One row per player-year-award for ALL ballot finishers.
+                // AwardsSharePlayers has voting data (all finishers). Mark winner=TRUE if in AwardsPlayers.
+                // AwardsPlayers has awards without voting data (not in AwardsSharePlayers).
+                // AllstarFull has All-Star selections (award='All-Star').
+                // Lahman playerID matches bbref player_ID directly (same as writeLahmanPositionsParquet).
+                stmt.execute("""
+                    COPY (
+                        WITH winners AS (
+                            SELECT playerID, yearID,
+                                CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID,
+                                lgID FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL')
+                            UNION ALL
+                            SELECT playerID, yearID, 'All-Star' AS awardID, lgID FROM read_csv_auto('$allstarCsv', header=true, nullstr='NULL')
+                        ),
+                        share AS (
+                            SELECT playerID, yearID,
+                                CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID,
+                                lgID, pointsWon, pointsMax, votesFirst
+                            FROM read_csv_auto('$awardsShareCsv', header=true, nullstr='NULL')
+                        )
+                        SELECT sh.playerID AS player_ID, sh.yearID AS year_ID, sh.awardID AS award, sh.lgID AS lg_ID,
+                            CASE WHEN w.playerID IS NOT NULL THEN TRUE ELSE FALSE END AS winner,
+                            sh.pointsWon AS points_won, sh.pointsMax AS points_max, sh.votesFirst AS votes_first,
+                            CASE WHEN sh.pointsMax > 0 THEN sh.pointsWon * 1.0 / sh.pointsMax ELSE NULL END AS vote_share
+                        FROM share sh
+                        LEFT JOIN winners w ON LOWER(sh.playerID) = LOWER(w.playerID)
+                            AND sh.yearID = w.yearID
+                            AND sh.awardID = w.awardID
+                            AND COALESCE(sh.lgID, '') = COALESCE(w.lgID, '')
+                        UNION ALL
+                        SELECT w.playerID AS player_ID, w.yearID AS year_ID, w.awardID AS award, w.lgID AS lg_ID,
+                            TRUE AS winner,
+                            NULL AS points_won, NULL AS points_max, NULL AS votes_first, NULL AS vote_share
+                        FROM winners w
+                        WHERE NOT EXISTS (
+                            SELECT 1 FROM share sh
+                            WHERE LOWER(sh.playerID) = LOWER(w.playerID)
+                              AND sh.yearID = w.yearID
+                              AND sh.awardID = w.awardID
+                        )
+                    ) TO '$parquet' (FORMAT PARQUET)
+                """.trimIndent())
+            }
+        }
+        println("wrote $parquet")
+    }
+
+    internal fun writeLahmanHofParquet(
+        hofCsv: String = LAHMAN_HOF_CSV,
+        parquet: String = LAHMAN_HOF_PARQUET,
+    ) {
+        println("writing $parquet from $hofCsv ...")
+        Class.forName("org.duckdb.DuckDBDriver")
+        DriverManager.getConnection("jdbc:duckdb:").use { conn ->
+            conn.createStatement().use { stmt ->
+                // One row per player-ballot-year. vote_pct = votes/ballots*100; NULL ballots yield NULL.
+                stmt.execute("""
+                    COPY (
+                        SELECT playerID AS player_id, yearID AS year_id, inducted,
+                            TRY_CAST(votes AS INTEGER) AS votes, TRY_CAST(ballots AS INTEGER) AS ballots,
+                            CASE WHEN TRY_CAST(ballots AS INTEGER) > 0 THEN TRY_CAST(votes AS INTEGER) * 100.0 / TRY_CAST(ballots AS INTEGER) ELSE NULL END AS vote_pct,
+                            votedBy AS voted_by
+                        FROM read_csv_auto('$hofCsv', header=true, nullstr='NULL')
+                    ) TO '$parquet' (FORMAT PARQUET)
+                """.trimIndent())
+            }
+        }
+        println("wrote $parquet")
     }
 
     private fun writeLahmanPositionsParquet() {

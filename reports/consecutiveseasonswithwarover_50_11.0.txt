@@ -8,11 +8,11 @@ Top 50 Consecutive Seasons with WAR > 11.0
   #4: Charlie Buffinton          2 (1888-1889) PHI
   #5: Jim Devlin                 2 (1876-1877) LOU
   #6: Bob Gibson                 2 (1968-1969) STL
-  #7: Mickey Mantle              2 (1956-1957) NYY
-  #8: Willie Mays                2 (1964-1965) SFG
-  #9: Old Hoss Radbourn          2 (1883-1884) PRO
- #10: Amos Rusie                 2 (1893-1894) NYG
- #11: Babe Ruth                  2 (1923-1924) NYY
+  #7: Old Hoss Radbourn          2 (1883-1884) PRO
+  #8: Amos Rusie                 2 (1893-1894) NYG
+  #9: Babe Ruth                  2 (1923-1924) NYY
+ #10: Mickey Mantle              2 (1956-1957) NYY
+ #11: Willie Mays                2 (1964-1965) SFG
  #12: Honus Wagner               1 (1908-1908) PIT
  #13: Ed Walsh                   1 (1912-1912) CHW
  #14: Mickey Welch               1 (1884-1884) NYG
@@ -37,15 +37,15 @@ Top 50 Consecutive Seasons with WAR > 11.0
  #33: Pink Hawley                1 (1895-1895) PIT
  #34: Rogers Hornsby             1 (1924-1924) STL
  #35: Fergie Jenkins             1 (1971-1971) CHC
- #36: Pedro Martínez             1 (2000-2000) BOS
- #37: Christy Mathewson          1 (1908-1908) NYG
- #38: Joe McGinnity              1 (1903-1903) NYG
- #39: Jouett Meekin              1 (1894-1894) NYG
- #40: Stan Musial                1 (1948-1948) STL
- #41: Hal Newhouser              1 (1945-1945) DET
- #42: Kid Nichols                1 (1890-1890) BSN
- #43: Gaylord Perry              1 (1972-1972) CLE
- #44: Cal Ripken Jr.             1 (1991-1991) BAL
+ #36: Gaylord Perry              1 (1972-1972) CLE
+ #37: Cal Ripken Jr.             1 (1991-1991) BAL
+ #38: Pedro Martínez             1 (2000-2000) BOS
+ #39: Christy Mathewson          1 (1908-1908) NYG
+ #40: Joe McGinnity              1 (1903-1903) NYG
+ #41: Jouett Meekin              1 (1894-1894) NYG
+ #42: Stan Musial                1 (1948-1948) STL
+ #43: Hal Newhouser              1 (1945-1945) DET
+ #44: Kid Nichols                1 (1890-1890) BSN
  #45: Bud Tinning                0
  #46: Dan Tipple                 0
  #47: Jack Tising                0

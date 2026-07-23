@@ -101,9 +101,102 @@
           "name": "position",
           "type": "VARCHAR",
           "description": "Best available fielding position(s) for this season. Uses positions_retro when available (granular: LF/CF/RF), falls back to positions_lahman (OF for all outfielders), then SP/RP from pitching stats. Use this column for most position queries. Outfielder queries must match LF, CF, RF, and OF (Lahman uses OF; Retrosheet uses LF/CF/RF) — apply the single-position filter pattern for each. Infielders: 1B, 2B, 3B, SS."
+        },
+        {
+          "name": "AB",
+          "type": "INTEGER",
+          "description": "At bats (Lahman, summed across stints; nullable)"
+        },
+        {
+          "name": "R",
+          "type": "INTEGER",
+          "description": "Runs scored (Lahman; nullable)"
+        },
+        {
+          "name": "H",
+          "type": "INTEGER",
+          "description": "Hits (Lahman; nullable)"
+        },
+        {
+          "name": "2B",
+          "type": "INTEGER",
+          "description": "Doubles (Lahman; nullable). Column name is numeric — quote it as \"2B\"."
+        },
+        {
+          "name": "3B",
+          "type": "INTEGER",
+          "description": "Triples (Lahman; nullable). Column name is numeric — quote it as \"3B\"."
+        },
+        {
+          "name": "HR",
+          "type": "INTEGER",
+          "description": "Home runs (Lahman; nullable)"
+        },
+        {
+          "name": "RBI",
+          "type": "INTEGER",
+          "description": "Runs batted in (Lahman; nullable)"
+        },
+        {
+          "name": "SB",
+          "type": "INTEGER",
+          "description": "Stolen bases (Lahman; nullable)"
+        },
+        {
+          "name": "CS",
+          "type": "INTEGER",
+          "description": "Caught stealing (Lahman; nullable)"
+        },
+        {
+          "name": "BB",
+          "type": "INTEGER",
+          "description": "Walks (Lahman; nullable)"
+        },
+        {
+          "name": "SO",
+          "type": "INTEGER",
+          "description": "Strikeouts (Lahman; nullable)"
+        },
+        {
+          "name": "HBP",
+          "type": "INTEGER",
+          "description": "Hit by pitch (Lahman; nullable)"
+        },
+        {
+          "name": "SF",
+          "type": "INTEGER",
+          "description": "Sacrifice flies (Lahman; nullable)"
+        },
+        {
+          "name": "GIDP",
+          "type": "INTEGER",
+          "description": "Grounded into double plays (Lahman; nullable)"
+        },
+        {
+          "name": "AVG",
+          "type": "DOUBLE",
+          "description": "Batting average, H/AB (computed from Lahman; nullable)"
+        },
+        {
+          "name": "OBP",
+          "type": "DOUBLE",
+          "description": "On-base percentage, (H+BB+HBP)/(AB+BB+HBP+SF) (computed from Lahman; nullable)"
+        },
+        {
+          "name": "SLG",
+          "type": "DOUBLE",
+          "description": "Slugging percentage, (H+2B+2*3B+3*HR)/AB (computed from Lahman; nullable)"
+        },
+        {
+          "name": "awards",
+          "type": "VARCHAR",
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957, ROY from 1947. NULL before these years does not mean the player did not deserve the award — it did not exist yet."
         }
       ],
       "notes": [
+        "Lahman counting stats (AB, R, H, 2B, 3B, HR, RBI, SB, CS, BB, SO, HBP, SF, GIDP), rates (AVG, OBP, SLG), and awards are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals — do not SUM them when aggregating by player-year. Use MAX(AB), MAX(HR), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman counting stats and rates are NULL when the season has no matching Lahman row — filter with IS NOT NULL when using them",
+        "2B and 3B column names are numeric — always quote them as \"2B\" and \"3B\" in SQL",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "lg_ID for modern baseball is 'AL' and 'NL' \u2014 filter WHERE lg_ID IN ('AL', 'NL') unless historical data is needed",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
@@ -112,7 +205,10 @@
         "To filter by a single position X, use: position = 'X' OR position LIKE 'X,%' OR position LIKE '%,X,%' OR position LIKE '%,X'",
         "Position groups \u2014 outfielders (OF/LF/CF/RF): position IN ('LF','CF','RF','OF') OR position LIKE 'LF,%' OR ... (apply the single-position pattern for each of LF, CF, RF, OF). Lahman-derived rows use 'OF'; Retrosheet-derived rows use 'LF','CF','RF' \u2014 matching all four codes covers both sources. Infielders: 1B, 2B, 3B, SS. Middle infielders: 2B, SS. Corner infielders: 1B, 3B. Position players (non-pitchers/hitters): C, 1B, 2B, 3B, SS, LF, CF, RF, OF, DH. Pitchers: P.",
         "SP and RP are used in the pitching table only \u2014 not in the batting table",
-        "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player"
+        "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player",
+        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs.",
+        "IMPORTANT: When computing a player's total season WAR and the player might be a pitcher (e.g. looking up an MVP winner who could be a pitcher), do NOT use COALESCE(batting_war, pitching_war) — pitchers appear in the batting table with near-zero or negative WAR which will shadow their actual pitching WAR. Instead use: (SELECT COALESCE(SUM(WAR),0) FROM batting WHERE player_ID=x AND year_ID=y) + (SELECT COALESCE(SUM(WAR),0) FROM pitching WHERE player_ID=x AND year_ID=y) to get the true combined WAR.",
+        "IMPORTANT: When aggregating a player's season WAR, group by player_ID and year_ID only — do NOT also group by lg_ID. A traded player appears in multiple stints under different lg_ID values; grouping by lg_ID splits their season into partial totals and produces incorrect per-league WAR instead of full-season WAR."
       ]
     },
     {
@@ -185,13 +281,220 @@
           "name": "positions",
           "type": "VARCHAR",
           "description": "Pitcher role: always 'SP' (starter) or 'RP' (reliever). SP if GS > (G - GS), otherwise RP. Uses Retrosheet data when available, otherwise inferred from pitching stats. NULL if data unavailable."
+        },
+        {
+          "name": "W",
+          "type": "INTEGER",
+          "description": "Wins (Lahman, summed across stints; nullable)"
+        },
+        {
+          "name": "L",
+          "type": "INTEGER",
+          "description": "Losses (Lahman; nullable)"
+        },
+        {
+          "name": "lh_GS",
+          "type": "INTEGER",
+          "description": "Games started (Lahman; nullable). Named lh_GS to avoid collision with the BR GS column."
+        },
+        {
+          "name": "CG",
+          "type": "INTEGER",
+          "description": "Complete games (Lahman; nullable)"
+        },
+        {
+          "name": "SHO",
+          "type": "INTEGER",
+          "description": "Shutouts (Lahman; nullable)"
+        },
+        {
+          "name": "SV",
+          "type": "INTEGER",
+          "description": "Saves (Lahman; nullable)"
+        },
+        {
+          "name": "IP",
+          "type": "DOUBLE",
+          "description": "Innings pitched, SUM(IPouts)/3.0 (computed from Lahman; nullable)"
+        },
+        {
+          "name": "H",
+          "type": "INTEGER",
+          "description": "Hits allowed (Lahman; nullable)"
+        },
+        {
+          "name": "ER",
+          "type": "INTEGER",
+          "description": "Earned runs (Lahman; nullable)"
+        },
+        {
+          "name": "HR",
+          "type": "INTEGER",
+          "description": "Home runs allowed (Lahman; nullable)"
+        },
+        {
+          "name": "BB",
+          "type": "INTEGER",
+          "description": "Walks allowed (Lahman; nullable)"
+        },
+        {
+          "name": "SO",
+          "type": "INTEGER",
+          "description": "Strikeouts (Lahman; nullable)"
+        },
+        {
+          "name": "ERA",
+          "type": "DOUBLE",
+          "description": "Earned run average, SUM(ER)*9/(SUM(IPouts)/3.0) (computed from Lahman; nullable)"
+        },
+        {
+          "name": "WP",
+          "type": "INTEGER",
+          "description": "Wild pitches (Lahman; nullable)"
+        },
+        {
+          "name": "HBP",
+          "type": "INTEGER",
+          "description": "Hit batters (Lahman; nullable)"
+        },
+        {
+          "name": "BK",
+          "type": "INTEGER",
+          "description": "Balks (Lahman; nullable)"
+        },
+        {
+          "name": "BFP",
+          "type": "INTEGER",
+          "description": "Batters faced (Lahman; nullable)"
+        },
+        {
+          "name": "awards",
+          "type": "VARCHAR",
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star,Cy Young Award', 'All-Star,Gold Glove'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957, ROY from 1947. NULL before these years does not mean the player did not deserve the award — it did not exist yet."
         }
       ],
       "notes": [
+        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) and awards are attached ONLY to the first stint row (stint_ID = 1) and are NULL on later stints. These are full-season totals \u2014 do not SUM them when aggregating by player-year. Use MAX(W), MAX(IP), etc. to pull the season total, or filter WHERE stint_ID = 1",
+        "Lahman pitching stats are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
         "team_ID is lowercase \u2014 always compare case-insensitively or use LOWER()",
         "WAR NULL means no data \u2014 use WHERE WAR IS NOT NULL when aggregating",
         "positions is NULL for seasons before 1871 or when Retrosheet data is unavailable \u2014 use WHERE positions IS NOT NULL when filtering by position",
-        "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns"
+        "Lahman pitching stats (W, L, lh_GS, CG, SHO, SV, IP, H, ER, HR, BB, SO, ERA, WP, HBP, BK, BFP) are NULL when the season has no matching Lahman row \u2014 filter with IS NOT NULL when using them",
+        "lh_GS is the Lahman games-started column; GS is the Baseball Reference games-started column",
+        "To query all players (batting + pitching combined): UNION ALL both tables selecting common columns",
+        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs.",
+        "IMPORTANT: When aggregating a player's season WAR, group by player_ID and year_ID only — do NOT also group by lg_ID. A traded player appears in multiple stints under different lg_ID values; grouping by lg_ID splits their season into partial totals."
+      ]
+    },
+    {
+      "name": "lahman_awards",
+      "glob": "s3://parqlo/war/lahman_awards.parquet",
+      "hivePartitioning": false,
+      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. Absence of a row before these years does not mean the player did not deserve the award — it did not exist yet.",
+      "columns": [
+        {
+          "name": "player_ID",
+          "type": "VARCHAR",
+          "description": "Baseball Reference player ID \u2014 join to batting.player_ID or pitching.player_ID"
+        },
+        {
+          "name": "year_ID",
+          "type": "INTEGER",
+          "description": "Year the award was given"
+        },
+        {
+          "name": "award",
+          "type": "VARCHAR",
+          "description": "Award name — use EXACT strings: 'MVP', 'Cy Young Award', 'ROY', 'Gold Glove', 'Silver Slugger', 'All-Star'. Note: 'Most Valuable Player' is stored as 'MVP' and 'Rookie of the Year' is stored as 'ROY'."
+        },
+        {
+          "name": "lg_ID",
+          "type": "VARCHAR",
+          "description": "League (AL, NL); may be NULL for some awards"
+        },
+        {
+          "name": "winner",
+          "type": "BOOLEAN",
+          "description": "TRUE if the player won this award, FALSE if they were a ballot finisher but did not win"
+        },
+        {
+          "name": "points_won",
+          "type": "DOUBLE",
+          "description": "Points won in voting (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "points_max",
+          "type": "DOUBLE",
+          "description": "Maximum possible points (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "votes_first",
+          "type": "DOUBLE",
+          "description": "Number of first-place votes received (nullable, from AwardsSharePlayers). NULL for awards without voting data."
+        },
+        {
+          "name": "vote_share",
+          "type": "DOUBLE",
+          "description": "Vote share, computed as points_won/points_max (nullable). NULL when points_max is 0, NULL, or for awards without voting data."
+        }
+      ],
+      "notes": [
+        "One row per player-year-award; a player can have multiple rows in a single year",
+        "Includes ALL ballot finishers, not just winners \u2014 filter WHERE winner = TRUE to get only winners",
+        "All-Star selections are folded in with award = 'All-Star' and winner = TRUE",
+        "Voting data (points_won, points_max, votes_first, vote_share) is NULL for awards that don't have voting data in Lahman (e.g., some older awards, All-Star)",
+        "Source: AwardsSharePlayers.csv (voting data for all finishers) + AwardsPlayers.csv (winners without voting data) + AllstarFull.csv (All-Star selections)",
+        "Join to batting/pitching on player_ID and year_ID only — do NOT include lg_ID in the join condition; a player traded mid-season may appear under a different lg_ID in the WAR tables than in this awards table, causing the join to miss them",
+        "IMPORTANT: lg_ID for the Cy Young Award is 'ML' (not 'AL'/'NL') for years 1956–1966 when there was only one award. When joining Cy Young winners to pitching WAR data, match on year_ID and player_ID only, or use: COALESCE(NULLIF(a.lg_ID, 'ML'), p.lg_ID) to treat 'ML' as matching any league.",
+        "IMPORTANT: When querying for seasons WHERE a player did NOT win or was NOT selected for an award, always add a year_ID filter restricting to years on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs."
+      ]
+    },
+    {
+      "name": "lahman_hof",
+      "glob": "s3://parqlo/war/lahman_hof.parquet",
+      "hivePartitioning": false,
+      "description": "Hall of Fame ballot data by player-year from Lahman. One row per player per ballot year (all ballot years, not just inductions).",
+      "columns": [
+        {
+          "name": "player_ID",
+          "type": "VARCHAR",
+          "description": "Baseball Reference player ID"
+        },
+        {
+          "name": "year_ID",
+          "type": "INTEGER",
+          "description": "Ballot year"
+        },
+        {
+          "name": "inducted",
+          "type": "VARCHAR",
+          "description": "'Y' if inducted that year, 'N' if not"
+        },
+        {
+          "name": "votes",
+          "type": "INTEGER",
+          "description": "Number of votes received (nullable)"
+        },
+        {
+          "name": "ballots",
+          "type": "INTEGER",
+          "description": "Total ballots cast (nullable)"
+        },
+        {
+          "name": "vote_pct",
+          "type": "DOUBLE",
+          "description": "Vote percentage, votes/ballots*100 (NULL when ballots is 0 or NULL)"
+        },
+        {
+          "name": "voted_by",
+          "type": "VARCHAR",
+          "description": "Voting body: BBWAA, Veterans, Negro League, etc."
+        }
+      ],
+      "notes": [
+        "One row per player per ballot year \u2014 a player appears once for every year they were on a ballot",
+        "Filter inducted = 'Y' for actual Hall of Fame inductions",
+        "vote_pct is NULL when ballots is 0 or NULL"
       ]
     }
   ],

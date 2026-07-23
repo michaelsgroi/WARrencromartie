@@ -66,13 +66,25 @@ object WarParquet {
                             LEFT JOIN (
                                 SELECT playerID, yearID, STRING_AGG(awardID, ',' ORDER BY awardID) AS awards
                                 FROM (
-                                    SELECT playerID, yearID,
-                                        CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID
-                                    FROM read_csv_auto('$LAHMAN_AWARDS_CSV', header=true, nullstr='NULL')
+                                    SELECT a.playerID, a.yearID,
+                                        CASE
+                                            WHEN a.awardID = 'Most Valuable Player' THEN 'MVP'
+                                            WHEN a.awardID = 'TSN Guide MVP' AND b.yearID IS NULL THEN 'MVP'
+                                            WHEN a.awardID = 'Rookie of the Year' THEN 'ROY'
+                                            WHEN a.awardID = 'TSN Guide MVP' THEN NULL
+                                            ELSE a.awardID
+                                        END AS awardID
+                                    FROM read_csv_auto('$LAHMAN_AWARDS_CSV', header=true, nullstr='NULL') a
+                                    LEFT JOIN (
+                                        SELECT DISTINCT yearID, lgID
+                                        FROM read_csv_auto('$LAHMAN_AWARDS_CSV', header=true, nullstr='NULL')
+                                        WHERE awardID = 'Most Valuable Player'
+                                    ) b ON a.yearID = b.yearID AND a.lgID = b.lgID
                                     UNION ALL
                                     SELECT playerID, yearID, 'All-Star' AS awardID
                                     FROM read_csv_auto('$LAHMAN_ALLSTAR_CSV', header=true, nullstr='NULL')
                                 ) awards
+                                WHERE awardID IS NOT NULL
                                 GROUP BY playerID, yearID
                             ) la ON LOWER(b.player_ID) = LOWER(la.playerID) AND b.year_ID = la.yearID AND b.stint_ID = 1""" else ""
                     if (isPitching && hasLahmanPitching) {
@@ -199,10 +211,24 @@ object WarParquet {
                 // Lahman playerID matches bbref player_ID directly (same as writeLahmanPositionsParquet).
                 stmt.execute("""
                     COPY (
-                        WITH winners AS (
-                            SELECT playerID, yearID,
-                                CASE awardID WHEN 'Most Valuable Player' THEN 'MVP' WHEN 'Rookie of the Year' THEN 'ROY' ELSE awardID END AS awardID,
-                                lgID FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL')
+                        WITH bbwaa_mvp_years AS (
+                            SELECT DISTINCT yearID, lgID
+                            FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL')
+                            WHERE awardID = 'Most Valuable Player'
+                        ),
+                        winners AS (
+                            SELECT DISTINCT a.playerID, a.yearID,
+                                CASE
+                                    WHEN a.awardID = 'Most Valuable Player' THEN 'MVP'
+                                    WHEN a.awardID = 'TSN Guide MVP' AND b.yearID IS NULL THEN 'MVP'
+                                    WHEN a.awardID = 'TSN Guide MVP' THEN NULL
+                                    WHEN a.awardID = 'Rookie of the Year' THEN 'ROY'
+                                    ELSE a.awardID
+                                END AS awardID,
+                                a.lgID
+                            FROM read_csv_auto('$awardsCsv', header=true, nullstr='NULL') a
+                            LEFT JOIN bbwaa_mvp_years b ON a.yearID = b.yearID AND a.lgID = b.lgID
+                            WHERE NOT (a.awardID = 'TSN Guide MVP' AND b.yearID IS NOT NULL)
                             UNION ALL
                             SELECT playerID, yearID, 'All-Star' AS awardID, lgID FROM read_csv_auto('$allstarCsv', header=true, nullstr='NULL')
                         ),

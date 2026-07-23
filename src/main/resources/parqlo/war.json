@@ -190,7 +190,7 @@
         {
           "name": "awards",
           "type": "VARCHAR",
-          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957, ROY from 1947. NULL before these years does not mean the player did not deserve the award — it did not exist yet."
+          "description": "Comma-delimited list of awards WON in this season (winners only, All-Star included). Awards are sorted alphabetically. Examples: 'All-Star', 'All-Star,Gold Glove,MVP'. Attached only to first stint row (stint_ID = 1), NULL on later stints. NULL when no awards won. Source: Lahman AwardsPlayers + AllstarFull. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957, ROY from 1947. NULL before these years does not mean the player did not deserve the award — it did not exist yet. For MVP: uses BBWAA award when available, falls back to Sporting News award for years with no BBWAA MVP (e.g. 1929 AL, 1930)."
         }
       ],
       "notes": [
@@ -206,7 +206,7 @@
         "Position groups \u2014 outfielders (OF/LF/CF/RF): position IN ('LF','CF','RF','OF') OR position LIKE 'LF,%' OR ... (apply the single-position pattern for each of LF, CF, RF, OF). Lahman-derived rows use 'OF'; Retrosheet-derived rows use 'LF','CF','RF' \u2014 matching all four codes covers both sources. Infielders: 1B, 2B, 3B, SS. Middle infielders: 2B, SS. Corner infielders: 1B, 3B. Position players (non-pitchers/hitters): C, 1B, 2B, 3B, SS, LF, CF, RF, OF, DH. Pitchers: P.",
         "SP and RP are used in the pitching table only \u2014 not in the batting table",
         "Baseball Reference player links: '[' || name_common || '](https://www.baseball-reference.com/players/' || LOWER(LEFT(player_ID, 1)) || '/' || player_ID || '.shtml)' AS player",
-        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs.",
+        "IMPORTANT: When querying for seasons where a player did NOT win an award (e.g., awards IS NULL or awards NOT LIKE '%All-Star%'), always restrict year_ID to on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs. Note: MVP was not awarded in all leagues in all years — no AL MVP in 1922–1923 (NL only), and no MVP in 1930 (neither league). These years will return no mvp_winner and should be excluded from 'snub' queries.",
         "IMPORTANT: When computing a player's total season WAR and the player might be a pitcher (e.g. looking up an MVP winner who could be a pitcher), do NOT use COALESCE(batting_war, pitching_war) — pitchers appear in the batting table with near-zero or negative WAR which will shadow their actual pitching WAR. Instead use: (SELECT COALESCE(SUM(WAR),0) FROM batting WHERE player_ID=x AND year_ID=y) + (SELECT COALESCE(SUM(WAR),0) FROM pitching WHERE player_ID=x AND year_ID=y) to get the true combined WAR.",
         "IMPORTANT: When aggregating a player's season WAR, group by player_ID and year_ID only — do NOT also group by lg_ID. A traded player appears in multiple stints under different lg_ID values; grouping by lg_ID splits their season into partial totals and produces incorrect per-league WAR instead of full-season WAR."
       ]
@@ -390,7 +390,7 @@
       "name": "lahman_awards",
       "glob": "s3://parqlo/war/lahman_awards.parquet",
       "hivePartitioning": false,
-      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. Absence of a row before these years does not mean the player did not deserve the award — it did not exist yet.",
+      "description": "Individual awards by player-year from Lahman. One row per player per award per year for ALL ballot finishers (not just winners), including All-Star selections (award = 'All-Star'). Includes voting data from AwardsSharePlayers.csv. Award inception years: MVP from 1922, All-Star from 1933, Cy Young Award from 1956, Gold Glove from 1957. Absence of a row before these years does not mean the player did not deserve the award — it did not exist yet. MVP was not given in all leagues every year (no AL MVP 1922–1923, no MVP 1930); these gaps are real and queries for 'snubs' should use INNER JOIN to exclude those years.",
       "columns": [
         {
           "name": "player_ID",
@@ -405,7 +405,7 @@
         {
           "name": "award",
           "type": "VARCHAR",
-          "description": "Award name — use EXACT strings: 'MVP', 'Cy Young Award', 'ROY', 'Gold Glove', 'Silver Slugger', 'All-Star'. Note: 'Most Valuable Player' is stored as 'MVP' and 'Rookie of the Year' is stored as 'ROY'."
+          "description": "Award name — use EXACT strings: 'MVP', 'Cy Young Award', 'ROY', 'Gold Glove', 'Silver Slugger', 'All-Star'. Note: 'Most Valuable Player' is stored as 'MVP', 'Rookie of the Year' as 'ROY'."
         },
         {
           "name": "lg_ID",
@@ -446,7 +446,7 @@
         "Source: AwardsSharePlayers.csv (voting data for all finishers) + AwardsPlayers.csv (winners without voting data) + AllstarFull.csv (All-Star selections)",
         "Join to batting/pitching on player_ID and year_ID only — do NOT include lg_ID in the join condition; a player traded mid-season may appear under a different lg_ID in the WAR tables than in this awards table, causing the join to miss them",
         "IMPORTANT: lg_ID for the Cy Young Award is 'ML' (not 'AL'/'NL') for years 1956–1966 when there was only one award. When joining Cy Young winners to pitching WAR data, match on year_ID and player_ID only, or use: COALESCE(NULLIF(a.lg_ID, 'ML'), p.lg_ID) to treat 'ML' as matching any league.",
-        "IMPORTANT: When querying for seasons WHERE a player did NOT win or was NOT selected for an award, always add a year_ID filter restricting to years on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs."
+        "IMPORTANT: When querying for seasons WHERE a player did NOT win or was NOT selected for an award, always add a year_ID filter restricting to years on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs. Note: MVP was not awarded in all leagues every year — no AL MVP in 1922–1923 and no MVP in 1930. Use INNER JOIN (not LEFT JOIN) to mvp_winners when identifying snubs so years with no MVP are excluded."
       ]
     },
     {

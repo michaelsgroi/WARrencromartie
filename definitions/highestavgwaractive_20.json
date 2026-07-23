@@ -1,0 +1,30 @@
+{
+  "name": "Top 20 Highest Average Season WAR Amongst Active Players",
+  "filename": "highestavgwaractive_20.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "seasons"
+    },
+    {
+      "header": "avg WAR",
+      "width": 9,
+      "align": "right",
+      "field": "avg_war_per_season"
+    },
+    {
+      "header": "career WAR",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    }
+  ]
+}

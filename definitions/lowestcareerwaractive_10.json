@@ -1,0 +1,30 @@
+{
+  "name": "Top 10 Lowest Career WAR Amongst Active Players (min 8 seasons)",
+  "filename": "lowestcareerwaractive_10.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "seasons_played"
+    },
+    {
+      "header": "career WAR",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    },
+    {
+      "header": "last season",
+      "width": 11,
+      "align": "right",
+      "field": "last_season"
+    }
+  ]
+}

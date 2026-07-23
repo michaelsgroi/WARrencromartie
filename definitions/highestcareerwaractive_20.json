@@ -1,0 +1,18 @@
+{
+  "name": "Top 20 Highest Career WAR Amongst Active Players",
+  "filename": "highestcareerwaractive_20.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "career WAR",
+      "width": 10,
+      "align": "right",
+      "field": "career_war"
+    }
+  ]
+}

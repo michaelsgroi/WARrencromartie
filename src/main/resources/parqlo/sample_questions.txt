@@ -1,5 +1,9 @@
 topcareerwar_10
 topseasonwars_10
+topcareerdwar_10
+topseasonsdwar_10
+highestcareerwaractive_20
+highestavgwaractive_20
 mvpsnubs_20
 cyyoungsnubs_20
 worstgoldglovedwar_20
@@ -8,6 +12,8 @@ bestavergedwar_20
 worstaveragedwar_20
 bestdwarbyposition_
 worstdwarbyposition_
+lowestcareerwaractive_10
+lowestavgwaractive_10
 averageseasonwar_50
 bestcareerwar_bos_50
 bestorworstnofteam_bos_30_best

@@ -1,0 +1,30 @@
+{
+  "name": "Top 10 Lowest Average Season WAR Amongst Active Players (min 8 seasons)",
+  "filename": "lowestavgwaractive_10.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "seasons",
+      "width": 7,
+      "align": "right",
+      "field": "seasons_played"
+    },
+    {
+      "header": "avg WAR",
+      "width": 9,
+      "align": "right",
+      "field": "avg_war_per_season"
+    },
+    {
+      "header": "career WAR",
+      "width": 10,
+      "align": "right",
+      "field": "total_war"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Top 10 Single-Season dWAR",
+  "filename": "topseasonsdwar_10.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "year",
+      "width": 5,
+      "align": "right",
+      "field": "year_ID"
+    },
+    {
+      "header": "team",
+      "width": 5,
+      "align": "left",
+      "field": "team_ID"
+    },
+    {
+      "header": "lg",
+      "width": 4,
+      "align": "left",
+      "field": "lg_ID"
+    },
+    {
+      "header": "position",
+      "width": 10,
+      "align": "left",
+      "field": "position"
+    },
+    {
+      "header": "dWAR",
+      "width": 6,
+      "align": "right",
+      "field": "WAR_def"
+    }
+  ]
+}

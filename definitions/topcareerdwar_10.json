@@ -1,0 +1,18 @@
+{
+  "name": "Top 10 Career dWAR",
+  "filename": "topcareerdwar_10.txt",
+  "columns": [
+    {
+      "header": "player",
+      "width": 22,
+      "align": "left",
+      "field": "player"
+    },
+    {
+      "header": "career dWAR",
+      "width": 12,
+      "align": "right",
+      "field": "career_dwar"
+    }
+  ]
+}

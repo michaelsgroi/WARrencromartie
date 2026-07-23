@@ -442,7 +442,7 @@
         "Voting data (points_won, points_max, votes_first, vote_share) is NULL for awards that don't have voting data in Lahman (e.g., some older awards, All-Star)",
         "Source: AwardsSharePlayers.csv (voting data for all finishers) + AwardsPlayers.csv (winners without voting data) + AllstarFull.csv (All-Star selections)",
         "Join to batting/pitching on player_ID and year_ID only — do NOT include lg_ID in the join condition; a player traded mid-season may appear under a different lg_ID in the WAR tables than in this awards table, causing the join to miss them",
-        "IMPORTANT: lg_ID for the Cy Young Award is 'ML' (not 'AL'/'NL') for years 1956–1966 when there was only one award. When joining Cy Young winners to pitching WAR data, match on year_ID and player_ID only, or use: COALESCE(NULLIF(a.lg_ID, 'ML'), p.lg_ID) to treat 'ML' as matching any league."
+        "IMPORTANT: lg_ID for the Cy Young Award is 'ML' (not 'AL'/'NL') for years 1956–1966 when there was only one award. When joining Cy Young winners to pitching WAR data, match on year_ID and player_ID only, or use: COALESCE(NULLIF(a.lg_ID, 'ML'), p.lg_ID) to treat 'ML' as matching any league.",
         "IMPORTANT: When querying for seasons WHERE a player did NOT win or was NOT selected for an award, always add a year_ID filter restricting to years on or after the award's inception: All-Star >= 1933, MVP >= 1922, Cy Young Award >= 1956, Gold Glove >= 1957, ROY >= 1947. Without this filter, pre-inception seasons will incorrectly appear as snubs."
       ]
     },

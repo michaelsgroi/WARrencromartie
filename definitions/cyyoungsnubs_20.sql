@@ -60,16 +60,23 @@ snubs AS (
             AND la.award = 'Cy Young Award'
             AND la.winner = TRUE
       )
+),
+top_snub_per_season AS (
+    SELECT DISTINCT ON (s.year_ID, s.lg_ID)
+        s.year_ID, s.lg_ID, s.name_common, s.pitcher_war,
+        s.winner_player_ID, s.winner_war, s.war_diff
+    FROM snubs s
+    ORDER BY s.year_ID, s.lg_ID, s.war_diff DESC
 )
 SELECT
-    s.year_ID AS season,
-    s.lg_ID AS league,
-    s.name_common AS snubbed_pitcher,
-    ROUND(s.pitcher_war, 1) AS snubbed_war,
+    t.year_ID AS season,
+    t.lg_ID AS league,
+    t.name_common AS snubbed_pitcher,
+    ROUND(t.pitcher_war, 1) AS snubbed_war,
     wn.name_common AS cy_young_winner,
-    ROUND(s.winner_war, 1) AS winner_war,
-    ROUND(s.war_diff, 1) AS war_advantage
-FROM snubs s
-LEFT JOIN winner_names wn ON s.winner_player_ID = wn.player_ID
-ORDER BY s.war_diff DESC
+    ROUND(t.winner_war, 1) AS winner_war,
+    ROUND(t.war_diff, 1) AS war_advantage
+FROM top_snub_per_season t
+LEFT JOIN winner_names wn ON t.winner_player_ID = wn.player_ID
+ORDER BY t.war_diff DESC
 LIMIT 20

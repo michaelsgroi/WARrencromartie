@@ -65,6 +65,12 @@ snubs AS (
       ON mw.year_ID = ps.year_ID AND mw.lg_ID = pl.lg_ID
     WHERE ps.player_ID != mw.mvp_player_ID
       AND ps.total_war > mw.mvp_total_war
+),
+top_snub_per_season AS (
+    SELECT DISTINCT ON (year_ID, lg_ID)
+        year_ID, lg_ID, player_name, player_war, mvp_name, mvp_war, war_advantage
+    FROM snubs
+    ORDER BY year_ID, lg_ID, war_advantage DESC
 )
 SELECT
     year_ID AS season,
@@ -74,6 +80,6 @@ SELECT
     mvp_name,
     mvp_war,
     war_advantage
-FROM snubs
+FROM top_snub_per_season
 ORDER BY war_advantage DESC
 LIMIT 20

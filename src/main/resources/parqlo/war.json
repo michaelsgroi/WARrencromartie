@@ -2,6 +2,7 @@
   "name": "WARren Cromartie",
   "description": "MLB Wins Above Replacement (WAR) data from Baseball Reference, covering batting and pitching seasons.",
   "placeholder": "Who has the most career WAR among Oakland A's players?",
+  "repo": "michaelsgroi/warrencromartie",
   "maxRows": 500,
   "sortableColumns": [
     "WAR",

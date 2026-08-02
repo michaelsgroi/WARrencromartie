@@ -36,3 +36,4 @@ highestpaidcareersbywarofplayerswhoarecurrentlyactive_20
 thestevebalboniallstars
 therowlandofficeallstars
 playerswhosenamestartswith_cecil
+consecutive-negative-war
